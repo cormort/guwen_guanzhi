@@ -16,17 +16,17 @@
         <section class="intro">
             <h2>關於這個網站</h2>
             <p>《古文觀止》由清人吳楚材、吳調侯叔侄編選，收錄上起周代下至明末的 222 篇經典散文，是三百年來最重要的古文選本。</p>
-            <p>本網站以三階段完成全部 222 篇導讀：</p>
+            <p>三階段完成全部 222 篇導讀：</p>
             <div class="phase-cards">
-                <div class="card active">
+                <div class="card active" onclick="switchPhase(1)">
                     <h3>Phase 1</h3>
                     <p>會考／學測常考篇</p>
-                    <span class="count">30 篇</span>
+                    <span class="count">30 篇 ✅</span>
                 </div>
-                <div class="card">
+                <div class="card" onclick="switchPhase(2)">
                     <h3>Phase 2</h3>
                     <p>Top 50 名篇</p>
-                    <span class="count">50 篇</span>
+                    <span class="count">50 篇 ✅</span>
                 </div>
                 <div class="card">
                     <h3>Phase 3</h3>
@@ -37,70 +37,135 @@
         </section>
 
         <section class="content">
-            <h2>📖 Phase 1：會考／學測常考 30 篇</h2>
-            <p class="meta">主筆：@Jonh_mini_bot · 背景：軍師</p>
-            <div id="essay-list" class="essay-list"></div>
+            <div id="phase1-section">
+                <h2>📖 Phase 1：會考／學測常考 30 篇</h2>
+                <div id="essay-list-p1" class="essay-list"></div>
+            </div>
+            <div id="phase2-section" style="display:none">
+                <h2>📖 Phase 2：Top 50 名篇</h2>
+                <div id="essay-list-p2" class="essay-list"></div>
+            </div>
         </section>
     </main>
 
     <footer>
-        <p>github.com/cormort/guwen-guanzhi</p>
+        <p>github.com/cormort/guwen_guanzhi · 建置中</p>
     </footer>
 
     <script>
-        const essays = [
-            { id: "01-zhengbo-keduan", title: "鄭伯克段于鄢", author: "左丘明", era: "左傳·隱公元年", status: "bg", bg: "✓" },
-            { id: "02-caogui-lunzhan", title: "曹劌論戰", author: "左丘明", era: "左傳·莊公十年", status: "bg", bg: "✓" },
-            { id: "03-gongzhiqi", title: "宮之奇諫假道", author: "左丘明", era: "左傳·僖公五年", status: "bg", bg: "✓" },
-            { id: "04-zhuwuzhi", title: "燭之武退秦師", author: "左丘明", era: "左傳·僖公三十年", status: "bg", bg: "✓" },
-            { id: "05-jianshu", title: "蹇叔哭師", author: "左丘明", era: "左傳·僖公三十二年", status: "bg", bg: "✓" },
-            { id: "06-zhaogong", title: "召公諫厲王止謗", author: "左丘明", era: "國語·周語", status: "pending" },
-            { id: "07-zouji", title: "鄒忌諷齊王納諫", author: "劉向", era: "戰國策·齊策", status: "pending" },
-            { id: "08-chuzhe", title: "觸讋說趙太后", author: "劉向", era: "戰國策·趙策", status: "pending" },
-            { id: "09-fengxuan", title: "馮諼客孟嘗君", author: "劉向", era: "戰國策·齊策", status: "pending" },
-            { id: "10-jianzhuke", title: "諫逐客書", author: "李斯", era: "秦文", status: "pending" },
-            { id: "11-buju", title: "卜居", author: "屈原", era: "楚辭", status: "pending" },
-            { id: "12-hongmen", title: "鴻門宴", author: "司馬遷", era: "史記·項羽本紀", status: "pending" },
-            { id: "13-baoren", title: "報任少卿書", author: "司馬遷", era: "漢文", status: "pending" },
-            { id: "14-chushi", title: "出師表", author: "諸葛亮", era: "漢文", status: "pending" },
-            { id: "15-chenqing", title: "陳情表", author: "李密", era: "六朝文", status: "pending" },
-            { id: "16-lanting", title: "蘭亭集序", author: "王羲之", era: "六朝文", status: "pending" },
-            { id: "17-guiqulai", title: "歸去來辭", author: "陶淵明", era: "六朝文", status: "pending" },
-            { id: "18-taohuayuan", title: "桃花源記", author: "陶淵明", era: "六朝文", status: "pending" },
-            { id: "19-wuliu", title: "五柳先生傳", author: "陶淵明", era: "六朝文", status: "pending" },
-            { id: "20-jianzong", title: "諫太宗十思疏", author: "魏徵", era: "唐文", status: "pending" },
-            { id: "21-shiyue", title: "師說", author: "韓愈", era: "唐文", status: "pending" },
-            { id: "22-jishier", title: "祭十二郎文", author: "韓愈", era: "唐文", status: "pending" },
-            { id: "23-efang", title: "阿房宮賦", author: "杜牧", era: "唐文", status: "pending" },
-            { id: "24-yueyang", title: "岳陽樓記", author: "范仲淹", era: "宋文", status: "pending" },
-            { id: "25-zuiong", title: "醉翁亭記", author: "歐陽脩", era: "宋文", status: "pending" },
-            { id: "26-qiusheng", title: "秋聲賦", author: "歐陽脩", era: "宋文", status: "pending" },
-            { id: "27-chibifu", title: "前赤壁賦", author: "蘇軾", era: "宋文", status: "pending" },
-            { id: "28-liuguo", title: "六國論", author: "蘇洵", era: "宋文", status: "pending" },
-            { id: "29-du-mengchang", title: "讀孟嘗君傳", author: "王安石", era: "宋文", status: "pending" },
-            { id: "30-you-baochanshan", title: "遊褒禪山記", author: "王安石", era: "宋文", status: "pending" },
+        const phase1 = [
+            { id: "01-zhengbo-keduan", title: "鄭伯克段于鄢", author: "左丘明", era: "左傳·隱公元年" },
+            { id: "02-caogui-lunzhan", title: "曹劌論戰", author: "左丘明", era: "左傳·莊公十年" },
+            { id: "03-gongzhiqi", title: "宮之奇諫假道", author: "左丘明", era: "左傳·僖公五年" },
+            { id: "04-zhuwuzhi", title: "燭之武退秦師", author: "左丘明", era: "左傳·僖公三十年" },
+            { id: "05-jianshu", title: "蹇叔哭師", author: "左丘明", era: "左傳·僖公三十二年" },
+            { id: "06-zhaogong", title: "召公諫厲王止謗", author: "左丘明", era: "國語·周語" },
+            { id: "07-zouji", title: "鄒忌諷齊王納諫", author: "劉向", era: "戰國策·齊策" },
+            { id: "08-chuzhe", title: "觸讋說趙太后", author: "劉向", era: "戰國策·趙策" },
+            { id: "09-fengxuan", title: "馮諼客孟嘗君", author: "劉向", era: "戰國策·齊策" },
+            { id: "10-jianzhuke", title: "諫逐客書", author: "李斯", era: "秦文" },
+            { id: "11-buju", title: "卜居", author: "屈原", era: "楚辭" },
+            { id: "12-hongmen", title: "鴻門宴", author: "司馬遷", era: "史記·項羽本紀" },
+            { id: "13-baoren", title: "報任少卿書", author: "司馬遷", era: "漢文" },
+            { id: "14-chushi", title: "出師表", author: "諸葛亮", era: "漢文" },
+            { id: "15-chenqing", title: "陳情表", author: "李密", era: "六朝文" },
+            { id: "16-lanting", title: "蘭亭集序", author: "王羲之", era: "六朝文" },
+            { id: "17-guiqulai", title: "歸去來辭", author: "陶淵明", era: "六朝文" },
+            { id: "18-taohuayuan", title: "桃花源記", author: "陶淵明", era: "六朝文" },
+            { id: "19-wuliu", title: "五柳先生傳", author: "陶淵明", era: "六朝文" },
+            { id: "20-jianzong", title: "諫太宗十思疏", author: "魏徵", era: "唐文" },
+            { id: "21-shiyue", title: "師說", author: "韓愈", era: "唐文" },
+            { id: "22-jishier", title: "祭十二郎文", author: "韓愈", era: "唐文" },
+            { id: "23-efang", title: "阿房宮賦", author: "杜牧", era: "唐文" },
+            { id: "24-yueyang", title: "岳陽樓記", author: "范仲淹", era: "宋文" },
+            { id: "25-zuiong", title: "醉翁亭記", author: "歐陽脩", era: "宋文" },
+            { id: "26-qiusheng", title: "秋聲賦", author: "歐陽脩", era: "宋文" },
+            { id: "27-chibifu", title: "前赤壁賦", author: "蘇軾", era: "宋文" },
+            { id: "28-liuguo", title: "六國論", author: "蘇洵", era: "宋文" },
+            { id: "29-du-mengchang", title: "讀孟嘗君傳", author: "王安石", era: "宋文" },
+            { id: "30-you-baochanshan", title: "遊褒禪山記", author: "王安石", era: "宋文" },
         ];
 
-        function statusBadge(s) {
-            if (s === "bg") return '<span class="badge bg">背景✓</span>';
-            if (s === "done") return '<span class="badge done">完成✓</span>';
-            return '<span class="badge pending">待寫</span>';
+        const phase2 = [
+            { id: "31-shique", title: "石碏諫寵州吁", author: "左丘明", era: "左傳·隱公三年" },
+            { id: "32-zangxibo", title: "臧僖伯諫觀魚", author: "左丘明", era: "左傳·隱公五年" },
+            { id: "33-jiliang", title: "季梁諫追楚師", author: "左丘明", era: "左傳·桓公六年" },
+            { id: "34-qihuan-gong", title: "齊桓公伐楚盟屈完", author: "左丘明", era: "左傳·僖公四年" },
+            { id: "35-ziyu", title: "子魚論戰", author: "左丘明", era: "左傳·僖公二十二年" },
+            { id: "36-jiezhitui", title: "介之推不言祿", author: "左丘明", era: "左傳·僖公二十四年" },
+            { id: "37-yanzi", title: "晏子不死君難", author: "左丘明", era: "左傳·襄公二十五年" },
+            { id: "38-zichan", title: "子產不毀鄉校", author: "左丘明", era: "左傳·襄公三十一年" },
+            { id: "39-jingjiang", title: "敬姜論勞逸", author: "左丘明", era: "國語·魯語" },
+            { id: "40-goujian", title: "勾踐滅吳", author: "左丘明", era: "國語·越語" },
+            { id: "41-suqin", title: "蘇秦以連橫說秦", author: "劉向", era: "戰國策·秦策" },
+            { id: "42-simacuo", title: "司馬錯論伐蜀", author: "劉向", era: "戰國策·秦策" },
+            { id: "43-zhaoweihou", title: "趙威后問齊使", author: "劉向", era: "戰國策·齊策" },
+            { id: "44-boyi", title: "伯夷列傳", author: "司馬遷", era: "史記" },
+            { id: "45-quyuan", title: "屈原列傳", author: "司馬遷", era: "史記" },
+            { id: "46-huaji", title: "滑稽列傳", author: "司馬遷", era: "史記" },
+            { id: "47-guogin", title: "過秦論", author: "賈誼", era: "漢文" },
+            { id: "48-da-suwu", title: "答蘇武書", author: "李陵", era: "漢文" },
+            { id: "49-yuzhong", title: "獄中上梁王書", author: "鄒陽", era: "漢文" },
+            { id: "50-shangde", title: "尚德緩刑書", author: "路溫舒", era: "漢文" },
+            { id: "51-beishan", title: "北山移文", author: "孔稚珪", era: "六朝文" },
+            { id: "52-taowu-ze", title: "為徐敬業討武曌檄", author: "駱賓王", era: "唐文" },
+            { id: "53-tengwangge", title: "滕王閣序", author: "王勃", era: "唐文" },
+            { id: "54-yu-hanjingzhou", title: "與韓荊州書", author: "李白", era: "唐文" },
+            { id: "55-yuandao", title: "原道", author: "韓愈", era: "唐文" },
+            { id: "56-mashuo", title: "馬說", author: "韓愈", era: "唐文" },
+            { id: "57-song-liyuan", title: "送李愿歸盤谷序", author: "韓愈", era: "唐文" },
+            { id: "58-bushezhe", title: "捕蛇者說", author: "柳宗元", era: "唐文" },
+            { id: "59-zhongshu", title: "種樹郭橐駝傳", author: "柳宗元", era: "唐文" },
+            { id: "60-yuxi", title: "愚溪詩序", author: "柳宗元", era: "唐文" },
+            { id: "61-changgang", title: "黃岡竹樓記", author: "王禹偁", era: "宋文" },
+            { id: "62-jinxuejie", title: "進學解", author: "韓愈", era: "唐文" },
+            { id: "63-zongqin", title: "縱囚論", author: "歐陽脩", era: "宋文" },
+            { id: "64-bianjian", title: "辨姦論", author: "蘇洵", era: "宋文" },
+            { id: "65-kuaizaiting", title: "黃州快哉亭記", author: "蘇轍", era: "宋文" },
+            { id: "66-hou-chibifu", title: "後赤壁賦", author: "蘇軾", era: "宋文" },
+            { id: "67-shizhongshan", title: "石鐘山記", author: "蘇軾", era: "宋文" },
+            { id: "68-fangshanzi", title: "方山子傳", author: "蘇軾", era: "宋文" },
+            { id: "69-da-sima", title: "答司馬諫議書", author: "王安石", era: "宋文" },
+            { id: "70-shang-zhongyong", title: "傷仲永", author: "王安石", era: "宋文" },
+            { id: "71-longgang", title: "瀧岡阡表", author: "歐陽脩", era: "宋文" },
+            { id: "72-bao-sunhuizong", title: "報孫會宗書", author: "楊惲", era: "漢文" },
+            { id: "73-song-dongyang", title: "送東陽馬生序", author: "宋濂", era: "明文" },
+            { id: "74-maigan", title: "賣柑者言", author: "劉基", era: "明文" },
+            { id: "75-wuren-mubei", title: "五人墓碑記", author: "張溥", era: "明文" },
+            { id: "76-jizha", title: "季札觀周樂", author: "左丘明", era: "左傳" },
+            { id: "77-zhanxi", title: "展喜犒師", author: "左丘明", era: "左傳·僖公二十六年" },
+            { id: "78-yiliwen", title: "瘞旅文", author: "王守仁", era: "明文" },
+            { id: "79-xiangling", title: "項脊軒志", author: "歸有光", era: "明文" },
+            { id: "80-lianchi", title: "廉恥", author: "顧炎武", era: "清文" },
+        ];
+
+        function renderList(data, containerId) {
+            const list = document.getElementById(containerId);
+            list.innerHTML = "";
+            data.forEach((e, i) => {
+                const a = document.createElement("a");
+                a.href = `articles/${e.id}.html`;
+                a.className = "essay-link";
+                a.innerHTML = `
+                    <span class="num">${String(i+1).padStart(2, "0")}</span>
+                    <span class="title">${e.title}</span>
+                    <span class="author">${e.author}</span>
+                    <span class="era">${e.era}</span>
+                    <span class="badges"><span class="badge done">完成✓</span></span>
+                `;
+                list.appendChild(a);
+            });
         }
 
-        const list = document.getElementById("essay-list");
-        essays.forEach((e, i) => {
-            const a = document.createElement("a");
-            a.href = `articles/${e.id}.html`;
-            a.className = "essay-link";
-            a.innerHTML = `
-                <span class="num">${String(i+1).padStart(2, "0")}</span>
-                <span class="title">${e.title}</span>
-                <span class="author">${e.author}</span>
-                <span class="era">${e.era}</span>
-                <span class="badges">${statusBadge(e.status)}</span>
-            `;
-            list.appendChild(a);
-        });
+        function switchPhase(n) {
+            document.querySelectorAll(".card").forEach(c => c.classList.remove("active"));
+            document.querySelectorAll(".card")[n-1].classList.add("active");
+            document.getElementById("phase1-section").style.display = n === 1 ? "block" : "none";
+            document.getElementById("phase2-section").style.display = n === 2 ? "block" : "none";
+        }
+
+        renderList(phase1, "essay-list-p1");
+        renderList(phase2, "essay-list-p2");
     </script>
 </body>
 </html>
