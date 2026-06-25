@@ -45,6 +45,7 @@
     <!-- ============ CONTROLS ============ -->
     <div class="controls">
       <div class="tabs" id="tabs"></div>
+      <button class="filter-toggle" id="filterToggle"><span>只看未讀</span></button>
       <div class="search">
         <span class="icon">⌕</span>
         <input id="search" type="text" placeholder="搜尋篇名、作者、出處…" autocomplete="off">
@@ -55,6 +56,8 @@
 
     <!-- ============ LIST ============ -->
     <div id="list"></div>
+
+    <button class="back-to-top" id="backToTop" title="回到頂端">↑</button>
 
     <footer class="site-footer">
       <span class="sf-left">古文觀止導覽 · 結構 · 技巧 · 白話</span>
@@ -75,7 +78,7 @@
   {n:8,id:'08-chuzhe',title:'觸讋說趙太后',author:'劉向',era:'戰國策·趙策'},
   {n:9,id:'09-fengxuan',title:'馮諼客孟嘗君',author:'劉向',era:'戰國策·齊策'},
   {n:10,id:'10-jianzhuke',title:'諫逐客書',author:'李斯',era:'秦文'},
-  {n:11,id:'11-buju',title:'buju',author:'屈原',era:'楚辭'},
+  {n:11,id:'11-buju',title:'卜居',author:'屈原',era:'楚辭'},
   {n:12,id:'12-hongmen',title:'鴻門宴',author:'司馬遷',era:'史記·項羽本紀'},
   {n:13,id:'13-baoren',title:'報任少卿書',author:'司馬遷',era:'漢文'},
   {n:14,id:'14-chushi',title:'出師表',author:'諸葛亮',era:'漢文'},
@@ -85,7 +88,7 @@
   {n:18,id:'18-taohuayuan',title:'桃花源記',author:'陶淵明',era:'六朝文'},
   {n:19,id:'19-wuliu',title:'五柳先生傳 · 軍師背景分析',author:'陶淵明',era:'六朝文'},
   {n:20,id:'20-jianzong',title:'諫太宗十思疏',author:'魏徵',era:'唐文'},
-  {n:21,id:'21-shiyue',title:'shiyue',author:'韓愈',era:'唐文'},
+  {n:21,id:'21-shiyue',title:'師說',author:'韓愈',era:'唐文'},
   {n:22,id:'22-jishier',title:'祭十二郎文',author:'韓愈',era:'唐文'},
   {n:23,id:'23-efang',title:'軍師檔案：〈阿房宮賦',author:'杜牧',era:'唐文'},
   {n:24,id:'24-yueyang',title:'岳陽樓記',author:'范仲淹',era:'宋文'},
@@ -119,7 +122,7 @@
   {n:52,id:'52-taowu-ze',title:'為徐敬業討武曌檄',author:'駱賓王',era:'唐文'},
   {n:53,id:'53-tengwangge',title:'滕王閣序',author:'王勃',era:'唐文'},
   {n:54,id:'54-yu-hanjingzhou',title:'與韓荊州書',author:'李白',era:'唐文'},
-  {n:55,id:'55-yuandao',title:'yuandao',author:'韓愈',era:'唐文'},
+  {n:55,id:'55-yuandao',title:'原道',author:'韓愈',era:'唐文'},
   {n:56,id:'56-mashuo',title:'雜說四·馬說',author:'韓愈',era:'唐文'},
   {n:57,id:'57-song-liyuan',title:'送李愿歸盤谷序',author:'韓愈',era:'唐文'},
   {n:58,id:'58-bushezhe',title:'捕蛇者說',author:'柳宗元',era:'唐文'},
@@ -144,7 +147,7 @@
   {n:77,id:'77-zhanxi',title:'展喜犒師',author:'左丘明',era:'左傳·僖公二十六年'},
   {n:78,id:'78-yiliwen',title:'瘞旅文',author:'王守仁',era:'明文'},
   {n:79,id:'79-xiangling',title:'項脊軒志',author:'歸有光',era:'明文'},
-  {n:80,id:'80-lianchi',title:'lianchi',author:'顧炎武',era:'清文'},
+  {n:80,id:'80-lianchi',title:'廉恥',author:'顧炎武',era:'清文'},
   {n:81,id:'100-wu-xu-yue',title:'吳許越成',author:'左丘明',era:'國語·吳語'},
   {n:82,id:'101-jigong-jianzhen-quanrong',title:'祭公諫征犬戎',author:'左丘明',era:'國語·周語'},
   {n:83,id:'102-zhaogong-jian-liwang',title:'召公諫厲王止謗',author:'左丘明',era:'國語·周語'},
@@ -183,7 +186,7 @@
   {n:116,id:'135-tangju-bu-ru-shi-ming',title:'唐雎不辱使命',author:'劉向',era:'戰國策·魏策'},
   {n:117,id:'136-yue-yi-bao-yan-wang-shu',title:'樂毅報燕王書',author:'劉向',era:'戰國策·燕策'},
   {n:118,id:'137-lisi-jian-zhu-ke-shu',title:'諫逐客書',author:'李斯',era:'秦文'},
-  {n:119,id:'138-chuci-bu-ju',title:'chuci-bu-ju',author:'屈原',era:'楚辭'},
+  {n:119,id:'138-chuci-bu-ju',title:'卜居',author:'屈原',era:'楚辭'},
   {n:120,id:'139-songyu-dui-chu-wang-wen',title:'宋玉對楚王問',author:'宋玉',era:'楚辭'},
   {n:121,id:'140-wudi-benji-zan',title:'五帝本紀贊',author:'司馬遷',era:'史記'},
   {n:122,id:'141-xiangyu-benji-zan',title:'項羽本紀贊',author:'司馬遷',era:'史記'},
@@ -230,15 +233,15 @@
   {n:163,id:'182-lihua-diao-gu-zhanchang-wen',title:'弔古戰場文',author:'李華',era:'唐文'},
   {n:164,id:'183-liuyuxi-lou-shi-ming',title:'陋室銘',author:'劉禹錫',era:'唐文'},
   {n:165,id:'184-dumu-efang-gong-fu',title:'阿房宮賦',author:'杜牧',era:'唐文'},
-  {n:166,id:'185-hanyu-yuan-dao',title:'hanyu-yuan-dao',author:'韓愈',era:'唐文'},
-  {n:167,id:'186-hanyu-yuan-hui',title:'hanyu-yuan-hui',author:'韓愈',era:'唐文'},
+  {n:166,id:'185-hanyu-yuan-dao',title:'原道',author:'韓愈',era:'唐文'},
+  {n:167,id:'186-hanyu-yuan-hui',title:'原毀',author:'韓愈',era:'唐文'},
   {n:168,id:'187-hanyu-huo-lin-jie',title:'獲麟解',author:'韓愈',era:'唐文'},
   {n:169,id:'188-hanyu-za-shuo-yi',title:'雜說一',author:'韓愈',era:'唐文'},
   {n:170,id:'189-hanyu-za-shuo-si',title:'雜說四',author:'韓愈',era:'唐文'},
-  {n:171,id:'190-hanyu-shi-shuo',title:'hanyu-shi-shuo',author:'韓愈',era:'唐文'},
+  {n:171,id:'190-hanyu-shi-shuo',title:'師說',author:'韓愈',era:'唐文'},
   {n:172,id:'191-hanyu-jinxue-jie',title:'進學解',author:'韓愈',era:'唐文'},
   {n:173,id:'192-hanyu-wuzhe-wangchengfu-zhuan',title:'圬者王承福傳',author:'韓愈',era:'唐文'},
-  {n:174,id:'193-hanyu-hui-bian',title:'hanyu-hui-bian',author:'韓愈',era:'唐文'},
+  {n:174,id:'193-hanyu-hui-bian',title:'諱辯',author:'韓愈',era:'唐文'},
   {n:175,id:'194-hanyu-zhengchen-lun',title:'爭臣論',author:'韓愈',era:'唐文'},
   {n:176,id:'195-hanyu-hou-shi-jiu-ri-fu-shang-zaixiang-shu',title:'後十九日復上宰相書',author:'韓愈',era:'唐文'},
   {n:177,id:'196-hanyu-hou-nian-jiu-ri-fu-shang-zaixiang-shu',title:'後廿九日復上宰相書',author:'韓愈',era:'唐文'},
@@ -324,6 +327,8 @@
   let read = (()=>{ try { return new Set(JSON.parse(localStorage.getItem(READ_KEY)||"[]")); } catch(e){ return new Set(); } })();
   let dim = "時代";
   let query = "";
+  let showUnreadOnly = false;
+  let collapsed = (()=>{ try { return new Set(JSON.parse(localStorage.getItem("guwen:collapsed")||"[]")); } catch(e){ return new Set(); } })();
 
   const DIM_SUBS = { 先秦:"左傳・國語・戰國策", 秦:"李斯", 漢:"史記・兩漢", 六朝:"晉宋齊", 唐:"韓柳諸家", 宋:"歐蘇王曾", 明:"宋濂・歸有光", 清:"顧炎武" };
   const DYN_ORDER = ["先秦","秦","漢","六朝","唐","宋","明","清"];
@@ -331,6 +336,7 @@
 
   /* ===================== RENDER ===================== */
   function el(tag, cls, html){ const n=document.createElement(tag); if(cls) n.className=cls; if(html!=null) n.innerHTML=html; return n; }
+  function hl(text, q){ if(!q) return text; return text.replace(new RegExp('('+q.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')+')','gi'),'<mark>$1</mark>'); }
 
   /* ===================== EXAM-30 STATUS ===================== */
   const EXAM30_STATUS = {};
@@ -342,12 +348,14 @@
 
   function buildGroups(){
     const q = query.trim();
-    const filtered = ESSAYS.filter(e => !q || e.title.includes(q) || e.author.includes(q) || e.era.includes(q));
+    const pass = e => (!q || e.title.includes(q) || e.author.includes(q) || e.era.includes(q)) && (!showUnreadOnly || !read.has(e.id));
+    const filtered = ESSAYS.filter(pass);
     if(dim==="全部"){
       return [{label:"全部選文", sub:"依吳氏選本卷次", items:filtered.slice().sort((a,b)=>a.n-b.n)}];
     }
     if(dim==="常考30"){
-      return [{label:"會考／學測常考 30 篇", sub:"學測必考·歷年重複出題", items:ESSAYS.slice(0,30)}];
+      const items = ESSAYS.slice(0,30).filter(pass);
+      return [{label:"會考／學測常考 30 篇", sub:"學測必考·歷年重複出題", items}];
     }
     const key = dim==="時代" ? "dynasty" : dim==="作者" ? "author" : "genre";
     let order;
@@ -384,14 +392,24 @@
     groups.forEach(g=>{
       const sec = el("section","group");
       const head = el("div","group-head"+(dim==="常考30"?" exam30":""));
+      const isCollapsed = collapsed.has(g.label);
+      if(isCollapsed) head.classList.add("is-collapsed");
       head.innerHTML =
         '<div class="gh-left"><span class="diamond"></span><h2>'+g.label+'</h2></div>'+
         '<span class="gh-sub">'+(g.sub||"")+'</span>'+
         '<span class="gh-count">'+g.items.length+' 篇</span>'+
-        (dim==="常考30" ? '<span class="gh-bg">背景</span><span class="gh-an">分析</span>' : '');
+        (dim==="常考30" ? '<span class="gh-bg">背景</span><span class="gh-an">分析</span>' : '')+
+        '<span class="gh-arrow">▾</span>';
+      head.onclick = ()=>{
+        const lbl = g.label;
+        collapsed.has(lbl) ? collapsed.delete(lbl) : collapsed.add(lbl);
+        try { localStorage.setItem("guwen:collapsed", JSON.stringify([...collapsed])); } catch(e){}
+        head.classList.toggle("is-collapsed");
+        gl.classList.toggle("collapsed");
+      };
       sec.appendChild(head);
 
-      const gl = el("div","group-list");
+      const gl = el("div","group-list"+(isCollapsed?" collapsed":""));
       g.items.forEach(e=>{
         const isRead = read.has(e.id);
         const row = el("div","row"+(dim==="常考30"?" exam30":""));
@@ -399,9 +417,9 @@
         row.innerHTML =
           '<span class="num">'+String(e.n).padStart(2,"0")+'</span>'+
           '<a class="link" href="articles/'+e.id+'.html">'+
-            '<span class="title">'+e.title+'</span>'+
-            '<span class="author">'+e.author+'</span>'+
-            '<span class="era">'+e.era+'</span>'+
+            '<span class="title">'+hl(e.title,q)+'</span>'+
+            '<span class="author">'+hl(e.author,q)+'</span>'+
+            '<span class="era">'+hl(e.era,q)+'</span>'+
           '</a>'+
           '<span class="genre">'+e.genre+'</span>'+
           (dim==="常考30" ?
@@ -425,7 +443,9 @@
     document.getElementById("readCount").textContent = rc;
     document.getElementById("totalCount").textContent = total;
     document.getElementById("corpusCount").textContent = total;
-    document.getElementById("progressFill").style.width = (total? Math.round(rc/total*100):0)+"%";
+    const pct = total ? Math.round(rc/total*100) : 0;
+    document.getElementById("progressFill").style.width = pct+"%";
+    document.getElementById("totalCount").parentElement.innerHTML = '／ '+total+' 篇 已讀（'+pct+'%）';
   }
 
   function toggleRead(id){
@@ -434,11 +454,38 @@
     renderList(); renderProgress();
   }
 
-  document.getElementById("search").addEventListener("input", (e)=>{ query=e.target.value; renderList(); });
+  let searchTimeout;
+  document.getElementById("search").addEventListener("input", (e)=>{
+    clearTimeout(searchTimeout);
+    searchTimeout = setTimeout(()=>{
+      query=e.target.value;
+      renderList();
+    }, 150);
+  });
+
+  const ftBtn=document.getElementById("filterToggle");
+  ftBtn.onclick=()=>{ showUnreadOnly=!showUnreadOnly; ftBtn.classList.toggle("active"); renderList(); };
+
+  const searchInput=document.getElementById("search");
+  searchInput.addEventListener("keydown",(e)=>{
+    if(e.key==="ArrowDown"){ e.preventDefault(); const first=document.querySelector(".row a.link"); if(first) first.focus(); }
+  });
+  document.getElementById("list").addEventListener("keydown",(e)=>{
+    const links=[...document.querySelectorAll(".row a.link")];
+    const i=links.indexOf(document.activeElement);
+    if(e.key==="ArrowDown"&&i<links.length-1){ e.preventDefault(); links[i+1].focus(); }
+    else if(e.key==="ArrowUp"&&i>0){ e.preventDefault(); links[i-1].focus(); }
+    else if(e.key==="ArrowUp"&&i===0){ e.preventDefault(); searchInput.focus(); }
+    else if(e.key==="Escape"){ e.preventDefault(); searchInput.focus(); }
+  });
 
   renderTabs();
   renderList();
   renderProgress();
+
+  const btt=document.getElementById("backToTop");
+  window.addEventListener("scroll",()=>{btt.classList.toggle("visible",window.scrollY>600);},{passive:true});
+  btt.onclick=()=>window.scrollTo({top:0,behavior:"smooth"});
   </script>
 </body>
 </html>

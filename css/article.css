@@ -159,5 +159,32 @@ footer { text-align: center; padding: 36px 20px; color: var(--faint); font-size:
   .article-section > h2 { font-size: 21px; }
   .section-content { font-size: 17px; }
   .section-content table { font-size: .86em; }
-  .section-content th, .section-content td { padding: 8px 10px; }
+  .section-content th,   .section-content td { padding: 8px 10px; }
+}
+
+/* ===================== DARK MODE ===================== */
+@media (prefers-color-scheme: dark) {
+  .article-nav {
+    background: rgba(26, 23, 20, .9);
+    border-bottom-color: rgba(196, 74, 63, .25);
+  }
+  .article-nav .nav-prev, .article-nav .nav-next {
+    border-color: var(--line-2); background: var(--paper-lt); color: var(--ink-3);
+  }
+  .reader-tools button {
+    border-color: var(--line-3); background: var(--paper-lt); color: var(--ink-2);
+  }
+  .article-header { border-bottom-color: rgba(212, 207, 197, .15); }
+  .section-content blockquote {
+    border-left-color: var(--seal);
+    background: rgba(196, 74, 63, .08);
+  }
+  .section-content th { background: rgba(196, 74, 63, .12); }
+  .section-content td { background: rgba(30, 27, 22, .4); }
+  .section-content tbody tr:hover td { background: rgba(30, 27, 22, .6); }
+  .article-toc .toc-seal .stamp { border-color: var(--seal); background: rgba(196, 74, 63, .08); }
+  .article-footer-nav { border-top-color: rgba(212, 207, 197, .15); }
+  .article-footer-nav .nav-prev, .article-footer-nav .nav-next {
+    border-color: var(--line-2); background: var(--paper-lt);
+  }
 }
