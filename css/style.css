@@ -202,19 +202,24 @@ main {
   overflow: hidden;
 }
 
-.essay-item {
+.essay-link {
   display: flex;
   align-items: center;
   gap: 16px;
   padding: 14px 20px;
   background: var(--bg-card);
   transition: all 0.2s ease;
-  cursor: default;
+  text-decoration: none;
+  color: inherit;
 }
 
-.essay-item:hover {
+.essay-link:hover {
   background: var(--bg-hover);
   padding-left: 24px;
+}
+
+.essay-link:hover .title {
+  color: var(--accent);
 }
 
 .essay-item .num {

@@ -89,16 +89,17 @@
 
         const list = document.getElementById("essay-list");
         essays.forEach((e, i) => {
-            const div = document.createElement("div");
-            div.className = "essay-item";
-            div.innerHTML = `
+            const a = document.createElement("a");
+            a.href = `articles/${e.id}.html`;
+            a.className = "essay-link";
+            a.innerHTML = `
                 <span class="num">${String(i+1).padStart(2, "0")}</span>
                 <span class="title">${e.title}</span>
                 <span class="author">${e.author}</span>
                 <span class="era">${e.era}</span>
                 <span class="badges">${statusBadge(e.status)}</span>
             `;
-            list.appendChild(div);
+            list.appendChild(a);
         });
     </script>
 </body>
