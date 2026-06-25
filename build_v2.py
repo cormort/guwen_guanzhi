@@ -60,8 +60,11 @@ os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 # Phase 1 dirs
 phase1_dirs = sorted(os.listdir(os.path.join(SITE_DIR, "phase1")))
-all_dirs = [("phase1", d) for d in phase1_dirs] + [("phase2", d) for d in phase2_dirs]
-
+phase2_dirs = sorted(os.listdir(os.path.join(SITE_DIR, "phase2")))
+phase3_dirs = sorted(os.listdir(os.path.join(SITE_DIR, "phase3")))
+all_dirs = [("phase1", d) for d in phase1_dirs] + \
+           [("phase2", d) for d in phase2_dirs] + \
+           [("phase3", d) for d in phase3_dirs]
 # First pass: get all titles
 entries = []
 for phase, d in all_dirs:
@@ -138,6 +141,7 @@ for i, (phase, d, title, author, era) in enumerate(entries):
     <footer>
         <p>github.com/cormort/guwen_guanzhi</p>
     </footer>
+    <script src="../js/article.js"></script>
 </body>
 </html>"""
 
