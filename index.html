@@ -332,11 +332,22 @@
   /* ===================== RENDER ===================== */
   function el(tag, cls, html){ const n=document.createElement(tag); if(cls) n.className=cls; if(html!=null) n.innerHTML=html; return n; }
 
+  /* ===================== EXAM-30 STATUS ===================== */
+  const EXAM30_STATUS = {};
+  // All 30 常考 articles have both 軍師-背景 ✅ and 主筆-分析 ✅
+  for(let i=1;i<=30;i++){
+    const id = ESSAYS[i-1].id;
+    EXAM30_STATUS[id] = {bg:true, analysis:true};
+  }
+
   function buildGroups(){
     const q = query.trim();
     const filtered = ESSAYS.filter(e => !q || e.title.includes(q) || e.author.includes(q) || e.era.includes(q));
     if(dim==="全部"){
       return [{label:"全部選文", sub:"依吳氏選本卷次", items:filtered.slice().sort((a,b)=>a.n-b.n)}];
+    }
+    if(dim==="常考30"){
+      return [{label:"會考／學測常考 30 篇", sub:"學測必考·歷年重複出題", items:ESSAYS.slice(0,30)}];
     }
     const key = dim==="時代" ? "dynasty" : dim==="作者" ? "author" : "genre";
     let order;
@@ -354,8 +365,8 @@
   function renderTabs(){
     const wrap = document.getElementById("tabs");
     wrap.innerHTML = "";
-    ["時代","作者","文體","全部"].forEach(name=>{
-      const label = name==="全部" ? "全部" : "依"+name;
+    ["時代","作者","文體","常考30","全部"].forEach(name=>{
+      const label = name==="全部" ? "全部" : name==="常考30" ? "常考30" : "依"+name;
       const b = el("button", "tab"+(name===dim?" active":""), "<span>"+label+"</span>");
       b.onclick = ()=>{ dim=name; renderTabs(); renderList(); };
       wrap.appendChild(b);
@@ -366,23 +377,25 @@
     const groups = buildGroups();
     const q = query.trim();
     const count = ESSAYS.filter(e=>!q||e.title.includes(q)||e.author.includes(q)||e.era.includes(q)).length;
-    document.getElementById("resultMeta").textContent = "共 "+count+" 篇 · 依"+dim+"排列";
+    document.getElementById("resultMeta").textContent = dim==="常考30" ? "軍師背景 ✅ 全數完成 · 主筆分析 ✅ 全數完成" : "共 "+count+" 篇 · 依"+dim+"排列";
 
     const list = document.getElementById("list");
     list.innerHTML = "";
     groups.forEach(g=>{
       const sec = el("section","group");
-      const head = el("div","group-head");
+      const head = el("div","group-head"+(dim==="常考30"?" exam30":""));
       head.innerHTML =
         '<div class="gh-left"><span class="diamond"></span><h2>'+g.label+'</h2></div>'+
         '<span class="gh-sub">'+(g.sub||"")+'</span>'+
-        '<span class="gh-count">'+g.items.length+' 篇</span>';
+        '<span class="gh-count">'+g.items.length+' 篇</span>'+
+        (dim==="常考30" ? '<span class="gh-bg">背景</span><span class="gh-an">分析</span>' : '');
       sec.appendChild(head);
 
       const gl = el("div","group-list");
       g.items.forEach(e=>{
         const isRead = read.has(e.id);
-        const row = el("div","row");
+        const row = el("div","row"+(dim==="常考30"?" exam30":""));
+        const st = EXAM30_STATUS[e.id]||{};
         row.innerHTML =
           '<span class="num">'+String(e.n).padStart(2,"0")+'</span>'+
           '<a class="link" href="articles/'+e.id+'.html">'+
@@ -391,6 +404,10 @@
             '<span class="era">'+e.era+'</span>'+
           '</a>'+
           '<span class="genre">'+e.genre+'</span>'+
+          (dim==="常考30" ?
+            '<span class="status-bg">'+(st.bg?'✅':'⬜')+'</span>'+
+            '<span class="status-an">'+(st.analysis?'✅':'⬜')+'</span>'
+          :'')+
           '<span class="mark" title="標記已讀">'+
             (isRead ? '<span class="seal">讀</span>' : '<span class="dot"></span>')+
           '</span>';
