@@ -1,0 +1,21 @@
+{
+  "file": "238-jiayi-lun",
+  "title": "賈誼論",
+  "author": "蘇軾",
+  "overall_grade": "A",
+  "overall_comment": "12項全數過關。背景段深入蘇軾史論體系，分析段對賈誼悲劇根源的剖析（不善處窮、志大而量小）極具說服力。",
+  "checks": [
+    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出出處《東坡全集》、體裁（史論）、時代（北宋）、核心命題（賈誼之悲在志大而量小、不善處窮）。"},
+    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "深入分析蘇軾史論創作背景、賈誼的生平與政治處境、西漢初年的政治格局。"},
+    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "蘇軾、賈誼、漢文帝、絳灌集團（周勃灌嬰）有獨立分析。"},
+    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "核心分析揭示蘇軾意圖——以賈誼爲鏡，反思知識分子如何在政治逆境中保持從容。"},
+    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "精準：蘇軾說賈誼不是死於漢文帝的不重用，而是死於自己的玻璃心——志大而量小，才有餘而識不足。"},
+    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "清楚列出論證結構（破題→賈誼悲劇描述→根源分析→與伊尹孔子對比→結論）。"},
+    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "詳析翻案論證、對比（賈誼vs伊尹/孔子/張良）、反問設問、引用等手法。"},
+    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "賞析非才之難所以自用者實難、志大而量小才有餘而識不足等經典句。"},
+    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "提供完整白話改編。"},
+    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題為「時代背景與寫作意旨」「文章分析」，無 emoji。"},
+    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段有獨立觀點（賈誼論作爲蘇軾自我投射、蘇軾以賈誼案例反思自己貶謫經歷）。"},
+    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "軍師按語深入蘇軾以賈誼自況的雙重意涵——既是評論古人，也是自我提示。"}
+  ]
+}

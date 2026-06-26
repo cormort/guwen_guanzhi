@@ -1,0 +1,21 @@
+{
+  "file": "212-liuzongyuan-ziren-zhuan",
+  "title": "梓人傳",
+  "author": "柳宗元",
+  "overall_grade": "A",
+  "overall_comment": "12項全數過關。背景段深入柳宗元長安時期的政治觀察，分析段有清晰的傳記結構、修辭分析（寓言手法、對比、以小見大）、佳句賞析及完整白話改編。",
+  "checks": [
+    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出出處《柳河東集》、體裁（傳記體寓言）、時代（長安時期）、核心命題（宰相之道）。"},
+    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "深入分析唐代官制、宰相職能與柳宗元對管理哲學的思考。"},
+    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "梓人與柳宗元皆有分析，對梓人『不會修床腳卻會指揮工匠』的矛盾形象有深入探討。"},
+    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "核心分析揭示柳宗元借梓人之事闡述領導者應該抓大放小的管理哲學。"},
+    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "精準抓住本文的管理學核心：最高級的管理者不需要會幹活。"},
+    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "清楚列出見梓人、觀其能、悟其道、歸結宰相之道的四段結構。"},
+    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "列出寓言手法、對比（梓人vs眾工）、以小見大、比喻說理等手法，分析到位。"},
+    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "選出關鍵句子，賞析有深度。"},
+    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "提供完整白話改編，忠於原文且流暢自然。"},
+    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題為「時代背景與寫作意旨」「文章分析」，無 emoji。"},
+    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段有獨立觀點（中國古代管理學經典文本、抓大放小的現代領導力啟示），對柳宗元的政治哲學有深入剖析。"},
+    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "所有段落皆有獨立貢獻，軍師按語提供有價值的延伸思考，無填充內容。"}
+  ]
+}

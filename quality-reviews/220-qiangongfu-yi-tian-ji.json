@@ -1,0 +1,21 @@
+{
+  "file": "220-qiangongfu-yi-tian-ji",
+  "title": "義田記",
+  "author": "錢公輔",
+  "overall_grade": "A",
+  "overall_comment": "12項全數過關。背景段深入范仲淹義莊制度與北宋宗族慈善傳統，分析段有清晰的記文結構、修辭分析（對比、列舉、議論結合敘事）、佳句賞析及完整白話改編。",
+  "checks": [
+    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出出處《錢公輔文集》、體裁（記文）、時代（北宋）、核心命題（范仲淹義田的仁者情懷）。"},
+    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "深入分析范仲淹義莊制度、北宋宗族社會結構與錢公輔的寫作緣由。"},
+    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "范仲淹為核心人物，分析他『先憂後樂』的人格與義田制度的創始。"},
+    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "核心分析揭示錢公輔借記范仲淹義田來讚美仁者濟世的精神。"},
+    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "精準抓住范仲淹以義田養族的仁者胸懷。"},
+    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "清楚列出述義田之設、敘義田之制、對比古今賢者、歸結仁者之心的四段結構。"},
+    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "列出對比（范仲淹vs晏子）、列舉數字、議論結合敘事等手法，分析到位。"},
+    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "選出關鍵議論句子，賞析有深度。"},
+    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "提供完整白話改編，忠於原文且流暢自然。"},
+    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題為「時代背景與寫作意旨」「文章分析」，無 emoji。"},
+    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段有獨立觀點（義田作為儒家社會福利思想的實踐、范仲淹仁者情懷的制度化），對北宋慈善制度有深入剖析。"},
+    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "所有段落皆有獨立貢獻，軍師按語提供有價值的延伸思考，無填充內容。"}
+  ]
+}

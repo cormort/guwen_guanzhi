@@ -1,0 +1,21 @@
+{
+  "file": "20-jianzong",
+  "title": "諫太宗十思疏",
+  "author": "魏徵",
+  "overall_grade": "A",
+  "overall_comment": "品質極高，12項全數過關。將十思拆解為五道防線的框架獨到，對「盛世諫書」的定位精準。",
+  "checks": [
+    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "明確標出時間貞觀十一年637年，距離玄武門之變約11年，距離貞觀開局約10年。"},
+    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "分析盛世中的裂縫——經濟復甦、四夷賓服的表象下，太宗晚年驕奢的暗流（大興土木、漸厭逆耳之言、賞罰隨喜怒），點出「在老闆春風得意時潑冷水比在亂世進諫更需要勇氣」。"},
+    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "涵蓋魏徵（史上最敢言諫臣）與李世民（能聽逆耳之言的明君），包含著名的「以銅為鏡」典故與太宗「會須殺此田舍翁」的複雜態度。"},
+    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "將十思拆解為五道防線：修身防線、用人防線、聽政防線、賞罰防線、終局防線，並點出結尾「載舟覆舟」的真正狠話。視為「明君防禦體系」。"},
+    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "「在天下最得意的時候告訴權力最大的人他正在走向毀滅」，精準概括本文的風險預警本質。"},
+    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "分析段分三段：居安思危總論→歷史教訓（善始者實繁克終者蓋寡）→十思行動方案。"},
+    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "列出比喻開篇（求木之長者必固根本）、對比（善始者繁vs克終者寡、載舟vs覆舟）、十思整齊句式的結構，皆為本文特色。"},
+    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "選出三句（求木之長者必固根本…思國之安者必積其德義、載舟覆舟所宜深慎、文武爭馳君臣無事可以盡豫游之樂），賞析說明排比結構與出處。"},
+    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "白話改編涵蓋三層論述。"},
+    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題無 emoji。"},
+    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段有獨立觀點（一般諫官vs魏徵對照表，從戰術/心態/視野/高度四維比較），非單純翻譯。"},
+    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "背景段的盛世裂縫分析、附錄十思結構速覽圖提供清晰視覺化，無冗餘。"}
+  ]
+}

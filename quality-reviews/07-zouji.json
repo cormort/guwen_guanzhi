@@ -1,0 +1,21 @@
+{
+  "file": "07-zouji",
+  "title": "鄒忌諷齊王納諫",
+  "author": "劉向（《戰國策》）",
+  "overall_grade": "A",
+  "overall_comment": "品質極高，12項全數過關。照鏡子類比的分析精彩，妻妾客三種謊言的心理剖析深入。",
+  "checks": [
+    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出出處《戰國策·齊策一》、編者劉向、事件年代約378BC、文體（策論體）。"},
+    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "分析戰國初期齊國內外交迫——魏國崛起屢敗齊、齊威王即位初沉迷酒色、齊威王變法（鄒忌為相、田忌為將、孫臏為軍師），對理解納諫的戰略意義至關重要。"},
+    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "涵蓋鄒忌（以小事推演大道的縱橫家）、齊威王（願聽諫言）、妻妾客（三種不同動機的說謊者），人物分析精準。"},
+    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "分析比喻的力量——類比為縱橫家核武器、為何照鏡子有效（經驗門檻低、降低心理防衛、結構完美映射），並指出戰國策「舉輕明重」文風。"},
+    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "從銅鏡到人性盲點再到治國關鍵，一屋之理可推天下，精準。"},
+    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "起（問美三答）、承（見徐公自愧不如）、轉（類比推理→王之蔽甚矣）、合（齊王納諫→戰勝於朝廷）。"},
+    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "列出類比（全文核心手法）、排比（妻美我者私我/妾美我者畏我/客美我者欲有求於我）、層遞（上賞→中賞→下賞）、反襯，皆為本文有辨識度的修辭。"},
+    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "選出五句（臣之妻私臣……、宮婦左右莫不私王……、門庭若市、雖欲言無可進者、戰勝於朝廷），賞析涵蓋修辭分析與敘事效果。"},
+    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "白話改編五段逐段對照，忠實流暢。"},
+    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題無 emoji。"},
+    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段以五步說服策略（講故事→製造懸念→揭示真相→類比轉移→結論）獨立拆解，非翻譯原文。"},
+    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "各段分工明確，戰略延伸段落提供現代反思，無重複填充。"}
+  ]
+}

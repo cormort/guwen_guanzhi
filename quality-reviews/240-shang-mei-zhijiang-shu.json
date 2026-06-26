@@ -1,0 +1,21 @@
+{
+  "file": "240-shang-mei-zhijiang-shu",
+  "title": "上梅直講書",
+  "author": "蘇軾",
+  "overall_grade": "A",
+  "overall_comment": "12項全數過關。背景段深入蘇軾科舉成名後的心態、梅堯臣與歐陽修的知遇之恩，分析段對蘇軾自比周公孔子的自信文風有精闢分析。",
+  "checks": [
+    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出出處《東坡全集》、體裁（書信）、時代（嘉祐二年1057）、核心命題（知己之樂與遇合之難）。"},
+    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "深入分析蘇軾嘉祐二年科舉背景、梅堯臣與歐陽修的知遇之恩、宋代書信的社交功能。"},
+    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "蘇軾、梅堯臣（梅直講）、歐陽修三人有獨立分析。"},
+    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "核心分析揭示蘇軾的雙重意圖——既感謝梅堯臣的知遇之恩，又以極高自信展現自己的才華。"},
+    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "精準：蘇軾用最謙卑的書信格式寫出了最驕傲的內容——感謝您賞識我，而我確實值得被賞識。"},
+    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "清楚列出書信結構（周公孔子典故開篇→遇合之難→自述科舉經歷→歸結至梅公賞識）。"},
+    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "詳析引用經典（周公孔子）、自比聖賢的膽識、層層遞進、以古喻今等手法。"},
+    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "賞析周公不富貴、孔子不窮困等以周公孔子自比的經典段落。"},
+    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "提供完整白話改編。"},
+    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題為「時代背景與寫作意旨」「文章分析」，無 emoji。"},
+    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段有獨立觀點（蘇軾以周公孔子自比的膽識——宋代士大夫自信的極致體現）。"},
+    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "軍師按語分析此信與歐陽修與梅聖俞書的互文關係，有獨立價值。"}
+  ]
+}

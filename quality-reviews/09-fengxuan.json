@@ -1,0 +1,21 @@
+{
+  "file": "09-fengxuan",
+  "title": "馮諼客孟嘗君",
+  "author": "劉向（《戰國策》）",
+  "overall_grade": "A",
+  "overall_comment": "品質極高，12項全數過關。彈劍三唱與狡兔三窟的結構分析精彩，「市義」概念的深層解讀有洞察力。",
+  "checks": [
+    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出出處、編者、事件年代（約300BC）、文體定位。"},
+    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "分析戰國中期齊國的態勢——齊湣王銳意進取、養士文化的生態位（政治風險投資）、孟嘗君門下三千食客的戰略意義。"},
+    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "涵蓋馮諼（裝瘋賣傻的戰略家）、孟嘗君（長期投資者）、薛地人民（被買的民心資產），人物分析有軍師解碼。"},
+    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "從四層分析：什麼是士的尊嚴、養士的投資回報、「市義」的悖論、狡兔三窟的戰略預備典範。"},
+    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "用「以士為劍、以義為盾的權力生存哲學」精準概括，有力。"},
+    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "起（彈劍三唱）、承（薛地燒券市義）、轉（孟嘗君失勢、百姓夾道歡迎）、合（復鑿二窟、數十年無禍）。"},
+    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "列出欲揚先抑結構、三疊式結構、對比手法、雙關（市義）、比喻（狡兔三窟），皆為本文獨特手法。"},
+    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "選出四句（長鋏歸來乎食無魚、狡兔有三窟、先生所為文市義者乃今日見之、孟嘗君為相數十年無纖介之禍），賞析有深層解讀。"},
+    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "白話改編詳盡，四段逐段對照原文，包含完整對話內容。"},
+    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題無 emoji。"},
+    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段有獨立觀點（馮諼的三次彈劍為風險評估程序、燒券為最高明的政治投資），非翻譯。"},
+    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "背景段補養士文化背景、分析段拆結構與修辭、軍師簽註提供延伸思考，無冗餘。"}
+  ]
+}

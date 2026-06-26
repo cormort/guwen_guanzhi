@@ -1,0 +1,21 @@
+{
+  "file": "235-xingshang-zhonghou-zhi-lun",
+  "title": "刑賞忠厚之至論",
+  "author": "蘇軾",
+  "overall_grade": "A",
+  "overall_comment": "12項全數過關。背景段深入蘇軾科舉成名作背景及宋代以仁治國思想，分析段對此文以疑統全的結構和經義闡發有精闢分析。",
+  "checks": [
+    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出出處《東坡全集》、體裁（論——科舉策論）、時代（嘉祐二年1057）、核心命題（刑賞當以忠厚爲本）。"},
+    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "深入分析蘇軾嘉祐二年科舉背景、歐陽修主考發現蘇軾的傳奇故事、宋代以仁治國的思想傳統。"},
+    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "蘇軾、歐陽修、梅堯臣、宋仁宗、堯舜禹等人物有清楚分析。"},
+    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "核心分析揭示蘇軾意圖——在科舉場合展現經學功力，以疑統全論證刑賞當以忠厚爲本。"},
+    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "精準：蘇軾用一個疑字貫穿全文——與其錯殺不如錯放，刑罰的邊際效應寧可寬鬆。"},
+    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "清楚列出以疑統全的結構——從可賞可罰的疑點出發，層層推論至忠厚之至的結論。"},
+    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "詳析引用經典（尚書詩經）、反面假設、層層遞進、設問自答等手法。"},
+    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "賞析堯舜禹之傳、賞疑從與、罰疑從去、罪疑惟輕等經典句段。"},
+    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "提供完整白話改編。"},
+    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題為「時代背景與寫作意旨」「文章分析」，無 emoji。"},
+    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段有獨立觀點（此文開宋代以經義取士的八股文先河、蘇軾的經學創新）。"},
+    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "軍師按語分析蘇軾用典的巧妙（皋陶殺人故事實爲蘇軾原創），有獨立價值。"}
+  ]
+}

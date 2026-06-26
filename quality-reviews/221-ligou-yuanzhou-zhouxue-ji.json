@@ -1,0 +1,21 @@
+{
+  "file": "221-ligou-yuanzhou-zhouxue-ji",
+  "title": "袁州州學記",
+  "author": "李覯",
+  "overall_grade": "A",
+  "overall_comment": "12項全數過關。背景段深入北宋州縣學制度與慶曆興學運動，分析段有清晰的記文結構、修辭分析（議論結合敘事、引用經典、對比）、佳句賞析及完整白話改編。",
+  "checks": [
+    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出出處《直講李先生文集》、體裁（記文）、時代（北宋中期）、核心命題（興學為治國之本）。"},
+    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "深入分析北宋慶曆興學運動、州縣學制度的建立與李覯的教育思想。"},
+    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "李覯為核心人物，分析他作為北宋思想家與教育家的貢獻。"},
+    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "核心分析揭示李覯借記袁州州學來闡述教育為治國根本的理念。"},
+    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "精準抓住興學即興國的核心論點。"},
+    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "清楚列出述建學之由、論教育之重、讚教化之功的三段結構。"},
+    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "列出議論結合敘事、引用經典、對比（有學vs無學）等手法，分析到位。"},
+    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "選出關鍵議論句子，賞析有深度。"},
+    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "提供完整白話改編，忠於原文且流暢自然。"},
+    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題為「時代背景與寫作意旨」「文章分析」，無 emoji。"},
+    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段有獨立觀點（教育強國論的先聲、北宋儒學復興的制度化實踐），對李覯的教育哲學有深入剖析。"},
+    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "所有段落皆有獨立貢獻，軍師按語提供有價值的延伸思考，無填充內容。"}
+  ]
+}

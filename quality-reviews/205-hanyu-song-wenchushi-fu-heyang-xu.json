@@ -1,0 +1,21 @@
+{
+  "file": "205-hanyu-song-wenchushi-fu-heyang-xu",
+  "title": "送溫處士赴河陽軍序",
+  "author": "韓愈",
+  "overall_grade": "A",
+  "overall_comment": "12項全數過關。背景段深入伯樂與良馬的隱喻世界；分析段有文章結構（幽默抱怨的三層結構）、修辭手法（絕妙比喻、幽默誇張、調侃式讚美）、經典句賞析、白話翻譯，無填充內容。",
+  "checks": [
+    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出出處《昌黎先生集》、體裁（贈序）、時代（約809年）、核心命題（伯樂一過冀北之野而馬群遂空/人才抱怨文）。"},
+    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "深入分析烏重胤先後徵召石洪與溫造的歷史事件、中唐藩鎮人才爭奪戰的時代背景。"},
+    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "為溫造（被比作良馬的名士）、烏重胤（被比作伯樂的將軍）、韓愈（幽默抱怨的送別者）設有完整分析。"},
+    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "核心分析揭示韓愈用幽默的筆調送別，既讚美了朋友是良馬，也讚美了烏重胤是伯樂。"},
+    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "精準抓住韓愈的核心——伯樂一過冀北之野而馬群遂空——一篇用笑聲送行的贈序。"},
+    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "先以伯樂過冀北馬群遂空的比喻開篇（起）、描述烏重胤先後徵召兩名處士（承）、抱怨洛陽人才空了（轉）、以幽默調侃收束（合），一氣呵成。"},
+    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "列出絕妙比喻（伯樂一過馬群遂空）、幽默誇張（人才都被挖走了）、調侃式讚美（表面抱怨實為讚美）、與前作呼應（姊妹篇對讀），手法獨特。"},
+    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "選出經典句（伯樂一過冀北之野而馬群遂空、石生去矣），賞析有幽默修辭視角。"},
+    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "提供完整白話翻譯與幽默語氣層層拆解。"},
+    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題為「時代背景與寫作意旨」「文本結構」「核心分析」等，無 emoji。"},
+    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段有獨立觀點（將送別序解讀為幽默的人才抱怨文、與送石處士序作為姊妹篇對讀展現韓愈的多面性），有獨創性。"},
+    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "所有段落皆有獨立貢獻，背景段的伯樂隱喻還原、分析段的幽默修辭拆解各有獨立價值。"}
+  ]
+}

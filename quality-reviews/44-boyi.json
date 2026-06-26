@@ -1,0 +1,81 @@
+{
+  "file": "44-boyi",
+  "title": "伯夷列傳",
+  "author": "",
+  "overall_grade": "A",
+  "overall_comment": "11/12 項通過",
+  "checks": [
+    {
+      "id": "an_quotes",
+      "name": "an_quotes",
+      "status": "pass",
+      "comment": "有3句佳句賞析"
+    },
+    {
+      "id": "an_rhetoric",
+      "name": "an_rhetoric",
+      "status": "fail",
+      "comment": "修辭僅列列傳體例創新、寓議論於敘事，未成表格"
+    },
+    {
+      "id": "an_structure",
+      "name": "an_structure",
+      "status": "pass",
+      "comment": "有文章結構分四段分析"
+    },
+    {
+      "id": "an_vernacular",
+      "name": "an_vernacular",
+      "status": "pass",
+      "comment": "有白話改編段落"
+    },
+    {
+      "id": "bg_coord",
+      "name": "bg_coord",
+      "status": "pass",
+      "comment": "有座標定位表（出處、篇名、時代座標等）"
+    },
+    {
+      "id": "bg_era",
+      "name": "bg_era",
+      "status": "pass",
+      "comment": "有時代壓力分析（漢武帝朝廷與司馬遷的筆）"
+    },
+    {
+      "id": "bg_intent",
+      "name": "bg_intent",
+      "status": "pass",
+      "comment": "有寫作意圖四層分析"
+    },
+    {
+      "id": "bg_people",
+      "name": "bg_people",
+      "status": "pass",
+      "comment": "有關鍵人物分析（伯夷叔齊、司馬遷、盜蹠）"
+    },
+    {
+      "id": "bg_summary",
+      "name": "bg_summary",
+      "status": "pass",
+      "comment": "有一句話總結"
+    },
+    {
+      "id": "fmt_depth",
+      "name": "fmt_depth",
+      "status": "pass",
+      "comment": "分析段有結構、技巧、佳句三層"
+    },
+    {
+      "id": "fmt_emoji",
+      "name": "fmt_emoji",
+      "status": "pass",
+      "comment": "標題無 emoji"
+    },
+    {
+      "id": "no_padding",
+      "name": "no_padding",
+      "status": "pass",
+      "comment": "內容深入紮實"
+    }
+  ]
+}

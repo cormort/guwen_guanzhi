@@ -1,0 +1,21 @@
+{
+  "file": "123-sujin-yi-lianheng-shuo-qin",
+  "title": "蘇秦以連橫說秦",
+  "author": "劉向 · 《戰國策·秦策一》",
+  "overall_grade": "A",
+  "overall_comment": "12項檢查全數通過。背景詳述戰國中期的權力格局與蘇秦從連橫到合縱的策略轉向。引錐刺股的敘事轉折、「前倨後恭」的社會諷刺分析深入。家人態度轉變對比極具衝擊力。",
+  "checks": [
+    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出出處《戰國策·秦策一》、時代戰國中期約334-320BC、體裁策士遊說辭、核心事件等。"},
+    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "分析戰國中期秦國商鞅變法後的國力、秦惠王即位初期的政治情勢、從連橫到合縱的市場邏輯轉向。"},
+    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "涵蓋蘇秦（從失敗者到六國宰相）、秦惠王（拒絕正確策略的客戶）、家人（前倨後恭），人物分析有深度。"},
+    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "從《戰國策》的策士視角、市場需求決定產品策略、權力與財富面前親情的考驗三層次分析。"},
+    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "精準總結蘇秦的故事是市場需求決定產品策略的經典商戰案例——家人前倨後恭是真正想說的。"},
+    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "結構分析以連橫說秦→刺股苦讀→合縱成功→衣錦還鄉的完整敘事弧線展開。"},
+    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "分析遊說辭的地理論證→經濟論證→軍備論證→結論四層結構、引錐刺股的故事張力。"},
+    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "選出多句（引錐自刺其股血流至足、貧窮則父母不子富貴則親戚畏懼、何前倨而後恭也），賞析有深度。"},
+    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "完整白話改編，覆蓋從說秦失敗到衣錦還鄉的完整過程。"},
+    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題無 emoji。"},
+    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段有獨立觀點（從賣方市場轉向買方市場、策略彈性的極致），非僅翻譯原文。"},
+    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "各段分工明確，內容充實有意義，無灌水痕跡。"}
+  ]
+}

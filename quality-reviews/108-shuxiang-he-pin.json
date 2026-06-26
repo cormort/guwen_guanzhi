@@ -1,0 +1,21 @@
+{
+  "file": "108-shuxiang-he-pin",
+  "title": "叔向賀貧",
+  "author": "左丘明 · 《國語·晉語八》",
+  "overall_grade": "A",
+  "overall_comment": "背景與分析段品質極高，12項檢查全數通過。座標定位、時代壓力、關鍵人物、寫作意圖、一句話總結皆完整；分析段有結構表、修辭分析（框架重置、三代興衰模型）、佳句賞析、白話改編，內容充實無填充。",
+  "checks": [
+    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出出處《國語·晉語》、時代春秋中期、體裁諫言體／道德論證、核心命題、思想譜系、後世影響等。"},
+    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "分析韓宣子的財富焦慮與春秋卿大夫家族的財富競賽，三層壓力來源清晰，有軍師按解讀。"},
+    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "涵蓋叔向（逆向思考者／道德教練）、韓宣子（苦惱的提問者）、欒氏與郤氏（反面教材），人物分析有深度。"},
+    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "從《國語》記言體例、回應春秋卿大夫集體焦慮、為貧窮提供道德正當性三層次分析。"},
+    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "精準點出叔向以歷史案例論證「貧窮讓你謙虛謹慎，財富才讓你暴露在真正的危險之中」之反直覺命題。"},
+    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "起（韓宣子憂貧，叔向賀之）、承（宣子不解）、轉（欒氏三代+郤氏案例）、合（有貧才能修德），結構合理。"},
+    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "列出反常開場、歷史案例、對比、警句、反問收官等手法，表格完整。"},
+    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "選出兩句佳句（欒武子之貧、郤氏之亡），賞析有背景說明與意義闡發。"},
+    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "完整白話改編，覆蓋全文五段核心對話，語言流暢。"},
+    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題為「時代背景與寫作意旨」「文章分析」，無 emoji。"},
+    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段有獨立觀點（框架重置的力量、歷史案例是最強的論證工具），非僅翻譯原文。"},
+    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "背景段補充讀原文所需知識，分析段提供結構拆解與文本細讀，無冗餘內容。"}
+  ]
+}

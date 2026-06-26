@@ -1,0 +1,21 @@
+{
+  "file": "114-wuzi-shi-zha-lai-pin",
+  "title": "吳子使札來聘",
+  "author": "穀梁赤 · 《穀梁傳·襄公二十九年》",
+  "overall_grade": "A",
+  "overall_comment": "12項檢查全數通過。背景詳述季札三次讓國與吳國邊緣身份，公羊學「因人而貴其國」的微言大義解析深入。人物分析（季札、壽夢、公子光）完整。與《左傳》觀樂版本對比詳實。",
+  "checks": [
+    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出出處《公羊傳·襄公二十九年》、時代春秋中晚期544BC、體裁歷史敘事/經傳釋義、核心命題等。"},
+    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "分析吳國的邊緣蠻夷身份、季札三次讓國的具體情境與歷史脈絡。"},
+    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "涵蓋季札（讓國賢人）、壽夢（有眼光的父親）、公子光（奪位者），人物分析有深度。"},
+    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "從公羊學的「賢賢」思想、經文書法的微言大義、與《左傳》敘事比較三層次分析。"},
+    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "精準總結季札三次讓國——拒絕權力比掌握權力更需要勇氣，賢德可改寫蠻夷身份。"},
+    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "以經文分析為主軸的結構清晰：提出核心問題→兄弟讓國盟誓→盟誓破滅→公子光刺僚→季札最終拒絕。"},
+    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "分析公羊學的微言大義方法，有具體手法分析。"},
+    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "選出多句經典語句，包含讓國盟誓、刺僚對話等，賞析有深度。"},
+    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "有白話改編段落，覆蓋核心情節。"},
+    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題無 emoji。"},
+    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段有獨立觀點（稱謂就是政治、讓國是最難的道德選擇），非僅翻譯。"},
+    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "各段分工明確，內容充實有意義，無灌水痕跡。"}
+  ]
+}

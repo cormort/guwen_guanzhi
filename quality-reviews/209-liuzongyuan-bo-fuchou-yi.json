@@ -1,0 +1,21 @@
+{
+  "file": "209-liuzongyuan-bo-fuchou-yi",
+  "title": "駁復讎議",
+  "author": "柳宗元",
+  "overall_grade": "A",
+  "overall_comment": "12項全數過關。背景段深入復仇法律傳統與唐代禮法之爭，分析段有清晰的論證結構、修辭分析（駁論、邏輯推演、引用經典）、佳句賞析及完整白話改編。",
+  "checks": [
+    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出出處《柳河東集》、體裁（論說文）、時代（中唐）、核心命題（對陳子昂『誅而旌之』的批駁）。"},
+    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "深入分析唐代復仇法律困境、陳子昂先例與柳宗元駁論的時代意義。"},
+    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "柳宗元與陳子昂皆有分析，釐清兩人在復仇問題上的立場對立。"},
+    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "核心分析揭示柳宗元欲建立統一法律標準，反對因人而異的判決。"},
+    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "精準抓住柳宗元以法律哲學思維批駁陳子昂的核心論點。"},
+    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "清楚列出引述陳說、逐一批駁、提出己見、結論四段結構。"},
+    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "列出駁論、邏輯推演、引用經典、設問等手法，分析到位。"},
+    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "選出關鍵論辯段落，賞析有深度。"},
+    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "提供完整白話改編，忠於原文且流暢自然。"},
+    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題為「時代背景與寫作意旨」「文章分析」，無 emoji。"},
+    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段有獨立觀點（法律哲學先鋒、禮法之爭的突破性思考），對柳宗元的法學思想有深入剖析。"},
+    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "所有段落皆有獨立貢獻，軍師按語提供有價值的延伸思考，無填充內容。"}
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "file": "245-chaozhou-han-wengong-miao-bei",
+  "title": "潮州韓文公廟碑",
+  "author": "蘇軾",
+  "overall_grade": "A",
+  "overall_comment": "12項全數過關。背景段深入蘇軾對韓愈的推崇及潮州地方文化背景，分析段對此碑文以浩然之氣統攝全篇的結構有精闢分析。",
+  "checks": [
+    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出出處《東坡全集》、體裁（碑文/廟碑）、時代（元祐七年1092）、核心命題（韓愈的浩然之氣與文以載道）。"},
+    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "深入分析蘇軾爲韓愈作碑的背景、韓愈貶潮州的歷史、潮州百姓對韓愈的崇敬、宋代道統論。"},
+    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "蘇軾、韓愈、潮州百姓等有獨立分析。"},
+    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "核心分析揭示蘇軾意圖——以韓愈爲楷模，表彰文人的浩然之氣超越政治迫害與時空限制。"},
+    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "精準：蘇軾說韓愈的存在本身就是一座豐碑——一個人可以被貶到天涯海角，但浩然之氣可以跨越千年。"},
+    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "清楚列出結構（浩然之氣破題→韓愈生平功業→貶潮州的影響→潮人立廟的意義→贊詞收束）。"},
+    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "詳析以氣貫穿、引用經典、對比襯托、排比鋪陳、贊詞收尾等手法。"},
+    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "賞析文起八代之衰道濟天下之溺、浩然之氣等經典名句。"},
+    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "提供完整白話改編。"},
+    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題為「時代背景與寫作意旨」「文章分析」，無 emoji。"},
+    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段有獨立觀點（此碑文是蘇軾對韓愈的致敬也是自我期許、浩然之氣作爲貫穿全文的核心概念）。"},
+    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "軍師按語對蘇軾以韓愈自況的深層心理有精彩分析。"}
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "file": "187-hanyu-huo-lin-jie",
+  "title": "獲麟解",
+  "author": "韓愈",
+  "overall_grade": "A",
+  "overall_comment": "12項全數過關。背景段結合孔子西狩獲麟典故與中唐人才困境；分析段有文章結構（三層剖析）、修辭手法（寓言寄託、設問反詰）、佳句賞析與白話翻譯，無填充內容。",
+  "checks": [
+    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出出處《昌黎先生集》、體裁（雜說/論說文）、時代（中唐約9世紀初）、核心命題（麟之所以為麟者以德不以形）。"},
+    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "深入分析中唐藩鎮割據、宦官專權的時代困境，連結韓愈個人屢遭貶謫的仕途坎坷。"},
+    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "為韓愈（不被認識的麒麟）、孔子（西狩獲麟典故）設有專門分析段落，含麒麟的文化象徵意義。"},
+    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "核心分析揭示韓愈借麒麟之謎說出所有天才的困境——不被時代理解的孤獨感。"},
+    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "精準抓住韓愈的核心——麟之所以為麟者以德不以形——真正的價值不在外表而在本質。"},
+    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "第一層（麒麟是什麼）、第二層（為什麼沒人認識）、第三層（到底是誰的問題），邏輯層次縝密。"},
+    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "列出寓言寄託（麒麟喻天才）、設問反詰（到底是誰的問題）、引用典故（西狩獲麟）、層層轉折（昭昭也→然→不類），手法精妙。"},
+    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "選出核心句（麟之所以為麟者以德不以形、麟不祥之物也），賞析有哲學深度。"},
+    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "提供完整白話翻譯與逐句分析，語氣生動。"},
+    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題為「時代背景與寫作意旨」「文本結構」「核心分析」等，無 emoji。"},
+    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段有獨立觀點（孔子絕筆之痛與韓愈孤獨的跨時空對話、不被認識的悖論分析），有獨創性。"},
+    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "所有段落皆有獨立貢獻，背景段的孔子典故延伸、分析段的悖論拆解各有獨立價值。"}
+  ]
+}

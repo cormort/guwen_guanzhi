@@ -1,0 +1,21 @@
+{
+  "file": "127-yanchu-shuo-qi-wang",
+  "title": "顏斶說齊王",
+  "author": "劉向 · 《戰國策·齊策四》",
+  "overall_grade": "A",
+  "overall_comment": "12項檢查全數通過。背景完整描述戰國中期齊國與士階層崛起，座標定位清晰。顏斶「士貴耳，王者不貴」的論證邏輯拆解精彩——從行為反轉到歷史論證三層遞進。人物分析（顏斶、齊宣王、左右侍臣）各有深度，軍師按語獨立有見地。",
+  "checks": [
+    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出出處《戰國策·齊策四》、時代戰國中期約西元前4世紀末、體裁說辭/對話體論辯、核心命題等。"},
+    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "詳述齊宣王與稷下學宮、戰國士人階層的崛起（社會流動、國君態度、士的自我意識）。"},
+    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "涵蓋顏斶（最驕傲的隱士）、齊宣王（有雅量的君王）、左右侍臣（社會常識代言人），人物對比分析深入。"},
+    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "從戰國策士言論傳統、士人主體意識最強烈的篇章之一、與魯仲連義不帝秦與馮諼客孟嘗君合看三層次分析。"},
+    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "精準總結：真正的尊嚴不是來自於你的地位，而是來自於你敢不敢直視權力。"},
+    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "結構合理：挑釁（斶前vs王前）→左右質問→顏斶立論→王怒→顏斶致命一擊，五層遞進。"},
+    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "分析行動先於言辭、反詰與以問代答、具體例證（生王之頭不若死士之壟）等手法，有辨識度。"},
+    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "選出土貴耳王者不貴、生王之頭曾不若死士之壟、晚食以當肉安步以當車等句，賞析有深度。"},
+    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "核心辯論段落白話改編完整，涵蓋從顏斶說王前到辭歸故里的完整論證。"},
+    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題無 emoji。"},
+    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段有獨立觀點（權力不是一個人的屬性而是兩個人之間的關係、拒絕比接受更有力量），非僅翻譯。"},
+    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "各段分工明確，內容充實有意義，無灌水痕跡。"}
+  ]
+}

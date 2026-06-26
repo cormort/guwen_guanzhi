@@ -1,0 +1,21 @@
+{
+  "file": "201-hanyu-song-liyuan-gui-pangu-xu",
+  "title": "送李愿歸盤谷序",
+  "author": "韓愈",
+  "overall_grade": "A",
+  "overall_comment": "12項全數過關。背景段深入韓愈仕途困頓與歸隱嚮往；分析段有文章結構（三種人生的對比敘事）、修辭手法（對比敘述、藉人言志、詩歌作結）、經典句賞析、白話翻譯，無填充內容。",
+  "checks": [
+    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出出處《昌黎先生集》、體裁（贈序）、時代（約801年）、核心命題（大丈夫不遇於時者之所為也/三種人生）。"},
+    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "深入分析韓愈34歲時仕途困頓、屢試不第的處境，以及盤谷作為歸隱象徵的召喚。"},
+    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "為韓愈（困於仕途卻嚮往自由的書寫者）、李願（理想自我的投射與隱居者）設有完整分析。"},
+    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "核心分析揭示韓愈藉李願之口描述三種人生——得意者、隱居者、奔走者——韓愈知道自己註定是第三種。"},
+    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "精準抓住韓愈的核心——一個困於仕途的人對一個自由的人的告別與凝視。"},
+    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "先寫盤谷之由來（起）、藉李願之口寫三種人生（承）、韓愈的感嘆回應（轉）、以盤谷之歌作結（合），意境悠遠。"},
+    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "列出對比敘事（三種人生並列）、藉人言志（李願說出韓愈心聲）、詩歌作結（盤之中維子之宮）、賦體鋪陳，手法豐富。"},
+    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "選出經典句（大丈夫不遇於時者之所為也、盤之中維子之宮、我聽其言而壯之），賞析有隱逸文學視角。"},
+    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "提供完整白話翻譯與三種人生的對比分析。"},
+    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題為「時代背景與寫作意旨」「文本結構」「核心分析」等，無 emoji。"},
+    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段有獨立觀點（將三種人生解讀為韓愈的自我剖析——知道哪種最快樂卻無法選擇），有獨創性。"},
+    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "所有段落皆有獨立貢獻，背景段的困境分析、分析段的三種人生對比各有獨立價值。"}
+  ]
+}

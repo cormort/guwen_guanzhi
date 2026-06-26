@@ -1,0 +1,21 @@
+{
+  "file": "04-zhuwuzhi",
+  "title": "燭之武退秦師",
+  "author": "左丘明",
+  "overall_grade": "A",
+  "overall_comment": "品質極高，12項全數過關。燭之武說服策略的五層推進分析精彩，佳句賞析五句皆有深度。",
+  "checks": [
+    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出出處、事件年份630BC、作者左丘明、體裁（外交辭令記錄）。"},
+    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "分析春秋霸權交替關鍵時刻——晉文公城濮之戰後巔峰期的氣勢、秦穆公的東進野心、鄭國夾縫求生，以及直接導火線（私怨+地緣+實力展示）。"},
+    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "涵蓋燭之武（被遺忘的老臣）、鄭文公（危機公關）、秦穆公vs晉文公（有限合作各自算計），人物關係清晰。"},
+    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "從三層分析：外交典範記錄、辭令的力量、小國生存智慧、對用人制度的含蓄批評。"},
+    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "點出本文非道德課文而是現實政治操作手冊，精準到位。"},
+    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "起（秦晉圍鄭）、承（佚之狐薦賢→燭之武受命）、轉（夜說秦伯）、合（秦鄭結盟→晉退兵），結構合理。"},
+    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "列出設問、反問、對比、層遞、引用歷史五項，均為本文有辨識度的說服策略，非通用修辭湊數。"},
+    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "選出五句文眼（越國以鄙遠、焉用亡鄭以陪鄰、朝濟而夕設版焉、夫晉何厭之有、因人之力而敝之不仁），每句有深度賞析。"},
+    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "白話改編詳盡，逐段對照原文翻譯，忠實且流暢。"},
+    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題無 emoji。"},
+    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段重點拆解五層說服策略（示弱→破利→誘利→離間→恐嚇），為獨立分析框架，非原文翻譯。"},
+    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "背景段、分析段、白話改編各有獨立功能，無重複或空洞內容。"}
+  ]
+}

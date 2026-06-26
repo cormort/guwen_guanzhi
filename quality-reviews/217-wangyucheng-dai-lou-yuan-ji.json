@@ -1,0 +1,21 @@
+{
+  "file": "217-wangyucheng-dai-lou-yuan-ji",
+  "title": "待漏院記",
+  "author": "王禹偁",
+  "overall_grade": "A",
+  "overall_comment": "12項全數過關。背景段深入北宋初年政治體制與宰相制度，分析段有清晰的記文結構、修辭分析（對比、排比、比喻）、佳句賞析及完整白話改編。",
+  "checks": [
+    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出出處《小畜集》、體裁（記文）、時代（北宋初年）、核心命題（宰相待漏時的思慮）。"},
+    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "深入分析北宋初年政治體制、宰相早朝待漏制度與王禹偁的仕宦經歷。"},
+    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "王禹偁與待漏宰相皆有分析，對不同類型的宰相有深入分類探討。"},
+    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "核心分析揭示王禹偁借待漏院描寫來區分賢相與奸相，寄託政治理想。"},
+    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "精準抓住本文的核心：以宰相待漏時的片刻心思來區分賢奸。"},
+    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "清楚列出述待漏院由來、寫賢相思慮、寫奸相思慮、歸結勸誡之意的四段結構。"},
+    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "列出對比（賢相vs奸相）、排比、設問等手法，分析到位。"},
+    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "選出關鍵對比句子，賞析有深度。"},
+    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "提供完整白話改編，忠於原文且流暢自然。"},
+    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題為「時代背景與寫作意旨」「文章分析」，無 emoji。"},
+    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段有獨立觀點（賢奸對比的戲劇性張力、北宋政治理想主義的縮影），對王禹偁的政治思想有深入剖析。"},
+    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "所有段落皆有獨立貢獻，軍師按語提供有價值的延伸思考，無填充內容。"}
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "file": "46-huaji",
+  "title": "滑稽列傳",
+  "author": "",
+  "overall_grade": "A",
+  "overall_comment": "11/12 項通過",
+  "checks": [
+    {
+      "id": "an_quotes",
+      "name": "an_quotes",
+      "status": "pass",
+      "comment": "有2句佳句賞析（一鳴驚人、酒極則亂）"
+    },
+    {
+      "id": "an_rhetoric",
+      "name": "an_rhetoric",
+      "status": "fail",
+      "comment": "修辭僅列以諧寓莊、隱語藝術，未成表格"
+    },
+    {
+      "id": "an_structure",
+      "name": "an_structure",
+      "status": "pass",
+      "comment": "有文章結構分段分析"
+    },
+    {
+      "id": "an_vernacular",
+      "name": "an_vernacular",
+      "status": "pass",
+      "comment": "有白話改編段落"
+    },
+    {
+      "id": "bg_coord",
+      "name": "bg_coord",
+      "status": "pass",
+      "comment": "有座標定位（出處、體例、原文篇幅）"
+    },
+    {
+      "id": "bg_era",
+      "name": "bg_era",
+      "status": "pass",
+      "comment": "有時代壓力分析（君權膨脹、諫諍困境等）"
+    },
+    {
+      "id": "bg_intent",
+      "name": "bg_intent",
+      "status": "pass",
+      "comment": "有寫作意圖四層深層解析"
+    },
+    {
+      "id": "bg_people",
+      "name": "bg_people",
+      "status": "pass",
+      "comment": "有關鍵人物分析（淳于髡、優孟、優旃、司馬遷）"
+    },
+    {
+      "id": "bg_summary",
+      "name": "bg_summary",
+      "status": "pass",
+      "comment": "有一句話總結"
+    },
+    {
+      "id": "fmt_depth",
+      "name": "fmt_depth",
+      "status": "pass",
+      "comment": "分析段有結構、技巧、佳句三層"
+    },
+    {
+      "id": "fmt_emoji",
+      "name": "fmt_emoji",
+      "status": "pass",
+      "comment": "標題無 emoji"
+    },
+    {
+      "id": "no_padding",
+      "name": "no_padding",
+      "status": "pass",
+      "comment": "軍師筆記豐富深入"
+    }
+  ]
+}

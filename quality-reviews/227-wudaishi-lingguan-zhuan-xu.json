@@ -1,0 +1,21 @@
+{
+  "file": "227-wudaishi-lingguan-zhuan-xu",
+  "title": "五代史伶官傳序",
+  "author": "歐陽修",
+  "overall_grade": "A",
+  "overall_comment": "12項全數過關。背景段深入北宋史學自覺與歐陽修晚年心境，分析段有完整六層結構、精妙對比策略、三矢意象賞析、白話改編。極致典範。",
+  "checks": [
+    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出出處《新五代史》、體裁（史傳序）、時代（北宋熙寧年間約1070）、核心命題（盛衰之理豈非人事）。"},
+    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "分三層分析：北宋中期史學自覺、歐陽修晚年心境、後唐莊宗興亡史，史料翔實。"},
+    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "歐陽修、李存勖、李克用、敬新磨、郭從謙、李嗣源六人皆有獨立分析，人物關係清楚。"},
+    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "核心分析指出歐陽修以史爲鑑的雙重意圖——既總結五代教訓，亦警惕北宋當代。"},
+    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "簡潔有力：一個死於戲子之手的君王證明了鐵律——真正毀掉國家的不是外敵，是忘了為何而戰的掌權者。"},
+    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "清楚列出六段結構（破題立論→敘事鋪墊→盛衰對照→引經據典→極致對比→結論昇華）。"},
+    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "詳析嗚呼起筆、三矢意象對比、盛衰極致對照等策略，引用金聖歎等名家評論。"},
+    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "賞析嗚呼盛衰之理、三矢之志、憂勞興國逸豫亡身、禍患積於忽微四句經典。"},
+    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "提供完整白話改編，涵蓋全文核心論證段落。"},
+    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題為「時代背景與寫作意旨」「文章分析」，無 emoji。"},
+    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "提出獨立觀點（歐陽修道德史學的局限與爭論），有四層策略解剖和歷代評價整理。"},
+    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "軍師按語提供批判性視角（簡化因果、道德史學的局限），非一味讚美。"}
+  ]
+}

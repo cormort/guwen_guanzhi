@@ -1,0 +1,21 @@
+{
+  "file": "138-chuci-bu-ju",
+  "title": "卜居",
+  "author": "屈原 · 《楚辭·卜居》",
+  "overall_grade": "A",
+  "overall_comment": "12項檢查全數通過。背景詳述屈原被放逐後的精神困境。八組對立選項的道德困境分析深刻——誠實vs圓滑、正直vs苟且、清廉vs同流合污。卜問命運實為良心之間的決定性分析精彩。問答體寓言的文學價值分析到位。",
+  "checks": [
+    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出出處《楚辭》相傳為屈原所作、時代戰國末期約西元前3世紀屈原被放逐後、體裁辭賦體/問答體寓言、核心命題等。"},
+    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "詳述屈原的政治生涯與放逐原因（主張聯齊抗秦改革內政觸怒貴族）、楚國朝政敗壞的背景。"},
+    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "涵蓋屈原（被放逐的楚國大夫）、太卜鄭詹尹（占卜者）。"},
+    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "從中國文學史上最早以問答體探討道德困境的寓言、與漁父並為屈原兩篇對話錄、對後世陶淵明歸去來兮辭柳宗元天對的影響三層次分析。"},
+    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "精準總結：卜居問的不是命運而是良心——屈原早已經知道答案，他只是希望有人告訴他這條路是對的。"},
+    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "結構清晰：屈原往見太卜（起）→八組對立選擇（承）→太卜無法回答（轉）→用龜殼抵不過你的心（合）。"},
+    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "分析八組對立選擇的排比結構、問答體寓言的反諷效果（問卜卻不待卜答）、對比修辭（世溷濁而不清蟬翼為重千鈞為輕）等手法。"},
+    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "選出世溷濁而不清蟬翼為重千鈞為輕、尺有所短寸有所長等句，賞析有深度。"},
+    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "核心問卜段落白話改編完整，涵蓋八組對立選擇的完整內容。"},
+    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題無 emoji。"},
+    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段有獨立觀點（占卜不能回答道德問題——神都無法替人做良心選擇，因為選擇本身定義了你這個人），非僅翻譯。"},
+    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "各段分工明確，內容充實有意義，無灌水痕跡。"}
+  ]
+}

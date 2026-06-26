@@ -1,0 +1,21 @@
+{
+  "file": "203-hanyu-song-yangshaoyin-xu",
+  "title": "送楊少尹序",
+  "author": "韓愈",
+  "overall_grade": "A",
+  "overall_comment": "12項全數過關。背景段深入中唐退隱與西漢盛世的對比；分析段有文章結構（古今對照的史論式送別）、修辭手法（古今對比、以古為鏡、反向論證）、經典句賞析、白話翻譯，無填充內容。",
+  "checks": [
+    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出出處《昌黎先生集》、體裁（贈序）、時代（中唐約9世紀初）、核心命題（功成身退/楊侯去矣不可復見）。"},
+    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "深入分析中唐藩鎮割據、朝政日非背景下辭官退隱的勇氣，對比西漢二疏辭朝的盛大場面。"},
+    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "為楊巨源（年老辭官歸鄉的少尹）、疏廣疏受（二疏辭朝的歷史典範）、韓愈（為辭官尋找歷史座標的論述者）設有完整分析。"},
+    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "核心分析揭示韓愈為楊巨源的辭官正名——在亂世中選擇離開比在盛世中更需要勇氣。"},
+    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "精準抓住韓愈的核心——在亂世中選擇離開比在盛世中選擇離開更需要膽量。"},
+    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "先描述二疏辭朝的盛大場面（起）、對比楊巨源辭官的冷清（承）、轉而論證楊侯更值得尊敬（轉）、以不需要鮮花與掌聲作結（合），結構精巧。"},
+    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "列出古今對比（二疏vs楊巨源）、以古為鏡（先寫古人再寫今人）、反向論證（冷清反而更可貴）、設問反思，手法高明。"},
+    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "選出經典句（楊侯去矣不可復見、賢哉二大夫），賞析有歷史對照視角。"},
+    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "提供完整白話翻譯與古今對照分析。"},
+    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題為「時代背景與寫作意旨」「文本結構」「核心分析」等，無 emoji。"},
+    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段有獨立觀點（將普通的退休送別提升為關於勇氣的辯論、反向論證冷清的離職比盛大的辭官更可貴），有獨創性。"},
+    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "所有段落皆有獨立貢獻，背景段的二疏歷史還原、分析段的勇氣論證各有獨立價值。"}
+  ]
+}

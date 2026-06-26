@@ -1,0 +1,21 @@
+{
+  "file": "202-hanyu-song-dongshaonan-xu",
+  "title": "送董邵南序",
+  "author": "韓愈",
+  "overall_grade": "A",
+  "overall_comment": "12項全數過關。背景段深入中唐藩鎮之禍與士人的兩難；分析段有文章結構（反話送別的三層結構）、修辭手法（反話正說、以退為進、暗碼隱喻）、經典句賞析、白話翻譯，無填充內容。",
+  "checks": [
+    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出出處《昌黎先生集》、體裁（贈序）、時代（元和年間）、核心命題（明天子在上可以出而仕矣/反話送別）。"},
+    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "深入分析中唐河北藩鎮半獨立狀態、士人投靠藩鎮的兩難選擇。"},
+    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "為韓愈（溫柔挽留的反話大師）、董邵南（懷才不遇/被迫投靠藩鎮的好友）設有完整分析。"},
+    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "核心分析揭示韓愈用反話寫出最溫柔的挽留——嘴上說你去吧、心裡想的是留下來。"},
+    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "精準抓住韓愈的核心——一篇帶著哭腔的勸阻——每一句鼓勵都是反話每一個好字都是痛。"},
+    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "先說河北多慷慨悲歌之士（起/正話）、再暗示董生去未必適得其所（承/反轉）、以弔樂毅墓暗喻（轉）、以明天子在上可出而仕矣點破（合/反話中的真話），結構精巧。"},
+    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "列出反話正說（表面鼓勵實則勸阻）、以退為進（用祝福寫挽留）、暗碼隱喻（樂毅墓象徵忠臣不得志）、含蓄表達，手法極高。"},
+    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "選出經典句（為我弔望諸君之墓、明天子在上可以出而仕矣），賞析有反話解讀視角。"},
+    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "提供完整白話翻譯與反話層層拆解。"},
+    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題為「時代背景與寫作意旨」「文本結構」「核心分析」等，無 emoji。"},
+    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段有獨創觀點（將整篇送別文解讀為徹頭徹尾的反話、用樂毅墓暗碼解讀韓愈的真實心意），有獨創性。"},
+    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "所有段落皆有獨立貢獻，背景段的藩鎮困境分析、分析段的暗碼隱喻拆解各有獨立價值。"}
+  ]
+}

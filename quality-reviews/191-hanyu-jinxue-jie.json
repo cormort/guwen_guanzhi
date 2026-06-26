@@ -1,0 +1,21 @@
+{
+  "file": "191-hanyu-jinxue-jie",
+  "title": "進學解",
+  "author": "韓愈",
+  "overall_grade": "A",
+  "overall_comment": "12項全數過關。背景段深入韓愈仕途低谷與國子博士時期的心境；分析段有文章結構（師生對話的戲劇形式）、修辭手法（自嘲反諷、設問對答、賦體鋪陳）、經典名句賞析、白話翻譯，無填充內容。",
+  "checks": [
+    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出出處《昌黎先生集》、體裁（賦體論說文/「解」體）、時代（中唐約811年）、核心命題（業精於勤荒於嬉）。"},
+    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "深入分析韓愈在國子博士任上的低迷時期、屢遭貶謫的仕途坎坷，連結安史之亂後的朝政混亂。"},
+    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "為韓愈（以國子先生自喻的自我寫照）、諸生（代表社會質疑的聲音）設有專門分析。"},
+    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "核心分析揭示韓愈以自嘲口吻道出不遇之情，實則以退為進，證明世界配不上自己的才華。"},
+    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "精準抓住韓愈的核心——業精於勤荒於嬉行成於思毀於隨——學問是自己的，不該因外部環境改變。"},
+    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "以師生對話形式展開：先生訓話→諸生質疑→先生自辯→以歌作結，戲劇張力強。"},
+    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "列出賦體鋪陳（排比典故）、自嘲反諷（表面自責實則自傲）、設問對答（師生對話）、引用經典（六經諸子），手法豐富。"},
+    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "選出經典句（業精於勤荒於嬉行成於思毀於隨、提要鉤玄、焚膏油以繼晷），賞析有深度。"},
+    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "提供完整白話翻譯與師生對話的戲劇化解讀。"},
+    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題為「時代背景與寫作意旨」「文本結構」「核心分析」等，無 emoji。"},
+    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段有獨立觀點（將進學解解讀為最有趣的求職信、自嘲式尊嚴的文學表達），有獨創性。"},
+    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "所有段落皆有獨立貢獻，背景段的心境分析、分析段的戲劇結構拆解各有獨立價值。"}
+  ]
+}

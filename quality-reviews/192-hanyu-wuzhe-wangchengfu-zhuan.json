@@ -1,0 +1,21 @@
+{
+  "file": "192-hanyu-wuzhe-wangchengfu-zhuan",
+  "title": "圬者王承福傳",
+  "author": "韓愈",
+  "overall_grade": "A",
+  "overall_comment": "12項全數過關。背景段深入中唐官場腐敗與角色錯位；分析段有文章結構（傳記三層）、修辭手法（借人言志、對比反諷）、經典句賞析、白話翻譯，無填充內容。",
+  "checks": [
+    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出出處《昌黎先生集·傳》、體裁（傳記/古文運動開創的平民立傳）、時代（中唐約9世紀初）、核心命題（用力者使於人用心者使人）。"},
+    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "深入分析中唐官場尸位素餐與「泥水匠比官員更清醒」的時代諷刺。"},
+    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "為王承福（棄官為泥水匠的自食其力者）、韓愈（記錄者與批判者）設有專門分析。"},
+    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "核心分析揭示韓愈藉王承福之口批判官場不作為，勞動者的清醒對比官員的昏聵。"},
+    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "精準抓住韓愈的核心——用力者使於人用心者使人——人要先認識自己再選擇位置。"},
+    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "先介紹王承福生平（起）、描述其人生哲學（承）、韓愈的評論與批判（轉、合），層次分明。"},
+    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "列出借人言志（透過王承福批判官場）、對比反諷（泥水匠vs官員）、引用經典（孟子/楊朱），手法精妙。"},
+    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "選出經典句（用力者使於人用心者使人、多行可愧）、賞析有職業倫理視角。"},
+    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "提供完整白話翻譯與人生哲學的解讀。"},
+    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題為「時代背景與寫作意旨」「文本結構」「核心分析」等，無 emoji。"},
+    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段有獨立觀點（將王承福哲學與現代職業倫理連結、提出勞動者對官員的精神碾壓），有獨創性。"},
+    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "所有段落皆有獨立貢獻，背景段的官場角色錯位分析、分析段的職業倫理解讀各有獨立價值。"}
+  ]
+}

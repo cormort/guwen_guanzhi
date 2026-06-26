@@ -1,0 +1,21 @@
+{
+  "file": "109-wangsun-yu-lun-chubao",
+  "title": "王孫圉論楚寶",
+  "author": "左丘明 · 《國語·楚語下》",
+  "overall_grade": "A",
+  "overall_comment": "12項檢查全數通過。背景詳盡分析大國外交中的面子之爭，王孫圉的「否定→重構→降格」論證結構解析精彩。人物分析包含趙簡子、觀射父、左史倚相。國寶六品體系一覽表完整。",
+  "checks": [
+    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出出處《國語·楚語下》、時代春秋晚期、體裁外交辭令／論辯體、核心命題、思想譜系、後世影響等。"},
+    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "分析大國外交的尊嚴攻防、文化優越感較量、外交辭令即戰爭，三層壓力來源清晰。軍師按以現代比喻解讀。"},
+    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "涵蓋王孫圉（定義權的搶奪者）、趙簡子（試探者）、觀射父、左史倚相、白珩，人物互補完整。"},
+    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "從《國語》記言體例、回應「楚材晉用」焦慮、為後世樹立「重人輕物」價值標杆三層次分析。"},
+    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "精準抓住王孫圉以國寶六品重新定義國之財富——人才重於珠玉的核心命題。"},
+    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "起（趙簡子問白珩）、承（未嘗為寶）、轉（列舉真正國寶）、合（國寶六品理論），結構分明。"},
+    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "列出否定、重新定義、鋪陳、對比、降格等手法，表格完整。"},
+    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "選出三句（未嘗為寶、先王之玩也、楚雖蠻夷不能寶也），賞析包含背景說明與文本分析。"},
+    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "完整白話改編，覆蓋全文對話，語言通俗流暢。"},
+    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題無 emoji。"},
+    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段有獨立觀點（定義權是最終權力、不要回答對手的問題），非僅翻譯原文。"},
+    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "各段分工明確，背景補知識、結構拆邏輯、佳句賞析提供領悟，無冗餘內容。"}
+  ]
+}

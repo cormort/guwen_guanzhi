@@ -1,0 +1,21 @@
+{
+  "file": "124-simacuo-lun-fa-shu",
+  "title": "司馬錯論伐蜀",
+  "author": "劉向 · 《戰國策·秦策一》",
+  "overall_grade": "A",
+  "overall_comment": "12項檢查全數通過。背景詳述秦國的戰略十字路口（伐蜀vs伐韓）。司馬錯「欲富國者務廣其地」三段論與張儀「爭名者於朝爭利者於市」的論辯分析精彩。務實勝於務虛的戰略思維解析深入。",
+  "checks": [
+    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出出處《戰國策·秦策一》、時代戰國中期約316BC、體裁策論/歷史記言、核心命題等。"},
+    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "分析秦惠王時期秦國的優勢劣勢、蜀國被低估的戰略價值（地理、國力、戰略價值）。"},
+    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "涵蓋司馬錯（務實派戰略家）、張儀（名義派縱橫家）、秦惠王（決策者），人物對比分析深入。"},
+    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "從《戰國策》的策士言論傳統、務實策略戰勝名義策略的經典案例、秦國統一戰略的演進三層次分析。"},
+    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "精準總結司馬錯的方案是實質回報最大化（得地得財得民），務實永遠勝於務虛。"},
+    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "起（司馬錯vs張儀爭論）、承（張儀論伐韓）、轉（司馬錯反駁三資者備）、合（惠王決策伐蜀），結構合理。"},
+    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "分析核心修辭（欲富國者務廣其地三連排比、一舉而名實兩附），有辨識度。"},
+    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "選出多句（欲富國者務廣其地欲強兵者務富其民欲王者務博其德、一舉而名實兩附），賞析有深度。"},
+    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "完整白話改編，覆蓋從司馬錯張儀爭論到惠王決策伐蜀的完整過程。"},
+    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題無 emoji。"},
+    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段有獨立觀點（不爭論該打哪裡有名，告訴你先有實力才有資格談名義），非僅翻譯。"},
+    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "各段分工明確，內容充實有意義，無灌水痕跡。"}
+  ]
+}

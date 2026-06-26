@@ -1,0 +1,21 @@
+{
+  "file": "236-fanzeng-lun",
+  "title": "范增論",
+  "author": "蘇軾",
+  "overall_grade": "A",
+  "overall_comment": "12項全數過關。背景段深入蘇軾史論特點及楚漢相爭背景，分析段對蘇軾翻案論證（范增當去、義帝爲關鍵）有精闢分析。",
+  "checks": [
+    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出出處《東坡全集》、體裁（史論）、時代（北宋）、核心命題（范增不該留到項羽殺宋義之後）。"},
+    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "深入分析蘇軾翻案史論的創作風格、楚漢之爭的歷史背景、范增與項羽的君臣關係。"},
+    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "蘇軾、范增、項羽、項梁、義帝（楚懷王心）、陳平六人有獨立分析。"},
+    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "核心分析揭示蘇軾的翻案意圖——范增的最大錯誤不是鴻門宴不殺劉邦，而是沒有在項羽殺宋義時就離去。"},
+    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "精準：蘇軾說范增不是走得晚了，而是走得早了——不對，是早該走的時候沒走。"},
+    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "清楚列出蘇軾的翻案論證結構（破題→義帝關鍵→殺宋義即去之時→鴻門宴虛設→結論）。"},
+    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "詳析翻案反詰、設問層遞、引用史實、假設推理、因果倒置等手法。"},
+    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "賞析范增論的核心翻案論點、項羽殺宋義的分析、陳平反間計的推論等經典段落。"},
+    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "提供完整白話改編。"},
+    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題為「時代背景與寫作意旨」「文章分析」，無 emoji。"},
+    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段有獨立觀點（蘇軾翻案史論的方法論——因果重構、歷史人物評判標準的重新定義）。"},
+    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "軍師按語有獨立視角（從範增看中國知識分子的去留抉擇）。"}
+  ]
+}

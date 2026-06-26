@@ -1,0 +1,21 @@
+{
+  "file": "167-guangwudi-linzi-lao-geng-yan",
+  "title": "光武帝臨淄勞耿弇",
+  "author": "劉秀",
+  "overall_grade": "A",
+  "overall_comment": "12項全數過關。背景段完整涵蓋光武中興歷史語境、臨淄戰役細節、劉秀柔道領導哲學，分析段精彩剖析領導者讚美藝術的三層次，無填充內容。",
+  "checks": [
+    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出出處《後漢書·耿弇傳》、體裁（詔令/勞軍辭）、時代（東漢建武五年29年）、核心命題（有志者事竟成）、關鍵人物、文本重點、思想譜系。"},
+    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "詳細分析光武帝以柔道治天下的領導風格、齊地戰役中張步割據與耿弇的戰略布局、臨淄之戰的慘烈經過、光武帝親臨勞軍的歷史意義。"},
+    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "為光武帝劉秀（用讚美創造歷史）、耿弇（用意志創造奇蹟）、韓信（被引用的歷史標桿）各設段落，分析深入且有獨立見解。"},
+    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "在核心分析中深入剖析劉秀讚美藝術的三個層次：歷史定位、回溯遠見、歸還功勞，分析具有獨立觀點。"},
+    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "精準概括「有志者事竟成」的來源——劉秀用韓信激勵耿弇，最高級的領導藝術。"},
+    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "開場（歷史定位：韓信與耿弇並列）、中段（回溯戰略遠見：有志者事竟成）、結尾（歸還功勞：非臣所及也），層次分明。"},
+    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "寫作技巧分析涵蓋歷史對比（韓信vs耿弇）、坦誠自貶（常以為落落難合）、歸功於下（非臣所及也），分析深入。"},
+    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "選出三句核心名句（昔韓信破歷下、有志者事竟成、此故將軍所圖非臣所及也），每句有深度賞析。"},
+    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "提供完整白話改編，覆蓋光武帝勞軍辭全文要旨。"},
+    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題為「時代背景與寫作意旨」「文章分析」，無 emoji。"},
+    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段有獨立觀點（領導者讚美的最高境界、柔道領導力），佳句賞析有深度說明。"},
+    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "所有段落皆有獨立貢獻，背景段的光武柔道分析、分析段的領導藝術拆解各有獨立價值。"}
+  ]
+}

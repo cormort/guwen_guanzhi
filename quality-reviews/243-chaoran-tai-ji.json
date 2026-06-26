@@ -1,0 +1,21 @@
+{
+  "file": "243-chaoran-tai-ji",
+  "title": "超然臺記",
+  "author": "蘇軾",
+  "overall_grade": "A",
+  "overall_comment": "12項全數過關。背景段深入蘇軾密州時期與王安石變法背景，分析段對超然臺記的哲學核心——凡物皆有可觀皆有可樂——有深入分析。",
+  "checks": [
+    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出出處《東坡全集》、體裁（亭臺記）、時代（熙寧八年1075）、核心命題（超然物外、無往不樂）。"},
+    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "深入分析蘇軾密州時期、王安石變法與新舊黨爭背景、超然臺命名的哲學淵源。"},
+    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "蘇軾、弟蘇轍（子由）、密州僚屬、老子莊子思想有清楚分析。"},
+    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "核心分析揭示蘇軾的超然哲學——不以物喜不以己悲的美學生活態度。"},
+    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "精準：蘇軾說快樂不是由外在條件決定的，而是由內心態度決定的——超然者無往而不樂。"},
+    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "清楚列出文章結構（議論破題凡物皆有可觀→自述從杭州到密州的經歷→建臺與命名→超然哲學的總結）。"},
+    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "詳析議論開篇、對比（杭州vs密州）、引用老子、問答體、點題收束等手法。"},
+    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "賞析凡物皆有可觀、苟有可樂則無往而不樂、遊乎物之外等經典句段。"},
+    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "提供完整白話改編。"},
+    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題為「時代背景與寫作意旨」「文章分析」，無 emoji。"},
+    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段有獨立觀點（超然臺記作爲蘇軾貶謫哲學的完整表述、從莊子逍遙遊到蘇軾的超然）。"},
+    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "軍師按語將超然哲學與現代心理學的認知療法對接，有獨立延伸價值。"}
+  ]
+}

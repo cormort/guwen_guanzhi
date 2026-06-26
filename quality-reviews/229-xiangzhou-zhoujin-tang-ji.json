@@ -1,0 +1,21 @@
+{
+  "file": "229-xiangzhou-zhoujin-tang-ji",
+  "title": "相州晝錦堂記",
+  "author": "歐陽修",
+  "overall_grade": "A",
+  "overall_comment": "12項全數過關。背景段深入歐陽修與韓琦的慶曆老友關係及項羽典故翻轉，分析段以五段遞進剖析先立靶後翻轉的結構。",
+  "checks": [
+    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出出處《歐陽文忠公全集》、體裁（廳堂記）、時代（治平二年1065）、核心命題（真正的晝錦在功業不在炫耀）。"},
+    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "深入分析治平年間政治格局、韓琦與歐陽修的關係、晝錦堂由來項羽典故、北宋記體文突破。"},
+    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "歐陽修、韓琦、項羽、蘇秦、朱買臣五人有獨立分析，韓歐關係年表翔實。"},
+    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "核心分析揭示歐陽修翻轉項羽典故的策略——先承認世俗觀點，再以德被生民功施社稷超越之。"},
+    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "精準抓住歐陽修的思想翻轉——真正的晝錦不是穿在身上讓人看見，而是功業本身就照亮天下。"},
+    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "清楚列出五段遞進（立靶→翻轉→實例→讚頌→結語），結構完整。"},
+    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "詳析先順後逆翻轉結構、蘇秦朱買臣對照組、三層否定之否定、不動聲色文眼等手法。"},
+    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "賞析三句經典（仕宦而至將相、惟大丞相魏國公則不然、不動聲色而措天下於泰山之安）。"},
+    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "提供完整白話改編，忠於原文。"},
+    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題為「時代背景與寫作意旨」「文章分析」，無 emoji。"},
+    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段有獨立觀點（開頭一個而字的千古佳話、三絕碑歷史遺產），對先立靶後翻轉的論證工程有深入剖析。"},
+    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "所有段落皆有獨立貢獻，與醉翁亭記、豐樂亭記的比較豐富閱讀層次。"}
+  ]
+}

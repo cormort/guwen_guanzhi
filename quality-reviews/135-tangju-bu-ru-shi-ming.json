@@ -1,0 +1,21 @@
+{
+  "file": "135-tangju-bu-ru-shi-ming",
+  "title": "唐雎不辱使命",
+  "author": "劉向 · 《戰國策·魏策四》",
+  "overall_grade": "A",
+  "overall_comment": "12項檢查全數通過。背景詳述秦滅六國前夕的強權政治與安陵小國的絕境。唐雎布衣之怒的核心論證分析精彩——伏屍二人流血五步天下縞素的震撼力。人物分析（唐雎、秦王嬴政、安陵君）各有深度。弱國使節的尊嚴主題突出。",
+  "checks": [
+    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出出處《戰國策·魏策四》、時代戰國晚期約西元前225年秦滅魏前夕、體裁歷史記言/外交對話體、核心命題等。"},
+    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "詳述秦王政的擴張態勢（滅韓滅趙後兵鋒指向魏國）、安陵小國的絕境處境。"},
+    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "涵蓋唐雎（年逾九十仍出使的魏國使者）、秦王嬴政（不可一世的霸主）、安陵君（堅守原則的小國君主）。"},
+    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "從戰國策中弱國外交的經典案例、布衣之怒震懾帝王的戲劇張力、不畏強權的千古氣節三層次分析。"},
+    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "精準總結：當你什麼都沒有了的時候，你的命就是你最後的籌碼，而最強大的帝國也怕一個不怕死的人。"},
+    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "結構清晰：秦王欲以五百里易安陵（起）→安陵君拒絕唐雎出使（承）→秦王大怒威脅（轉）→唐雎布衣之怒反擊秦王屈服（合）。"},
+    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "分析對比（天子之怒vs布衣之怒）、排比（專諸聶政要離三刺客典故）、誇張（流血五步天下縞素）等手法，有辨識度。"},
+    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "選出伏屍二人流血五步天下縞素、布衣之怒亦免冠徒跣以頭搶地等句，賞析有深度。"},
+    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "核心對話白話改編完整，涵蓋唐雎與秦王針鋒相對的完整外交談判。"},
+    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題無 emoji。"},
+    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段有獨立觀點（外交手腕的本質是創造談判籌碼——唐雎把性命變成籌碼讓秦王無法拒絕），非僅翻譯。"},
+    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "各段分工明確，內容充實有意義，無灌水痕跡。"}
+  ]
+}

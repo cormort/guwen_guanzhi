@@ -1,0 +1,21 @@
+{
+  "file": "224-pengdang-lun",
+  "title": "朋黨論",
+  "author": "歐陽修",
+  "overall_grade": "A",
+  "overall_comment": "12項全數過關。背景段深入北宋慶曆黨爭與歐陽修的政治處境，分析段有清晰的論說結構、修辭分析（設問、引用經典、對比、層層遞進）、佳句賞析及完整白話改編。",
+  "checks": [
+    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出出處《歐陽文忠公全集》、體裁（論說文）、時代（慶曆年間）、核心命題（君子有朋而小人無朋）。"},
+    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "深入分析北宋慶曆黨爭、歐陽修因支持范仲淹改革而被指為朋黨的政治處境。"},
+    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "歐陽修為核心人物，分析他作為慶曆新政支持者與古文運動領袖的雙重身份。"},
+    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "核心分析揭示歐陽修反駁『朋黨誤國』的指控，為君子之黨正名。"},
+    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "精準抓住歐陽修的核心論點：君子以同道為朋，小人以同利為朋。"},
+    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "清楚列出破題立論、引經據典、歷史論證、歸結結論的四段論說結構。"},
+    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "列出設問、引用經典（《尚書》《左傳》）、對比（君子朋vs小人朋）、層層遞進等手法，分析到位。"},
+    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "選出『君子與君子以同道為朋』等核心句子，賞析有深度。"},
+    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "提供完整白話改編，忠於原文且流暢自然。"},
+    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題為「時代背景與寫作意旨」「文章分析」，無 emoji。"},
+    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段有獨立觀點（為君子之黨正名的政治勇氣、對『朋黨』概念的重新定義），對歐陽修的論辯藝術有深入剖析。"},
+    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "所有段落皆有獨立貢獻，軍師按語提供有價值的延伸思考，無填充內容。"}
+  ]
+}

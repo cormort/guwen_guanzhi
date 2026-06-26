@@ -1,0 +1,21 @@
+{
+  "file": "232-guanzhong-lun",
+  "title": "管仲論",
+  "author": "蘇洵",
+  "overall_grade": "A",
+  "overall_comment": "12項全數過關。背景段深入蘇洵的翻案史論風格，分析段以七層結構剖析蘇洵對管仲的批判——不薦賢才是最大的失敗。",
+  "checks": [
+    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出出處《嘉祐集》、體裁（史論）、時代（北宋中期）、核心命題（管仲不薦賢導致齊國動亂）。"},
+    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "深入分析蘇洵的翻案史論風格、北宋變法背景下的管仲討論、蘇洵的三蘇家庭教育。"},
+    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "蘇洵、管仲、齊桓公、豎刁易牙開方、鮑叔牙、蕭何六人有獨立分析。"},
+    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "核心分析揭示蘇洵翻案意圖——管仲非賢相，因他臨終不薦賢，導致齊國大亂。"},
+    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "精準：蘇洵說管仲的最大失敗不是沒辦好事業，而是沒在死前安排好人。"},
+    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "清楚列出七層結構（破題→引戰國四公子對比→三小人事例→與蕭何對比→結論昇華）。"},
+    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "詳析翻案論證、正反對比（管仲vs蕭何）、類比推理、設問反問等手法。"},
+    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "賞析管仲之疾、桓公用三子、蕭何薦曹參等經典句段。"},
+    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "提供完整白話改編，忠於原文論證邏輯。"},
+    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題為「時代背景與寫作意旨」「文章分析」，無 emoji。"},
+    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段有獨立觀點（管仲論作爲蘇洵翻案史論代表作、領導者繼任者問題的現代延伸）。"},
+    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "軍師按語以現代組織管理視角重新解讀，有獨立價值。"}
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "file": "193-hanyu-hui-bian",
+  "title": "諱辯",
+  "author": "韓愈",
+  "overall_grade": "A",
+  "overall_comment": "12項全數過關。背景段深入唐代避諱制度與李賀的悲劇；分析段有文章結構（層層反問的論戰風格）、修辭手法（極致邏輯推演、排比設問、類比論證）、經典句賞析、白話翻譯，無填充內容。",
+  "checks": [
+    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出出處《昌黎先生集·雜著》、體裁（辯體/論辯文）、時代（中唐約9世紀初）、核心命題（父名仁子不得為人乎）。"},
+    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "深入分析唐代避諱制度從禮到枷鎖的演變、李賀因父名晉肅不得考進士的悲劇。"},
+    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "為李賀（才華橫溢卻因避諱制度毀掉的天才）、韓愈（為李賀辯護的鬥士）設有完整分析。"},
+    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "核心分析揭示韓愈為李賀辯護，用邏輯推演撕開禮教虛偽的面紗，證明避諱本質是不經思考的盲從。"},
+    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "精準抓住韓愈的核心——父名仁子不得為人乎——用極致邏輯證明避諱制度的荒謬。"},
+    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "以設問開篇→引出避諱爭論→逐層反駁→引經據典→歸結結論，層層推進、排山倒海。"},
+    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "列出極致邏輯推演（父名仁不能為人）、類比論證（周有琪期漢有夏侯）、設問反駁層層推進、歷史例證，手法凌厲。"},
+    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "選出經典句（父名仁子不得為人乎、凡事父母得如曾參）、賞析有邏輯學視角。"},
+    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "提供完整白話翻譯與反問邏輯層層拆解。"},
+    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題為「時代背景與寫作意旨」「文本結構」「核心分析」等，無 emoji。"},
+    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段有獨立觀點（將避諱爭論解讀為禮教虛偽的集體盲從、連結現代規則荒謬的批判），有獨創性。"},
+    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "所有段落皆有獨立貢獻，背景段的李賀悲劇還原、分析段的邏輯推演解讀各有獨立價值。"}
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "total_reviewed": 247,
+  "grade_distribution": {
+    "A": 228,
+    "B": 1,
+    "C": 0,
+    "D": 0
+  },
+  "fail_ranking": {
+    "an_rhetoric": 19,
+    "an_structure": 1,
+    "an_vernacular": 1
+  },
+  "c_grade_articles": [],
+  "d_grade_articles": [],
+  "b_grade_articles": [
+    {
+      "file": "61-changgang",
+      "title": "黃岡竹樓記",
+      "fails": [
+        "an_rhetoric",
+        "an_structure",
+        "an_vernacular"
+      ]
+    }
+  ]
+}

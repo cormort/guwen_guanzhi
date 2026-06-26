@@ -1,0 +1,21 @@
+{
+  "file": "181-libai-chunye-yan-taoli-yuan-xu",
+  "title": "春夜宴桃李園序",
+  "author": "李白",
+  "overall_grade": "A",
+  "overall_comment": "12項全數過關。背景段完整涵蓋李白在開元盛世的宴遊生活與及時行樂的哲學；分析段有文章結構、修辭手法（對比、感嘆、引用）、佳句賞析、白話改編，無填充內容。",
+  "checks": [
+    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出出處《李太白全集》、體裁（序文/宴集序）、時代（唐開元二十年左右約730年代）、核心命題（浮生若夢為歡幾何）。"},
+    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "深入分析開元盛世的文化繁榮、李白與兄弟們的宴遊生活、盛唐文人對生命短暫的集體焦慮。"},
+    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "為李白（詩仙的及時行樂哲學）、其從弟（宴會參與者）設有分析。"},
+    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "核心分析揭示李白從人生苦短到及時行樂的邏輯——既然人生如夢就要盡情享受當下的美好。"},
+    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "精準抓住李白「浮生若夢為歡幾何」的核心態度——既然人生短暫就該盡情享受春天的夜晚。"},
+    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "起（感嘆光陰易逝人生如夢）、承（描寫春夜美景與宴會之樂）、轉（從宴飲昇華到詩歌創作）、合（不負良辰美景的宣言），結構緊湊。"},
+    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "列出對比（天地逆旅vs光陰過客）、引用（古人秉燭夜遊）、感嘆（大塊假我以文章）、鋪陳（從空間到時間的宏大場景），手法豐富。"},
+    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "選出兩句經典（夫天地者萬物之逆旅光陰者百代之過客、浮生若夢為歡幾何），賞析有深度。"},
+    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "提供完整白話改編，涵蓋序文核心內容。"},
+    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題為「時代背景與寫作意旨」「文章分析」，無 emoji。"},
+    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段有獨立觀點（李白式及時行樂的哲學深度——不是消極而是對生命的熱愛），佳句賞析有深度說明。"},
+    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "所有段落皆有獨立貢獻，背景段的盛唐宴遊文化分析、分析段的序文體文學價值探討各有獨立價值。"}
+  ]
+}

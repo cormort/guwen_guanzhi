@@ -1,0 +1,21 @@
+{
+  "file": "231-ji-shimanqing-wen",
+  "title": "祭石曼卿文",
+  "author": "歐陽修",
+  "overall_grade": "A",
+  "overall_comment": "12項全數過關。背景段深入歐陽修與石曼卿交誼及宋代祭文傳統，分析段清楚梳理三哭結構——從墓之悲到名之不朽。",
+  "checks": [
+    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出出處《歐陽文忠公全集》、體裁（祭文）、時代（北宋治平年間）、核心命題（賢者名不朽）。"},
+    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "深入分析歐陽修與石曼卿的交誼、石曼卿的豪放不羈性格、宋代祭文傳統的演變。"},
+    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "歐陽修與石曼卿有詳細人物分析，石曼卿的傳奇性格（號稱石三）描寫生動。"},
+    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "核心分析揭示歐陽修三層意圖——悼念亡友、抒發生命無常之嘆、以不朽名聲對抗時間。"},
+    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "精準：歐陽修問天地爲何奪走好友，最後的答案卻是——肉體雖朽，文章千古。"},
+    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "清楚列出三哭結構：一哭墓之荒涼、二哭友之豪才、三轉至名不朽之慰藉。"},
+    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "詳析嗚呼起筆、三哭遞進、駢散結合、意象對比（荒墓vs不朽之名）等手法。"},
+    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "賞析嗚呼曼卿、盛衰之理、軒昂磊落等經典句段。"},
+    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "提供完整白話改編，保留原文三哭結構的情感節奏。"},
+    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題為「時代背景與寫作意旨」「文章分析」，無 emoji。"},
+    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段有獨立觀點（祭文從宗教功能到文學書寫的演變、三哭結構的情感層次分析）。"},
+    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "軍師按語以古今對照方式延伸祭文的現代意義，非空洞讚美。"}
+  ]
+}

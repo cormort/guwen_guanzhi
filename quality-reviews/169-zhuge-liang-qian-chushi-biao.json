@@ -1,0 +1,21 @@
+{
+  "file": "169-zhuge-liang-qian-chushi-biao",
+  "title": "前出師表",
+  "author": "諸葛亮",
+  "overall_grade": "A",
+  "overall_comment": "12項全數過關。背景段完整涵蓋三國鼎立態勢、蜀漢危機、劉禪背景；分析段有起承轉合表、修辭手法分析、經典名句賞析、白話改編，無填充內容。",
+  "checks": [
+    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出出處《三國志·蜀書·諸葛亮傳》、體裁（表文）、時代（蜀漢建興五年227年）、核心命題（親賢臣遠小人）、關鍵人物、文本重點、思想譜系。"},
+    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "深入分析蜀漢危急存亡之秋的處境，從劉備白帝城託孤、夷陵之敗、諸葛亮五年治理到北伐契機，背景紮實。"},
+    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "涵蓋諸葛亮（蜀漢靈魂）、劉禪（相父的學生）、賢臣名單（郭攸之/費禕/董允/向寵），分析關係清晰。"},
+    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "核心分析揭示本文本質——不是軍事報告而是一個父親（兼丞相）對兒子的最後囑咐，洞察精準。"},
+    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "精準抓住本文作為「父親對兒子的臨終教育」的本質，不是北伐動員令而是赴死之人的臨終交代。"},
+    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "危局（開篇定調）→核心主張（親賢臣遠小人）→回憶先帝（情感昇華）→尾聲（出征前的交代），層層遞進。"},
+    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "寫作技巧分析涵蓋開篇定調的震撼力、以情為文的說服策略、對比（先漢興隆vs後漢傾頹），分析深入。"},
+    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "選出五句經典（先帝創業未半、親賢臣遠小人、臣本布衣、受任於敗軍之際、鞠躬盡瘁死而後已），賞析有深度。"},
+    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "提供完整白話改編，涵蓋全文四段主旨。"},
+    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題為「時代背景與寫作意旨」「文章分析」，無 emoji。"},
+    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段深入探討「表」的藝術突破、公文文學化的極致境界，觀點獨立。"},
+    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "背景段的三國態勢分析、分析段的出師表文化符號探討各有獨立價值，無冗餘。"}
+  ]
+}

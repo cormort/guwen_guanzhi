@@ -1,0 +1,81 @@
+{
+  "article": "34-qihuan-gong.html",
+  "title": "齊桓公伐楚盟屈完",
+  "grade": "A",
+  "pass_count": 11,
+  "total_checks": 12,
+  "checks": [
+    {
+      "id": "bg_coord",
+      "name": "座標定位表",
+      "result": "pass",
+      "note": "背景區有表格形式的座標定位（時間、地點、文類等）"
+    },
+    {
+      "id": "bg_era",
+      "name": "時代背景段",
+      "result": "pass",
+      "note": "有詳實的時代壓力/背景分析段落"
+    },
+    {
+      "id": "bg_people",
+      "name": "關鍵人物段",
+      "result": "pass",
+      "note": "有專門的關鍵人物分析段落"
+    },
+    {
+      "id": "bg_intent",
+      "name": "寫作意圖段",
+      "result": "pass",
+      "note": "有明確的寫作意圖分析"
+    },
+    {
+      "id": "bg_summary",
+      "name": "一句話總結",
+      "result": "pass",
+      "note": "有『一句話總結』區塊"
+    },
+    {
+      "id": "an_structure",
+      "name": "起承轉合表",
+      "result": "pass",
+      "note": "分析區有清晰的結構分段說明"
+    },
+    {
+      "id": "an_rhetoric",
+      "name": "修辭手法表",
+      "result": "fail",
+      "note": "分析區寫作技巧以段落文字呈現，無專屬修辭手法表格"
+    },
+    {
+      "id": "an_quotes",
+      "name": "佳句賞析≥2",
+      "result": "pass",
+      "note": "至少2句佳句賞析（多數有3句）"
+    },
+    {
+      "id": "an_vernacular",
+      "name": "白話改編段",
+      "result": "pass",
+      "note": "有完整的白話改編段落"
+    },
+    {
+      "id": "fmt_emoji",
+      "name": "標題無emoji",
+      "result": "pass",
+      "note": "文章h1標題無emoji符號"
+    },
+    {
+      "id": "fmt_depth",
+      "name": "分析段深度",
+      "result": "pass",
+      "note": "分析內容詳實，有足夠深度與細節"
+    },
+    {
+      "id": "no_padding",
+      "name": "不為寫而寫",
+      "result": "pass",
+      "note": "內容充實有意義，無灌水痕跡"
+    }
+  ]
+}

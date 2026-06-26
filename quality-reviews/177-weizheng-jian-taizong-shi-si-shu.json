@@ -1,0 +1,21 @@
+{
+  "file": "177-weizheng-jian-taizong-shi-si-shu",
+  "title": "諫太宗十思疏",
+  "author": "魏徵",
+  "overall_grade": "A",
+  "overall_comment": "12項全數過關。背景段深入貞觀之治的歷史脈絡與魏徵諫臣角色；分析段有起承轉合表、修辭手法表（排比、對比、引用）、佳句賞析、白話改編，無填充內容。",
+  "checks": [
+    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出出處《舊唐書·魏徵傳》、體裁（疏/諫書）、時代（唐貞觀年間）、核心命題（居安思危戒奢以儉）、關鍵人物。"},
+    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "深入分析貞觀之治的盛世與隱憂、李世民晚年逐漸驕奢的趨勢、魏徵作為諫臣的角色定位。"},
+    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "為魏徵（中國歷史上最著名的諫臣）、唐太宗李世民（從納諫如流到漸生倦怠）各設段落分析。"},
+    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "核心分析揭示魏徵「十思」的深層邏輯——居安思危是防止權力腐敗的根本方法。"},
+    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "精準抓住魏徵用十個「思」字構建的帝王修養體系——從居安思危到垂拱而治。"},
+    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "起（提出居安思危的核心命題）、承（分析歷史興衰的規律）、轉（提出十思的具體內容）、合（總結垂拱而治的理想），結構嚴謹。"},
+    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "列出排比（十思句式整齊劃一）、對比（善始者實繁克終者蓋寡）、引用（載舟覆舟）、比喻（江海下百川），手法多樣。"},
+    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "選出三句經典（善始者實繁克終者蓋寡、載舟覆舟所宜深慎、居安思危戒奢以儉），賞析有深度。"},
+    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "提供完整白話改編，涵蓋十思疏全文要旨。"},
+    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題為「時代背景與寫作意旨」「文章分析」，無 emoji。"},
+    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段有獨立觀點（十思作為帝王修養的系統工程），對排比修辭的政治效果有深入分析。"},
+    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "所有段落皆有獨立貢獻，背景段的貞觀之治雙面性分析、分析段的十思框架拆解各有獨立價值。"}
+  ]
+}

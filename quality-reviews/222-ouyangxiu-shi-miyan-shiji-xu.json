@@ -1,0 +1,21 @@
+{
+  "file": "222-ouyangxiu-shi-miyan-shiji-xu",
+  "title": "釋祕演詩集序",
+  "author": "歐陽修",
+  "overall_grade": "A",
+  "overall_comment": "12項全數過關。背景段深入北宋士人與僧道交往的文化現象，分析段有清晰的詩序結構、修辭分析（對比、側面烘托、感嘆）、佳句賞析及完整白話改編。",
+  "checks": [
+    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出出處《歐陽文忠公集》、體裁（詩集序）、時代（北宋中期）、核心命題（為奇士詩僧作序）。"},
+    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "深入分析北宋士僧交往風氣、歐陽修的文學圈與釋祕演的身份定位。"},
+    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "歐陽修、釋祕演、石曼卿三者皆有分析，對三人之間的知己關係有深入探討。"},
+    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "核心分析揭示歐陽修為埋沒於僧門的奇才詩人作序，感嘆人才不被賞識的命運。"},
+    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "精準抓住歐陽修借祕演之詩抒發奇士不遇的感慨。"},
+    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "清楚列出引出曼卿、轉寫祕演、論詩才之奇、歸結作序之意四段結構。"},
+    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "列出側面烘托、對比（世俗vs方外）、感嘆等手法，分析到位。"},
+    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "選出關鍵感嘆句子，賞析有深度。"},
+    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "提供完整白話改編，忠於原文且流暢自然。"},
+    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題為「時代背景與寫作意旨」「文章分析」，無 emoji。"},
+    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段有獨立觀點（歐陽修的人才觀、以僧道寫奇士的獨特視角），對宋代文人的身份焦慮有深入剖析。"},
+    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "所有段落皆有獨立貢獻，軍師按語提供有價值的延伸思考，無填充內容。"}
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "file": "223-yanjianxian-ci-tang-ji",
+  "title": "嚴先生祠堂記",
+  "author": "范仲淹",
+  "overall_grade": "A",
+  "overall_comment": "12項全數過關。背景段深入東漢嚴光隱逸事蹟與范仲淹的時代關懷，分析段有清晰的祠記結構、修辭分析（對比、引典、讚頌）、佳句賞析及完整白話改編。",
+  "checks": [
+    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出出處《范文正公集》、體裁（祠記/碑文）、時代（北宋）、核心命題（嚴光與光武帝的君臣相知）。"},
+    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "深入分析東漢嚴光隱逸不仕的事蹟、光武帝禮賢下士的胸懷與范仲淹推崇隱逸的時代意義。"},
+    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "嚴光、光武帝、范仲淹三者皆有分析，對嚴光『不事王侯』的人格有深入探討。"},
+    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "核心分析揭示范仲淹借讚嚴光之隱來歌頌君臣相知與士人獨立人格。"},
+    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "精準抓住『雲山蒼蒼，江水泱泱，先生之風，山高水長』的千古讚頌。"},
+    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "清楚列出述祠堂之由、寫嚴光之德、讚君臣相知、歸結風範永存的四段結構。"},
+    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "列出對比（嚴光vs光武）、引典、讚頌體、對仗等手法，分析到位。"},
+    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "選出『雲山蒼蒼，江水泱泱』等千古名句，賞析有深度。"},
+    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "提供完整白話改編，忠於原文且流暢自然。"},
+    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題為「時代背景與寫作意旨」「文章分析」，無 emoji。"},
+    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段有獨立觀點（隱逸與君臣關係的辯證、范仲淹心中的理想人格），對北宋士大夫的精神世界有深入剖析。"},
+    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "所有段落皆有獨立貢獻，軍師按語提供有價值的延伸思考，無填充內容。"}
+  ]
+}

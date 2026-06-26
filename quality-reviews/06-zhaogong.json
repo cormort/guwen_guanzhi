@@ -1,0 +1,21 @@
+{
+  "file": "06-zhaogong",
+  "title": "召公諫厲王止謗",
+  "author": "左丘明（《國語》）",
+  "overall_grade": "A",
+  "overall_comment": "品質極高，12項全數過關。五層說理結構拆解詳細，佳句賞析深入，白話改編完整。",
+  "checks": [
+    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出出處《國語·周語上》、作者、史學體裁（國別史）、事件背景、諫言時間約845BC。"},
+    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "分析西周晚期王室威信崩壞的三重壓力：經濟矛盾（專利政策）、夷狄威脅、政治高壓（衛巫監謗），對理解厲王為何走到被流放至關重要。"},
+    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "涵蓋召公（清醒顧問）、周厲王（風險感知失能的統治者）、衛巫（特務系統原型），三組人物展現壓迫者、告密者、諫言者的完整圖譜。"},
+    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "三層解讀：言論自由寓言、統治者傲慢教材、治水隱喻——中國政治學訊息流通與政權穩定的開山之作。"},
+    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "「一個拒絕傾聽的統治者，最終只能聽見自己倒下的聲音。」精準有力。"},
+    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "起（厲王虐、國人謗）、承（道路以目）、轉（召公進諫）、合（流王於彘），結構完整。"},
+    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "列出比喻（防民之口甚於防川）、對偶（為川者決之使導為民者宣之使言）、反問（胡可壅也）、層遞四項，均為本文核心修辭。"},
+    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "選出五句文眼（防民之口甚於防川、道路以目、為川者決之使導為民者宣之使言、民之有口猶土之有山川、三年乃流王於彘），賞析有深度。"},
+    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "白話改編完整逐段對照，忠實反映原文論證層次。"},
+    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題無 emoji。"},
+    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段五層說理策略拆解（破題→比喻→正面論述→民意有用→警告），佐以敘事技巧表格，觀點獨立。"},
+    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "背景段、分析段各有獨立貢獻，附錄時間線補充歷史脈絡，無空洞內容。"}
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "file": "112-chunwang-zhengyue",
+  "title": "春王正月",
+  "author": "公羊高 · 《公羊傳·隱公元年》",
+  "overall_grade": "A",
+  "overall_comment": "12項檢查全數通過。背景解讀《公羊傳》「大一統」政治哲學的深度極高。座標定位、時代背景、人物分析完整。分析段對問答體結構、連環追問手法解析精闢。",
+  "checks": [
+    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出出處《公羊傳·隱公元年》、時代春秋初期722BC、體裁經傳／義理詮釋、核心命題、思想譜系等。"},
+    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "分析春秋經學的提問方式、三傳比較（左傳/公羊/穀梁）、曆法即政治的深層意涵。"},
+    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "雖然本文為純義理文章，背景段仍涵蓋公羊高與春秋三傳的比較分析，補充了文王、董仲舒等關鍵思想人物。"},
+    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "從公羊學興盛於漢代、「大一統」後世演變、本文在《古文觀止》中的獨特性三層次分析。"},
+    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "精準總結「大一統」不是地理上的統一，而是政治秩序上的歸一——曆法以王為準。"},
+    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "起（元年——君之始年）、承（春——歲之始）、轉（王——文王）、合（王正月——大一統），結構符合文章層次。"},
+    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "列出設問、層遞、定義、警句、省略等手法，表格有辨識度。"},
+    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "選出三句（元年者何、王者孰謂、何言乎王正月大一統也），賞析有深度。"},
+    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "完整白話改編，將《公羊傳》的問答體以白話呈現。"},
+    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題為「時代背景與寫作意旨」「文章分析」，無 emoji。"},
+    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段有獨立觀點（從紀年到政治、曆法的政治化、文王作為文明符號），非僅翻譯。"},
+    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "各段皆有獨立貢獻，無重複或空洞內容。"}
+  ]
+}

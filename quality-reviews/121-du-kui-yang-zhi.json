@@ -1,0 +1,21 @@
+{
+  "file": "121-du-kui-yang-zhi",
+  "title": "杜蕢揚觶",
+  "author": "戴聖 · 《禮記·檀弓下》",
+  "overall_grade": "A",
+  "overall_comment": "12項檢查全數通過。背景詳述晉國的霸主黃昏與禮制鬆弛。杜蕢以三杯酒完成無言之諫的結構分析（五幕劇+尾聲）極為精彩。人物分析（杜蕢、平公、師曠）深入。",
+  "checks": [
+    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出出處《禮記·檀弓下》、時代春秋中期約6世紀、體裁禮學記述/傳記小品、核心事件等。"},
+    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "分析晉平公時期晉國霸業衰退、六卿勢力膨脹、宮廷禮制鬆弛的時代背景。"},
+    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "涵蓋杜蕢（沉默的諫者）、晉平公（知錯能改）、師曠（知禮而未諫）、李調，人物分析有深度。"},
+    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "從禮記的禮學傳統、無言之諫的典範、杜舉儀式化的意義三層次分析。"},
+    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "精準總結杜蕢用三杯酒完成最完美的勸諫——讓國君自己推導出錯誤的結論。"},
+    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "以五幕劇結構清晰：發現問題→三杯酒沉默行動→平公追問→三罰理由→平公認錯+尾聲杜舉儀式。"},
+    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "分析核心手法（行動代替語言、三罰遞進、自罰策略），有辨識度。"},
+    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "選出多句（寡人亦有過焉酌而飲寡人、杜蕢洗而揚觶），賞析有深度。"},
+    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "完整白話改編，覆蓋從杜蕢入寢到平公下令保留酒杯的完整過程。"},
+    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題無 emoji。"},
+    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段有獨立觀點（不說一句話卻做了三件事），非僅翻譯原文。"},
+    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "各段分工明確，內容充實有意義，無灌水痕跡。"}
+  ]
+}

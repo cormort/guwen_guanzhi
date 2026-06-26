@@ -1,0 +1,21 @@
+{
+  "file": "116-yushi-jinshi-mie-xiayang",
+  "title": "虞師晉師滅夏陽",
+  "author": "穀梁赤 · 《穀梁傳·僖公二年》",
+  "overall_grade": "A",
+  "overall_comment": "12項檢查全數通過。背景詳述假途滅虢的歷史事件，穀梁傳「借路」的概念分析（車在道曰路，出曰借路）極為精彩。人物分析（虞公、荀息、宮之奇、晉獻公）完整。三傳比較深入。",
+  "checks": [
+    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出出處《穀梁傳·僖公二年》、時代春秋中期658BC、體裁經典詮釋、核心事件、思想譜系等。"},
+    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "分析晉國崛起、三國戰略位置（晉虞虢）、地理決定戰略，對理解假途滅虢有實質幫助。"},
+    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "涵蓋虞公（貪圖小利的亡國之君）、荀息（頂級謀臣）、宮之奇（被忽略的智者）、晉獻公，人物分析有深度。"},
+    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "從穀梁傳的概念分析法、與左傳公羊傳的比較、為後世提供教訓三層次分析。"},
+    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "精準總結穀梁傳論證被動參與也是參與——借路給別人去殺人就是共犯。"},
+    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "起（虞無師為何稱師）、承（夏陽為塞邑）、轉（荀息獻計借路）、合（宮之奇諫言+荀息諷刺收束），結構合理。"},
+    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "分析穀梁傳的概念分析法（師、為主、滅、路/借路），手法有辨識度。"},
+    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "選出多句（車在道曰路出曰借路、唇亡則齒寒、璧則猶是也馬齒加長矣），賞析有深度。"},
+    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "完整白話改編，覆蓋從荀息獻計到滅虞的全過程。"},
+    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題無 emoji。"},
+    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段有獨立觀點（借路的產權分析、現代法律共犯概念對照），非僅翻譯。"},
+    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "各段分工明確，內容充實有意義，無灌水痕跡。"}
+  ]
+}

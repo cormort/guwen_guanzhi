@@ -1,0 +1,21 @@
+{
+  "file": "196-hanyu-hou-nian-jiu-ri-fu-shang-zaixiang-shu",
+  "title": "後廿九日復上宰相書",
+  "author": "韓愈",
+  "overall_grade": "A",
+  "overall_comment": "12項全數過關。背景段深入三上宰相書的心理曲線；分析段有文章結構（冷靜犀利的邏輯論證）、修辭手法（二難推理、反諷設問、以退為進）、經典句賞析、白話翻譯，無填充內容。",
+  "checks": [
+    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出出處《昌黎先生集》、體裁（書/上書體）、時代（貞元十一年795年）、核心命題（當卑微到極點時誠實就是武器）。"},
+    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "深入分析韓愈三上宰相書的完整時間線，從急切到冷靜的心理轉變過程。"},
+    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "為韓愈（語氣從急切轉為冷靜的求職者）、宰相（被邏輯逼到角落的當權者）設有完整分析。"},
+    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "核心分析揭示韓愈不再哀求，而是用冷靜的邏輯逼宰相無話可說——你要嘛承認天下未治，要嘛承認不需要我。"},
+    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "精準抓住韓愈的核心——你不重用我不是因為我不夠好，而是因為你不夠好。"},
+    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "先假設天下已治（起）、反問為何不用我（承）、引歷史典故（轉）、以冷冷結論收束（合），邏輯縝密。"},
+    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "列出二難推理（天下已治或未治）、反諷設問、引歷史典故（裡克不救晉獻公）、以退為進，手法凌厲。"},
+    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "選出經典句（天下之賢才皆舉用奸邪讒佞欺負之徒皆除去、今有人生七年而為天子）、賞析有邏輯說服力視角。"},
+    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "提供完整白話翻譯與二難推理的邏輯拆解。"},
+    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題為「時代背景與寫作意旨」「文本結構」「核心分析」等，無 emoji。"},
+    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段有獨立觀點（將韓愈從急切到冷靜的轉變解讀為從哀求到審判的質變），有獨創性。"},
+    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "所有段落皆有獨立貢獻，背景段的心理曲線分析、分析段的二難邏輯解讀各有獨立價值。"}
+  ]
+}

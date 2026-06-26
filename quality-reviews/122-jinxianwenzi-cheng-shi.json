@@ -1,0 +1,21 @@
+{
+  "file": "122-jinxianwenzi-cheng-shi",
+  "title": "晉獻文子成室",
+  "author": "戴聖 · 《禮記·檀弓下》",
+  "overall_grade": "A",
+  "overall_comment": "12項檢查全數通過。背景詳述趙武從趙氏孤兒到晉國正卿的傳奇經歷。張老的賀詞「歌於斯哭於斯聚國族於斯」之深層祝福意義分析精闢。「善頌善禱」與「美輪美奐」成語源流解析到位。",
+  "checks": [
+    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出出處《禮記·檀弓下》、時代春秋末期約5世紀、體裁語錄體/經典記言、核心事件等。"},
+    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "分析趙武從趙氏孤兒到正卿的經歷、新成之室的政治家族個人三重象徵意義。"},
+    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "涵蓋趙武（歷經死生方知平安可貴）、張老（善頌善禱的發言人），人物分析有深度。"},
+    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "從禮記的禮學傳統、善頌善禱的深層意義、成語「美輪美奐」的原意溯源三層次分析。"},
+    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "精準總結最高的祝福不是一帆風順，而是歷經一切而始終安在——善終與圓滿。"},
+    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "起（趙武成室）、承（張老賀詞美輪美奐）、轉（趙武回應全要領以從先大夫）、合（君子謂之善頌善禱），結構合理。"},
+    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "分析善頌善禱的修辭技巧、表面不吉利實則最高祝福的深層結構。"},
+    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "選出多句（美哉輪焉美哉奐焉歌於斯哭於斯聚國族於斯、是全要領以從先大夫於九京也），賞析有深度。"},
+    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "完整白話改編，覆蓋從賀詞到回應的完整四幕對話。"},
+    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題無 emoji。"},
+    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段有獨立觀點（善頌善禱的深層意義——不是空泛的祝福而是人生根本盼望），非僅翻譯。"},
+    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "各段皆有獨立貢獻，無重複或空洞內容。"}
+  ]
+}
