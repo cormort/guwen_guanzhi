@@ -451,8 +451,7 @@
     row.innerHTML =
       '<span class="num">'+String(e.n).padStart(2,"0")+'</span>'+
       '<a class="link" href="final/'+e.id+'.html">'+
-        '<span class="title">'+esc(e.title)+'</span>'+
-        (e.isSupp?'<span class="supp-badge">補</span>':'')+
+        '<span class="title">'+esc(e.title)+(e.isSupp?' <span class="supp-badge">補</span>':'')+'</span>'+
         '<span class="author">'+esc(e.author)+'</span>'+
         '<span class="era">'+esc(e.era)+'</span>'+
       '</a>'+
