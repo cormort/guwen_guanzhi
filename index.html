@@ -22,26 +22,18 @@
       <p class="blurb-line">清康熙年間吳楚材、吳調侯叔姪編選，上起<span class="hi">東周</span>、下訖<span class="hi">明末</span>，凡 <strong>222</strong> 篇 · 本導覽逐篇拆解篇章結構、寫作技巧與佳句賞析，並附白話對照</p>
     </header>
 
-    <section class="intro">
-      <div class="progress-card">
-        <div class="pc-top">
-          <span class="pc-label">研讀進度</span>
-          <span class="pc-total">全書 222 篇</span>
-        </div>
-        <div class="pc-count">
-          <span class="pc-num" id="readCount">0</span>
-          <span class="pc-of">／ <span id="totalCount">0</span> 篇 已讀</span>
-        </div>
-        <div class="pc-bar"><div class="pc-fill" id="progressFill"></div></div>
-        <p class="pc-hint">本導覽收錄 <span id="corpusCount">0</span> 篇（含補充篇目） · 點按篇目右側 <span class="seal">朱印</span> 標記已讀</p>
-      </div>
-    </section>
-
     <div class="controls">
       <div class="tabs" id="tabs"></div>
-      <div class="search">
-        <span class="icon">⌕</span>
-        <input id="search" type="text" placeholder="搜尋篇名、作者、出處…" autocomplete="off">
+      <div class="controls-right">
+        <div class="progress-inline" title="點按篇目右側朱印標記已讀">
+          <span class="pi-text"><span id="readCount">0</span>／<span id="totalCount">0</span> 篇已讀</span>
+          <span class="pi-bar"><span class="pi-fill" id="progressFill"></span></span>
+          <span class="pi-corpus" id="corpusCount" style="display:none">0</span>
+        </div>
+        <div class="search">
+          <span class="icon">⌕</span>
+          <input id="search" type="text" placeholder="搜尋篇名、作者、出處…" autocomplete="off">
+        </div>
       </div>
     </div>
     <div class="divider"></div>
