@@ -2,7 +2,7 @@
   "file": "267-xu-wenchang-zhuan",
   "title": "267-xu-wenchang-zhuan",
   "overall_grade": "A",
-  "overall_comment": "10/12 項通過",
+  "overall_comment": "12/12 項通過",
   "checks": [
     {
       "id": "bg_coord",
@@ -25,8 +25,8 @@
     {
       "id": "bg_intent",
       "name": "寫作意圖段",
-      "status": "fail",
-      "comment": "無寫作意圖段"
+      "status": "pass",
+      "comment": "有寫作意圖分析"
     },
     {
       "id": "bg_summary",
@@ -61,8 +61,8 @@
     {
       "id": "fmt_emoji",
       "name": "h2 無 emoji",
-      "status": "fail",
-      "comment": "h2 含 emoji"
+      "status": "pass",
+      "comment": "h2 標題無 emoji"
     },
     {
       "id": "fmt_depth",

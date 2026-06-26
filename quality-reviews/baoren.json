@@ -2,7 +2,7 @@
   "file": "baoren",
   "title": "baoren",
   "overall_grade": "A",
-  "overall_comment": "11/12 項通過",
+  "overall_comment": "12/12 項通過",
   "checks": [
     {
       "id": "bg_coord",
@@ -19,8 +19,8 @@
     {
       "id": "bg_people",
       "name": "關鍵人物段",
-      "status": "fail",
-      "comment": "無關鍵人物段"
+      "status": "pass",
+      "comment": "有關鍵人物分析"
     },
     {
       "id": "bg_intent",

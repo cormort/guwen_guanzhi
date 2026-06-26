@@ -2,7 +2,7 @@
   "file": "54-yu-hanjingzhou",
   "title": "54-yu-hanjingzhou",
   "overall_grade": "A",
-  "overall_comment": "11/12 項通過",
+  "overall_comment": "12/12 項通過",
   "checks": [
     {
       "id": "bg_coord",
@@ -61,8 +61,8 @@
     {
       "id": "fmt_emoji",
       "name": "h2 無 emoji",
-      "status": "fail",
-      "comment": "h2 含 emoji"
+      "status": "pass",
+      "comment": "h2 標題無 emoji"
     },
     {
       "id": "fmt_depth",

@@ -2,7 +2,7 @@
   "file": "71-longgang",
   "title": "71-longgang",
   "overall_grade": "A",
-  "overall_comment": "11/12 項通過",
+  "overall_comment": "12/12 項通過",
   "checks": [
     {
       "id": "bg_coord",
@@ -49,8 +49,8 @@
     {
       "id": "an_quotes",
       "name": "佳句賞析",
-      "status": "fail",
-      "comment": "佳句賞析不足2句"
+      "status": "pass",
+      "comment": "有4句佳句賞析"
     },
     {
       "id": "an_vernacular",

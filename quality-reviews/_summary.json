@@ -7,10 +7,8 @@
     "D": 0
   },
   "fail_ranking": {
-    "bg_intent": 141,
-    "bg_people": 31,
-    "fmt_emoji": 17,
-    "an_quotes": 1
+    "bg_intent": 126,
+    "bg_people": 28
   },
   "b_grade_articles": [],
   "c_grade_articles": [],
