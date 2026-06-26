@@ -14,7 +14,7 @@ import os, re, markdown
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 OUTPUT_DIR = os.path.join(ROOT, "articles")
-PHASES = ["phase1", "phase2", "phase3"]
+PHASES = ["phase1", "phase2", "phase3", "phase4", "supplementary"]
 
 
 def get_title(dirpath):
