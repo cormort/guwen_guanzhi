@@ -51,7 +51,7 @@ def audit_pair(name, bg_path, an_path):
                       'comment': '有關鍵人物分析' if has_people else '無關鍵人物段'}
 
     # 4. bg_intent
-    has_intent = bool(re.search(r'寫作意圖|寫作動機|創作背景', bg))
+    has_intent = bool(re.search(r'寫作意圖|寫作動機|創作背景|寫作背景|寫作目的|創作緣起|#*為什麼寫|#*寫作宗旨', bg))
     r['bg_intent'] = {'status': 'pass' if has_intent else 'fail',
                       'comment': '有寫作意圖分析' if has_intent else '無寫作意圖段'}
 
@@ -71,7 +71,7 @@ def audit_pair(name, bg_path, an_path):
                         'comment': '有修辭手法分析表' if has_rhetoric else '無修辭手法分析'}
 
     # 8. an_quotes
-    jiaju_matches = list(re.finditer(r'### |佳句【', an))
+    jiaju_matches = list(re.finditer(r'^### |佳句【|^\*\*佳句', an, re.MULTILINE))
     jiaju_count = min(len(jiaju_matches), 10)
     has_jiaju = len(jiaju_matches) >= 2
     r['an_quotes'] = {'status': 'pass' if has_jiaju else 'fail',
