@@ -1,21 +1,80 @@
 {
   "file": "da-sima",
-  "title": "答司馬諫議書",
-  "author": "王安石",
+  "title": "da-sima",
   "overall_grade": "A",
-  "overall_comment": "背景與分析段品質極高，12項檢查全數通過。對王安石三百字回信以鋼鐵邏輯斬斷妥協幻想的分析尤為精彩，變法派對保守派的最強回應。",
+  "overall_comment": "12/12 項通過",
   "checks": [
-    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出出處《臨川先生文集》、作者王安石、時代（北宋神宗熙寧年間約1069-1070）、體裁（書信體政論）、核心命題（變法不可阻擋）。"},
-    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "深入分析熙寧變法初期的政治局勢——宋神宗破格拔擢王安石為參知政事，司馬光連寫三封長信攻擊新法侵官生事征利拒諫。"},
-    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "為王安石、司馬光、宋神宗建立詳細分析。司馬光與王安石昔日同僚、私交不淺，但在國策上勢如水火。"},
-    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "深入分析王安石的三層用意：表面回覆司馬光的批評，深層為變法辯護（度義而後動是而不見可悔），最內層是向天下宣告改革方向不會改變。這不是書信，是戰書。"},
-    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "精準——三百字內完成立場宣誓、批評反擊和戰線封鎖，以度義而後動的鋼鐵邏輯斬斷一切退讓幻想。"},
-    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "結構表清晰：起（回覆來信）、承（逐一駁斥侵官生事征利拒諫）、轉（度義而後動的立場宣言）、合（最後通牒——非某之所敢知）。"},
-    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "列出立場先行（不留餘地）、名實之辯（釜底抽薪重新定義指控）、引用（受命於人主）、名句（度義而後動）、最後通牒（語氣恭敬姿態決絕）等手法。"},
-    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "選出「度義而後動，是而不見可悔」「如曰今日當一切不事事，守前所為而已，則非某之所敢知」「受命於人主，議法度而修之於朝廷」等名句。"},
-    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "提供完整白話改編，涵蓋逐一駁斥司馬光的四項指控、立場宣示、最後通牒等核心內容。"},
-    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題為「時代背景與寫作意旨」「文章分析」，無 emoji。"},
-    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段有獨立觀點（如「王安石不打算說服司馬光——他知道鴻溝無法靠文字填平，他要做的是向天下宣告改革不會停止」），有深度說明。"},
-    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "所有段落皆有獨立貢獻，背景段對熙寧變法的分析有實際幫助，無填充內容。"}
+    {
+      "id": "bg_coord",
+      "name": "座標定位表",
+      "status": "pass",
+      "comment": "有座標定位表"
+    },
+    {
+      "id": "bg_era",
+      "name": "時代背景段",
+      "status": "pass",
+      "comment": "有時代背景分析"
+    },
+    {
+      "id": "bg_people",
+      "name": "關鍵人物段",
+      "status": "pass",
+      "comment": "有關鍵人物分析"
+    },
+    {
+      "id": "bg_intent",
+      "name": "寫作意圖段",
+      "status": "pass",
+      "comment": "有寫作意圖分析"
+    },
+    {
+      "id": "bg_summary",
+      "name": "一句話總結",
+      "status": "pass",
+      "comment": "有一句話總結"
+    },
+    {
+      "id": "an_structure",
+      "name": "起承轉合表",
+      "status": "pass",
+      "comment": "有起承轉合表"
+    },
+    {
+      "id": "an_rhetoric",
+      "name": "修辭手法表",
+      "status": "pass",
+      "comment": "有修辭手法分析表"
+    },
+    {
+      "id": "an_quotes",
+      "name": "佳句賞析",
+      "status": "pass",
+      "comment": "有10句佳句賞析"
+    },
+    {
+      "id": "an_vernacular",
+      "name": "白話改編段",
+      "status": "pass",
+      "comment": "有白話改編段"
+    },
+    {
+      "id": "fmt_emoji",
+      "name": "h2 無 emoji",
+      "status": "pass",
+      "comment": "h2 標題無 emoji"
+    },
+    {
+      "id": "fmt_depth",
+      "name": "分析段深度",
+      "status": "pass",
+      "comment": "分析段 169 行"
+    },
+    {
+      "id": "no_padding",
+      "name": "不為寫而寫",
+      "status": "pass",
+      "comment": "主要內容無明顯灌水"
+    }
   ]
 }

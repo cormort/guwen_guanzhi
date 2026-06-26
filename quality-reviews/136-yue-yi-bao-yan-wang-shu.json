@@ -1,21 +1,80 @@
 {
   "file": "136-yue-yi-bao-yan-wang-shu",
-  "title": "樂毅報燕王書",
-  "author": "樂毅 · 《戰國策·燕策二》",
+  "title": "136-yue-yi-bao-yan-wang-shu",
   "overall_grade": "A",
-  "overall_comment": "12項檢查全數通過。背景詳述燕昭王復仇、黃金臺招賢與樂毅破齊的輝煌。樂毅書信體自白的分析精彩——善作者不必善成善始者不必善終的千古感慨。人物分析（樂毅、燕昭王、燕惠王）有深度。交絕不出惡聲的君子風範突出。",
+  "overall_comment": "11/12 項通過",
   "checks": [
-    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出出處《戰國策·燕策》、時代戰國中晚期約西元前279年燕惠王時期、體裁書信體/自白辯護文、核心命題等。"},
-    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "詳述燕昭王復仇（築黃金臺招賢）、樂毅伐齊連下七十餘城、燕惠王中反間計以騎劫代樂毅的全過程。"},
-    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "涵蓋樂毅（忠而見疑的名將）、燕昭王（知人善任的明君）、燕惠王（猜忌逼走樂毅的新君）。"},
-    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "從去國書信文體典範、後世出師表諫逐客書皆受其影響、交絕不出惡聲的最高道德標準三層次分析。"},
-    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "精準總結：樂毅的離職信沒有罵新君一句，但每一個字都在說——我沒有對不起燕國，是燕國對不起我。"},
-    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "結構清晰：追述昭王知遇之恩（起）→解釋破齊之戰（承）→申明去趙之不得已（轉）→表明不會率趙攻燕（合），情理並茂。"},
-    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "分析書信體的委婉辯護策略、以古論今（引用歷史聖君）、對比（昭王vs惠王）、反語正說等手法。"},
-    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "選出善作者不必善成善始者不必善終、交絕不出惡聲忠臣去國不潔其名等句，賞析有深度。"},
-    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "核心書信段落白話改編完整，涵蓋樂毅回信辯白的完整論述。"},
-    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題無 emoji。"},
-    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段有獨立觀點（最高的離職信不是抱怨而是讓對方後悔——樂毅用一封不罵人的信讓惠王無地自容），非僅翻譯。"},
-    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "各段分工明確，內容充實有意義，無灌水痕跡。"}
+    {
+      "id": "bg_coord",
+      "name": "座標定位表",
+      "status": "pass",
+      "comment": "有座標定位表"
+    },
+    {
+      "id": "bg_era",
+      "name": "時代背景段",
+      "status": "pass",
+      "comment": "有時代背景分析"
+    },
+    {
+      "id": "bg_people",
+      "name": "關鍵人物段",
+      "status": "pass",
+      "comment": "有關鍵人物分析"
+    },
+    {
+      "id": "bg_intent",
+      "name": "寫作意圖段",
+      "status": "fail",
+      "comment": "無寫作意圖段"
+    },
+    {
+      "id": "bg_summary",
+      "name": "一句話總結",
+      "status": "pass",
+      "comment": "有一句話總結"
+    },
+    {
+      "id": "an_structure",
+      "name": "起承轉合表",
+      "status": "pass",
+      "comment": "有起承轉合表"
+    },
+    {
+      "id": "an_rhetoric",
+      "name": "修辭手法表",
+      "status": "pass",
+      "comment": "有修辭手法分析表"
+    },
+    {
+      "id": "an_quotes",
+      "name": "佳句賞析",
+      "status": "pass",
+      "comment": "有10句佳句賞析"
+    },
+    {
+      "id": "an_vernacular",
+      "name": "白話改編段",
+      "status": "pass",
+      "comment": "有白話改編段"
+    },
+    {
+      "id": "fmt_emoji",
+      "name": "h2 無 emoji",
+      "status": "pass",
+      "comment": "h2 標題無 emoji"
+    },
+    {
+      "id": "fmt_depth",
+      "name": "分析段深度",
+      "status": "pass",
+      "comment": "分析段 141 行"
+    },
+    {
+      "id": "no_padding",
+      "name": "不為寫而寫",
+      "status": "pass",
+      "comment": "主要內容無明顯灌水"
+    }
   ]
 }

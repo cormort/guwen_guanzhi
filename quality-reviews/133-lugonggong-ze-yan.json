@@ -1,21 +1,80 @@
 {
   "file": "133-lugonggong-ze-yan",
-  "title": "魯共公擇言",
-  "author": "劉向 · 《戰國策·魏策二》",
+  "title": "133-lugonggong-ze-yan",
   "overall_grade": "A",
-  "overall_comment": "12項檢查全數通過。背景詳述梁惠王的霸業興衰與享樂誤國。魯共公四組歷史故事（酒、味、色、高台）的連環類比分析精彩。人物分析深入，將四個歷史典故與梁惠王當下處境對照。軍師按語獨立有見地。",
+  "overall_comment": "11/12 項通過",
   "checks": [
-    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出出處《戰國策·魏策二》、時代戰國中晚期約西元前4世紀末至3世紀初、體裁歷史記言/宴會諷諫類散文、核心命題等。"},
-    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "詳述梁惠王其人（遷都大梁、桂陵馬陵之敗後國勢下滑）、魏國的戰略困境。"},
-    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "涵蓋魯共公（宴會上的警告者）、梁惠王（衰落的霸主）、四組歷史典故人物。"},
-    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "從戰國策中宴會諷諫的獨特體裁、用歷史故事串聯論證的修辭策略、對後世諫臣的影響三層次分析。"},
-    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "精準總結：魯共公的祝福其實是警告——權力越大、享受越多，離滅亡就越近。"},
-    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "結構合理：起身祝酒（起）→儀狄之酒（一承）→易牙之味（二承）→女色（三承）→高台（四承）→點題警告（合）。"},
-    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "分析連舉四組歷史故事的排比重複法、層層遞進（從飲食到女色到建築）、對比（大禹vs殷紂）等手法，有辨識度。"},
-    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "選出四組歷史故事中的核心警示句，賞析有深度。"},
-    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "核心祝酒詞白話改編完整，涵蓋四組歷史典故與最後警告的完整內容。"},
-    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題無 emoji。"},
-    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段有獨立觀點（在滿桌歡樂聲中沒有人敢說的話——選擇最有力量的話而非最好聽的話），非僅翻譯。"},
-    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "各段分工明確，內容充實有意義，無灌水痕跡。"}
+    {
+      "id": "bg_coord",
+      "name": "座標定位表",
+      "status": "pass",
+      "comment": "有座標定位表"
+    },
+    {
+      "id": "bg_era",
+      "name": "時代背景段",
+      "status": "pass",
+      "comment": "有時代背景分析"
+    },
+    {
+      "id": "bg_people",
+      "name": "關鍵人物段",
+      "status": "pass",
+      "comment": "有關鍵人物分析"
+    },
+    {
+      "id": "bg_intent",
+      "name": "寫作意圖段",
+      "status": "fail",
+      "comment": "無寫作意圖段"
+    },
+    {
+      "id": "bg_summary",
+      "name": "一句話總結",
+      "status": "pass",
+      "comment": "有一句話總結"
+    },
+    {
+      "id": "an_structure",
+      "name": "起承轉合表",
+      "status": "pass",
+      "comment": "有起承轉合表"
+    },
+    {
+      "id": "an_rhetoric",
+      "name": "修辭手法表",
+      "status": "pass",
+      "comment": "有修辭手法分析表"
+    },
+    {
+      "id": "an_quotes",
+      "name": "佳句賞析",
+      "status": "pass",
+      "comment": "有8句佳句賞析"
+    },
+    {
+      "id": "an_vernacular",
+      "name": "白話改編段",
+      "status": "pass",
+      "comment": "有白話改編段"
+    },
+    {
+      "id": "fmt_emoji",
+      "name": "h2 無 emoji",
+      "status": "pass",
+      "comment": "h2 標題無 emoji"
+    },
+    {
+      "id": "fmt_depth",
+      "name": "分析段深度",
+      "status": "pass",
+      "comment": "分析段 123 行"
+    },
+    {
+      "id": "no_padding",
+      "name": "不為寫而寫",
+      "status": "pass",
+      "comment": "主要內容無明顯灌水"
+    }
   ]
 }

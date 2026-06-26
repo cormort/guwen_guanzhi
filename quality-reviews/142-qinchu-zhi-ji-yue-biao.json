@@ -1,21 +1,80 @@
 {
   "file": "142-qinchu-zhi-ji-yue-biao",
-  "title": "秦楚之際月表",
-  "author": "司馬遷 · 《史記·秦楚之際月表》",
+  "title": "142-qinchu-zhi-ji-yue-biao",
   "overall_grade": "A",
-  "overall_comment": "12項檢查全數通過。背景詳述秦帝國的急速崛起與迅速崩潰。司馬遷對無尺土之封的歷史觀察分析精彩——秦朝沒有任何緩衝機制導致任何一點動盪都變成了系統性崩潰。匹夫也可以做皇帝的震撼觀點突出。人物分析（秦始皇、陳涉、項羽、劉邦）有深度。",
+  "overall_comment": "11/12 項通過",
   "checks": [
-    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出出處《史記·秦楚之際月表》序言、時代西漢武帝時期約西元前2世紀末、體裁史表序論/政論散文、核心命題等。"},
-    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "詳述秦帝國從統一到滅亡的過程（秦始皇的萬世夢、無尺土之封的制度缺陷）、陳涉首難項羽滅秦劉邦統一的八年劇變。"},
-    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "涵蓋秦始皇（萬世夢的破滅者）、陳涉（匹夫首難）、項羽（虐戾滅秦）、劉邦（以匹夫起家）。"},
-    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "從史記十表中獨特的月表體裁、司馬遷大膽提出皇帝寶座不是上天註定的觀點、在漢武帝君權神授時代氛圍中的鋒芒三層次分析。"},
-    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "精準總結：秦帝國的滅亡不是因為不夠強大，而是因為把所有雞蛋放在一個籃子裡——沒有任何緩衝機制。"},
-    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "結構清晰：感嘆秦楚之際變化之劇（起）→回顧秦朝無尺土之封（承）→對比陳涉項羽劉邦的崛起（轉）→總結天下歸漢的歷史意義（合）。"},
-    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "分析古今對比（三代封建vs秦朝郡縣）、排比（陳涉以匹夫首難項羽以虐戾滅秦）、感嘆語氣（豈非天哉）等手法。"},
-    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "選出王跡之興起於閭巷、無尺土之封、豈非天哉等句，賞析有深度。"},
-    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "核心序言白話改編完整，涵蓋司馬遷對秦楚之際歷史劇變的全面評論。"},
-    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題無 emoji。"},
-    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段有獨立觀點（秦朝的制度問題不是集權本身，而是缺乏緩衝層——讓一個農民起義就能衝擊整個帝國），非僅翻譯。"},
-    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "各段分工明確，內容充實有意義，無灌水痕跡。"}
+    {
+      "id": "bg_coord",
+      "name": "座標定位表",
+      "status": "pass",
+      "comment": "有座標定位表"
+    },
+    {
+      "id": "bg_era",
+      "name": "時代背景段",
+      "status": "pass",
+      "comment": "有時代背景分析"
+    },
+    {
+      "id": "bg_people",
+      "name": "關鍵人物段",
+      "status": "pass",
+      "comment": "有關鍵人物分析"
+    },
+    {
+      "id": "bg_intent",
+      "name": "寫作意圖段",
+      "status": "fail",
+      "comment": "無寫作意圖段"
+    },
+    {
+      "id": "bg_summary",
+      "name": "一句話總結",
+      "status": "pass",
+      "comment": "有一句話總結"
+    },
+    {
+      "id": "an_structure",
+      "name": "起承轉合表",
+      "status": "pass",
+      "comment": "有起承轉合表"
+    },
+    {
+      "id": "an_rhetoric",
+      "name": "修辭手法表",
+      "status": "pass",
+      "comment": "有修辭手法分析表"
+    },
+    {
+      "id": "an_quotes",
+      "name": "佳句賞析",
+      "status": "pass",
+      "comment": "有9句佳句賞析"
+    },
+    {
+      "id": "an_vernacular",
+      "name": "白話改編段",
+      "status": "pass",
+      "comment": "有白話改編段"
+    },
+    {
+      "id": "fmt_emoji",
+      "name": "h2 無 emoji",
+      "status": "pass",
+      "comment": "h2 標題無 emoji"
+    },
+    {
+      "id": "fmt_depth",
+      "name": "分析段深度",
+      "status": "pass",
+      "comment": "分析段 109 行"
+    },
+    {
+      "id": "no_padding",
+      "name": "不為寫而寫",
+      "status": "pass",
+      "comment": "主要內容無明顯灌水"
+    }
   ]
 }

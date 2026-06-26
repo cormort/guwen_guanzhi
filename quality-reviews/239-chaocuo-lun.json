@@ -1,21 +1,80 @@
 {
   "file": "239-chaocuo-lun",
-  "title": "鼂錯論",
-  "author": "蘇軾",
+  "title": "239-chaocuo-lun",
   "overall_grade": "A",
-  "overall_comment": "12項全數過關。背景段深入蘇軾史論體系，分析段對鼂錯七國之亂的悲劇根源剖析（削藩無自全之策）精闢有力。",
+  "overall_comment": "11/12 項通過",
   "checks": [
-    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出出處《東坡全集》、體裁（史論）、時代（北宋）、核心命題（鼂錯削藩之敗在無自全之策）。"},
-    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "深入分析蘇軾史論特點、西漢七國之亂背景、鼂錯削藩的前因後果、景帝與袁盎的關係。"},
-    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "蘇軾、鼂錯、漢景帝、袁盎、吳王劉濞等人物有獨立分析。"},
-    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "核心分析揭示蘇軾的翻案論點——鼂錯的錯不在削藩，而在削藩時沒有爲自己留下退路。"},
-    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "精準：蘇軾說鼂錯最大的失誤不是削藩，而是親自去執行——身當其衝而無自固之策，必死無疑。"},
-    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "清楚列出論證結構（破題天下悲錯以忠受禍→蘇軾翻案非悲錯而以七國爲名→對比古之仁人→結論）。"},
-    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "詳析翻案論證、古今對比（鼂錯vs古之仁人）、假設推理、由果溯因等手法。"},
-    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "賞析天下悲錯之以忠而受禍、錯之所以自全者等經典論述。"},
-    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "提供完整白話改編。"},
-    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題為「時代背景與寫作意旨」「文章分析」，無 emoji。"},
-    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段有獨立觀點（蘇軾對改革者困境的深刻洞察——變革者必先自固）。"},
-    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "軍師按語將鼂錯的困境與現代改革者的處境對接，有獨立價值。"}
+    {
+      "id": "bg_coord",
+      "name": "座標定位表",
+      "status": "pass",
+      "comment": "有座標定位表"
+    },
+    {
+      "id": "bg_era",
+      "name": "時代背景段",
+      "status": "pass",
+      "comment": "有時代背景分析"
+    },
+    {
+      "id": "bg_people",
+      "name": "關鍵人物段",
+      "status": "pass",
+      "comment": "有關鍵人物分析"
+    },
+    {
+      "id": "bg_intent",
+      "name": "寫作意圖段",
+      "status": "fail",
+      "comment": "無寫作意圖段"
+    },
+    {
+      "id": "bg_summary",
+      "name": "一句話總結",
+      "status": "pass",
+      "comment": "有一句話總結"
+    },
+    {
+      "id": "an_structure",
+      "name": "起承轉合表",
+      "status": "pass",
+      "comment": "有起承轉合表"
+    },
+    {
+      "id": "an_rhetoric",
+      "name": "修辭手法表",
+      "status": "pass",
+      "comment": "有修辭手法分析表"
+    },
+    {
+      "id": "an_quotes",
+      "name": "佳句賞析",
+      "status": "pass",
+      "comment": "有4句佳句賞析"
+    },
+    {
+      "id": "an_vernacular",
+      "name": "白話改編段",
+      "status": "pass",
+      "comment": "有白話改編段"
+    },
+    {
+      "id": "fmt_emoji",
+      "name": "h2 無 emoji",
+      "status": "pass",
+      "comment": "h2 標題無 emoji"
+    },
+    {
+      "id": "fmt_depth",
+      "name": "分析段深度",
+      "status": "pass",
+      "comment": "分析段 101 行"
+    },
+    {
+      "id": "no_padding",
+      "name": "不為寫而寫",
+      "status": "pass",
+      "comment": "主要內容無明顯灌水"
+    }
   ]
 }

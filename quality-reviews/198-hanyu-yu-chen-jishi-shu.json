@@ -1,21 +1,80 @@
 {
   "file": "198-hanyu-yu-chen-jishi-shu",
-  "title": "與陳給事書",
-  "author": "韓愈",
+  "title": "198-hanyu-yu-chen-jishi-shu",
   "overall_grade": "A",
-  "overall_comment": "12項全數過關。背景段深入唐代士大夫交際文化與書信藝術；分析段有文章結構（時間線鋪排的巧妙控訴）、修辭手法（退而思之的自省策略、委婉的責備藝術）、經典句賞析、白話翻譯，無填充內容。",
+  "overall_comment": "11/12 項通過",
   "checks": [
-    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出出處《昌黎先生集》、體裁（書/交際書信）、時代（中唐約9世紀初）、核心命題（士之相知貴在知心/退而思之）。"},
-    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "深入分析唐代士大夫交際規則、韓愈與陳京從友好到冷戰的關係變化脈絡。"},
-    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "為韓愈（以退為進的關係修復者）、陳京（態度突然冷淡的給事中）設有完整分析。"},
-    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "核心分析揭示韓愈用最體面的方式修補一段友誼裂縫——不是質問而是引導對方自我發現。"},
-    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "精準抓住韓愈的核心——退而思之四個字——給自己留尊嚴也給對方留面子。"},
-    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "以時間線鋪排：相見→不見→書問→不報，不動聲色地完成控訴，而控訴的方式是自責。"},
-    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "列出退而思之的自省策略、時間線的沉默控訴、委婉責備（為對方找理由）、以退為進，手法溫柔而鋒利。"},
-    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "選出經典句（退而思之、士之相知貴在知心），賞析有公關溝通藝術視角。"},
-    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "提供完整白話翻譯與時間線鋪排的情感分析。"},
-    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題為「時代背景與寫作意旨」「文本結構」「核心分析」等，無 emoji。"},
-    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段有獨立觀點（將責備信解讀為最高明的批評——引導對方自己發現錯誤），有獨創性。"},
-    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "所有段落皆有獨立貢獻，背景段的交際文化分析、分析段的溝通藝術拆解各有獨立價值。"}
+    {
+      "id": "bg_coord",
+      "name": "座標定位表",
+      "status": "pass",
+      "comment": "有座標定位表"
+    },
+    {
+      "id": "bg_era",
+      "name": "時代背景段",
+      "status": "pass",
+      "comment": "有時代背景分析"
+    },
+    {
+      "id": "bg_people",
+      "name": "關鍵人物段",
+      "status": "pass",
+      "comment": "有關鍵人物分析"
+    },
+    {
+      "id": "bg_intent",
+      "name": "寫作意圖段",
+      "status": "fail",
+      "comment": "無寫作意圖段"
+    },
+    {
+      "id": "bg_summary",
+      "name": "一句話總結",
+      "status": "pass",
+      "comment": "有一句話總結"
+    },
+    {
+      "id": "an_structure",
+      "name": "起承轉合表",
+      "status": "pass",
+      "comment": "有起承轉合表"
+    },
+    {
+      "id": "an_rhetoric",
+      "name": "修辭手法表",
+      "status": "pass",
+      "comment": "有修辭手法分析表"
+    },
+    {
+      "id": "an_quotes",
+      "name": "佳句賞析",
+      "status": "pass",
+      "comment": "有5句佳句賞析"
+    },
+    {
+      "id": "an_vernacular",
+      "name": "白話改編段",
+      "status": "pass",
+      "comment": "有白話改編段"
+    },
+    {
+      "id": "fmt_emoji",
+      "name": "h2 無 emoji",
+      "status": "pass",
+      "comment": "h2 標題無 emoji"
+    },
+    {
+      "id": "fmt_depth",
+      "name": "分析段深度",
+      "status": "pass",
+      "comment": "分析段 73 行"
+    },
+    {
+      "id": "no_padding",
+      "name": "不為寫而寫",
+      "status": "pass",
+      "comment": "主要內容無明顯灌水"
+    }
   ]
 }

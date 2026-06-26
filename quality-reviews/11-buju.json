@@ -1,21 +1,80 @@
 {
   "file": "11-buju",
-  "title": "卜居",
-  "author": "屈原",
+  "title": "11-buju",
   "overall_grade": "A",
-  "overall_comment": "品質極高，12項全數過關。對屈原八組對比問句的分析深入，指出了本文本質為道德選擇而非占卜的核心洞察。",
+  "overall_comment": "12/12 項通過",
   "checks": [
-    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "列出典籍《楚辭·卜居》、作者屈原、體裁賦體散文/問對體、創作年代（戰國末期）。"},
-    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "分析楚國內部朝政腐敗（楚懷王昏庸、佞臣集團）、外部秦國崛起威脅、屈原被貶流放的處境，對理解本文的困惑與憤懣至關重要。"},
-    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "涵蓋屈原（發問者—不是不知道答案而是痛苦）與鄭詹尹（答問者—不敢答、不能答、不必答），二人角色定位精準。"},
-    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "點出本文非真算命而是屈原內心獨白，八組反問為道德選擇題而非吉凶占卜，鄭詹尹的閃避是最終背書。高明地分析「以問卦形式表達堅守原則的決心」。"},
-    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "用兵家語言（兵無疑則不戰，士無惑則不卜）精準概括屈原走進太卜府的真實意圖。"},
-    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "起（屈原被放，心煩慮亂）、承（請太卜決疑）、轉（一連串寧…將…對比）、合（太卜：龜策不能知，請君自決）。"},
-    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "列出反覆對比（八組寧…將…）、比喻（千里駒/水中鳧/黃鵠/雞鶩）、反問、象徵，皆為本文有辨識度的修辭。"},
-    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "選出三句（尺有所短寸有所長、用君之心行君之意、寧昂昂若千里之駒乎將汎汎若水中之鳧乎），賞析說明深層含義。"},
-    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "白話改編完整，包含八組對比問句與鄭詹尹回答的忠實翻譯。"},
-    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題無 emoji。"},
-    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段有獨立框架（八組對比的深層含義表格、問對體形式分析），非單純翻譯。"},
-    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "背景段補楚國政治生態、分析段拆八組對比結構，每段各有獨立功能。"}
+    {
+      "id": "bg_coord",
+      "name": "座標定位表",
+      "status": "pass",
+      "comment": "有座標定位表"
+    },
+    {
+      "id": "bg_era",
+      "name": "時代背景段",
+      "status": "pass",
+      "comment": "有時代背景分析"
+    },
+    {
+      "id": "bg_people",
+      "name": "關鍵人物段",
+      "status": "pass",
+      "comment": "有關鍵人物分析"
+    },
+    {
+      "id": "bg_intent",
+      "name": "寫作意圖段",
+      "status": "pass",
+      "comment": "有寫作意圖分析"
+    },
+    {
+      "id": "bg_summary",
+      "name": "一句話總結",
+      "status": "pass",
+      "comment": "有一句話總結"
+    },
+    {
+      "id": "an_structure",
+      "name": "起承轉合表",
+      "status": "pass",
+      "comment": "有起承轉合表"
+    },
+    {
+      "id": "an_rhetoric",
+      "name": "修辭手法表",
+      "status": "pass",
+      "comment": "有修辭手法分析表"
+    },
+    {
+      "id": "an_quotes",
+      "name": "佳句賞析",
+      "status": "pass",
+      "comment": "有8句佳句賞析"
+    },
+    {
+      "id": "an_vernacular",
+      "name": "白話改編段",
+      "status": "pass",
+      "comment": "有白話改編段"
+    },
+    {
+      "id": "fmt_emoji",
+      "name": "h2 無 emoji",
+      "status": "pass",
+      "comment": "h2 標題無 emoji"
+    },
+    {
+      "id": "fmt_depth",
+      "name": "分析段深度",
+      "status": "pass",
+      "comment": "分析段 146 行"
+    },
+    {
+      "id": "no_padding",
+      "name": "不為寫而寫",
+      "status": "pass",
+      "comment": "主要內容無明顯灌水"
+    }
   ]
 }

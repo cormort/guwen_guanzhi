@@ -1,21 +1,80 @@
 {
   "file": "218-ligefei-shu-luoyang-mingyuan-ji-hou",
-  "title": "書洛陽名園記後",
-  "author": "李格非",
+  "title": "218-ligefei-shu-luoyang-mingyuan-ji-hou",
   "overall_grade": "A",
-  "overall_comment": "12項全數過關。背景段深入北宋洛陽園林文化與政治興衰，分析段有清晰的題跋結構、修辭分析（以小見大、借古諷今、對比）、佳句賞析及完整白話改編。",
+  "overall_comment": "10/12 項通過",
   "checks": [
-    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出出處《洛陽名園記》、體裁（題跋/書後）、時代（北宋末）、核心命題（園林興衰與天下治亂）。"},
-    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "深入分析北宋洛陽園林文化、李格非的時代憂患意識與北宋末年的政治危機。"},
-    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "李格非為核心人物，分析他作為李清照之父的文學世家背景。"},
-    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "核心分析揭示李格非借洛陽名園興衰來警示天下治亂的道理。"},
-    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "精準抓住園林興衰與天下治亂的核心命題。"},
-    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "清楚列出述名園之盛、轉天下興衰、合園林與治亂關聯的三段結構。"},
-    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "列出以小見大、借古諷今、對比（盛vs衰）、引用等手法，分析到位。"},
-    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "選出關鍵議論句子，賞析有深度。"},
-    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "提供完整白話改編，忠於原文且流暢自然。"},
-    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題為「時代背景與寫作意旨」「文章分析」，無 emoji。"},
-    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段有獨立觀點（園林作為政治晴雨表、北宋滅亡前的末世預言），對李格非的史識有深入剖析。"},
-    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "所有段落皆有獨立貢獻，軍師按語提供有價值的延伸思考，無填充內容。"}
+    {
+      "id": "bg_coord",
+      "name": "座標定位表",
+      "status": "pass",
+      "comment": "有座標定位表"
+    },
+    {
+      "id": "bg_era",
+      "name": "時代背景段",
+      "status": "pass",
+      "comment": "有時代背景分析"
+    },
+    {
+      "id": "bg_people",
+      "name": "關鍵人物段",
+      "status": "fail",
+      "comment": "無關鍵人物段"
+    },
+    {
+      "id": "bg_intent",
+      "name": "寫作意圖段",
+      "status": "fail",
+      "comment": "無寫作意圖段"
+    },
+    {
+      "id": "bg_summary",
+      "name": "一句話總結",
+      "status": "pass",
+      "comment": "有一句話總結"
+    },
+    {
+      "id": "an_structure",
+      "name": "起承轉合表",
+      "status": "pass",
+      "comment": "有起承轉合表"
+    },
+    {
+      "id": "an_rhetoric",
+      "name": "修辭手法表",
+      "status": "pass",
+      "comment": "有修辭手法分析表"
+    },
+    {
+      "id": "an_quotes",
+      "name": "佳句賞析",
+      "status": "pass",
+      "comment": "有6句佳句賞析"
+    },
+    {
+      "id": "an_vernacular",
+      "name": "白話改編段",
+      "status": "pass",
+      "comment": "有白話改編段"
+    },
+    {
+      "id": "fmt_emoji",
+      "name": "h2 無 emoji",
+      "status": "pass",
+      "comment": "h2 標題無 emoji"
+    },
+    {
+      "id": "fmt_depth",
+      "name": "分析段深度",
+      "status": "pass",
+      "comment": "分析段 70 行"
+    },
+    {
+      "id": "no_padding",
+      "name": "不為寫而寫",
+      "status": "pass",
+      "comment": "主要內容無明顯灌水"
+    }
   ]
 }

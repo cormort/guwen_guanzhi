@@ -1,21 +1,80 @@
 {
   "file": "126-zouji-feng-qi-wang",
-  "title": "鄒忌諷齊王納諫",
-  "author": "劉向 · 《戰國策·齊策一》",
+  "title": "126-zouji-feng-qi-wang",
   "overall_grade": "A",
-  "overall_comment": "12項檢查全數通過。背景詳述齊威王由亂入治的關鍵時期，座標定位完整。鄒忌「由家及國」的類比說服術分析深入——從比美到納諫的四層論證結構拆解精彩。人物分析（鄒忌、齊威王、城北徐公）各有深度，軍師按語獨立有見地。",
+  "overall_comment": "11/12 項通過",
   "checks": [
-    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出出處《戰國策·齊策一》、時代戰國中期約西元前4世紀齊威王時期、體裁說辭/諷諫類散文、核心命題等。"},
-    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "詳述齊威王即位前的齊國困局（政令不通、吏治敗壞、外交受辱）、鄒忌崛起過程、納諫在古代政治中的特殊意義。"},
-    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "涵蓋鄒忌（諷諫大師）、齊威王（從昏到明的君主）、城北徐公（隱藏人物），人物分析有獨立見解。"},
-    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "從戰國策士說服術、以諷代諫的進諫智慧、由家及國的類比推理三層次分析。"},
-    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "精準總結：世界上最危險的不是你不知道真相，而是所有你信任的人都因為怕你、愛你、求你而不敢告訴你真相。"},
-    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "三段式結構清晰：案例（比美反思）→類比（入朝說王）→行動（齊王納諫），層層遞進。"},
-    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "分析類比（全文核心）、排比（三個莫不）、遞進（令初下→數月→期年）、對比等手法，有辨識度。"},
-    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "選出王之蔽甚矣、宮婦左右莫不私王等經典句，賞析有深度，不只翻譯。"},
-    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "全文核心段落白話改編完整，涵蓋比美故事到齊王納諫全過程。"},
-    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題無 emoji。"},
-    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段有獨立觀點（先建立不可挑戰的案例再延伸到目標問題是最高的說服術、不教而教的境界），非僅翻譯原文。"},
-    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "各段分工明確，內容充實有意義，無灌水痕跡。"}
+    {
+      "id": "bg_coord",
+      "name": "座標定位表",
+      "status": "pass",
+      "comment": "有座標定位表"
+    },
+    {
+      "id": "bg_era",
+      "name": "時代背景段",
+      "status": "pass",
+      "comment": "有時代背景分析"
+    },
+    {
+      "id": "bg_people",
+      "name": "關鍵人物段",
+      "status": "pass",
+      "comment": "有關鍵人物分析"
+    },
+    {
+      "id": "bg_intent",
+      "name": "寫作意圖段",
+      "status": "fail",
+      "comment": "無寫作意圖段"
+    },
+    {
+      "id": "bg_summary",
+      "name": "一句話總結",
+      "status": "pass",
+      "comment": "有一句話總結"
+    },
+    {
+      "id": "an_structure",
+      "name": "起承轉合表",
+      "status": "pass",
+      "comment": "有起承轉合表"
+    },
+    {
+      "id": "an_rhetoric",
+      "name": "修辭手法表",
+      "status": "pass",
+      "comment": "有修辭手法分析表"
+    },
+    {
+      "id": "an_quotes",
+      "name": "佳句賞析",
+      "status": "pass",
+      "comment": "有7句佳句賞析"
+    },
+    {
+      "id": "an_vernacular",
+      "name": "白話改編段",
+      "status": "pass",
+      "comment": "有白話改編段"
+    },
+    {
+      "id": "fmt_emoji",
+      "name": "h2 無 emoji",
+      "status": "pass",
+      "comment": "h2 標題無 emoji"
+    },
+    {
+      "id": "fmt_depth",
+      "name": "分析段深度",
+      "status": "pass",
+      "comment": "分析段 113 行"
+    },
+    {
+      "id": "no_padding",
+      "name": "不為寫而寫",
+      "status": "pass",
+      "comment": "主要內容無明顯灌水"
+    }
   ]
 }

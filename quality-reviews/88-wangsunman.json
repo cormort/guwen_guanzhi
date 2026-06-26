@@ -1,21 +1,80 @@
 {
   "file": "88-wangsunman",
-  "title": "王孫滿對楚子",
-  "author": "左丘明",
+  "title": "88-wangsunman",
   "overall_grade": "A",
-  "overall_comment": "背景與分析段品質極高，12項檢查全數通過。背景完整涵蓋座標定位（時間、空間、歷史經緯）、時代壓力（楚莊王稱霸戰略、問鼎中原野心）、關鍵人物（楚莊王、王孫滿）、寫作意圖三層論證、一句話總結。分析段有起承轉合表、寫作技巧分析（以道義為武器、三層遞進封閉論證）、修辭手法表、佳句賞析三句、白話改編。無填充內容。",
+  "overall_comment": "12/12 項通過",
   "checks": [
-    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出時間（魯宣公三年公元前606年）、空間（周王室東都洛邑王畿邊境）、歷史經緯（平王東遷後周室衰微）。"},
-    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "從楚莊王稱霸戰略態勢（三年不飛不鳴、孫叔敖改革）到問鼎中原的戰略野心三點分析，清晰完整。"},
-    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "為楚莊王和王孫滿各設段落分析，楚莊王著重霸業路線圖，王孫滿著重其外交家形象。"},
-    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "從表象退讓、實質以道義為武器、左丘明編排意圖三個層次分析，深入且有獨立見解。"},
-    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "精準抓住王孫滿以天命倫理築起無形壁壘的核心。"},
-    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "起（楚莊王陳兵問鼎）、承（在德不在鼎）、轉（周德雖衰天命未改）、合（鼎之輕重未可問也），合理清晰。"},
-    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "列出斷語、歷史舉證、對比、定讞、拒絕作答五種手法，均有原文與效果說明。"},
-    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "選出三句文眼（在德不在鼎、德之休明雖小重也、周德雖衰天命未改），每句有深度賞析。"},
-    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "提供完整白話改編，覆蓋全文核心情節，語言流暢。"},
-    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題為「時代背景與寫作意旨」「文章分析」，無 emoji。"},
-    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段有獨立觀點（如表面退讓實則最強硬否決、柔道式的以柔克剛），佳句賞析有深度說明。"},
-    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "所有段落皆有獨立貢獻，背景段補充原文所需知識，分析段提供結構拆解與文本細讀，無重複或空洞內容。"}
+    {
+      "id": "bg_coord",
+      "name": "座標定位表",
+      "status": "pass",
+      "comment": "有座標定位表"
+    },
+    {
+      "id": "bg_era",
+      "name": "時代背景段",
+      "status": "pass",
+      "comment": "有時代背景分析"
+    },
+    {
+      "id": "bg_people",
+      "name": "關鍵人物段",
+      "status": "pass",
+      "comment": "有關鍵人物分析"
+    },
+    {
+      "id": "bg_intent",
+      "name": "寫作意圖段",
+      "status": "pass",
+      "comment": "有寫作意圖分析"
+    },
+    {
+      "id": "bg_summary",
+      "name": "一句話總結",
+      "status": "pass",
+      "comment": "有一句話總結"
+    },
+    {
+      "id": "an_structure",
+      "name": "起承轉合表",
+      "status": "pass",
+      "comment": "有起承轉合表"
+    },
+    {
+      "id": "an_rhetoric",
+      "name": "修辭手法表",
+      "status": "pass",
+      "comment": "有修辭手法分析表"
+    },
+    {
+      "id": "an_quotes",
+      "name": "佳句賞析",
+      "status": "pass",
+      "comment": "有9句佳句賞析"
+    },
+    {
+      "id": "an_vernacular",
+      "name": "白話改編段",
+      "status": "pass",
+      "comment": "有白話改編段"
+    },
+    {
+      "id": "fmt_emoji",
+      "name": "h2 無 emoji",
+      "status": "pass",
+      "comment": "h2 標題無 emoji"
+    },
+    {
+      "id": "fmt_depth",
+      "name": "分析段深度",
+      "status": "pass",
+      "comment": "分析段 123 行"
+    },
+    {
+      "id": "no_padding",
+      "name": "不為寫而寫",
+      "status": "pass",
+      "comment": "主要內容無明顯灌水"
+    }
   ]
 }

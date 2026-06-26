@@ -1,21 +1,80 @@
 {
   "file": "shang-zhongyong",
-  "title": "傷仲永",
-  "author": "王安石",
+  "title": "shang-zhongyong",
   "overall_grade": "A",
-  "overall_comment": "背景與分析段品質極高，12項檢查全數通過。對王安石藉仲永之傷論後天學習重要性的分析尤為精彩。",
+  "overall_comment": "12/12 項通過",
   "checks": [
-    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出出處《臨川先生文集》、作者王安石、時代（北宋仁宗慶曆三年1043年，王安石二十三歲）、體裁（雜記體議論短文）、核心命題（天賦不足恃，後天學習才是一切）。"},
-    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "深入分析北宋盛世表象下的三元危機（冗官冗兵冗費）與科舉取士催生的以科名論人的僵化風氣。王安石以二十三歲初入仕途的敏銳觀察到天賦被過度神化的問題。"},
-    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "為王安石（作者）、仲永（天賦異稟卻被父親耽誤的神童）、仲永父（唯利是圖不使學）建立詳細分析。仲永從五歲能詩到泯然眾人的悲劇路徑清晰。"},
-    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "深入分析王安石的雙層用意：表面是惋惜仲永從天才淪為凡人的悲劇，深層是論證天賦只是起點、後天教育才是決定性因素的儒家教育哲學——這也是王安石日後變法中重視教育的先聲。"},
-    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "精準——天賦是稀缺的，但努力才是可控的——如果一個國家只獎勵天生的聰明卻不建構讓人持續學習的體制，終將被平庸吞噬。"},
-    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "結構表清晰：起（仲永五歲能詩的天賦）、承（其父不使學而利其財）、轉（仲永十二三歲已不如昔）、合（泯然眾人的結局與議論——受之於天不如受之於人）。"},
-    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "列出對比（天賦vs後天、幼年vs少年vs成年）、白描（以極簡筆墨寫仲永天賦）、卒章顯志（最後一段議論點題）、借事說理（從故事中提煉哲理）等手法。"},
-    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "選出「仲永生五年，未嘗識書具，忽啼求之」「其詩以養父母收族為意」「今夫不受之天，固眾人，又不受之人，得為眾人而已耶？」等名句。"},
-    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "提供完整白話改編，涵蓋仲永天賦、父不使學、才能衰退、議論結論等核心內容。"},
-    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題為「時代背景與寫作意旨」「文章分析」，無 emoji。"},
-    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段有獨立觀點（如「傷仲永不是一篇簡單的惋惜天才的文章——它是王安石對北宋以天賦論人風氣的批判，也是他變法重視教育的哲學起點」），有深度說明。"},
-    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "所有段落皆有獨立貢獻，背景段對北宋三元危機的分析有實際幫助，無填充內容。"}
+    {
+      "id": "bg_coord",
+      "name": "座標定位表",
+      "status": "pass",
+      "comment": "有座標定位表"
+    },
+    {
+      "id": "bg_era",
+      "name": "時代背景段",
+      "status": "pass",
+      "comment": "有時代背景分析"
+    },
+    {
+      "id": "bg_people",
+      "name": "關鍵人物段",
+      "status": "pass",
+      "comment": "有關鍵人物分析"
+    },
+    {
+      "id": "bg_intent",
+      "name": "寫作意圖段",
+      "status": "pass",
+      "comment": "有寫作意圖分析"
+    },
+    {
+      "id": "bg_summary",
+      "name": "一句話總結",
+      "status": "pass",
+      "comment": "有一句話總結"
+    },
+    {
+      "id": "an_structure",
+      "name": "起承轉合表",
+      "status": "pass",
+      "comment": "有起承轉合表"
+    },
+    {
+      "id": "an_rhetoric",
+      "name": "修辭手法表",
+      "status": "pass",
+      "comment": "有修辭手法分析表"
+    },
+    {
+      "id": "an_quotes",
+      "name": "佳句賞析",
+      "status": "pass",
+      "comment": "有10句佳句賞析"
+    },
+    {
+      "id": "an_vernacular",
+      "name": "白話改編段",
+      "status": "pass",
+      "comment": "有白話改編段"
+    },
+    {
+      "id": "fmt_emoji",
+      "name": "h2 無 emoji",
+      "status": "pass",
+      "comment": "h2 標題無 emoji"
+    },
+    {
+      "id": "fmt_depth",
+      "name": "分析段深度",
+      "status": "pass",
+      "comment": "分析段 161 行"
+    },
+    {
+      "id": "no_padding",
+      "name": "不為寫而寫",
+      "status": "pass",
+      "comment": "主要內容無明顯灌水"
+    }
   ]
 }

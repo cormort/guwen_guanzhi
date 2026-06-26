@@ -1,21 +1,80 @@
 {
   "file": "228-wudaishi-huanzhe-zhuan-lun",
-  "title": "五代史宦者傳論",
-  "author": "歐陽修",
+  "title": "228-wudaishi-huanzhe-zhuan-lun",
   "overall_grade": "A",
-  "overall_comment": "12項全數過關。背景段清楚對比北宋宦官現狀與五代史寫作背景，分析段以五層遞進剖析機制，與伶官傳序的對話豐富文章深度。",
+  "overall_comment": "11/12 項通過",
   "checks": [
-    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出出處《新五代史·宦者傳》、體裁（史論）、時代（北宋皇祐年間）、核心命題（宦者之害深於女禍）。"},
-    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "詳細分析歐陽修私修五代史的背景，並引用北宋宦官現狀（閻文應、王守忠事件）說明現實針對性。"},
-    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "歐陽修、唐昭宗、劉季述、崔胤、朱溫五人有獨立分析，並有與伶官傳序的姊妹篇對照。"},
-    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "指出歐陽修以唐昭宗案例爲鏡，提醒宋仁宗警惕帝王身邊近習之禍的機制性問題。"},
-    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "精準點出歐陽修的核心論點——問題不在太監，在皇帝親近太監的機制。"},
-    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "清楚列出五層遞進（破題→近習機制→把持機制→進退失據→結論呼籲），層層深入。"},
-    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "詳析漸積概念、女禍比較基準設計、層遞排比（五個日益）、對仗（緩急）等手法。"},
-    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "賞析深於女禍、近而習專而忍、緩養禍急挾質、漸積勢使然四句經典。"},
-    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "提供完整白話改編，忠於歐陽修原文的論證邏輯。"},
-    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題為「時代背景與寫作意旨」「文章分析」，無 emoji。"},
-    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "提出獨立觀點（機制分析取代道德批判的超越性），並有局限反思（簡化女禍、忽略制度因素）。"},
-    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "所有段落皆有獨立貢獻，軍師按語提供組織管理學的現代視角延伸。"}
+    {
+      "id": "bg_coord",
+      "name": "座標定位表",
+      "status": "pass",
+      "comment": "有座標定位表"
+    },
+    {
+      "id": "bg_era",
+      "name": "時代背景段",
+      "status": "pass",
+      "comment": "有時代背景分析"
+    },
+    {
+      "id": "bg_people",
+      "name": "關鍵人物段",
+      "status": "pass",
+      "comment": "有關鍵人物分析"
+    },
+    {
+      "id": "bg_intent",
+      "name": "寫作意圖段",
+      "status": "fail",
+      "comment": "無寫作意圖段"
+    },
+    {
+      "id": "bg_summary",
+      "name": "一句話總結",
+      "status": "pass",
+      "comment": "有一句話總結"
+    },
+    {
+      "id": "an_structure",
+      "name": "起承轉合表",
+      "status": "pass",
+      "comment": "有起承轉合表"
+    },
+    {
+      "id": "an_rhetoric",
+      "name": "修辭手法表",
+      "status": "pass",
+      "comment": "有修辭手法分析表"
+    },
+    {
+      "id": "an_quotes",
+      "name": "佳句賞析",
+      "status": "pass",
+      "comment": "有10句佳句賞析"
+    },
+    {
+      "id": "an_vernacular",
+      "name": "白話改編段",
+      "status": "pass",
+      "comment": "有白話改編段"
+    },
+    {
+      "id": "fmt_emoji",
+      "name": "h2 無 emoji",
+      "status": "pass",
+      "comment": "h2 標題無 emoji"
+    },
+    {
+      "id": "fmt_depth",
+      "name": "分析段深度",
+      "status": "pass",
+      "comment": "分析段 161 行"
+    },
+    {
+      "id": "no_padding",
+      "name": "不為寫而寫",
+      "status": "pass",
+      "comment": "主要內容無明顯灌水"
+    }
   ]
 }

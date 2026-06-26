@@ -1,21 +1,80 @@
 {
   "file": "247-sanhuai-tang-ming",
-  "title": "三槐堂銘",
-  "author": "蘇軾",
+  "title": "247-sanhuai-tang-ming",
   "overall_grade": "A",
-  "overall_comment": "背景與分析段品質極高，12項檢查全數通過。以「天可必乎」開篇的辯證結構分析極為精彩，對天道與人事的層層論證解析透徹。",
+  "overall_comment": "11/12 項通過",
   "checks": [
-    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出出處《經進東坡文集事略》、作者蘇軾、體裁（廳堂銘）、時代（宋哲宗元祐年間約1088）、核心命題（仁者必有後）。"},
-    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "深入分析元祐年間蘇軾的政治復甦期——從烏臺詩案被貶黃州回升到翰林學士高峰，以及王祐、王旦、王鞏三代人的生平背景。"},
-    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "為蘇軾、王祐、王旦、王鞏建立詳細分析。王祐手植三槐的預言、王旦為相二十年的德政、王鞏作為蘇軾好友的困頓守德，人物鏈條完整。"},
-    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "深入分析蘇軾寫作的三重用意：為王鞏家作銘（友情）、以王家三代論證天道（哲理）、以天道不在一時而在長遠安慰王鞏及所有受挫之人（慰藉）。"},
-    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "精準抓住王家三代——王祐植槐預言、王旦拜相二十年的福報、王鞏困頓守德——論證「天道不在一時，而在長遠」的核心敘事。"},
-    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "結構表合理：起（天可必乎的疑問）、承（歷代善惡報應的辯證）、轉（王家三代故事）、合（三槐堂銘文點題）。層層推進。"},
-    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "列出開篇設問（天可必乎？）、歷史對比（盜蹠長壽與顏回早夭）、層層遞進（三代積德）、隱喻象徵（三槐象徵三公）等手法。"},
-    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "選出「天可必乎？賢者不必貴，仁者不必壽」「鬱鬱三槐，惟德之符」「王氏之福，蓋未艾也」等名句，每句有背景說明與意義闡發。"},
-    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "提供完整白話改編，涵蓋天道的辯證、王家三代故事、三槐堂的象徵意義等核心內容。"},
-    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題為「時代背景與寫作意旨」「文章分析」，無 emoji。"},
-    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段有獨立觀點（如「蘇軾的三槐堂銘是一篇關於等待的哲學——不是被動等待，而是充滿信心的等待」），有深度說明。"},
-    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "所有段落皆有獨立貢獻，背景段對烏臺詩案到元祐復甦的分析有實際幫助，無填充內容。"}
+    {
+      "id": "bg_coord",
+      "name": "座標定位表",
+      "status": "pass",
+      "comment": "有座標定位表"
+    },
+    {
+      "id": "bg_era",
+      "name": "時代背景段",
+      "status": "pass",
+      "comment": "有時代背景分析"
+    },
+    {
+      "id": "bg_people",
+      "name": "關鍵人物段",
+      "status": "pass",
+      "comment": "有關鍵人物分析"
+    },
+    {
+      "id": "bg_intent",
+      "name": "寫作意圖段",
+      "status": "fail",
+      "comment": "無寫作意圖段"
+    },
+    {
+      "id": "bg_summary",
+      "name": "一句話總結",
+      "status": "pass",
+      "comment": "有一句話總結"
+    },
+    {
+      "id": "an_structure",
+      "name": "起承轉合表",
+      "status": "pass",
+      "comment": "有起承轉合表"
+    },
+    {
+      "id": "an_rhetoric",
+      "name": "修辭手法表",
+      "status": "pass",
+      "comment": "有修辭手法分析表"
+    },
+    {
+      "id": "an_quotes",
+      "name": "佳句賞析",
+      "status": "pass",
+      "comment": "有10句佳句賞析"
+    },
+    {
+      "id": "an_vernacular",
+      "name": "白話改編段",
+      "status": "pass",
+      "comment": "有白話改編段"
+    },
+    {
+      "id": "fmt_emoji",
+      "name": "h2 無 emoji",
+      "status": "pass",
+      "comment": "h2 標題無 emoji"
+    },
+    {
+      "id": "fmt_depth",
+      "name": "分析段深度",
+      "status": "pass",
+      "comment": "分析段 190 行"
+    },
+    {
+      "id": "no_padding",
+      "name": "不為寫而寫",
+      "status": "pass",
+      "comment": "主要內容無明顯灌水"
+    }
   ]
 }

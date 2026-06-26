@@ -1,21 +1,80 @@
 {
   "file": "117-jinxiangong-sha-shizi",
-  "title": "晉獻公殺世子申生",
-  "author": "戴聖 · 《禮記·檀弓上》",
+  "title": "117-jinxiangong-sha-shizi",
   "overall_grade": "A",
-  "overall_comment": "12項檢查全數通過。背景詳述驪姬之亂與申生的道德困境。文章分析聚焦申生「不言、不行、不辯」的三段論證，留白手法的分析精闢。人物對比（申生vs重耳）有深度。",
+  "overall_comment": "11/12 項通過",
   "checks": [
-    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出出處《禮記·檀弓上》、時代春秋早期約656BC、體裁經典詮釋/歷史敘事、核心事件等。"},
-    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "分析驪姬之亂的完整陰謀過程（調虎離山、誣陷下毒、政治清算），對理解申生的選擇有實質幫助。"},
-    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "涵蓋太子申生（以死全孝）、晉獻公（被蒙蔽的父親）、驪姬、重耳，人物分析有深度。"},
-    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "從《禮記·檀弓》的禮學立場、孝的極限測試、為後世立訓三層次分析。"},
-    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "精準總結申生的自殺不是懦弱，而是最高等級的犧牲——保全父親的名聲與國家的秩序。"},
-    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "起（獻公將殺世子）、承（重耳勸其辯白）、轉（申生拒不忍傷父心）、合（自殺以全孝道），結構清晰。"},
-    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "列出反問、勸→拒對比、留白等手法，分析簡潔有力。"},
-    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "選出兩句（君安驪姬是我傷公之心也、天下豈有無父之國哉），賞析有深度。"},
-    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "完整白話改編，覆蓋全文核心對話。"},
-    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題無 emoji。"},
-    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段有獨立觀點（留白的力量——話越少越重），非僅翻譯原文。"},
-    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "各段分工明確，內容充實有意義，無灌水痕跡。"}
+    {
+      "id": "bg_coord",
+      "name": "座標定位表",
+      "status": "pass",
+      "comment": "有座標定位表"
+    },
+    {
+      "id": "bg_era",
+      "name": "時代背景段",
+      "status": "pass",
+      "comment": "有時代背景分析"
+    },
+    {
+      "id": "bg_people",
+      "name": "關鍵人物段",
+      "status": "pass",
+      "comment": "有關鍵人物分析"
+    },
+    {
+      "id": "bg_intent",
+      "name": "寫作意圖段",
+      "status": "fail",
+      "comment": "無寫作意圖段"
+    },
+    {
+      "id": "bg_summary",
+      "name": "一句話總結",
+      "status": "pass",
+      "comment": "有一句話總結"
+    },
+    {
+      "id": "an_structure",
+      "name": "起承轉合表",
+      "status": "pass",
+      "comment": "有起承轉合表"
+    },
+    {
+      "id": "an_rhetoric",
+      "name": "修辭手法表",
+      "status": "pass",
+      "comment": "有修辭手法分析表"
+    },
+    {
+      "id": "an_quotes",
+      "name": "佳句賞析",
+      "status": "pass",
+      "comment": "有5句佳句賞析"
+    },
+    {
+      "id": "an_vernacular",
+      "name": "白話改編段",
+      "status": "pass",
+      "comment": "有白話改編段"
+    },
+    {
+      "id": "fmt_emoji",
+      "name": "h2 無 emoji",
+      "status": "pass",
+      "comment": "h2 標題無 emoji"
+    },
+    {
+      "id": "fmt_depth",
+      "name": "分析段深度",
+      "status": "pass",
+      "comment": "分析段 80 行"
+    },
+    {
+      "id": "no_padding",
+      "name": "不為寫而寫",
+      "status": "pass",
+      "comment": "主要內容無明顯灌水"
+    }
   ]
 }

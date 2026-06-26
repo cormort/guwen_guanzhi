@@ -1,21 +1,80 @@
 {
   "file": "155-gaodi-qiu-xian-zhao",
-  "title": "高帝求賢詔",
-  "author": "劉邦",
+  "title": "155-gaodi-qiu-xian-zhao",
   "overall_grade": "A",
-  "overall_comment": "背景與分析段品質極高，12項檢查全數通過。對劉邦晚年求賢心態的分析極有深度，詔書賞析抓住了創業者語言的獨特魅力。",
+  "overall_comment": "11/12 項通過",
   "checks": [
-    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出出處《漢書·高帝紀》、作者劉邦、時代（西漢初年，高祖十一年）、體裁（詔令文）、核心命題（安得猛士兮守四方）。"},
-    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "深入分析劉邦晚年的處境——開國形勢（漢承秦弊）、外部威脅（匈奴白登之圍）、內部叛亂（韓信彭越英布）、繼承人問題（劉盈柔弱）。將詔書與〈大風歌〉並列分析，情感互補。"},
-    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "為劉邦、周文王、齊桓公建立分析。特別點出劉邦從流氓到皇帝的傳奇經歷如何塑造了他務實的用人哲學。"},
-    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "深入分析劉邦寫求賢詔的深層用意——與其說是在為自己找人才，不如說是在為兒子劉盈找人才。一個即將離世的父親，用一紙詔書為兒子安排後路。"},
-    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "精準——一個流氓出身的皇帝，在晚年最擔心的事情不是江山不穩，而是沒有人才可用。這是創業者與世襲者最大的區別。"},
-    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "結構表清楚分三層：引古立論（周文齊桓待賢成名）、自我反思（賢人共平天下應共安利）、具體措施（身勸為之駕遣詣相國府）。結構簡潔嚴謹。"},
-    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "指出引用典故（周文王、齊桓公）、設問（「可乎？」）、承諾式語氣（「吾能尊顯之」）等手法。口吻不像皇帝而像創業者招募合夥人。"},
-    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "選出「賢士大夫有肯從我游者，吾能尊顯之」「患在人主不交故也」「賢人已與我共平之矣，而不與吾共安利之，可乎」等句，每句有深度賞析。"},
-    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "提供完整白話改編，涵蓋詔書全文的今譯，語言流暢，保留了劉邦務實懇切的口吻。"},
-    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題為「時代背景與寫作意旨」「原文結構與核心論點」等，無 emoji。"},
-    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段有獨立觀點（如「『肯從我游者』的『游』不是君臣關係而是夥伴關係」），將劉邦與創業CEO類比生動深刻。"},
-    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "所有段落皆有獨立貢獻，背景段將〈大風歌〉與詔書並列的比較極有價值，無填充內容。"}
+    {
+      "id": "bg_coord",
+      "name": "座標定位表",
+      "status": "pass",
+      "comment": "有座標定位表"
+    },
+    {
+      "id": "bg_era",
+      "name": "時代背景段",
+      "status": "pass",
+      "comment": "有時代背景分析"
+    },
+    {
+      "id": "bg_people",
+      "name": "關鍵人物段",
+      "status": "pass",
+      "comment": "有關鍵人物分析"
+    },
+    {
+      "id": "bg_intent",
+      "name": "寫作意圖段",
+      "status": "fail",
+      "comment": "無寫作意圖段"
+    },
+    {
+      "id": "bg_summary",
+      "name": "一句話總結",
+      "status": "pass",
+      "comment": "有一句話總結"
+    },
+    {
+      "id": "an_structure",
+      "name": "起承轉合表",
+      "status": "pass",
+      "comment": "有起承轉合表"
+    },
+    {
+      "id": "an_rhetoric",
+      "name": "修辭手法表",
+      "status": "pass",
+      "comment": "有修辭手法分析表"
+    },
+    {
+      "id": "an_quotes",
+      "name": "佳句賞析",
+      "status": "pass",
+      "comment": "有10句佳句賞析"
+    },
+    {
+      "id": "an_vernacular",
+      "name": "白話改編段",
+      "status": "pass",
+      "comment": "有白話改編段"
+    },
+    {
+      "id": "fmt_emoji",
+      "name": "h2 無 emoji",
+      "status": "pass",
+      "comment": "h2 標題無 emoji"
+    },
+    {
+      "id": "fmt_depth",
+      "name": "分析段深度",
+      "status": "pass",
+      "comment": "分析段 119 行"
+    },
+    {
+      "id": "no_padding",
+      "name": "不為寫而寫",
+      "status": "pass",
+      "comment": "主要內容無明顯灌水"
+    }
   ]
 }

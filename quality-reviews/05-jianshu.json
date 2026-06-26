@@ -1,21 +1,80 @@
 {
   "file": "05-jianshu",
-  "title": "蹇叔哭師",
-  "author": "左丘明",
+  "title": "05-jianshu",
   "overall_grade": "A",
-  "overall_comment": "品質極高，12項全數過關。雖篇幅較短但背景與分析完整，佳句賞析選句對應核心劇情。",
+  "overall_comment": "12/12 項通過",
   "checks": [
-    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出出處、事件年份627BC、作者、體裁（諫言記錄）。"},
-    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "連結前文燭之武退秦師後的局勢變化，說明秦穆公東進野心被點燃、晉文公新喪的戰略窗口，以及秦國繞過晉國襲鄭的致命缺陷。"},
-    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "涵蓋蹇叔（預言式老臣）、秦穆公（被野心蒙蔽）、孟明視三將（奉命出征的棋子）。"},
-    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "從三層分析：預言式史筆的戲劇張力、批判以慾望壓倒理智的領導決策、為崤之戰鋪墊。"},
-    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "精準概括本文為「決策病理報告」，非忠臣苦諫故事。"},
-    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "起（杞子密報、秦穆公欲襲鄭）、承（蹇叔反對）、轉（穆公不聽、蹇叔哭師）、合（秦軍全軍覆沒）。"},
-    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "列出懸念營造、情感衝擊（哭師場景）、濃縮對話三項，符合本文特色。"},
-    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "選出三句（勞師以襲遠非所聞也、師之所為鄭必知之、吾見師之出而不見其入也），賞析涵蓋軍事心理分析。」"},
-    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "白話改編完整，忠於原文情節。"},
-    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題無 emoji。"},
-    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段有獨立觀點（如蹇叔預言為敘事修辭選擇、非小說創作），且連結到秦穆公成長弧線。"},
-    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "內容精練，背景補知識、分析段拆結構，各司其職無冗餘。"}
+    {
+      "id": "bg_coord",
+      "name": "座標定位表",
+      "status": "pass",
+      "comment": "有座標定位表"
+    },
+    {
+      "id": "bg_era",
+      "name": "時代背景段",
+      "status": "pass",
+      "comment": "有時代背景分析"
+    },
+    {
+      "id": "bg_people",
+      "name": "關鍵人物段",
+      "status": "pass",
+      "comment": "有關鍵人物分析"
+    },
+    {
+      "id": "bg_intent",
+      "name": "寫作意圖段",
+      "status": "pass",
+      "comment": "有寫作意圖分析"
+    },
+    {
+      "id": "bg_summary",
+      "name": "一句話總結",
+      "status": "pass",
+      "comment": "有一句話總結"
+    },
+    {
+      "id": "an_structure",
+      "name": "起承轉合表",
+      "status": "pass",
+      "comment": "有起承轉合表"
+    },
+    {
+      "id": "an_rhetoric",
+      "name": "修辭手法表",
+      "status": "pass",
+      "comment": "有修辭手法分析表"
+    },
+    {
+      "id": "an_quotes",
+      "name": "佳句賞析",
+      "status": "pass",
+      "comment": "有6句佳句賞析"
+    },
+    {
+      "id": "an_vernacular",
+      "name": "白話改編段",
+      "status": "pass",
+      "comment": "有白話改編段"
+    },
+    {
+      "id": "fmt_emoji",
+      "name": "h2 無 emoji",
+      "status": "pass",
+      "comment": "h2 標題無 emoji"
+    },
+    {
+      "id": "fmt_depth",
+      "name": "分析段深度",
+      "status": "pass",
+      "comment": "分析段 86 行"
+    },
+    {
+      "id": "no_padding",
+      "name": "不為寫而寫",
+      "status": "pass",
+      "comment": "主要內容無明顯灌水"
+    }
   ]
 }

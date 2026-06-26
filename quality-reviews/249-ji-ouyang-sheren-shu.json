@@ -1,21 +1,80 @@
 {
   "file": "249-ji-ouyang-sheren-shu",
-  "title": "寄歐陽舍人書",
-  "author": "曾鞏",
+  "title": "249-ji-ouyang-sheren-shu",
   "overall_grade": "A",
-  "overall_comment": "背景與分析段品質極高，12項檢查全數通過。對曾鞏「畜道德而能文章」的墓誌銘理論分析深入，將感謝信昇華為文體論的洞察極為精彩。",
+  "overall_comment": "11/12 項通過",
   "checks": [
-    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出出處《元豐類稿》、作者曾鞏、時代（約宋仁宗慶曆六年1046左右）、體裁（書——感謝信／書牘）、核心命題（墓誌銘的價值取決於作者的道德與文章）。"},
-    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "深入分析曾鞏與歐陽修的師生關係——曾鞏十八歲隨父進京、二十歲入太學、屢試不第後家道中落的曲折經歷。"},
-    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "為曾鞏、歐陽修、曾鞏祖父建立詳細分析。歐陽修作為文壇領袖和曾鞏祖父墓誌銘的撰寫者，是這封感謝信的真正核心。"},
-    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "深入分析曾鞏寫信的三重層次：感謝歐陽修為祖父撰銘、藉機闡述墓誌銘理論、以「畜道德而能文章」讚美歐陽修正是理想作者——感謝信同時也是文學批評論文。"},
-    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "精準——年輕的曾鞏感謝歐陽修為祖父撰寫墓誌銘，但全文格局遠超謝意，系統論證了什麼樣的墓誌銘才能讓逝者不朽。"},
-    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "結構表清晰：起（感謝歐陽修撰銘）、承（論墓誌銘之難在於作者）、轉（提出畜道德而能文章的雙重要件）、合（歐陽修正是這樣的理想作者）。"},
-    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "列出層層推理（從感謝到理論的昇華）、對比（公墓誌與私墓誌、真善作者與諛墓者）、引經據典（引用《周易》《論語》）、反問（「非公其誰能當之？」）等手法。"},
-    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "選出「夫銘誌之著於世，義近於史」「非畜道德而能文章者，無以為也」「公之文，其傳世之盛，必矣」等名句，每句有深度賞析。"},
-    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "提供完整白話改編，涵蓋感謝之意、墓誌銘理論、畜道德而能文章的雙重要件等內容。"},
-    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題為「時代背景與寫作意旨」「文章分析」，無 emoji。"},
-    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段有獨立觀點（如「曾鞏將墓誌銘提升到史學的高度——墓誌銘不僅是紀念，更是一種歷史書寫」），有深度說明。"},
-    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "所有段落皆有獨立貢獻，背景段對曾鞏曲折仕途的分析有實際幫助，無填充內容。"}
+    {
+      "id": "bg_coord",
+      "name": "座標定位表",
+      "status": "pass",
+      "comment": "有座標定位表"
+    },
+    {
+      "id": "bg_era",
+      "name": "時代背景段",
+      "status": "pass",
+      "comment": "有時代背景分析"
+    },
+    {
+      "id": "bg_people",
+      "name": "關鍵人物段",
+      "status": "pass",
+      "comment": "有關鍵人物分析"
+    },
+    {
+      "id": "bg_intent",
+      "name": "寫作意圖段",
+      "status": "fail",
+      "comment": "無寫作意圖段"
+    },
+    {
+      "id": "bg_summary",
+      "name": "一句話總結",
+      "status": "pass",
+      "comment": "有一句話總結"
+    },
+    {
+      "id": "an_structure",
+      "name": "起承轉合表",
+      "status": "pass",
+      "comment": "有起承轉合表"
+    },
+    {
+      "id": "an_rhetoric",
+      "name": "修辭手法表",
+      "status": "pass",
+      "comment": "有修辭手法分析表"
+    },
+    {
+      "id": "an_quotes",
+      "name": "佳句賞析",
+      "status": "pass",
+      "comment": "有10句佳句賞析"
+    },
+    {
+      "id": "an_vernacular",
+      "name": "白話改編段",
+      "status": "pass",
+      "comment": "有白話改編段"
+    },
+    {
+      "id": "fmt_emoji",
+      "name": "h2 無 emoji",
+      "status": "pass",
+      "comment": "h2 標題無 emoji"
+    },
+    {
+      "id": "fmt_depth",
+      "name": "分析段深度",
+      "status": "pass",
+      "comment": "分析段 273 行"
+    },
+    {
+      "id": "no_padding",
+      "name": "不為寫而寫",
+      "status": "pass",
+      "comment": "主要內容無明顯灌水"
+    }
   ]
 }

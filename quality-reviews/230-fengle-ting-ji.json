@@ -1,21 +1,80 @@
 {
   "file": "230-fengle-ting-ji",
-  "title": "豐樂亭記",
-  "author": "歐陽修",
+  "title": "230-fengle-ting-ji",
   "overall_grade": "A",
-  "overall_comment": "12項全數過關。背景段深入慶曆新政失敗後的滁州之貶背景，分析段以今昔對比法解析，與醉翁亭記的對照閱讀極具深度。",
+  "overall_comment": "11/12 項通過",
   "checks": [
-    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出出處《歐陽文忠公全集》、體裁（亭臺記）、時代（慶曆六年1046）、核心命題（與民同樂、天下昇平）。"},
-    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "深入分析慶曆新政失敗背景、豐樂亭由來、滁州地理歷史、宋仁宗時代盛世實況。"},
-    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "歐陽修、宋仁宗、趙匡胤、李景四人有獨立分析，滁州三記列表清楚。"},
-    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "核心分析揭示歐陽修以豐樂亭反擊貶謫——用樂來對抗苦，用太平來對抗不公。"},
-    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "精準：被貶滁州卻在山水間看見天下太平——不是逃避，是對貶謫最驕傲的回應。"},
-    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "清楚列出四段（起：發現山水；承：追憶歷史；轉：讚美盛世；合：以樂收束）。"},
-    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "詳析今昔對比法、以小見大四層昇華、樂的三層含義、含蓄內斂抒情等手法。"},
-    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "賞析四句經典（始飲滁水而甘、故老皆無在者、百年之間漠然徒見山高水清、使民知所以安此豐年之樂者）。"},
-    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "提供完整白話改編，流暢自然。"},
-    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題為「時代背景與寫作意旨」「文章分析」，無 emoji。"},
-    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段有獨立觀點（與民同樂從理想到現實的突破、趙匡胤戰功的政治隱喻）。"},
-    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "與醉翁亭記的對照閱讀極有價值，軍師按語提供溫柔挑釁的獨特視角。"}
+    {
+      "id": "bg_coord",
+      "name": "座標定位表",
+      "status": "pass",
+      "comment": "有座標定位表"
+    },
+    {
+      "id": "bg_era",
+      "name": "時代背景段",
+      "status": "pass",
+      "comment": "有時代背景分析"
+    },
+    {
+      "id": "bg_people",
+      "name": "關鍵人物段",
+      "status": "pass",
+      "comment": "有關鍵人物分析"
+    },
+    {
+      "id": "bg_intent",
+      "name": "寫作意圖段",
+      "status": "fail",
+      "comment": "無寫作意圖段"
+    },
+    {
+      "id": "bg_summary",
+      "name": "一句話總結",
+      "status": "pass",
+      "comment": "有一句話總結"
+    },
+    {
+      "id": "an_structure",
+      "name": "起承轉合表",
+      "status": "pass",
+      "comment": "有起承轉合表"
+    },
+    {
+      "id": "an_rhetoric",
+      "name": "修辭手法表",
+      "status": "pass",
+      "comment": "有修辭手法分析表"
+    },
+    {
+      "id": "an_quotes",
+      "name": "佳句賞析",
+      "status": "pass",
+      "comment": "有10句佳句賞析"
+    },
+    {
+      "id": "an_vernacular",
+      "name": "白話改編段",
+      "status": "pass",
+      "comment": "有白話改編段"
+    },
+    {
+      "id": "fmt_emoji",
+      "name": "h2 無 emoji",
+      "status": "pass",
+      "comment": "h2 標題無 emoji"
+    },
+    {
+      "id": "fmt_depth",
+      "name": "分析段深度",
+      "status": "pass",
+      "comment": "分析段 197 行"
+    },
+    {
+      "id": "no_padding",
+      "name": "不為寫而寫",
+      "status": "pass",
+      "comment": "主要內容無明顯灌水"
+    }
   ]
 }

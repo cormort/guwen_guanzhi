@@ -1,21 +1,80 @@
 {
   "file": "03-gongzhiqi",
-  "title": "宮之奇諫假道",
-  "author": "左丘明",
+  "title": "03-gongzhiqi",
   "overall_grade": "A",
-  "overall_comment": "品質極高，12項全數通過。背景段對晉獻公的戰略騙局分析精彩，分析段修辭手法具體，佳句賞析選句經典。",
+  "overall_comment": "12/12 項通過",
   "checks": [
-    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出出處《左傳·僖公五年》、作者左丘明、體裁、事件年代、收錄卷次。"},
-    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "詳述晉獻公時期的擴張棋局，假途滅虢的四步戰略設計，以及晉、虞、虢三國的地緣關係，對理解全文極為重要。"},
-    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "涵蓋宮之奇（看穿棋局的智者）、虞君（短視庸主）、晉獻公（冷血戰略家），三人立場鮮明。"},
-    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "從三層分析：失敗者智慧照見歷史必然、警世功能、史官信仰（真理比成敗更值得記錄），層次豐富。"},
-    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "以「一個人的遠見救不了一個國家的短視」精準概括核心，且附帶對統治者的質問。"},
-    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "起（晉假道）、承（宮之奇諫阻）、轉（虞公不信）、合（晉滅虢滅虞），符合敘事邏輯。"},
-    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "列出精煉比喻（唇亡齒寒）、層層駁斥（恃恩→恃神→雙重否定）、預言式結局三項，皆為本文核心手法。"},
-    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "選出三句（輔車相依唇亡齒寒、晉不可啟寇不可翫、鬼神非人實親惟德是依），每句說明出處與意義。"},
-    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "白話改編完整，覆蓋宮之奇諫言全文要點，語言通順。"},
-    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題無 emoji。"},
-    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段有獨立觀點（宮之奇悲劇不在於看不見，而在於看得太清楚卻沒人聽），非翻譯。"},
-    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "每段皆有獨特貢獻，從時代背景到人物解碼到文本分析，層層遞進不重複。"}
+    {
+      "id": "bg_coord",
+      "name": "座標定位表",
+      "status": "pass",
+      "comment": "有座標定位表"
+    },
+    {
+      "id": "bg_era",
+      "name": "時代背景段",
+      "status": "pass",
+      "comment": "有時代背景分析"
+    },
+    {
+      "id": "bg_people",
+      "name": "關鍵人物段",
+      "status": "pass",
+      "comment": "有關鍵人物分析"
+    },
+    {
+      "id": "bg_intent",
+      "name": "寫作意圖段",
+      "status": "pass",
+      "comment": "有寫作意圖分析"
+    },
+    {
+      "id": "bg_summary",
+      "name": "一句話總結",
+      "status": "pass",
+      "comment": "有一句話總結"
+    },
+    {
+      "id": "an_structure",
+      "name": "起承轉合表",
+      "status": "pass",
+      "comment": "有起承轉合表"
+    },
+    {
+      "id": "an_rhetoric",
+      "name": "修辭手法表",
+      "status": "pass",
+      "comment": "有修辭手法分析表"
+    },
+    {
+      "id": "an_quotes",
+      "name": "佳句賞析",
+      "status": "pass",
+      "comment": "有6句佳句賞析"
+    },
+    {
+      "id": "an_vernacular",
+      "name": "白話改編段",
+      "status": "pass",
+      "comment": "有白話改編段"
+    },
+    {
+      "id": "fmt_emoji",
+      "name": "h2 無 emoji",
+      "status": "pass",
+      "comment": "h2 標題無 emoji"
+    },
+    {
+      "id": "fmt_depth",
+      "name": "分析段深度",
+      "status": "pass",
+      "comment": "分析段 86 行"
+    },
+    {
+      "id": "no_padding",
+      "name": "不為寫而寫",
+      "status": "pass",
+      "comment": "主要內容無明顯灌水"
+    }
   ]
 }

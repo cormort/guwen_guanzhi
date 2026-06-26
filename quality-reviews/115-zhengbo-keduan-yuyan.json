@@ -1,21 +1,80 @@
 {
   "file": "115-zhengbo-keduan-yuyan",
-  "title": "鄭伯克段於鄢（穀梁傳）",
-  "author": "穀梁赤 · 《穀梁傳·隱公元年》",
+  "title": "115-zhengbo-keduan-yuyan",
   "overall_grade": "A",
-  "overall_comment": "12項檢查全數通過。背景詳細比較春秋三傳對同一事件的不同解讀，穀梁傳「逐字解經法」分析深入。對鄭莊公與共叔段的雙重批評（失教與失道）呈現穀梁傳的均衡倫理。",
+  "overall_comment": "12/12 項通過",
   "checks": [
-    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出出處《穀梁傳·隱公元年》、時代春秋初期722BC、體裁春秋經傳、核心命題等。"},
-    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "詳細比較三傳（左傳、公羊、穀梁）對同一事件的不同解讀方向——敘事、褒貶、義理。"},
-    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "涵蓋鄭莊公、共叔段、姜氏，在三傳中的不同形象比較分析深入。"},
-    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "從穀梁傳的教化目的、補充左傳與公羊的定位、為後世立訓三層次分析。"},
-    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "精準總結三傳各有側重——左傳寫故事、公羊寫褒貶、穀梁寫道理。"},
-    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "起（克者何殺也）、承（段失子弟之道）、轉（鄭伯失教之道）、合（于鄢=取之母懷），結構清晰。"},
-    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "列出逐字解經法（鄭伯、克、段、于鄢）、母懷之喻等手法，分析有深度。"},
-    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "選出多句經典（克者何殺也、處心積慮成於殺、取之其母之懷中而殺之），賞析有深度。"},
-    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "有白話改編，覆蓋穀梁傳核心論證。"},
-    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題無 emoji。"},
-    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段有獨立觀點（語言哲學式的解經、均衡倫理、人情味），非僅翻譯。"},
-    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "各段皆有獨立貢獻，無重複或空洞內容。"}
+    {
+      "id": "bg_coord",
+      "name": "座標定位表",
+      "status": "pass",
+      "comment": "有座標定位表"
+    },
+    {
+      "id": "bg_era",
+      "name": "時代背景段",
+      "status": "pass",
+      "comment": "有時代背景分析"
+    },
+    {
+      "id": "bg_people",
+      "name": "關鍵人物段",
+      "status": "pass",
+      "comment": "有關鍵人物分析"
+    },
+    {
+      "id": "bg_intent",
+      "name": "寫作意圖段",
+      "status": "pass",
+      "comment": "有寫作意圖分析"
+    },
+    {
+      "id": "bg_summary",
+      "name": "一句話總結",
+      "status": "pass",
+      "comment": "有一句話總結"
+    },
+    {
+      "id": "an_structure",
+      "name": "起承轉合表",
+      "status": "pass",
+      "comment": "有起承轉合表"
+    },
+    {
+      "id": "an_rhetoric",
+      "name": "修辭手法表",
+      "status": "pass",
+      "comment": "有修辭手法分析表"
+    },
+    {
+      "id": "an_quotes",
+      "name": "佳句賞析",
+      "status": "pass",
+      "comment": "有10句佳句賞析"
+    },
+    {
+      "id": "an_vernacular",
+      "name": "白話改編段",
+      "status": "pass",
+      "comment": "有白話改編段"
+    },
+    {
+      "id": "fmt_emoji",
+      "name": "h2 無 emoji",
+      "status": "pass",
+      "comment": "h2 標題無 emoji"
+    },
+    {
+      "id": "fmt_depth",
+      "name": "分析段深度",
+      "status": "pass",
+      "comment": "分析段 169 行"
+    },
+    {
+      "id": "no_padding",
+      "name": "不為寫而寫",
+      "status": "pass",
+      "comment": "主要內容無明顯灌水"
+    }
   ]
 }

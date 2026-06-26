@@ -1,21 +1,80 @@
 {
   "file": "104-danzi-zhi-chen",
-  "title": "單子知陳必亡",
-  "author": "左丘明",
+  "title": "104-danzi-zhi-chen",
   "overall_grade": "A",
-  "overall_comment": "背景與分析段品質極高，12項檢查全數通過。背景涵蓋座標定位、時代壓力（陳國在晉楚夾縫中的衰亡前夜、周王室軟實力困境、歷史後果）、關鍵人物（單襄公、陳靈公、周定王）、寫作意圖（預言體說服力結構、為後世統治者提供教訓）、一句話總結。分析段有起承轉合表、寫作技巧分析（見微知著從細節預測國家命運方法論、五個失靈信號從細節看系統）、修辭手法表、佳句賞析兩句、白話改編。",
+  "overall_comment": "12/12 項通過",
   "checks": [
-    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出出處（國語周語中）、選集、體裁、時代（春秋中期周定王時期約前606年）、核心命題（見微知著）、思想譜系。"},
-    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "分析陳國歷史位置（地處晉楚之間）、周王室軟實力困境、歷史後果（陳靈公被殺、楚莊王滅陳復國）。"},
-    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "為單襄公（觀察者預言者系統分析師）、陳靈公（被觀察者反面典型）、周定王（背景人物）各設分析。"},
-    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "分析預言體說服力結構（用預言形式包裝分析）、為後世統治者提供的三點教訓（不忽視細節、制度是免疫力、奢侈品vs必需品）。"},
-    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "精準抓住單子靠讀取系統信號而非算命預測陳必亡的核心。"},
-    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "起（單子奉命出使途經陳國開始觀察）、承（沿途所見盡是失序）、轉（對照先王制度每一個失靈信號都是系統性崩壞證據）、合（預言陳必亡），合理清晰。"},
-    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "列出鋪陳、對比、引經、歸納、預言五種手法，有原文與效果說明。"},
-    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "選出兩句（火朝覿矣道茀不可行候不在疆司空不視塗澤不陂川不梁野有庾積場功未畢道無列樹墾田若藝、陳侯不有大咎國必亡），每句有深度賞析。"},
-    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "提供完整白話改編，覆蓋全文核心情節，語言流暢。"},
-    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題為「時代背景與寫作意旨」「文章分析」，無 emoji。"},
-    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段有獨立觀點（如見微知著系統性風險預警方法論、五個失靈信號從細節看系統），佳句賞析有深度說明。"},
-    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "所有段落皆有獨立貢獻，背景段補充原文所需知識，分析段提供結構拆解與文本細讀，無重複或空洞內容。"}
+    {
+      "id": "bg_coord",
+      "name": "座標定位表",
+      "status": "pass",
+      "comment": "有座標定位表"
+    },
+    {
+      "id": "bg_era",
+      "name": "時代背景段",
+      "status": "pass",
+      "comment": "有時代背景分析"
+    },
+    {
+      "id": "bg_people",
+      "name": "關鍵人物段",
+      "status": "pass",
+      "comment": "有關鍵人物分析"
+    },
+    {
+      "id": "bg_intent",
+      "name": "寫作意圖段",
+      "status": "pass",
+      "comment": "有寫作意圖分析"
+    },
+    {
+      "id": "bg_summary",
+      "name": "一句話總結",
+      "status": "pass",
+      "comment": "有一句話總結"
+    },
+    {
+      "id": "an_structure",
+      "name": "起承轉合表",
+      "status": "pass",
+      "comment": "有起承轉合表"
+    },
+    {
+      "id": "an_rhetoric",
+      "name": "修辭手法表",
+      "status": "pass",
+      "comment": "有修辭手法分析表"
+    },
+    {
+      "id": "an_quotes",
+      "name": "佳句賞析",
+      "status": "pass",
+      "comment": "有7句佳句賞析"
+    },
+    {
+      "id": "an_vernacular",
+      "name": "白話改編段",
+      "status": "pass",
+      "comment": "有白話改編段"
+    },
+    {
+      "id": "fmt_emoji",
+      "name": "h2 無 emoji",
+      "status": "pass",
+      "comment": "h2 標題無 emoji"
+    },
+    {
+      "id": "fmt_depth",
+      "name": "分析段深度",
+      "status": "pass",
+      "comment": "分析段 103 行"
+    },
+    {
+      "id": "no_padding",
+      "name": "不為寫而寫",
+      "status": "pass",
+      "comment": "主要內容無明顯灌水"
+    }
   ]
 }

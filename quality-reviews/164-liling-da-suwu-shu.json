@@ -1,21 +1,80 @@
 {
   "file": "164-liling-da-suwu-shu",
-  "title": "李陵答蘇武書",
-  "author": "李陵",
+  "title": "164-liling-da-suwu-shu",
   "overall_grade": "A",
-  "overall_comment": "背景與分析段品質極高，12項檢查全數通過。對李陵降將之苦的分析極有深度，投降辯白與控訴武帝不信任的情感張力賞析到位。",
+  "overall_comment": "11/12 項通過",
   "checks": [
-    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出出處《文選》卷四十一、作者李陵（一說後人偽託）、時代（西漢武帝時期）、體裁（書信體）、核心命題（身負國恩，為世所悲——當忠誠與生存矛盾時該如何選擇）。"},
-    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "深入分析李陵之敗的完整經過（五千步兵vs十萬騎兵、彈盡糧絕、武帝族滅全家）、蘇武北海牧羊十九年的氣節、以及李陵勸降蘇武反被感動的戲劇性場景。"},
-    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "為李陵、蘇武、漢武帝建立詳細分析。特別點出李陵敗在遇到一個不信任他的皇帝——武帝對李氏家族有偏見，所以當戰敗消息傳來，武帝的第一反應不是李陵盡力了而是他投降了。"},
-    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "深入分析李陵寫信的用意——不是求饒也不是辯解，而是解釋。他要告訴蘇武：我不是沒有努力，我盡了全力，但命運不站在我這邊。提出了「陵雖孤恩，漢亦負德」的命題。"},
-    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "精準——李陵的辯白之所以動人，不是因為他為投降找到了理由，而是因為他提出了一個沒有答案的問題：你到底該為一個不信任你的國家去死，還是該為自己的生存投降？"},
-    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "結構表層層遞進——開場故人重逢的哀傷、兵敗的詳細描述（核心證據）、對武帝的控訴（被族滅全家）、對命運的屈服（陵雖孤恩，漢亦負德）。四段結構完整。"},
-    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "指出對比（蘇武成功vs李陵失敗）、詳實敘事（近乎戰報的細節復原）、反問（「豈偷生之士而惜死之人哉」）、結尾悲涼收束等手法。"},
-    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "選出「遠託異國，昔人所悲」「然陵不死，罪也」「身出禮義之鄉，而入無知之俗」「陵雖孤恩，漢亦負德」等句，每句有深度賞析。"},
-    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "提供完整白話改編，涵蓋開場哀傷、兵敗詳情、對武帝控訴、結尾屈服等核心內容，語言流暢。"},
-    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題為「時代背景與寫作意旨」「原文結構與核心情感」等，無 emoji。"},
-    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段有獨立觀點（如「李陵的悲劇不是戰敗的悲劇，而是不被信任的悲劇」），對投降者心理的矛盾分析深刻——他承認有錯但認為漢朝也有錯。"},
-    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "所有段落皆有獨立貢獻，背景段對李陵蘇武命運對比的分析極有價值，無填充內容。"}
+    {
+      "id": "bg_coord",
+      "name": "座標定位表",
+      "status": "pass",
+      "comment": "有座標定位表"
+    },
+    {
+      "id": "bg_era",
+      "name": "時代背景段",
+      "status": "pass",
+      "comment": "有時代背景分析"
+    },
+    {
+      "id": "bg_people",
+      "name": "關鍵人物段",
+      "status": "pass",
+      "comment": "有關鍵人物分析"
+    },
+    {
+      "id": "bg_intent",
+      "name": "寫作意圖段",
+      "status": "fail",
+      "comment": "無寫作意圖段"
+    },
+    {
+      "id": "bg_summary",
+      "name": "一句話總結",
+      "status": "pass",
+      "comment": "有一句話總結"
+    },
+    {
+      "id": "an_structure",
+      "name": "起承轉合表",
+      "status": "pass",
+      "comment": "有起承轉合表"
+    },
+    {
+      "id": "an_rhetoric",
+      "name": "修辭手法表",
+      "status": "pass",
+      "comment": "有修辭手法分析表"
+    },
+    {
+      "id": "an_quotes",
+      "name": "佳句賞析",
+      "status": "pass",
+      "comment": "有5句佳句賞析"
+    },
+    {
+      "id": "an_vernacular",
+      "name": "白話改編段",
+      "status": "pass",
+      "comment": "有白話改編段"
+    },
+    {
+      "id": "fmt_emoji",
+      "name": "h2 無 emoji",
+      "status": "pass",
+      "comment": "h2 標題無 emoji"
+    },
+    {
+      "id": "fmt_depth",
+      "name": "分析段深度",
+      "status": "pass",
+      "comment": "分析段 82 行"
+    },
+    {
+      "id": "no_padding",
+      "name": "不為寫而寫",
+      "status": "pass",
+      "comment": "主要內容無明顯灌水"
+    }
   ]
 }

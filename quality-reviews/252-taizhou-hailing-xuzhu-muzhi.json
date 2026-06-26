@@ -1,21 +1,80 @@
 {
   "file": "252-taizhou-hailing-xuzhu-muzhi",
-  "title": "泰州海陵縣主簿許君墓誌銘",
-  "author": "王安石",
+  "title": "252-taizhou-hailing-xuzhu-muzhi",
   "overall_grade": "A",
-  "overall_comment": "背景與分析段品質極高，12項檢查全數通過。對王安石為九品小官寫墓誌銘卻寫出所有懷才不遇者尊嚴的洞察極為精彩。",
+  "overall_comment": "11/12 項通過",
   "checks": [
-    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出出處《臨川先生文集》、作者王安石、時代（北宋中期約皇祐年間1049-1054）、體裁（墓誌銘）、核心命題（懷才不遇者的尊嚴）。"},
-    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "深入分析北宋中期士人的仕途困境，以及王安石本人對懷才不遇的切身感受——他早年屢次拒絕入京任職，對許平的境遇有深刻共鳴。"},
-    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "為王安石、許平（字秉之，墓主）建立詳細分析。許平一生懷才不遇，官至九品主簿，但王安石在他的墓誌銘中寫出了超越官位的人生價值。"},
-    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "深入分析王安石的三層用意：為友人作銘、為懷才不遇者立傳、以許平之例批判以官位論人的世俗眼光。"},
-    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "精準——王安石為一個九品小官寫墓誌銘，卻寫出了所有懷才不遇者的尊嚴。"},
-    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "結構表清晰：起（介紹許平生平）、承（敘述許平的才華與抱負）、轉（點出懷才不遇的惋惜）、合（墓誌銘文以不朽作結）。"},
-    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "列出簡筆勾勒（以極簡筆法寫生平）、反襯（以世俗成功對比許平的不遇）、含蓄褒貶（不直言批判而含義自見）、卒章顯志（銘文點題）等手法。"},
-    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "選出「士之遇不遇，天也」「其志之可悲也已」「後世必有能辨之者」等名句，每句有背景說明與深度賞析。"},
-    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "提供完整白話改編，涵蓋許平生平、懷才不遇的惋惜、銘文點題等核心內容。"},
-    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題為「時代背景與寫作意旨」「文章分析」，無 emoji。"},
-    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段有獨立觀點（如「王安石寫的不是許平，是所有在體制內被浪費的才華——而許平的墓誌銘本身就是對這種浪費的反擊」），有深度說明。"},
-    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "所有段落皆有獨立貢獻，背景段對北宋士人仕途困境的分析有實際幫助，無填充內容。"}
+    {
+      "id": "bg_coord",
+      "name": "座標定位表",
+      "status": "pass",
+      "comment": "有座標定位表"
+    },
+    {
+      "id": "bg_era",
+      "name": "時代背景段",
+      "status": "pass",
+      "comment": "有時代背景分析"
+    },
+    {
+      "id": "bg_people",
+      "name": "關鍵人物段",
+      "status": "pass",
+      "comment": "有關鍵人物分析"
+    },
+    {
+      "id": "bg_intent",
+      "name": "寫作意圖段",
+      "status": "fail",
+      "comment": "無寫作意圖段"
+    },
+    {
+      "id": "bg_summary",
+      "name": "一句話總結",
+      "status": "pass",
+      "comment": "有一句話總結"
+    },
+    {
+      "id": "an_structure",
+      "name": "起承轉合表",
+      "status": "pass",
+      "comment": "有起承轉合表"
+    },
+    {
+      "id": "an_rhetoric",
+      "name": "修辭手法表",
+      "status": "pass",
+      "comment": "有修辭手法分析表"
+    },
+    {
+      "id": "an_quotes",
+      "name": "佳句賞析",
+      "status": "pass",
+      "comment": "有10句佳句賞析"
+    },
+    {
+      "id": "an_vernacular",
+      "name": "白話改編段",
+      "status": "pass",
+      "comment": "有白話改編段"
+    },
+    {
+      "id": "fmt_emoji",
+      "name": "h2 無 emoji",
+      "status": "pass",
+      "comment": "h2 標題無 emoji"
+    },
+    {
+      "id": "fmt_depth",
+      "name": "分析段深度",
+      "status": "pass",
+      "comment": "分析段 312 行"
+    },
+    {
+      "id": "no_padding",
+      "name": "不為寫而寫",
+      "status": "pass",
+      "comment": "主要內容無明顯灌水"
+    }
   ]
 }

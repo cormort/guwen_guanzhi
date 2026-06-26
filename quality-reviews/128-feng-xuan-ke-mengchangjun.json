@@ -1,21 +1,80 @@
 {
   "file": "128-feng-xuan-ke-mengchangjun",
-  "title": "馮煖客孟嘗君",
-  "author": "劉向 · 《戰國策·齊策四》",
+  "title": "128-feng-xuan-ke-mengchangjun",
   "overall_grade": "A",
-  "overall_comment": "12項檢查全數通過。背景詳述戰國養士之風與孟嘗君其人，座標定位完整。馮煖「燒券市義」與「狡兔三窟」的戰略智慧分析精彩——逆向配置、系統布局、從被動到主動的進化。人物分析（馮煖、孟嘗君、齊湣王）各有深度。",
+  "overall_comment": "11/12 項通過",
   "checks": [
-    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出出處《戰國策·齊策四》、時代戰國中晚期約西元前3世紀齊湣王時期、體裁歷史記言/策士傳記、核心命題等。"},
-    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "詳述戰國養士之風（養士目的、士的來源、門客生態）、孟嘗君田文其人（政治地位、養士規模、性格特質）。"},
-    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "涵蓋馮煖（戰略型門客）、孟嘗君（從昏君到明主的轉變）、齊湣王（隱形棋手），人物分析有深度。"},
-    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "從戰國縱橫家處世智慧、門客以反直覺智慧為主人建立政治根基、狡兔三窟成語出處三層次分析。"},
-    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "精準總結：馮煖以看似荒唐的方式燒掉債券，買到一個人在亂世中最珍貴的資產——別人的真心擁戴。"},
-    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "四幕結構清晰：彈劍而歌→燒券市義→薛地迎君→狡兔三窟，層層遞進形成經典故事弧線。"},
-    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "分析反襯（馮煖無好無能vs深謀遠慮）、類比（狡兔三窟）、遞進（三窟從生存到籌碼到制度）等手法。"},
-    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "選出狡兔有三窟僅得免其死、長鋏歸來乎食無魚、市義等句，賞析有深度。"},
-    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "核心段落白話改編完整，涵蓋從馮煖投靠孟嘗君到三窟已就的完整故事。"},
-    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題無 emoji。"},
-    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段有獨立觀點（逆向配置——在順境時做最保守的準備、系統眼光——建立容錯系統讓問題不再發生），非僅翻譯。"},
-    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "各段分工明確，內容充實有意義，無灌水痕跡。"}
+    {
+      "id": "bg_coord",
+      "name": "座標定位表",
+      "status": "pass",
+      "comment": "有座標定位表"
+    },
+    {
+      "id": "bg_era",
+      "name": "時代背景段",
+      "status": "pass",
+      "comment": "有時代背景分析"
+    },
+    {
+      "id": "bg_people",
+      "name": "關鍵人物段",
+      "status": "pass",
+      "comment": "有關鍵人物分析"
+    },
+    {
+      "id": "bg_intent",
+      "name": "寫作意圖段",
+      "status": "fail",
+      "comment": "無寫作意圖段"
+    },
+    {
+      "id": "bg_summary",
+      "name": "一句話總結",
+      "status": "pass",
+      "comment": "有一句話總結"
+    },
+    {
+      "id": "an_structure",
+      "name": "起承轉合表",
+      "status": "pass",
+      "comment": "有起承轉合表"
+    },
+    {
+      "id": "an_rhetoric",
+      "name": "修辭手法表",
+      "status": "pass",
+      "comment": "有修辭手法分析表"
+    },
+    {
+      "id": "an_quotes",
+      "name": "佳句賞析",
+      "status": "pass",
+      "comment": "有7句佳句賞析"
+    },
+    {
+      "id": "an_vernacular",
+      "name": "白話改編段",
+      "status": "pass",
+      "comment": "有白話改編段"
+    },
+    {
+      "id": "fmt_emoji",
+      "name": "h2 無 emoji",
+      "status": "pass",
+      "comment": "h2 標題無 emoji"
+    },
+    {
+      "id": "fmt_depth",
+      "name": "分析段深度",
+      "status": "pass",
+      "comment": "分析段 120 行"
+    },
+    {
+      "id": "no_padding",
+      "name": "不為寫而寫",
+      "status": "pass",
+      "comment": "主要內容無明顯灌水"
+    }
   ]
 }

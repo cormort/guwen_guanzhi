@@ -1,21 +1,80 @@
 {
   "file": "08-chuzhe",
-  "title": "觸讋說趙太后",
-  "author": "劉向（《戰國策》）",
+  "title": "08-chuzhe",
   "overall_grade": "A",
-  "overall_comment": "品質極高，12項全數過關。觸讋迂迴說服策略分析精彩，與燭之武的對比極具洞察力。",
+  "overall_comment": "12/12 項通過",
   "checks": [
-    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出出處《戰國策·趙策四》、事件時間265BC、背景事件（趙太后執政、秦攻趙）、核心命題。"},
-    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "分析戰國後期一強六弱格局——秦獨強、趙主少國疑、齊國精明務實開出質子條件，點出「不是宮廷內鬥，是國土淪喪前夕的最後一次談判」。"},
-    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "涵蓋觸讋（迂迴破防心理戰大師）、趙太后（被母愛矇蔽的統治者）、長安君（被當成棋子的幼子），並附與燭之武策略對比表。"},
-    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "拆解觸讋說服戰術五步：建立安全區→找到共同點→植入參照系→引導推論→讓對方行動，並與燭之武退秦師並列為硬說服vs軟說服的經典對照。"},
-    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "「觸讋沒有說服趙太后——他讓趙太后說服了自己。」精準有力。"},
-    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "起（秦攻趙、齊要質子、太后拒諫）、承（觸讋求見、避其鋒芒）、轉（從為子求官引出愛之深計之遠）、合（太后醒悟→長安君質齊→齊兵出）。"},
-    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "列出類比（燕后類比長安君）、對比（愛燕后vs愛長安君）、層遞（身體健康→為子求官→燕后之愛→長安君之計）、引用史例，皆具辨識度。"},
-    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "選出四句（父母之愛子則為之計深遠、位尊而無功奉厚而無勞、老臣以媼為長安君計短也、近者禍及身遠者及其子孫），賞析有深度。"},
-    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "白話改編詳盡，五段逐段對照原文。"},
-    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題無 emoji。"},
-    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段四步說服策略拆解（緩和情緒→製造共同立場→引導思考→歷史教訓）、敘事技巧表格（鋪墊衝突/細節刻畫/生活化切入/心理轉折/歷史收尾），觀點獨立。"},
-    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "背景段補充三國地緣政治、分析段拆解說服策略、戰術對比提供增量理解，無冗餘。"}
+    {
+      "id": "bg_coord",
+      "name": "座標定位表",
+      "status": "pass",
+      "comment": "有座標定位表"
+    },
+    {
+      "id": "bg_era",
+      "name": "時代背景段",
+      "status": "pass",
+      "comment": "有時代背景分析"
+    },
+    {
+      "id": "bg_people",
+      "name": "關鍵人物段",
+      "status": "pass",
+      "comment": "有關鍵人物分析"
+    },
+    {
+      "id": "bg_intent",
+      "name": "寫作意圖段",
+      "status": "pass",
+      "comment": "有寫作意圖分析"
+    },
+    {
+      "id": "bg_summary",
+      "name": "一句話總結",
+      "status": "pass",
+      "comment": "有一句話總結"
+    },
+    {
+      "id": "an_structure",
+      "name": "起承轉合表",
+      "status": "pass",
+      "comment": "有起承轉合表"
+    },
+    {
+      "id": "an_rhetoric",
+      "name": "修辭手法表",
+      "status": "pass",
+      "comment": "有修辭手法分析表"
+    },
+    {
+      "id": "an_quotes",
+      "name": "佳句賞析",
+      "status": "pass",
+      "comment": "有9句佳句賞析"
+    },
+    {
+      "id": "an_vernacular",
+      "name": "白話改編段",
+      "status": "pass",
+      "comment": "有白話改編段"
+    },
+    {
+      "id": "fmt_emoji",
+      "name": "h2 無 emoji",
+      "status": "pass",
+      "comment": "h2 標題無 emoji"
+    },
+    {
+      "id": "fmt_depth",
+      "name": "分析段深度",
+      "status": "pass",
+      "comment": "分析段 170 行"
+    },
+    {
+      "id": "no_padding",
+      "name": "不為寫而寫",
+      "status": "pass",
+      "comment": "主要內容無明顯灌水"
+    }
   ]
 }

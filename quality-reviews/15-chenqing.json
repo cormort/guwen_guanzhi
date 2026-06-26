@@ -1,21 +1,80 @@
 {
   "file": "15-chenqing",
-  "title": "陳情表",
-  "author": "李密",
+  "title": "15-chenqing",
   "overall_grade": "A",
-  "overall_comment": "品質極高，12項全數過關。對本文「以孝為盾的政治求生術」的核心洞察極具深度，四大修辭戰略的分析精彩。",
+  "overall_comment": "12/12 項通過",
   "checks": [
-    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出時間（西晉泰始三年267年）、地理（犍為→洛陽）、政局（司馬炎篡魏建晉）、身份（蜀漢舊臣）、事件、文體。"},
-    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "分析司馬炎政治算盤（徵召籠絡收編蜀漢舊臣）、李密進退皆死局的困境表（奉詔/拒絕/陳情三選項的風險評估），以及詔書步步進逼的時間壓力。"},
-    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "涵蓋李密（至孝謹慎深謀遠慮）、祖母劉氏（全篇道德槓桿）、晉武帝司馬炎（需要收買人心的篡位皇帝）。"},
-    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "四層分析：表面/中層/深層/潛台詞的文本策略，四大修辭戰略（先弱後強博取同情、以子之矛攻子之盾、先捧後請不留把柄、開空頭支票預留後路），分析極具深度。"},
-    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "「以孝為外衣、以保命為核心的政治避險文件」，精準概括本文本質。"},
-    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "起（身世悲苦）、承（朝廷徵召進退狼狽）、轉（以孝治天下）、合（乞求終養後當隕首）。"},
-    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "列出細節描寫（煢煢孑立形影相弔）、對比（朝廷恩遇vs祖母病篤）、比喻（烏鳥私情）、層遞，皆為本文有辨識度的修辭。"},
-    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "選出四句（臣無祖母無以至今日祖母無臣無以終餘年、煢煢孑立形影相弔、烏鳥私情願乞終養、生當隕首死當結草），賞析有深度。"},
-    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "白話改編涵蓋全文四段要旨。"},
-    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題無 emoji。"},
-    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段四層說服策略（以情動人→避開政治敏感→運用國策→做好承諾），以及不安全vs安全拒絕方式對照表，觀點獨立。"},
-    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "背景段的政治風險表格、分析段的安全拒絕對照表均提供增量信息，無冗餘。"}
+    {
+      "id": "bg_coord",
+      "name": "座標定位表",
+      "status": "pass",
+      "comment": "有座標定位表"
+    },
+    {
+      "id": "bg_era",
+      "name": "時代背景段",
+      "status": "pass",
+      "comment": "有時代背景分析"
+    },
+    {
+      "id": "bg_people",
+      "name": "關鍵人物段",
+      "status": "pass",
+      "comment": "有關鍵人物分析"
+    },
+    {
+      "id": "bg_intent",
+      "name": "寫作意圖段",
+      "status": "pass",
+      "comment": "有寫作意圖分析"
+    },
+    {
+      "id": "bg_summary",
+      "name": "一句話總結",
+      "status": "pass",
+      "comment": "有一句話總結"
+    },
+    {
+      "id": "an_structure",
+      "name": "起承轉合表",
+      "status": "pass",
+      "comment": "有起承轉合表"
+    },
+    {
+      "id": "an_rhetoric",
+      "name": "修辭手法表",
+      "status": "pass",
+      "comment": "有修辭手法分析表"
+    },
+    {
+      "id": "an_quotes",
+      "name": "佳句賞析",
+      "status": "pass",
+      "comment": "有8句佳句賞析"
+    },
+    {
+      "id": "an_vernacular",
+      "name": "白話改編段",
+      "status": "pass",
+      "comment": "有白話改編段"
+    },
+    {
+      "id": "fmt_emoji",
+      "name": "h2 無 emoji",
+      "status": "pass",
+      "comment": "h2 標題無 emoji"
+    },
+    {
+      "id": "fmt_depth",
+      "name": "分析段深度",
+      "status": "pass",
+      "comment": "分析段 105 行"
+    },
+    {
+      "id": "no_padding",
+      "name": "不為寫而寫",
+      "status": "pass",
+      "comment": "主要內容無明顯灌水"
+    }
   ]
 }

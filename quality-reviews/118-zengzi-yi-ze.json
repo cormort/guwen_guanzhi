@@ -1,21 +1,80 @@
 {
   "file": "118-zengzi-yi-ze",
-  "title": "曾子易簀",
-  "author": "戴聖 · 《禮記·檀弓上》",
+  "title": "118-zengzi-yi-ze",
   "overall_grade": "A",
-  "overall_comment": "12項檢查全數通過。背景詳述春秋末期的禮崩樂壞與曾子的宗聖地位。對曾子臨終換蓆的禮學意義分析深入，童言驚醒→掙扎決定→得正而斃的四幕結構解析精彩。",
+  "overall_comment": "11/12 項通過",
   "checks": [
-    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出出處《禮記·檀弓上》、時代春秋末期約5世紀初、體裁禮學記述/傳記小品、核心事件等。"},
-    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "分析春秋末期禮崩樂壞的具體現象（三家專權、僭越用物），曾子從「參也魯」到「宗聖」的傳承譜系。"},
-    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "涵蓋曾子（禮的化身）、曾元曾申（孝與禮的衝突點）、童子（天真的真相揭發者）、季孫氏，人物分析有深度。"},
-    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "從禮記的禮學傳統、曾子在儒家譜系中的關鍵地位、「得正而斃」的生命態度三層次分析。"},
-    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "精準總結曾子在死亡面前對禮制的堅持——對「正」這個字的一生守護。"},
-    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "起（曾子病篤童子發現蓆子不合禮制）、承（曾子堅持要換兒子反對）、轉（曾子以德愛人之辯）、合（反席未安而沒），結構合理。"},
-    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "分析核心修辭（君子之愛人也以德、吾得正而斃焉），表格完整。"},
-    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "選出多句（華而睆大夫之簀與、爾之愛我也不如彼、吾得正而斃焉斯已矣），賞析有深度。"},
-    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "完整白話改編，覆蓋從發現蓆子到換蓆而死的完整過程。"},
-    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題無 emoji。"},
-    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段有獨立觀點（為什麼是蓆子——物的象徵意義），非僅翻譯原文。"},
-    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "各段分工明確，內容充實有意義，無灌水痕跡。"}
+    {
+      "id": "bg_coord",
+      "name": "座標定位表",
+      "status": "pass",
+      "comment": "有座標定位表"
+    },
+    {
+      "id": "bg_era",
+      "name": "時代背景段",
+      "status": "pass",
+      "comment": "有時代背景分析"
+    },
+    {
+      "id": "bg_people",
+      "name": "關鍵人物段",
+      "status": "pass",
+      "comment": "有關鍵人物分析"
+    },
+    {
+      "id": "bg_intent",
+      "name": "寫作意圖段",
+      "status": "fail",
+      "comment": "無寫作意圖段"
+    },
+    {
+      "id": "bg_summary",
+      "name": "一句話總結",
+      "status": "pass",
+      "comment": "有一句話總結"
+    },
+    {
+      "id": "an_structure",
+      "name": "起承轉合表",
+      "status": "pass",
+      "comment": "有起承轉合表"
+    },
+    {
+      "id": "an_rhetoric",
+      "name": "修辭手法表",
+      "status": "pass",
+      "comment": "有修辭手法分析表"
+    },
+    {
+      "id": "an_quotes",
+      "name": "佳句賞析",
+      "status": "pass",
+      "comment": "有6句佳句賞析"
+    },
+    {
+      "id": "an_vernacular",
+      "name": "白話改編段",
+      "status": "pass",
+      "comment": "有白話改編段"
+    },
+    {
+      "id": "fmt_emoji",
+      "name": "h2 無 emoji",
+      "status": "pass",
+      "comment": "h2 標題無 emoji"
+    },
+    {
+      "id": "fmt_depth",
+      "name": "分析段深度",
+      "status": "pass",
+      "comment": "分析段 98 行"
+    },
+    {
+      "id": "no_padding",
+      "name": "不為寫而寫",
+      "status": "pass",
+      "comment": "主要內容無明顯灌水"
+    }
   ]
 }

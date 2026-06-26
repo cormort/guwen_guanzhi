@@ -1,21 +1,80 @@
 {
   "file": "113-songren-ji-churen-ping",
-  "title": "宋人及楚人平",
-  "author": "公羊高 · 《公羊傳·宣公十五年》",
+  "title": "113-songren-ji-churen-ping",
   "overall_grade": "A",
-  "overall_comment": "12項檢查全數通過。背景詳述楚圍宋九個月的慘狀與華元的誠實戰略，人物分析（華元、子反、莊王）深入。公羊學「平者在下」的獨特視角解析到位，與《左傳》對比詳實。",
+  "overall_comment": "11/12 項通過",
   "checks": [
-    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出出處《公羊傳·宣公十五年》、時代春秋中期594BC、體裁歷史敘事、核心命題、思想譜系等。"},
-    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "分析楚莊王圍宋九個月的極限慘狀（易子而食、析骸而爨），華元說實話的高明心理戰。"},
-    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "涵蓋華元（誠實的戰略家）、子反（被誠實俘虜的君子）、莊王（從憤怒到接受），人物互補完整。"},
-    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "從公羊學讚美和平由當事人自發達成、貶抑大夫越權行事、與《左傳》版本比較三層次分析。"},
-    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "精準總結這不是關於勝利的戰爭故事，而是關於戰爭中保持人性底線的公羊學案例。"},
-    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "起（楚圍宋）、承（華元坦誠告以城中慘狀）、轉（子反感動回報+莊王怒）、合（和平達成+公羊史評），結構合理。"},
-    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "列出格言警句、對比反襯、反問、遞進、春秋筆法等手法，表格完整。"},
-    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "選出四句（易子而食析骸而炊、君子見人之厄則矜之、以區區之宋猶有不欺人之臣、吾亦從子而歸爾），賞析豐富。"},
-    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "完整白話改編，覆蓋從圍城到和平達成的全過程。"},
-    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題無 emoji。"},
-    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段有獨立觀點（誠實連鎖反應、兩次何如的對稱結構），非僅翻譯原文。"},
-    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "各段分工明確，背景補知識、分析段提供文本細讀，無冗餘內容。"}
+    {
+      "id": "bg_coord",
+      "name": "座標定位表",
+      "status": "pass",
+      "comment": "有座標定位表"
+    },
+    {
+      "id": "bg_era",
+      "name": "時代背景段",
+      "status": "pass",
+      "comment": "有時代背景分析"
+    },
+    {
+      "id": "bg_people",
+      "name": "關鍵人物段",
+      "status": "pass",
+      "comment": "有關鍵人物分析"
+    },
+    {
+      "id": "bg_intent",
+      "name": "寫作意圖段",
+      "status": "fail",
+      "comment": "無寫作意圖段"
+    },
+    {
+      "id": "bg_summary",
+      "name": "一句話總結",
+      "status": "pass",
+      "comment": "有一句話總結"
+    },
+    {
+      "id": "an_structure",
+      "name": "起承轉合表",
+      "status": "pass",
+      "comment": "有起承轉合表"
+    },
+    {
+      "id": "an_rhetoric",
+      "name": "修辭手法表",
+      "status": "pass",
+      "comment": "有修辭手法分析表"
+    },
+    {
+      "id": "an_quotes",
+      "name": "佳句賞析",
+      "status": "pass",
+      "comment": "有10句佳句賞析"
+    },
+    {
+      "id": "an_vernacular",
+      "name": "白話改編段",
+      "status": "pass",
+      "comment": "有白話改編段"
+    },
+    {
+      "id": "fmt_emoji",
+      "name": "h2 無 emoji",
+      "status": "pass",
+      "comment": "h2 標題無 emoji"
+    },
+    {
+      "id": "fmt_depth",
+      "name": "分析段深度",
+      "status": "pass",
+      "comment": "分析段 160 行"
+    },
+    {
+      "id": "no_padding",
+      "name": "不為寫而寫",
+      "status": "pass",
+      "comment": "主要內容無明顯灌水"
+    }
   ]
 }

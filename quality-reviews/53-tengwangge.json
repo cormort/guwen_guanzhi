@@ -1,81 +1,80 @@
 {
   "file": "53-tengwangge",
-  "title": "滕王閣序",
-  "author": "",
+  "title": "53-tengwangge",
   "overall_grade": "A",
   "overall_comment": "11/12 項通過",
   "checks": [
     {
-      "id": "an_quotes",
-      "name": "an_quotes",
-      "status": "pass",
-      "comment": "有4句佳句賞析"
-    },
-    {
-      "id": "an_rhetoric",
-      "name": "an_rhetoric",
-      "status": "fail",
-      "comment": "修辭僅列駢文巔峰、情感轉折，未成表格"
-    },
-    {
-      "id": "an_structure",
-      "name": "an_structure",
-      "status": "pass",
-      "comment": "有文章結構四段分析"
-    },
-    {
-      "id": "an_vernacular",
-      "name": "an_vernacular",
-      "status": "pass",
-      "comment": "有白話改編段落"
-    },
-    {
       "id": "bg_coord",
-      "name": "bg_coord",
+      "name": "座標定位表",
       "status": "pass",
-      "comment": "有座標定位表（朝代、年份、地理、文體、作者年齡）"
+      "comment": "有座標定位表"
     },
     {
       "id": "bg_era",
-      "name": "bg_era",
+      "name": "時代背景段",
       "status": "pass",
-      "comment": "有時代壓力分析（初唐文學過渡之戰、政治背景）"
-    },
-    {
-      "id": "bg_intent",
-      "name": "bg_intent",
-      "status": "pass",
-      "comment": "有寫作意圖深層分析（遺書說、命運預言）"
+      "comment": "有時代背景分析"
     },
     {
       "id": "bg_people",
-      "name": "bg_people",
+      "name": "關鍵人物段",
+      "status": "fail",
+      "comment": "無關鍵人物段"
+    },
+    {
+      "id": "bg_intent",
+      "name": "寫作意圖段",
       "status": "pass",
-      "comment": "有關鍵人物分析（王勃、閻伯嶼、與會賓客）"
+      "comment": "有寫作意圖分析"
     },
     {
       "id": "bg_summary",
-      "name": "bg_summary",
+      "name": "一句話總結",
       "status": "pass",
       "comment": "有一句話總結"
     },
     {
-      "id": "fmt_depth",
-      "name": "fmt_depth",
+      "id": "an_structure",
+      "name": "起承轉合表",
       "status": "pass",
-      "comment": "分析段有結構、技巧、佳句三層"
+      "comment": "有起承轉合表"
+    },
+    {
+      "id": "an_rhetoric",
+      "name": "修辭手法表",
+      "status": "pass",
+      "comment": "有修辭手法分析表"
+    },
+    {
+      "id": "an_quotes",
+      "name": "佳句賞析",
+      "status": "pass",
+      "comment": "有7句佳句賞析"
+    },
+    {
+      "id": "an_vernacular",
+      "name": "白話改編段",
+      "status": "pass",
+      "comment": "有白話改編段"
     },
     {
       "id": "fmt_emoji",
-      "name": "fmt_emoji",
+      "name": "h2 無 emoji",
       "status": "pass",
-      "comment": "標題無 emoji"
+      "comment": "h2 標題無 emoji"
+    },
+    {
+      "id": "fmt_depth",
+      "name": "分析段深度",
+      "status": "pass",
+      "comment": "分析段 79 行"
     },
     {
       "id": "no_padding",
-      "name": "no_padding",
+      "name": "不為寫而寫",
       "status": "pass",
-      "comment": "內容豐富深入"
+      "comment": "主要內容無明顯灌水"
     }
   ]
 }

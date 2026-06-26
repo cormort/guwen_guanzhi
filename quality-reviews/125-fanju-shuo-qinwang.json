@@ -1,21 +1,80 @@
 {
   "file": "125-fanju-shuo-qinwang",
-  "title": "范雎說秦王",
-  "author": "劉向 · 《戰國策·秦策三》",
+  "title": "125-fanju-shuo-qinwang",
   "overall_grade": "A",
-  "overall_comment": "12項檢查全數通過。背景詳述秦昭襄王時期的戰略困局（遠征浪費、權臣專政、四戰之地）。范雎「遠交近攻」戰略的兩線推進（外交軍事+宮廷政治）分析精彩。人物分析（范雎從逃亡者到秦相）深入。",
+  "overall_comment": "11/12 項通過",
   "checks": [
-    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出出處《戰國策·秦策三》、時代戰國後期約270BC、體裁說辭/縱橫策論、核心命題等。"},
-    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "分析秦昭襄王時期的三大困局（遠征浪費、權臣專政、四戰之地），范雎從逃亡者到秦相的傳奇經歷。"},
-    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "涵蓋范雎（從地獄爬出來的戰略家）、秦昭襄王（承上啟下的君主），人物分析有深度。"},
-    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "從縱橫家思想的成熟期、遠交近攻對秦國統一進程的關鍵影響、戰略與政治綁定三層次分析。"},
-    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "精準總結遠交近攻是戰略史上最清晰的擴張路線圖——先吃掉能消化得掉的旁邊。"},
-    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "結構清晰：范雎說秦王的心理鋪墊→以歷史教訓（一軍破齊）論證→提出遠交近攻→對內剷除魏冉的雙線布局。"},
-    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "分析歷史案例論證、對比（遠征齊國vs近攻韓魏）、心理鋪陳等手法。"},
-    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "選出多句遠交近攻經典論述，賞析有深度。"},
-    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "完整白話改編，覆蓋范雎說秦王的核心論證。"},
-    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題無 emoji。"},
-    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段有獨立觀點（戰略和政治綁在一起推進），非僅翻譯原文。"},
-    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "各段分工明確，內容充實有意義，無灌水痕跡。"}
+    {
+      "id": "bg_coord",
+      "name": "座標定位表",
+      "status": "pass",
+      "comment": "有座標定位表"
+    },
+    {
+      "id": "bg_era",
+      "name": "時代背景段",
+      "status": "pass",
+      "comment": "有時代背景分析"
+    },
+    {
+      "id": "bg_people",
+      "name": "關鍵人物段",
+      "status": "pass",
+      "comment": "有關鍵人物分析"
+    },
+    {
+      "id": "bg_intent",
+      "name": "寫作意圖段",
+      "status": "fail",
+      "comment": "無寫作意圖段"
+    },
+    {
+      "id": "bg_summary",
+      "name": "一句話總結",
+      "status": "pass",
+      "comment": "有一句話總結"
+    },
+    {
+      "id": "an_structure",
+      "name": "起承轉合表",
+      "status": "pass",
+      "comment": "有起承轉合表"
+    },
+    {
+      "id": "an_rhetoric",
+      "name": "修辭手法表",
+      "status": "pass",
+      "comment": "有修辭手法分析表"
+    },
+    {
+      "id": "an_quotes",
+      "name": "佳句賞析",
+      "status": "pass",
+      "comment": "有8句佳句賞析"
+    },
+    {
+      "id": "an_vernacular",
+      "name": "白話改編段",
+      "status": "pass",
+      "comment": "有白話改編段"
+    },
+    {
+      "id": "fmt_emoji",
+      "name": "h2 無 emoji",
+      "status": "pass",
+      "comment": "h2 標題無 emoji"
+    },
+    {
+      "id": "fmt_depth",
+      "name": "分析段深度",
+      "status": "pass",
+      "comment": "分析段 116 行"
+    },
+    {
+      "id": "no_padding",
+      "name": "不為寫而寫",
+      "status": "pass",
+      "comment": "主要內容無明顯灌水"
+    }
   ]
 }

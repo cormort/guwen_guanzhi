@@ -1,21 +1,80 @@
 {
   "file": "93-qixi",
-  "title": "祁奚請免叔向",
-  "author": "左丘明",
+  "title": "93-qixi",
   "overall_grade": "A",
-  "overall_comment": "背景與分析段品質極高，12項檢查全數通過。背景涵蓋座標定位、時代壓力（晉國公室衰微與大夫專權、欒氏之亂、連坐與株連）、關鍵人物（祁奚、叔向、范宣子各設詳細表格）、寫作意圖（為義立傳、做好事不留名、春秋筆法對比）、一句話總結。分析段有起承轉合表、寫作技巧分析（反高潮敘事、社稷之固論證）、修辭手法表、佳句賞析三句、白話改編。",
+  "overall_comment": "11/12 項通過",
   "checks": [
-    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出時間（魯襄公二十一年公元前552年）、空間、核心事件、引爆點、經典文眼。"},
-    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "深入分析晉國滅公族遺毒、欒氏之亂權力清洗、連坐宗法社會背景，層層遞進。"},
-    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "為祁奚、叔向、范宣子各設詳細表格分析，涵蓋身份、性格、行動、關鍵一句、軍師評語。"},
-    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "從為義立傳、做好事不留名、對比筆法、敘事結構安排四個層次深入分析。"},
-    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "精準抓住祁奚救人後不見叔向而歸的核心，點出真正的義不需要被感謝。"},
-    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "起（欒氏之亂叔向連坐下獄）、承（祁奚以社稷之固論說服）、轉（范宣子聽從釋放）、合（祁奚不見叔向而歸），合理清晰。"},
-    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "列出定性、類比、誇張、反問、斷語五種手法，有原文與效果說明。"},
-    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "選出三句（謀而鮮過惠訓不倦社稷之固、惠以謀而動不當其罪、不見叔向而歸），每句有深度賞析。"},
-    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "提供完整白話改編，覆蓋全文三段核心情節，語言流暢。"},
-    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題為「時代背景與寫作意旨」「文章分析」，無 emoji。"},
-    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段有獨立觀點（如反高潮敘事是最高的道德教育、范宣子為何聽從的三點分析），佳句賞析有深度說明。"},
-    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "所有段落皆有獨立貢獻，背景段補充原文所需知識，分析段提供結構拆解與文本細讀，無重複或空洞內容。"}
+    {
+      "id": "bg_coord",
+      "name": "座標定位表",
+      "status": "pass",
+      "comment": "有座標定位表"
+    },
+    {
+      "id": "bg_era",
+      "name": "時代背景段",
+      "status": "pass",
+      "comment": "有時代背景分析"
+    },
+    {
+      "id": "bg_people",
+      "name": "關鍵人物段",
+      "status": "fail",
+      "comment": "無關鍵人物段"
+    },
+    {
+      "id": "bg_intent",
+      "name": "寫作意圖段",
+      "status": "pass",
+      "comment": "有寫作意圖分析"
+    },
+    {
+      "id": "bg_summary",
+      "name": "一句話總結",
+      "status": "pass",
+      "comment": "有一句話總結"
+    },
+    {
+      "id": "an_structure",
+      "name": "起承轉合表",
+      "status": "pass",
+      "comment": "有起承轉合表"
+    },
+    {
+      "id": "an_rhetoric",
+      "name": "修辭手法表",
+      "status": "pass",
+      "comment": "有修辭手法分析表"
+    },
+    {
+      "id": "an_quotes",
+      "name": "佳句賞析",
+      "status": "pass",
+      "comment": "有9句佳句賞析"
+    },
+    {
+      "id": "an_vernacular",
+      "name": "白話改編段",
+      "status": "pass",
+      "comment": "有白話改編段"
+    },
+    {
+      "id": "fmt_emoji",
+      "name": "h2 無 emoji",
+      "status": "pass",
+      "comment": "h2 標題無 emoji"
+    },
+    {
+      "id": "fmt_depth",
+      "name": "分析段深度",
+      "status": "pass",
+      "comment": "分析段 120 行"
+    },
+    {
+      "id": "no_padding",
+      "name": "不為寫而寫",
+      "status": "pass",
+      "comment": "主要內容無明顯灌水"
+    }
   ]
 }

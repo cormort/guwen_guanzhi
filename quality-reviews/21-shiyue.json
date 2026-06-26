@@ -1,21 +1,80 @@
 {
   "file": "21-shiyue",
-  "title": "師說",
-  "author": "韓愈",
+  "title": "21-shiyue",
   "overall_grade": "A",
-  "overall_comment": "品質極高，12項全數過關。對韓愈古文運動戰略目標的分析透徹，指出本文是戰鬥宣言而非溫和勸學文的核心洞察精準。",
+  "overall_comment": "12/12 項通過",
   "checks": [
-    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "列出時間（唐貞元十八年802年）、空間（長安）、文類（贈序）、戰區（思想史）。"},
-    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "分析三重壓力：士大夫恥師的集體麻痺、古文運動的戰略任務（復興儒學對抗佛老）、韓愈本人的仕途風險。指出推翻駢文復興古文是文體革命的戰略選擇。"},
-    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "涵蓋韓愈（古文運動總指揮/以文為劍）與李蟠（樣板/旗幟/戰略功能—讓反對者無法攻擊鼓勵好學年輕人），分析精準。"},
-    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "指出韓愈用不到五百字對整個士大夫階層發起精準打擊：重新定義師（立法奪回定義權）、消解尊卑壁壘（道之所存師之所存）、切斷身份與知識綁定（弟子不必不如師）、對比羞辱（士大夫不如百工）。"},
-    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "精準概括本文為戰鬥宣言，代價是韓愈被主流士林視為狂人。"},
-    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "分析段分三段：老師定義（傳道受業解惑）→批判恥學於師風氣→聖人無常師以孔子為例。"},
-    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "列出鮮明對比（古之聖人vs今之眾人、愛其子vs於其身、百工vs士大夫）與層層推進（定義→現狀批判→舉例→結論），皆為本文核心手法。"},
-    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "選出三句（師者所以傳道受業解惑也、道之所存師之所存、弟子不必不如師師不必賢於弟子），賞析點出韓愈重新定義師道。"},
-    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "白話改編涵蓋三段核心論證。"},
-    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題無 emoji。"},
-    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段獨立觀點豐富（韓愈奪回對老師的定義權、讓反對者無法攻擊、與其讓對手忽視不如讓他們恨），非翻譯。"},
-    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "背景段的三重壓力分析、關鍵人物的戰略功能分析各具獨立價值，無冗餘。"}
+    {
+      "id": "bg_coord",
+      "name": "座標定位表",
+      "status": "pass",
+      "comment": "有座標定位表"
+    },
+    {
+      "id": "bg_era",
+      "name": "時代背景段",
+      "status": "pass",
+      "comment": "有時代背景分析"
+    },
+    {
+      "id": "bg_people",
+      "name": "關鍵人物段",
+      "status": "pass",
+      "comment": "有關鍵人物分析"
+    },
+    {
+      "id": "bg_intent",
+      "name": "寫作意圖段",
+      "status": "pass",
+      "comment": "有寫作意圖分析"
+    },
+    {
+      "id": "bg_summary",
+      "name": "一句話總結",
+      "status": "pass",
+      "comment": "有一句話總結"
+    },
+    {
+      "id": "an_structure",
+      "name": "起承轉合表",
+      "status": "pass",
+      "comment": "有起承轉合表"
+    },
+    {
+      "id": "an_rhetoric",
+      "name": "修辭手法表",
+      "status": "pass",
+      "comment": "有修辭手法分析表"
+    },
+    {
+      "id": "an_quotes",
+      "name": "佳句賞析",
+      "status": "pass",
+      "comment": "有6句佳句賞析"
+    },
+    {
+      "id": "an_vernacular",
+      "name": "白話改編段",
+      "status": "pass",
+      "comment": "有白話改編段"
+    },
+    {
+      "id": "fmt_emoji",
+      "name": "h2 無 emoji",
+      "status": "pass",
+      "comment": "h2 標題無 emoji"
+    },
+    {
+      "id": "fmt_depth",
+      "name": "分析段深度",
+      "status": "pass",
+      "comment": "分析段 93 行"
+    },
+    {
+      "id": "no_padding",
+      "name": "不為寫而寫",
+      "status": "pass",
+      "comment": "主要內容無明顯灌水"
+    }
   ]
 }

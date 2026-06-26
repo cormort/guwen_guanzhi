@@ -1,21 +1,80 @@
 {
   "file": "143-gaozu-gongchen-hou-nianbiao",
-  "title": "高祖功臣侯年表",
-  "author": "司馬遷 · 《史記·高祖功臣侯年表》",
+  "title": "143-gaozu-gongchen-hou-nianbiao",
   "overall_grade": "A",
-  "overall_comment": "12項檢查全數通過。背景詳述漢初封侯到武帝削爵的制度演變。司馬遷對功臣後代衰落的冷靜觀察分析精彩——始未嘗不欲固其根本枝葉稍陵夷衰微。一百四十三侯到武帝時只剩不到五家的驚人事實。制度宿命的歷史洞察深刻。",
+  "overall_comment": "11/12 項通過",
   "checks": [
-    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出出處《史記·高祖功臣侯者年表》序言、時代西漢武帝時期約西元前2世紀末、體裁史表序論/政治散文、核心命題等。"},
-    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "詳述漢初封侯的背景（劉邦的歷史契約、蕭何韓信張良等功臣的出身）、封爵規模（一百四十三侯）、武帝削爵的政策演變。"},
-    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "涵蓋司馬遷（冷靜的制度觀察者）、劉邦（封侯決策者）、歷代功臣及其後代。"},
-    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "從史記十表中記錄功臣侯者興衰的體例、司馬遷展示制度運作邏輯而非控訴、創業者的恩情隨時間稀釋的必然宿命三層次分析。"},
-    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "精準總結：創業者的成功不等於子孫的保障——當制度設計讓恩情越傳越薄時，衰落不是意外而是規律。"},
-    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "結構清晰：漢初封侯之盛（起）→功臣後代的衰亡（承）→分析衰亡的原因（轉）→感慨制度宿命（合）。"},
-    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "分析對比（封侯時信誓旦旦vs百年後國除者眾）、歷史數據的冷靜列舉（百四十三侯vs僅存五家）、感慨語氣（豈非篤于仁義奉上法哉）等手法。"},
-    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "選出使河如帶泰山若厲國以永寧、始未嘗不欲固其根本而枝葉稍陵夷衰微等句，賞析有深度。"},
-    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "核心序言白話改編完整，涵蓋司馬遷對功臣侯者興衰的全面分析。"},
-    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題無 emoji。"},
-    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段有獨立觀點（功臣後代的失勢不是政治陰謀的結果而是制度運作的數學必然——時間稀釋一切恩情），非僅翻譯。"},
-    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "各段分工明確，內容充實有意義，無灌水痕跡。"}
+    {
+      "id": "bg_coord",
+      "name": "座標定位表",
+      "status": "pass",
+      "comment": "有座標定位表"
+    },
+    {
+      "id": "bg_era",
+      "name": "時代背景段",
+      "status": "pass",
+      "comment": "有時代背景分析"
+    },
+    {
+      "id": "bg_people",
+      "name": "關鍵人物段",
+      "status": "pass",
+      "comment": "有關鍵人物分析"
+    },
+    {
+      "id": "bg_intent",
+      "name": "寫作意圖段",
+      "status": "fail",
+      "comment": "無寫作意圖段"
+    },
+    {
+      "id": "bg_summary",
+      "name": "一句話總結",
+      "status": "pass",
+      "comment": "有一句話總結"
+    },
+    {
+      "id": "an_structure",
+      "name": "起承轉合表",
+      "status": "pass",
+      "comment": "有起承轉合表"
+    },
+    {
+      "id": "an_rhetoric",
+      "name": "修辭手法表",
+      "status": "pass",
+      "comment": "有修辭手法分析表"
+    },
+    {
+      "id": "an_quotes",
+      "name": "佳句賞析",
+      "status": "pass",
+      "comment": "有10句佳句賞析"
+    },
+    {
+      "id": "an_vernacular",
+      "name": "白話改編段",
+      "status": "pass",
+      "comment": "有白話改編段"
+    },
+    {
+      "id": "fmt_emoji",
+      "name": "h2 無 emoji",
+      "status": "pass",
+      "comment": "h2 標題無 emoji"
+    },
+    {
+      "id": "fmt_depth",
+      "name": "分析段深度",
+      "status": "pass",
+      "comment": "分析段 123 行"
+    },
+    {
+      "id": "no_padding",
+      "name": "不為寫而寫",
+      "status": "pass",
+      "comment": "主要內容無明顯灌水"
+    }
   ]
 }

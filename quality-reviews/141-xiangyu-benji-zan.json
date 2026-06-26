@@ -1,21 +1,80 @@
 {
   "file": "141-xiangyu-benji-zan",
-  "title": "項羽本紀贊",
-  "author": "司馬遷 · 《史記·項羽本紀》",
+  "title": "141-xiangyu-benji-zan",
   "overall_grade": "A",
-  "overall_comment": "12項檢查全數通過。背景詳述楚漢相爭的歷史脈絡與司馬遷的史筆。項羽從英雄到失敗者的命運分析精彩——完美的戰術家災難性的戰略家。豈不謬哉的蓋棺定論分析深刻。人物分析（項羽、司馬遷）有深度。史記中最具爭議性的史論之一。",
+  "overall_comment": "11/12 項通過",
   "checks": [
-    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出出處《史記·項羽本紀》篇末太史公曰、時代西漢武帝時期約西元前91年、體裁史論體/人物贊論、核心命題等。"},
-    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "詳述秦亡後的天下大勢（陳勝吳廣起義、群雄逐鹿）、項羽崛起與巨鹿之戰、楚漢相爭的經過。"},
-    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "涵蓋項羽（悲劇英雄）、司馬遷（評論者），對項羽性格與戰略失誤的分析深入。"},
-    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "從史記中極特殊的本紀體例（項羽未稱帝而入本紀）、司馬遷對項羽的複雜情感（讚嘆英雄氣概又痛惜戰略失誤）、開啟中國史學論贊傳統三層次分析。"},
-    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "精準總結：項羽的失敗不是天意而是人謀——他能打贏每一場戰役卻輸掉整個戰爭，而他自己到死都不知道差別在哪裡。"},
-    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "結構清晰：述項羽崛起（起）→述項羽稱霸（承）→評其失誤背關懷楚自矜功伐（轉）→豈不謬哉的結論（合）。"},
-    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "分析先揚後抑的褒貶筆法、反問（豈不謬哉）、對比（三年滅秦vs五年亡國）、引項羽原話反駁（天亡我非用兵之罪）等手法。"},
-    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "選出三年遂將五諸侯滅秦、自矜功伐奮其私智而不師古、豈不謬哉、天亡我非用兵之罪也等句，賞析有深度。"},
-    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "核心贊語白話改編完整，涵蓋司馬遷對項羽一生功過的全面評價。"},
-    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題無 emoji。"},
-    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段有獨立觀點（司馬遷把項羽列入本紀不是技術失誤而是政治判斷——他承認項羽是秦亡漢興之間五年的實際主宰者），非僅翻譯。"},
-    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "各段分工明確，內容充實有意義，無灌水痕跡。"}
+    {
+      "id": "bg_coord",
+      "name": "座標定位表",
+      "status": "pass",
+      "comment": "有座標定位表"
+    },
+    {
+      "id": "bg_era",
+      "name": "時代背景段",
+      "status": "pass",
+      "comment": "有時代背景分析"
+    },
+    {
+      "id": "bg_people",
+      "name": "關鍵人物段",
+      "status": "pass",
+      "comment": "有關鍵人物分析"
+    },
+    {
+      "id": "bg_intent",
+      "name": "寫作意圖段",
+      "status": "fail",
+      "comment": "無寫作意圖段"
+    },
+    {
+      "id": "bg_summary",
+      "name": "一句話總結",
+      "status": "pass",
+      "comment": "有一句話總結"
+    },
+    {
+      "id": "an_structure",
+      "name": "起承轉合表",
+      "status": "pass",
+      "comment": "有起承轉合表"
+    },
+    {
+      "id": "an_rhetoric",
+      "name": "修辭手法表",
+      "status": "pass",
+      "comment": "有修辭手法分析表"
+    },
+    {
+      "id": "an_quotes",
+      "name": "佳句賞析",
+      "status": "pass",
+      "comment": "有10句佳句賞析"
+    },
+    {
+      "id": "an_vernacular",
+      "name": "白話改編段",
+      "status": "pass",
+      "comment": "有白話改編段"
+    },
+    {
+      "id": "fmt_emoji",
+      "name": "h2 無 emoji",
+      "status": "pass",
+      "comment": "h2 標題無 emoji"
+    },
+    {
+      "id": "fmt_depth",
+      "name": "分析段深度",
+      "status": "pass",
+      "comment": "分析段 165 行"
+    },
+    {
+      "id": "no_padding",
+      "name": "不為寫而寫",
+      "status": "pass",
+      "comment": "主要內容無明顯灌水"
+    }
   ]
 }

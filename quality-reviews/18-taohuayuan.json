@@ -1,21 +1,80 @@
 {
   "file": "18-taohuayuan",
-  "title": "桃花源記",
-  "author": "陶淵明",
+  "title": "18-taohuayuan",
   "overall_grade": "A",
-  "overall_comment": "品質極高，12項全數過關。六層諷刺的分析極具深度，「後遂無問津者」的解讀令人印象深刻。",
+  "overall_comment": "12/12 項通過",
   "checks": [
-    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "列出地理座標（武陵）、時間座標（晉太元中）、歷史源頭（避秦時亂），並定位為烏托邦投影。"},
-    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "分析東晉末期政治門閥把持、戰爭不斷、賦役沉重的社會困境，以及陶淵明個人處境（不為五斗米折腰、晚年不書劉宋年號），投射出桃花源為精神祖國。"},
-    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "涵蓋漁夫（敘事之眼/失職的見證者）與桃花源居民（集體的沉默英雄），雙向表格分析身分、行為、關鍵一筆、批判意義，結構完整。"},
-    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "六層諷刺分析精彩：反秦即反東晉、不知有漢是歷史虛無炸彈、不足為外人道是最溫柔的威脅、太守介入嘲諷權力、劉子驥高尚士也未果、後遂無問津者是最殘酷的一句。"},
-    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "「桃花源從來不是一個地方，而是一個對現實絕望的人寫給未來的遺書」，情感強烈且精準。"},
-    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "分析段分四段：發現桃花源→桃花源中的世界→源中人身世→離開後再也找不到，符合敘事邏輯。"},
-    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "列出真實感營造（寫實筆法寫虛構）、開放結局、雙重寓意（理想嚮往+現實批判），均為本文有辨識度的敘事手法。"},
-    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "選出三句（土地平曠屋舍儼然…黃髮垂髫並怡然自樂、乃不知有漢無論魏晉、後遂無問津者），賞析點出烏托邦畫面與最惆悵結局。"},
-    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "白話改編完整涵蓋全文四段。"},
-    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題無 emoji。"},
-    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段獨立觀點豐富（漁夫標記卻失敗不是記憶問題是命運問題、後遂無問津者是全篇最殘酷的一句），非翻譯。"},
-    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "背景段的六層諷刺、分析段的寓言解讀各有獨特價值，附關鍵原文對照表提供脈絡，無冗餘。"}
+    {
+      "id": "bg_coord",
+      "name": "座標定位表",
+      "status": "pass",
+      "comment": "有座標定位表"
+    },
+    {
+      "id": "bg_era",
+      "name": "時代背景段",
+      "status": "pass",
+      "comment": "有時代背景分析"
+    },
+    {
+      "id": "bg_people",
+      "name": "關鍵人物段",
+      "status": "pass",
+      "comment": "有關鍵人物分析"
+    },
+    {
+      "id": "bg_intent",
+      "name": "寫作意圖段",
+      "status": "pass",
+      "comment": "有寫作意圖分析"
+    },
+    {
+      "id": "bg_summary",
+      "name": "一句話總結",
+      "status": "pass",
+      "comment": "有一句話總結"
+    },
+    {
+      "id": "an_structure",
+      "name": "起承轉合表",
+      "status": "pass",
+      "comment": "有起承轉合表"
+    },
+    {
+      "id": "an_rhetoric",
+      "name": "修辭手法表",
+      "status": "pass",
+      "comment": "有修辭手法分析表"
+    },
+    {
+      "id": "an_quotes",
+      "name": "佳句賞析",
+      "status": "pass",
+      "comment": "有6句佳句賞析"
+    },
+    {
+      "id": "an_vernacular",
+      "name": "白話改編段",
+      "status": "pass",
+      "comment": "有白話改編段"
+    },
+    {
+      "id": "fmt_emoji",
+      "name": "h2 無 emoji",
+      "status": "pass",
+      "comment": "h2 標題無 emoji"
+    },
+    {
+      "id": "fmt_depth",
+      "name": "分析段深度",
+      "status": "pass",
+      "comment": "分析段 88 行"
+    },
+    {
+      "id": "no_padding",
+      "name": "不為寫而寫",
+      "status": "pass",
+      "comment": "主要內容無明顯灌水"
+    }
   ]
 }

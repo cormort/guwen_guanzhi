@@ -1,21 +1,80 @@
 {
   "file": "149-kuli-liezhuan-xu",
-  "title": "酷吏列傳序",
-  "author": "司馬遷",
+  "title": "149-kuli-liezhuan-xu",
   "overall_grade": "A",
-  "overall_comment": "背景與分析段品質極高，12項檢查全數通過。對酷吏現象的制度性分析極具深度，引用孔子老子之言撐起論點的寫法賞析到位。",
+  "overall_comment": "11/12 項通過",
   "checks": [
-    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出出處《史記·酷吏列傳》序、作者司馬遷、時代（西漢武帝時期酷吏政治最熾盛）、體裁（史記列傳序論／政論散文）、核心命題（法律越多，犯罪越多？）。"},
-    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "深入分析西漢武帝時期酷吏大量出現的四個原因：帝國轉型（外儒內法）、權力集中、戰爭與財政壓力、社會矛盾激化。對酷吏的「功能定位」分析精準。"},
-    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "為司馬遷、孔子、老子、漢代酷吏代表（郅都、張湯等）建立分析。特別點出司馬遷對酷吏的矛盾態度——批評手段但理解存在的合理性。"},
-    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "深入分析司馬遷寫酷吏列傳的用意：不是批判酷吏個人，而是批判「為何這個時代需要工具」。酷吏是制度失靈的症狀，不是原因。"},
-    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "精準——司馬遷對酷吏的態度是「哀矜而勿喜」，酷吏不是壞人，而是制度失靈的症狀。一個時代出現大量酷吏，是因為道德基礎已經崩潰。"},
-    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "結構表層次分明：引用孔子（禮教優於刑罰）、引用老子（法令越多盜賊越多）、提出核心命題（法律是工具不是根本）、歷史回顧（秦朝教訓）、轉入正文。五層論證一氣呵成。"},
-    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "指出引用權威（孔子老子並列）、歷史對比（秦朝 vs 漢初）、比喻（「網密」「上下相遁」）等手法。儒道合一共同指向同一結論，極具說服力。"},
-    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "選出「法令者，治之具，而非制治清濁之源也」「昔天下之網嘗密矣」「漢興，破觚而為圜」等名句，每句有背景說明與意義闡發。"},
-    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "提供完整白話改編，涵蓋孔子老子引言、秦朝嚴刑峻法的教訓、漢初寬鬆治理的成功經驗，語言流暢。"},
-    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題為「時代背景與寫作意旨」「原文結構與核心論點」等，無 emoji。"},
-    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段有獨立觀點（如「酷吏不是道德敗壞的類別，而是功能類別」），對秦亡教訓與漢初經驗的對比分析深刻。"},
-    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "所有段落皆有獨立貢獻，背景段對酷吏時代的說明對理解原文極有幫助，無填充內容。"}
+    {
+      "id": "bg_coord",
+      "name": "座標定位表",
+      "status": "pass",
+      "comment": "有座標定位表"
+    },
+    {
+      "id": "bg_era",
+      "name": "時代背景段",
+      "status": "pass",
+      "comment": "有時代背景分析"
+    },
+    {
+      "id": "bg_people",
+      "name": "關鍵人物段",
+      "status": "pass",
+      "comment": "有關鍵人物分析"
+    },
+    {
+      "id": "bg_intent",
+      "name": "寫作意圖段",
+      "status": "fail",
+      "comment": "無寫作意圖段"
+    },
+    {
+      "id": "bg_summary",
+      "name": "一句話總結",
+      "status": "pass",
+      "comment": "有一句話總結"
+    },
+    {
+      "id": "an_structure",
+      "name": "起承轉合表",
+      "status": "pass",
+      "comment": "有起承轉合表"
+    },
+    {
+      "id": "an_rhetoric",
+      "name": "修辭手法表",
+      "status": "pass",
+      "comment": "有修辭手法分析表"
+    },
+    {
+      "id": "an_quotes",
+      "name": "佳句賞析",
+      "status": "pass",
+      "comment": "有5句佳句賞析"
+    },
+    {
+      "id": "an_vernacular",
+      "name": "白話改編段",
+      "status": "pass",
+      "comment": "有白話改編段"
+    },
+    {
+      "id": "fmt_emoji",
+      "name": "h2 無 emoji",
+      "status": "pass",
+      "comment": "h2 標題無 emoji"
+    },
+    {
+      "id": "fmt_depth",
+      "name": "分析段深度",
+      "status": "pass",
+      "comment": "分析段 78 行"
+    },
+    {
+      "id": "no_padding",
+      "name": "不為寫而寫",
+      "status": "pass",
+      "comment": "主要內容無明顯灌水"
+    }
   ]
 }

@@ -1,21 +1,80 @@
 {
   "file": "159-jiayi-guo-qin-lun-shang",
-  "title": "過秦論上",
-  "author": "賈誼",
+  "title": "159-jiayi-guo-qin-lun-shang",
   "overall_grade": "A",
-  "overall_comment": "背景與分析段品質極高，12項檢查全數通過。對秦朝興亡的辯證分析極有深度，先揚後抑的寫作手法賞析精彩。",
+  "overall_comment": "11/12 項通過",
   "checks": [
-    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出出處《史記·秦始皇本紀》引賈誼《新書》、作者賈誼、時代（西漢文帝時期）、體裁（政論／史論）、核心命題（仁義不施而攻守之勢異也）。"},
-    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "深入分析秦朝十五年從巔峰到深淵的歷程、賈誼創作的時代背景（西漢初年的秦亡反思潮），以及文帝時代的現實需求（如何在制度上確保漢朝不會變成第二個秦朝）。"},
-    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "為賈誼、秦始皇、陳涉、劉邦建立分析。特別點出賈誼的獨特位置——他沒有親身經歷秦末戰亂，但讀了所有史書，分析比任何人都更深刻系統。」"},
-    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "深入分析賈誼寫過秦論的用意——不僅分析歷史，更在為當代（漢文帝）提出警示。秦朝用打天下的方式守天下，所以註定失敗——這個教訓對漢朝至關重要。"},
-    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "精準——秦朝的死因不是農民起義的力量太大，而是它自己從來沒有學會如何當一個和平時期的政府。它始終在用戰爭的方式統治和平。"},
-    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "結構表層層推進——秦國崛起（從孝公到始皇）、極盛（始皇的統治）、急轉直下（陳涉起義）、結論（仁義不施而攻守之勢異）。先揚後抑，層層遞進。"},
-    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "指出排比（「席捲天下、包舉宇內、囊括四海、并吞八荒」）、對比（秦國強大 vs 陳涉卑微）、極度反差（最卑微的人推翻最強大的帝國）等手法。"},
-    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "選出「席捲天下，包舉宇內」「奮六世之餘烈」「斬木為兵，揭竿為旗」「一夫作難而七廟隳」「仁義不施，而攻守之勢異也」等名句，每句有深度賞析。"},
-    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "提供完整白話改編，涵蓋秦國崛起歷程、始皇統治措施、陳涉起義、結論等核心內容，語言流暢。"},
-    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題為「時代背景與寫作意旨」「原文結構與核心分析」等，無 emoji。"},
-    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段有獨立觀點（如「先揚後抑的手法讓『仁義不施』這四個字有了雷霆萬鈞的力量」），對賈誼論證藝術的分析深刻。"},
-    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "所有段落皆有獨立貢獻，背景段對秦亡反思潮的分析對理解文章歷史地位極有幫助，無填充內容。"}
+    {
+      "id": "bg_coord",
+      "name": "座標定位表",
+      "status": "pass",
+      "comment": "有座標定位表"
+    },
+    {
+      "id": "bg_era",
+      "name": "時代背景段",
+      "status": "pass",
+      "comment": "有時代背景分析"
+    },
+    {
+      "id": "bg_people",
+      "name": "關鍵人物段",
+      "status": "pass",
+      "comment": "有關鍵人物分析"
+    },
+    {
+      "id": "bg_intent",
+      "name": "寫作意圖段",
+      "status": "fail",
+      "comment": "無寫作意圖段"
+    },
+    {
+      "id": "bg_summary",
+      "name": "一句話總結",
+      "status": "pass",
+      "comment": "有一句話總結"
+    },
+    {
+      "id": "an_structure",
+      "name": "起承轉合表",
+      "status": "pass",
+      "comment": "有起承轉合表"
+    },
+    {
+      "id": "an_rhetoric",
+      "name": "修辭手法表",
+      "status": "pass",
+      "comment": "有修辭手法分析表"
+    },
+    {
+      "id": "an_quotes",
+      "name": "佳句賞析",
+      "status": "pass",
+      "comment": "有10句佳句賞析"
+    },
+    {
+      "id": "an_vernacular",
+      "name": "白話改編段",
+      "status": "pass",
+      "comment": "有白話改編段"
+    },
+    {
+      "id": "fmt_emoji",
+      "name": "h2 無 emoji",
+      "status": "pass",
+      "comment": "h2 標題無 emoji"
+    },
+    {
+      "id": "fmt_depth",
+      "name": "分析段深度",
+      "status": "pass",
+      "comment": "分析段 170 行"
+    },
+    {
+      "id": "no_padding",
+      "name": "不為寫而寫",
+      "status": "pass",
+      "comment": "主要內容無明顯灌水"
+    }
   ]
 }

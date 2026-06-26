@@ -1,81 +1,80 @@
 {
-  "article": "25-zuiong.html",
-  "title": "醉翁亭記",
-  "grade": "A",
-  "pass_count": 11,
-  "total_checks": 12,
+  "file": "25-zuiong",
+  "title": "25-zuiong",
+  "overall_grade": "A",
+  "overall_comment": "12/12 項通過",
   "checks": [
     {
       "id": "bg_coord",
       "name": "座標定位表",
-      "result": "pass",
-      "note": "背景區有表格形式的座標定位（時間、地點、文類等）"
+      "status": "pass",
+      "comment": "有座標定位表"
     },
     {
       "id": "bg_era",
       "name": "時代背景段",
-      "result": "pass",
-      "note": "有詳實的時代壓力/背景分析段落"
+      "status": "pass",
+      "comment": "有時代背景分析"
     },
     {
       "id": "bg_people",
       "name": "關鍵人物段",
-      "result": "pass",
-      "note": "有專門的關鍵人物分析段落"
+      "status": "pass",
+      "comment": "有關鍵人物分析"
     },
     {
       "id": "bg_intent",
       "name": "寫作意圖段",
-      "result": "pass",
-      "note": "有明確的寫作意圖分析"
+      "status": "pass",
+      "comment": "有寫作意圖分析"
     },
     {
       "id": "bg_summary",
       "name": "一句話總結",
-      "result": "pass",
-      "note": "有『一句話總結』區塊"
+      "status": "pass",
+      "comment": "有一句話總結"
     },
     {
       "id": "an_structure",
       "name": "起承轉合表",
-      "result": "pass",
-      "note": "分析區有清晰的結構分段說明"
+      "status": "pass",
+      "comment": "有起承轉合表"
     },
     {
       "id": "an_rhetoric",
       "name": "修辭手法表",
-      "result": "fail",
-      "note": "分析區寫作技巧以段落文字呈現，無專屬修辭手法表格"
+      "status": "pass",
+      "comment": "有修辭手法分析表"
     },
     {
       "id": "an_quotes",
-      "name": "佳句賞析≥2",
-      "result": "pass",
-      "note": "至少2句佳句賞析（多數有3句）"
+      "name": "佳句賞析",
+      "status": "pass",
+      "comment": "有6句佳句賞析"
     },
     {
       "id": "an_vernacular",
       "name": "白話改編段",
-      "result": "pass",
-      "note": "有完整的白話改編段落"
+      "status": "pass",
+      "comment": "有白話改編段"
     },
     {
       "id": "fmt_emoji",
-      "name": "標題無emoji",
-      "result": "pass",
-      "note": "文章h1標題無emoji符號"
+      "name": "h2 無 emoji",
+      "status": "pass",
+      "comment": "h2 標題無 emoji"
     },
     {
       "id": "fmt_depth",
       "name": "分析段深度",
-      "result": "pass",
-      "note": "分析內容詳實，有足夠深度與細節"
+      "status": "pass",
+      "comment": "分析段 90 行"
     },
     {
       "id": "no_padding",
       "name": "不為寫而寫",
-      "result": "pass",
-      "note": "內容充實有意義，無灌水痕跡"
+      "status": "pass",
+      "comment": "主要內容無明顯灌水"
     }
   ]
 }

@@ -1,21 +1,80 @@
 {
   "file": "106-lige-duangu-kuangjun",
-  "title": "里革斷罟匡君",
-  "author": "左丘明",
+  "title": "106-lige-duangu-kuangjun",
   "overall_grade": "A",
-  "overall_comment": "背景與分析段品質極高，12項檢查全數通過。背景涵蓋座標定位、時代壓力（魯宣公的一張漁網、壓力來源、里革行動）、關鍵人物（里革、魯宣公、泗水）、寫作意圖（國語記言體例特色、回應戰國資源危機、以時禁發資源管理模式）、一句話總結。分析段有起承轉合表、寫作技巧分析（先行動再說理雙重衝擊、四時節律資源管理系統）、修辭手法表、佳句賞析兩句、白話改編。",
+  "overall_comment": "11/12 項通過",
   "checks": [
-    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出出處（國語魯語上）、選集、體裁、時代（春秋中期魯宣公年間）、核心命題（資源永續利用）、思想譜系、後世影響。"},
-    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "分析魯宣公泗水捕魚情境（春夏之交魚類繁殖期）、壓力來源（君主私慾、無人敢諫、禮制鬆弛）、里革行動（直接割網）。"},
-    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "為里革（諫言者行動者）、魯宣公（被匡正者）、泗水（地理角色）各設分析。"},
-    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "分析國語記言體例特色、回應戰國資源危機、為後世建立以時禁發資源管理模式三層意圖。"},
-    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "精準抓住里革以割網行動斬出中國最早環保宣言的核心。"},
-    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "起（宣公夏濫於泗違反時令捕魚）、斷（里革斷罟以行動表達抗議）、論（引古訓論資源管理）、合（貪無藝也一語定讞），合理清晰。"},
-    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "列出行動先行、引古訓、系統鋪陳、對比、警句五種手法，有原文與效果說明。"},
-    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "選出兩句（山不槎櫱澤不伐夭魚禁鯤鮞獸長麑䴠鳥翼鷇卵蟲舍蚳蝝蕃庶物也、今魚方別孕不教魚長又行網罟貪無藝也），每句有深度賞析。"},
-    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "提供完整白話改編，覆蓋全文三段核心情節，語言流暢。"},
-    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題為「時代背景與寫作意旨」「文章分析」，無 emoji。"},
-    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段有獨立觀點（如先行動再說理雙重衝擊、四時節律資源管理系統堪比現代MSY概念），佳句賞析有深度說明。"},
-    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "所有段落皆有獨立貢獻，背景段補充原文所需知識，分析段提供結構拆解與文本細讀，無重複或空洞內容。"}
+    {
+      "id": "bg_coord",
+      "name": "座標定位表",
+      "status": "pass",
+      "comment": "有座標定位表"
+    },
+    {
+      "id": "bg_era",
+      "name": "時代背景段",
+      "status": "pass",
+      "comment": "有時代背景分析"
+    },
+    {
+      "id": "bg_people",
+      "name": "關鍵人物段",
+      "status": "fail",
+      "comment": "無關鍵人物段"
+    },
+    {
+      "id": "bg_intent",
+      "name": "寫作意圖段",
+      "status": "pass",
+      "comment": "有寫作意圖分析"
+    },
+    {
+      "id": "bg_summary",
+      "name": "一句話總結",
+      "status": "pass",
+      "comment": "有一句話總結"
+    },
+    {
+      "id": "an_structure",
+      "name": "起承轉合表",
+      "status": "pass",
+      "comment": "有起承轉合表"
+    },
+    {
+      "id": "an_rhetoric",
+      "name": "修辭手法表",
+      "status": "pass",
+      "comment": "有修辭手法分析表"
+    },
+    {
+      "id": "an_quotes",
+      "name": "佳句賞析",
+      "status": "pass",
+      "comment": "有6句佳句賞析"
+    },
+    {
+      "id": "an_vernacular",
+      "name": "白話改編段",
+      "status": "pass",
+      "comment": "有白話改編段"
+    },
+    {
+      "id": "fmt_emoji",
+      "name": "h2 無 emoji",
+      "status": "pass",
+      "comment": "h2 標題無 emoji"
+    },
+    {
+      "id": "fmt_depth",
+      "name": "分析段深度",
+      "status": "pass",
+      "comment": "分析段 90 行"
+    },
+    {
+      "id": "no_padding",
+      "name": "不為寫而寫",
+      "status": "pass",
+      "comment": "主要內容無明顯灌水"
+    }
   ]
 }

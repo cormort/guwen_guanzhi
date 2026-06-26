@@ -1,21 +1,80 @@
 {
   "file": "210-liuzongyuan-tongye-fengdi-bian",
-  "title": "桐葉封弟辨",
-  "author": "柳宗元",
+  "title": "210-liuzongyuan-tongye-fengdi-bian",
   "overall_grade": "A",
-  "overall_comment": "12項全數過關。背景段深入西周桐葉封弟傳說與唐代政治現實，分析段有清晰的辨體結構、修辭分析（設問、反詰、層層推進）、佳句賞析及完整白話改編。",
+  "overall_comment": "10/12 項通過",
   "checks": [
-    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出出處《柳河東集》、體裁（辨）、時代（永州貶謫時期）、核心命題（天子無戲言的質疑）。"},
-    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "深入分析西周傳說、唐代君主決策機制與柳宗元永州貶謫處境。"},
-    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "周成王、周公旦、柳宗元三者皆有分析，對周公的角色定位精準。"},
-    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "核心分析揭示柳宗元質疑『天子無戲言』，主張領導者應該勇於認錯改正。"},
-    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "精準抓住辨體本質：以歷史傳說為由頭，展開對權力決策原則的質疑。"},
-    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "清楚列出引述傳說、設疑反問、層層推理、得出結論的四段結構。"},
-    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "列出設問、反詰、層層推進、引用經典等手法，分析到位。"},
-    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "選出關鍵論辯段落，賞析有深度。"},
-    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "提供完整白話改編，忠於原文且流暢自然。"},
-    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題為「時代背景與寫作意旨」「文章分析」，無 emoji。"},
-    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段有獨立觀點（對『權威不可挑戰』的質疑、領導者決策責任的現代性思考），對柳宗元的思想鋒芒有深入剖析。"},
-    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "所有段落皆有獨立貢獻，軍師按語提供有價值的延伸思考，無填充內容。"}
+    {
+      "id": "bg_coord",
+      "name": "座標定位表",
+      "status": "pass",
+      "comment": "有座標定位表"
+    },
+    {
+      "id": "bg_era",
+      "name": "時代背景段",
+      "status": "pass",
+      "comment": "有時代背景分析"
+    },
+    {
+      "id": "bg_people",
+      "name": "關鍵人物段",
+      "status": "fail",
+      "comment": "無關鍵人物段"
+    },
+    {
+      "id": "bg_intent",
+      "name": "寫作意圖段",
+      "status": "fail",
+      "comment": "無寫作意圖段"
+    },
+    {
+      "id": "bg_summary",
+      "name": "一句話總結",
+      "status": "pass",
+      "comment": "有一句話總結"
+    },
+    {
+      "id": "an_structure",
+      "name": "起承轉合表",
+      "status": "pass",
+      "comment": "有起承轉合表"
+    },
+    {
+      "id": "an_rhetoric",
+      "name": "修辭手法表",
+      "status": "pass",
+      "comment": "有修辭手法分析表"
+    },
+    {
+      "id": "an_quotes",
+      "name": "佳句賞析",
+      "status": "pass",
+      "comment": "有9句佳句賞析"
+    },
+    {
+      "id": "an_vernacular",
+      "name": "白話改編段",
+      "status": "pass",
+      "comment": "有白話改編段"
+    },
+    {
+      "id": "fmt_emoji",
+      "name": "h2 無 emoji",
+      "status": "pass",
+      "comment": "h2 標題無 emoji"
+    },
+    {
+      "id": "fmt_depth",
+      "name": "分析段深度",
+      "status": "pass",
+      "comment": "分析段 111 行"
+    },
+    {
+      "id": "no_padding",
+      "name": "不為寫而寫",
+      "status": "pass",
+      "comment": "主要內容無明顯灌水"
+    }
   ]
 }

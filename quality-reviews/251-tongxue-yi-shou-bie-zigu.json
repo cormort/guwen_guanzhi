@@ -1,21 +1,80 @@
 {
   "file": "251-tongxue-yi-shou-bie-zigu",
-  "title": "同學一首別子固",
-  "author": "王安石",
+  "title": "251-tongxue-yi-shou-bie-zigu",
   "overall_grade": "A",
-  "overall_comment": "背景與分析段品質極高，12項檢查全數通過。對王安石與曾鞏友誼的分析深入動人，以第三人孫正之為陪襯的筆法分析尤為精彩。",
+  "overall_comment": "10/12 項通過",
   "checks": [
-    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出出處《臨川先生文集》、作者王安石、時代（宋仁宗慶曆三年1043，王安石二十三歲）、體裁（贈別文）、核心命題（同為聖賢之徒才是真正的心靈夥伴）。"},
-    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "深入分析慶曆三年的時代氛圍、王安石初入仕途的心境、以及與曾鞏的友誼對王安石早年思想的影響。"},
-    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "為王安石、曾鞏（子固）、孫侔（正之）建立詳細分析。特別點出孫正之作為第三人陪襯的精心設計——證明學聖人者自然相似的哲理。"},
-    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "深入分析王安石的三層用意：表面是贈別曾鞏，深層是以孫正之為證說明同道之人即使不相見也心意相通，最內層是宣示自己與曾鞏同為聖賢之徒的精神歸屬。"},
-    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "精準——相隔兩地，不妨同學聖賢；不見不語，不改同道之心——這是王安石寫給曾鞏的精神契約。"},
-    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "結構表清晰：起（寫曾鞏）、承（寫孫正之與曾鞏的相似）、轉（推論學聖人者自然相似）、合（贈別之意與共勉）。"},
-    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "列出對稱結構（曾鞏與孫正之的平行敘述）、引證（以第三人為證的說服技巧）、淡筆深情（不寫離愁而寫同道）、引用經典（至誼不語）等手法。"},
-    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "選出「予聞之，謂其言曰：同學者，同於道也」「聖人之道，不遠於人」「淮之南，賢士之所聚也」等名句。"},
-    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "提供完整白話改編，涵蓋曾鞏之賢、孫正之相似、學聖人者自然相似、贈別共勉等核心內容。"},
-    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題為「時代背景與寫作意旨」「文章分析」，無 emoji。"},
-    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段有獨立觀點（如「王安石用孫正之作陪襯，不是偶然的——他在證明一個命題：同道之人不需要相見就能相知」），有深度說明。"},
-    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "所有段落皆有獨立貢獻，背景段對慶曆士人結盟的分析有實際幫助，無填充內容。"}
+    {
+      "id": "bg_coord",
+      "name": "座標定位表",
+      "status": "pass",
+      "comment": "有座標定位表"
+    },
+    {
+      "id": "bg_era",
+      "name": "時代背景段",
+      "status": "pass",
+      "comment": "有時代背景分析"
+    },
+    {
+      "id": "bg_people",
+      "name": "關鍵人物段",
+      "status": "pass",
+      "comment": "有關鍵人物分析"
+    },
+    {
+      "id": "bg_intent",
+      "name": "寫作意圖段",
+      "status": "fail",
+      "comment": "無寫作意圖段"
+    },
+    {
+      "id": "bg_summary",
+      "name": "一句話總結",
+      "status": "pass",
+      "comment": "有一句話總結"
+    },
+    {
+      "id": "an_structure",
+      "name": "起承轉合表",
+      "status": "pass",
+      "comment": "有起承轉合表"
+    },
+    {
+      "id": "an_rhetoric",
+      "name": "修辭手法表",
+      "status": "pass",
+      "comment": "有修辭手法分析表"
+    },
+    {
+      "id": "an_quotes",
+      "name": "佳句賞析",
+      "status": "pass",
+      "comment": "有10句佳句賞析"
+    },
+    {
+      "id": "an_vernacular",
+      "name": "白話改編段",
+      "status": "pass",
+      "comment": "有白話改編段"
+    },
+    {
+      "id": "fmt_emoji",
+      "name": "h2 無 emoji",
+      "status": "fail",
+      "comment": "h2 含 emoji"
+    },
+    {
+      "id": "fmt_depth",
+      "name": "分析段深度",
+      "status": "pass",
+      "comment": "分析段 179 行"
+    },
+    {
+      "id": "no_padding",
+      "name": "不為寫而寫",
+      "status": "pass",
+      "comment": "主要內容無明顯灌水"
+    }
   ]
 }

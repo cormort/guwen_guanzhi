@@ -1,21 +1,80 @@
 {
   "file": "158-wudi-qiu-maocai-yideng-zhao",
-  "title": "武帝求茂材異等詔",
-  "author": "劉徹",
+  "title": "158-wudi-qiu-maocai-yideng-zhao",
   "overall_grade": "A",
-  "overall_comment": "背景與分析段品質極高，12項檢查全數通過。對武帝不拘一格用人才的用人哲學分析極有深度，詔書結構從論到喻到令的賞析精準。",
+  "overall_comment": "11/12 項通過",
   "checks": [
-    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出出處《漢書·武帝紀》、作者漢武帝劉徹、時代（西漢中期，元封五年）、體裁（詔令文）、核心命題（非常之功必待非常之人）。"},
-    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "深入分析元封五年武帝在位近四十年的帝國格局（武功鼎盛、內政改革、經濟控制、文化大一統），以及為什麼需要「非常之人」（開疆拓土後的治理需求、舊臣凋零、對察舉制的反思）。"},
-    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "為漢武帝、州郡地方官、「跅弛之士」建立分析。特別點出武帝從封禪泰山回歸務實求賢的轉變——從「天」轉回「人」。"},
-    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "深入分析武帝寫求賢詔的用意——他寧可用有缺點的天才，也不用完美的庸才。這道詔書是中國歷史上第一次由最高統治者公開宣稱不完美的人才也可以被重用。"},
-    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "精準——漢武帝是中國歷史上最懂突破常規用人的皇帝，他寧可用一個有缺點的天才，也不用一個完美的庸才。"},
-    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "結構表精妙——提出命題（非常之功必待非常之人）、說明標準（馬或奔踶而致千里）、下達命令（令州郡察吏民）。從論到喻到令，一氣呵成。"},
-    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "指出比喻（好馬會踢人類比人才有缺點）、排比（「奔踶而致千里」「負俗之累而立功名」）、點題（「非常之功，非常之人」反覆強調）等手法。不到兩百字，信息密度極高。"},
-    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "選出「蓋有非常之功，必待非常之人」「馬或奔踶而致千里，士或有負俗之累而立功名」「夫泛駕之馬，跅弛之士，亦在御之而已」等句，每句有深度賞析。"},
-    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "提供完整白話改編，涵蓋非常之功非常之人、好馬會踢人的比喻、使絕國的具體要求等核心內容，語言流暢。"},
-    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題為「時代背景與寫作意旨」「原文結構與核心分析」等，無 emoji。"},
-    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段有獨立觀點（如「武帝對察舉制的反思——不要只推薦乖孩子，給我推薦有本事的人」），對「跅弛之士」的詮釋深刻。"},
-    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "所有段落皆有獨立貢獻，背景段對元封五年歷史契機的分析極有價值，無填充內容。"}
+    {
+      "id": "bg_coord",
+      "name": "座標定位表",
+      "status": "pass",
+      "comment": "有座標定位表"
+    },
+    {
+      "id": "bg_era",
+      "name": "時代背景段",
+      "status": "pass",
+      "comment": "有時代背景分析"
+    },
+    {
+      "id": "bg_people",
+      "name": "關鍵人物段",
+      "status": "pass",
+      "comment": "有關鍵人物分析"
+    },
+    {
+      "id": "bg_intent",
+      "name": "寫作意圖段",
+      "status": "fail",
+      "comment": "無寫作意圖段"
+    },
+    {
+      "id": "bg_summary",
+      "name": "一句話總結",
+      "status": "pass",
+      "comment": "有一句話總結"
+    },
+    {
+      "id": "an_structure",
+      "name": "起承轉合表",
+      "status": "pass",
+      "comment": "有起承轉合表"
+    },
+    {
+      "id": "an_rhetoric",
+      "name": "修辭手法表",
+      "status": "pass",
+      "comment": "有修辭手法分析表"
+    },
+    {
+      "id": "an_quotes",
+      "name": "佳句賞析",
+      "status": "pass",
+      "comment": "有7句佳句賞析"
+    },
+    {
+      "id": "an_vernacular",
+      "name": "白話改編段",
+      "status": "pass",
+      "comment": "有白話改編段"
+    },
+    {
+      "id": "fmt_emoji",
+      "name": "h2 無 emoji",
+      "status": "pass",
+      "comment": "h2 標題無 emoji"
+    },
+    {
+      "id": "fmt_depth",
+      "name": "分析段深度",
+      "status": "pass",
+      "comment": "分析段 130 行"
+    },
+    {
+      "id": "no_padding",
+      "name": "不為寫而寫",
+      "status": "pass",
+      "comment": "主要內容無明顯灌水"
+    }
   ]
 }

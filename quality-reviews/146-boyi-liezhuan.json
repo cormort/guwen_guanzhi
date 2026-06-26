@@ -1,21 +1,80 @@
 {
   "file": "146-boyi-liezhuan",
-  "title": "伯夷列傳",
-  "author": "司馬遷",
+  "title": "146-boyi-liezhuan",
   "overall_grade": "A",
-  "overall_comment": "背景與分析段品質極高，12項檢查全數通過。背景涵蓋座標定位、時代壓力、關鍵人物分析、寫作意圖、一句話總結皆完整；分析段有結構表、修辭分析、佳句賞析（含深度賞析）、白話改編，無填充內容。",
+  "overall_comment": "11/12 項通過",
   "checks": [
-    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出出處《史記·伯夷列傳》（七十列傳之首）、作者司馬遷、時代西漢武帝時期、體裁（史記列傳／議論散文）、核心命題（天道是否公平）。"},
-    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "從司馬遷「李陵之禍」、漢武帝時代的知識氛圍到「天道無親，常與善人」的拆解，層層深入。對董仲舒天人感應學說與司馬遷天道懷疑論的對比極有深度。"},
-    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "為伯夷、叔齊、盜跖等建立詳細表格與分析，涵蓋身份、事蹟、象徵意義。並將司馬遷本人的遭遇與文本連結，人物分析完整。"},
-    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "從三個層次分析：司馬遷的個人遭遇（李陵之禍）、對官方意識形態的挑戰（「余甚惑焉」）、以及將〈伯夷列傳〉置於七十列傳之首的結構意義。"},
-    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "精準抓出全文核心——〈伯夷列傳〉是《史記》的價值宣言，歷史學家的責任不是歌頌天道，而是記錄天道失靈的時刻。"},
-    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "結構表合理，四層論證分明——開宗明義引出伯夷叔齊典故、核心論證善惡報應、思辨「怨與不怨」、總結於「君子疾沒世而名不稱焉」。"},
-    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "指出對比手法（伯夷叔齊 vs 盜跖）、引用孔子言論以設懸念、以及以「余甚惑焉」作結的保留式修辭。"},
-    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "選出「余甚惑焉」「天道無親，常與善人」「求仁而得仁，又何怨乎」等文眼，每句有背景說明與意義闡發。特別點出司馬遷本人與文本的情感連結。"},
-    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "提供完整白話改編，涵蓋伯夷叔齊讓國、叩馬而諫、餓死首陽山、盜跖對比等核心情節，語言流暢。"},
-    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題為「時代背景與寫作意旨」「原文結構與核心論點」等，無 emoji。"},
-    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段有獨立觀點（如「司馬遷在屈原身上看到了自己」的類比），佳句賞析有深度說明，結構分析層次分明。"},
-    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "所有段落皆有獨立貢獻：背景段補充讀原文所需知識，分析段提供結構拆解與文本細讀，無重複或空洞內容。"}
+    {
+      "id": "bg_coord",
+      "name": "座標定位表",
+      "status": "pass",
+      "comment": "有座標定位表"
+    },
+    {
+      "id": "bg_era",
+      "name": "時代背景段",
+      "status": "pass",
+      "comment": "有時代背景分析"
+    },
+    {
+      "id": "bg_people",
+      "name": "關鍵人物段",
+      "status": "pass",
+      "comment": "有關鍵人物分析"
+    },
+    {
+      "id": "bg_intent",
+      "name": "寫作意圖段",
+      "status": "fail",
+      "comment": "無寫作意圖段"
+    },
+    {
+      "id": "bg_summary",
+      "name": "一句話總結",
+      "status": "pass",
+      "comment": "有一句話總結"
+    },
+    {
+      "id": "an_structure",
+      "name": "起承轉合表",
+      "status": "pass",
+      "comment": "有起承轉合表"
+    },
+    {
+      "id": "an_rhetoric",
+      "name": "修辭手法表",
+      "status": "pass",
+      "comment": "有修辭手法分析表"
+    },
+    {
+      "id": "an_quotes",
+      "name": "佳句賞析",
+      "status": "pass",
+      "comment": "有10句佳句賞析"
+    },
+    {
+      "id": "an_vernacular",
+      "name": "白話改編段",
+      "status": "pass",
+      "comment": "有白話改編段"
+    },
+    {
+      "id": "fmt_emoji",
+      "name": "h2 無 emoji",
+      "status": "pass",
+      "comment": "h2 標題無 emoji"
+    },
+    {
+      "id": "fmt_depth",
+      "name": "分析段深度",
+      "status": "pass",
+      "comment": "分析段 215 行"
+    },
+    {
+      "id": "no_padding",
+      "name": "不為寫而寫",
+      "status": "pass",
+      "comment": "主要內容無明顯灌水"
+    }
   ]
 }

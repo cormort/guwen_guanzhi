@@ -1,21 +1,80 @@
 {
   "file": "179-wangbo-tengwang-ge-xu",
-  "title": "滕王閣序",
-  "author": "王勃",
+  "title": "179-wangbo-tengwang-ge-xu",
   "overall_grade": "A",
-  "overall_comment": "12項全數過關。背景段深入初唐文學過渡與王勃命運；分析段有文章結構四段分析、修辭手法（駢文巔峰、情感轉折）、經典名句賞析、白話改編，無填充內容。",
+  "overall_comment": "11/12 項通過",
   "checks": [
-    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出出處《王子安集》、體裁（序文/駢文）、時代（唐高宗上元二年675年）、核心命題（時運不齊命途多舛）、作者王勃年僅26歲。"},
-    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "深入分析初唐文學從六朝綺靡到盛唐氣象的過渡、王勃的才華與不幸命運、滕王閣宴會的歷史傳說。"},
-    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "為王勃（天才早逝的詩人）、閻伯嶼（洪州都督）、與會賓客設有分析。"},
-    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "核心分析揭示王勃借滕王閣之宴抒發懷才不遇之情，從地理到歷史到個人命運的三重敘事結構。"},
-    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "精準抓住王勃在盛宴中感嘆命運不公——落霞與孤鶩齊飛秋水共長天一色，美景背後是人生的孤獨。"},
-    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "起（地理與歷史的鋪陳）、承（滕王閣宴會的盛況）、轉（由樂轉悲的人生感嘆）、合（自勉與對未來的期許），結構完整。"},
-    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "分析駢文對仗的精妙、色彩對比（落霞與孤鶩齊飛）、用典的自然貼切（馮唐易老李廣難封）、情感轉折的藝術，手法多樣。"},
-    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "選出四句經典（落霞與孤鶩齊飛秋水共長天一色、關山難越誰悲失路之人、老當益壯寧移白首之心、天高地迥覺宇宙之無窮），賞析有深度。"},
-    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "提供完整白話改編，涵蓋文章核心內容。"},
-    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題為「時代背景與寫作意旨」「文章分析」，無 emoji。"},
-    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段有獨立觀點（滕王閣序作為駢文巔峰的結構分析與美學價值），佳句賞析有深度說明。"},
-    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "所有段落皆有獨立貢獻，背景段的初唐文學過渡分析、分析段的駢文美學探討各有獨立價值。"}
+    {
+      "id": "bg_coord",
+      "name": "座標定位表",
+      "status": "pass",
+      "comment": "有座標定位表"
+    },
+    {
+      "id": "bg_era",
+      "name": "時代背景段",
+      "status": "pass",
+      "comment": "有時代背景分析"
+    },
+    {
+      "id": "bg_people",
+      "name": "關鍵人物段",
+      "status": "pass",
+      "comment": "有關鍵人物分析"
+    },
+    {
+      "id": "bg_intent",
+      "name": "寫作意圖段",
+      "status": "fail",
+      "comment": "無寫作意圖段"
+    },
+    {
+      "id": "bg_summary",
+      "name": "一句話總結",
+      "status": "pass",
+      "comment": "有一句話總結"
+    },
+    {
+      "id": "an_structure",
+      "name": "起承轉合表",
+      "status": "pass",
+      "comment": "有起承轉合表"
+    },
+    {
+      "id": "an_rhetoric",
+      "name": "修辭手法表",
+      "status": "pass",
+      "comment": "有修辭手法分析表"
+    },
+    {
+      "id": "an_quotes",
+      "name": "佳句賞析",
+      "status": "pass",
+      "comment": "有7句佳句賞析"
+    },
+    {
+      "id": "an_vernacular",
+      "name": "白話改編段",
+      "status": "pass",
+      "comment": "有白話改編段"
+    },
+    {
+      "id": "fmt_emoji",
+      "name": "h2 無 emoji",
+      "status": "pass",
+      "comment": "h2 標題無 emoji"
+    },
+    {
+      "id": "fmt_depth",
+      "name": "分析段深度",
+      "status": "pass",
+      "comment": "分析段 92 行"
+    },
+    {
+      "id": "no_padding",
+      "name": "不為寫而寫",
+      "status": "pass",
+      "comment": "主要內容無明顯灌水"
+    }
   ]
 }

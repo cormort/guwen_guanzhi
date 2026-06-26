@@ -1,21 +1,80 @@
 {
   "file": "233-xinshu",
-  "title": "心術",
-  "author": "蘇洵",
+  "title": "233-xinshu",
   "overall_grade": "A",
-  "overall_comment": "12項全數過關。背景段深入蘇洵兵法思想與北宋邊患背景，分析段對心術的分層展開（爲將之道、治心養士）剖析透徹。",
+  "overall_comment": "11/12 項通過",
   "checks": [
-    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出出處《嘉祐集》、體裁（兵論）、時代（北宋中期）、核心命題（爲將之道當先治心）。"},
-    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "深入分析北宋與西夏遼國的邊患危機、蘇洵的兵法研究背景、心術在孫子兵法譜系中的位置。"},
-    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "蘇洵有詳細分析，文中引用的孫武、吳起等兵家亦有適當說明。"},
-    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "核心分析揭示蘇洵意圖——爲北宋提供一套以心治兵的戰略思想，重視心理素質勝於戰術技巧。"},
-    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "精準：蘇洵說戰爭的勝敗不在武器戰術，而在將領的心理素質——泰山崩於前而色不變。"},
-    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "清楚列出多層論述結構（治心→養士→審勢→用間→守備），條理分明。"},
-    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "詳析開宗明義、引用經典、層層遞進、對比論證、警句格言等手法。"},
-    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "賞析泰山崩於前而色不變、麋鹿興於左而目不瞬等經典名句。"},
-    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "提供完整白話改編，忠於原文的兵法論述。"},
-    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題為「時代背景與寫作意旨」「文章分析」，無 emoji。"},
-    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段有獨立觀點（心術作爲宋代兵學創新——從戰術到心理素質的轉向）。"},
-    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "軍師按語將心術與現代領導力訓練對接，有獨立延伸價值。"}
+    {
+      "id": "bg_coord",
+      "name": "座標定位表",
+      "status": "pass",
+      "comment": "有座標定位表"
+    },
+    {
+      "id": "bg_era",
+      "name": "時代背景段",
+      "status": "pass",
+      "comment": "有時代背景分析"
+    },
+    {
+      "id": "bg_people",
+      "name": "關鍵人物段",
+      "status": "pass",
+      "comment": "有關鍵人物分析"
+    },
+    {
+      "id": "bg_intent",
+      "name": "寫作意圖段",
+      "status": "fail",
+      "comment": "無寫作意圖段"
+    },
+    {
+      "id": "bg_summary",
+      "name": "一句話總結",
+      "status": "pass",
+      "comment": "有一句話總結"
+    },
+    {
+      "id": "an_structure",
+      "name": "起承轉合表",
+      "status": "pass",
+      "comment": "有起承轉合表"
+    },
+    {
+      "id": "an_rhetoric",
+      "name": "修辭手法表",
+      "status": "pass",
+      "comment": "有修辭手法分析表"
+    },
+    {
+      "id": "an_quotes",
+      "name": "佳句賞析",
+      "status": "pass",
+      "comment": "有10句佳句賞析"
+    },
+    {
+      "id": "an_vernacular",
+      "name": "白話改編段",
+      "status": "pass",
+      "comment": "有白話改編段"
+    },
+    {
+      "id": "fmt_emoji",
+      "name": "h2 無 emoji",
+      "status": "pass",
+      "comment": "h2 標題無 emoji"
+    },
+    {
+      "id": "fmt_depth",
+      "name": "分析段深度",
+      "status": "pass",
+      "comment": "分析段 180 行"
+    },
+    {
+      "id": "no_padding",
+      "name": "不為寫而寫",
+      "status": "pass",
+      "comment": "主要內容無明顯灌水"
+    }
   ]
 }

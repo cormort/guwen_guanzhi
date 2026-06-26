@@ -1,21 +1,80 @@
 {
   "file": "248-shang-shumi-han-taiwei-shu",
-  "title": "上樞密韓太尉書",
-  "author": "蘇轍",
+  "title": "248-shang-shumi-han-taiwei-shu",
   "overall_grade": "A",
-  "overall_comment": "背景與分析段品質極高，12項檢查全數通過。對蘇轍「養氣為文」的文學宣言分析極為精彩，將干謁信昇華為文學理論的洞察尤為深刻。",
+  "overall_comment": "11/12 項通過",
   "checks": [
-    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出出處《欒城集》、作者蘇轍、時代（宋仁宗嘉祐二年1057，蘇轍十九歲）、體裁（求見信／干謁書信）、核心命題（養氣為文）。"},
-    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "深入分析宋仁宗嘉祐年間的科舉盛況——蘇軾蘇轍同榜進士、歐陽修主考、韓琦為樞密使，以及北宋古文運動的巔峰期。"},
-    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "為蘇轍、韓琦、歐陽修、蘇軾建立詳細分析。特別點出韓琦在仁宗朝的地位和蘇轍以十九歲新科進士身份寫信給當朝樞密使的膽識。"},
-    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "深入分析蘇轍看似求見實則展示才華的雙層意圖——表面求見韓琦以盡天下大觀，深層以「養氣」的文學理論自我標榜，將干謁信寫成文學宣言。"},
-    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "精準——十九歲蘇轍將求官信寫成文學宣言，把拍馬屁昇華為追求精神境界，是中國干謁文學的最高境界。"},
-    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "結構表清晰：起（提出養氣為文的命題）、承（以司馬遷為例證明天下大觀養氣）、轉（自述已遊歷見聞唯欠韓琦）、合（求見之意的昇華）。"},
-    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "列出層層遞進（司馬遷→名山大川→歐陽修→韓琦）、引用經典（孟子養氣說）、自貶以褒（「偶然得之，非其所長」）、排比（於山見…於水見…於人見…）等手法。"},
-    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "選出「以為文者氣之所形，然文不可以學而能，氣可以養而致」「太史公行天下，周覽四海名山大川」「于山見終南、嵩、華之高…于水見黃河之大且深…于人見歐陽公」等名句。"},
-    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "提供完整白話改編，涵蓋養氣為文的命題、司馬遷行天下的例證、對韓琦的求見之意，語言流暢。"},
-    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題為「時代背景與寫作意旨」「文章分析」，無 emoji。"},
-    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段有獨立觀點（如「蘇轍寫這封信時才十九歲，但他對文學的理解已經成熟——他告訴韓琦，我不是來求官的，我是來完成我的精神修養的」），有深度。"},
-    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "所有段落皆有獨立貢獻，背景段對宋代古文運動的分析有實際幫助，無填充內容。"}
+    {
+      "id": "bg_coord",
+      "name": "座標定位表",
+      "status": "pass",
+      "comment": "有座標定位表"
+    },
+    {
+      "id": "bg_era",
+      "name": "時代背景段",
+      "status": "pass",
+      "comment": "有時代背景分析"
+    },
+    {
+      "id": "bg_people",
+      "name": "關鍵人物段",
+      "status": "pass",
+      "comment": "有關鍵人物分析"
+    },
+    {
+      "id": "bg_intent",
+      "name": "寫作意圖段",
+      "status": "fail",
+      "comment": "無寫作意圖段"
+    },
+    {
+      "id": "bg_summary",
+      "name": "一句話總結",
+      "status": "pass",
+      "comment": "有一句話總結"
+    },
+    {
+      "id": "an_structure",
+      "name": "起承轉合表",
+      "status": "pass",
+      "comment": "有起承轉合表"
+    },
+    {
+      "id": "an_rhetoric",
+      "name": "修辭手法表",
+      "status": "pass",
+      "comment": "有修辭手法分析表"
+    },
+    {
+      "id": "an_quotes",
+      "name": "佳句賞析",
+      "status": "pass",
+      "comment": "有10句佳句賞析"
+    },
+    {
+      "id": "an_vernacular",
+      "name": "白話改編段",
+      "status": "pass",
+      "comment": "有白話改編段"
+    },
+    {
+      "id": "fmt_emoji",
+      "name": "h2 無 emoji",
+      "status": "pass",
+      "comment": "h2 標題無 emoji"
+    },
+    {
+      "id": "fmt_depth",
+      "name": "分析段深度",
+      "status": "pass",
+      "comment": "分析段 356 行"
+    },
+    {
+      "id": "no_padding",
+      "name": "不為寫而寫",
+      "status": "pass",
+      "comment": "主要內容無明顯灌水"
+    }
   ]
 }

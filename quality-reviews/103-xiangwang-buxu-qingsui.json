@@ -1,21 +1,80 @@
 {
   "file": "103-xiangwang-buxu-qingsui",
-  "title": "襄王不許請隧",
-  "author": "左丘明",
+  "title": "103-xiangwang-buxu-qingsui",
   "overall_grade": "A",
-  "overall_comment": "背景與分析段品質極高，12項檢查全數通過。背景涵蓋座標定位、時代壓力（周襄王歷史處境、晉文公霸權巔峰、請隧政治本質）、關鍵人物（周襄王、晉文公含對比分析表）、寫作意圖（國語編排邏輯、文本歷史定位）、一句話總結。分析段有起承轉合表、寫作技巧分析（弱勢中的完美談判四層論證、余安得禁之最高明威脅）、修辭手法表、佳句賞析兩句、白話改編。",
+  "overall_comment": "11/12 項通過",
   "checks": [
-    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出出處（國語周語中）、選集、體裁、時代（春秋中期周襄王時期約前651-619年）、核心命題、思想譜系。"},
-    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "分析周襄王歷史處境（王子帶之亂靠晉文公勤王復位）、晉文公霸權巔峰時間線、請隧的政治本質（禮儀試探）。"},
-    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "為周襄王（禮制捍衛者）和晉文公（禮制挑戰者）各設詳細表格分析，並有對比分析表。"},
-    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "分析國語周語中編排邏輯（請隧與問鼎前後輝映）、文本歷史定位（以柔克剛外交策略、符號權力最後防線、禮樂制度臨終掙扎）。"},
-    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "精準抓住襄王以禮制外衣包裹實力退讓的核心策略。"},
-    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "起（文公請隧以勤王之功要求超越禮制葬禮）、承（襄王以制度拒絕王章不可廢）、轉（以退為進你要硬來我也管不了）、合（文公接受土地放棄請隧），合理清晰。"},
-    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "列出歷史舉證、制度論證、道德綁架、以退為進、反問五種手法，有原文與效果說明。"},
-    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "選出兩句（王章也未有代德而有二王亦叔父之所惡也、不然叔父有地而隧焉余安能知之雖然叔父有地而隧焉余安得禁之），每句有深度賞析。"},
-    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "提供完整白話改編，覆蓋全文核心對話，語言流暢。"},
-    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題為「時代背景與寫作意旨」「文章分析」，無 emoji。"},
-    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段有獨立觀點（如弱勢中的完美談判四層論證、表面示弱實則是最鋒利一刀），佳句賞析有深度說明。"},
-    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "所有段落皆有獨立貢獻，背景段補充原文所需知識，分析段提供結構拆解與文本細讀，無重複或空洞內容。"}
+    {
+      "id": "bg_coord",
+      "name": "座標定位表",
+      "status": "pass",
+      "comment": "有座標定位表"
+    },
+    {
+      "id": "bg_era",
+      "name": "時代背景段",
+      "status": "pass",
+      "comment": "有時代背景分析"
+    },
+    {
+      "id": "bg_people",
+      "name": "關鍵人物段",
+      "status": "fail",
+      "comment": "無關鍵人物段"
+    },
+    {
+      "id": "bg_intent",
+      "name": "寫作意圖段",
+      "status": "pass",
+      "comment": "有寫作意圖分析"
+    },
+    {
+      "id": "bg_summary",
+      "name": "一句話總結",
+      "status": "pass",
+      "comment": "有一句話總結"
+    },
+    {
+      "id": "an_structure",
+      "name": "起承轉合表",
+      "status": "pass",
+      "comment": "有起承轉合表"
+    },
+    {
+      "id": "an_rhetoric",
+      "name": "修辭手法表",
+      "status": "pass",
+      "comment": "有修辭手法分析表"
+    },
+    {
+      "id": "an_quotes",
+      "name": "佳句賞析",
+      "status": "pass",
+      "comment": "有7句佳句賞析"
+    },
+    {
+      "id": "an_vernacular",
+      "name": "白話改編段",
+      "status": "pass",
+      "comment": "有白話改編段"
+    },
+    {
+      "id": "fmt_emoji",
+      "name": "h2 無 emoji",
+      "status": "pass",
+      "comment": "h2 標題無 emoji"
+    },
+    {
+      "id": "fmt_depth",
+      "name": "分析段深度",
+      "status": "pass",
+      "comment": "分析段 96 行"
+    },
+    {
+      "id": "no_padding",
+      "name": "不為寫而寫",
+      "status": "pass",
+      "comment": "主要內容無明顯灌水"
+    }
   ]
 }

@@ -1,81 +1,80 @@
 {
   "file": "44-boyi",
-  "title": "伯夷列傳",
-  "author": "",
+  "title": "44-boyi",
   "overall_grade": "A",
-  "overall_comment": "11/12 項通過",
+  "overall_comment": "12/12 項通過",
   "checks": [
     {
-      "id": "an_quotes",
-      "name": "an_quotes",
-      "status": "pass",
-      "comment": "有3句佳句賞析"
-    },
-    {
-      "id": "an_rhetoric",
-      "name": "an_rhetoric",
-      "status": "fail",
-      "comment": "修辭僅列列傳體例創新、寓議論於敘事，未成表格"
-    },
-    {
-      "id": "an_structure",
-      "name": "an_structure",
-      "status": "pass",
-      "comment": "有文章結構分四段分析"
-    },
-    {
-      "id": "an_vernacular",
-      "name": "an_vernacular",
-      "status": "pass",
-      "comment": "有白話改編段落"
-    },
-    {
       "id": "bg_coord",
-      "name": "bg_coord",
+      "name": "座標定位表",
       "status": "pass",
-      "comment": "有座標定位表（出處、篇名、時代座標等）"
+      "comment": "有座標定位表"
     },
     {
       "id": "bg_era",
-      "name": "bg_era",
+      "name": "時代背景段",
       "status": "pass",
-      "comment": "有時代壓力分析（漢武帝朝廷與司馬遷的筆）"
-    },
-    {
-      "id": "bg_intent",
-      "name": "bg_intent",
-      "status": "pass",
-      "comment": "有寫作意圖四層分析"
+      "comment": "有時代背景分析"
     },
     {
       "id": "bg_people",
-      "name": "bg_people",
+      "name": "關鍵人物段",
       "status": "pass",
-      "comment": "有關鍵人物分析（伯夷叔齊、司馬遷、盜蹠）"
+      "comment": "有關鍵人物分析"
+    },
+    {
+      "id": "bg_intent",
+      "name": "寫作意圖段",
+      "status": "pass",
+      "comment": "有寫作意圖分析"
     },
     {
       "id": "bg_summary",
-      "name": "bg_summary",
+      "name": "一句話總結",
       "status": "pass",
       "comment": "有一句話總結"
     },
     {
-      "id": "fmt_depth",
-      "name": "fmt_depth",
+      "id": "an_structure",
+      "name": "起承轉合表",
       "status": "pass",
-      "comment": "分析段有結構、技巧、佳句三層"
+      "comment": "有起承轉合表"
+    },
+    {
+      "id": "an_rhetoric",
+      "name": "修辭手法表",
+      "status": "pass",
+      "comment": "有修辭手法分析表"
+    },
+    {
+      "id": "an_quotes",
+      "name": "佳句賞析",
+      "status": "pass",
+      "comment": "有6句佳句賞析"
+    },
+    {
+      "id": "an_vernacular",
+      "name": "白話改編段",
+      "status": "pass",
+      "comment": "有白話改編段"
     },
     {
       "id": "fmt_emoji",
-      "name": "fmt_emoji",
+      "name": "h2 無 emoji",
       "status": "pass",
-      "comment": "標題無 emoji"
+      "comment": "h2 標題無 emoji"
+    },
+    {
+      "id": "fmt_depth",
+      "name": "分析段深度",
+      "status": "pass",
+      "comment": "分析段 76 行"
     },
     {
       "id": "no_padding",
-      "name": "no_padding",
+      "name": "不為寫而寫",
       "status": "pass",
-      "comment": "內容深入紮實"
+      "comment": "主要內容無明顯灌水"
     }
   ]
 }

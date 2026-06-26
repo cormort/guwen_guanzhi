@@ -1,21 +1,80 @@
 {
   "file": "xiangling",
-  "title": "項脊軒志",
-  "author": "歸有光",
+  "title": "xiangling",
   "overall_grade": "A",
-  "overall_comment": "背景與分析段品質極高，12項檢查全數通過。對歸有光以尋常筆墨寫無盡滄桑的分析尤為精彩，明代散文第一神品名不虛傳。",
+  "overall_comment": "12/12 項通過",
   "checks": [
-    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出出處《震川先生集》、作者歸有光（唐宋派魁首）、時代（明嘉靖年間約1539-1540）、體裁（軒記／抒情散文）、核心命題（以項脊軒的興廢寫家族記憶與生死離別）。"},
-    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "深入分析歸有光長達三十年的科舉困局——九歲能文卻六次鄉試不第，項脊軒志寫於第三次鄉試落榜前後。這篇千古名文是在一個男人最煎熬、最自我懷疑的階段寫出來的。"},
-    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "為歸有光、祖母（持象笏期待孫子成才）、母親（八歲早逝透過乳母轉述）、妻子（魏氏，憑几學書後早逝）建立詳細分析。每個人物的出場都承載著不同層次的情感。"},
-    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "深入分析歸有光的兩層用意：表面是記錄項脊軒的修葺與變遷，深層是藉書房串聯起家族三代人的記憶——祖母的期望、母親的關愛、妻子的溫情，以及科舉不第的壓力與喪親之痛。"},
-    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "精準——歸有光用一間老屋的興廢，串起了三代人的生死離別——祖母的象笏、母親的門扉、妻子的枇杷樹，每一樣都在替他說著無盡的思念。"},
-    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "結構表清晰：起（項脊軒的舊貌與修葺）、承（軒中三代人的回憶——祖母母親妻子）、轉（軒凡四遭火得不焚的象徵）、合（庭有枇杷樹亭亭如蓋的補記——時間的殘酷）。"},
-    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "列出以物寫情（枇杷樹象徵時間流逝）、細節白描（祖母持象笏、母親叩門問寒）、他者視角（透過乳母回憶母親）、補記結構（正文與補記相隔多年的時間跨度）等手法。"},
-    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "選出「庭有枇杷樹，吾妻死之年所手植也，今已亭亭如蓋矣」「兒寒乎？欲食乎？」「吾家讀書久不效，兒之成則可待乎」「持一象笏至」等名句，每句有深度賞析。"},
-    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "提供完整白話改編，涵蓋項脊軒修葺、祖母母親妻子回憶、枇杷樹補記等核心內容。"},
-    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題為「時代背景與寫作意旨」「文章分析」，無 emoji。"},
-    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段有獨立觀點（如「枇杷樹是全篇的計時器——樹種下的時候妻子還在，樹長大了人已不在。時間用樹的成長來丈量，殘酷而無聲。這正是歸有光最擅長的以物寫情」），有深度說明。"},
-    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "所有段落皆有獨立貢獻，背景段對歸有光科舉困局的分析與文章形成深刻照應，無填充內容。"}
+    {
+      "id": "bg_coord",
+      "name": "座標定位表",
+      "status": "pass",
+      "comment": "有座標定位表"
+    },
+    {
+      "id": "bg_era",
+      "name": "時代背景段",
+      "status": "pass",
+      "comment": "有時代背景分析"
+    },
+    {
+      "id": "bg_people",
+      "name": "關鍵人物段",
+      "status": "pass",
+      "comment": "有關鍵人物分析"
+    },
+    {
+      "id": "bg_intent",
+      "name": "寫作意圖段",
+      "status": "pass",
+      "comment": "有寫作意圖分析"
+    },
+    {
+      "id": "bg_summary",
+      "name": "一句話總結",
+      "status": "pass",
+      "comment": "有一句話總結"
+    },
+    {
+      "id": "an_structure",
+      "name": "起承轉合表",
+      "status": "pass",
+      "comment": "有起承轉合表"
+    },
+    {
+      "id": "an_rhetoric",
+      "name": "修辭手法表",
+      "status": "pass",
+      "comment": "有修辭手法分析表"
+    },
+    {
+      "id": "an_quotes",
+      "name": "佳句賞析",
+      "status": "pass",
+      "comment": "有10句佳句賞析"
+    },
+    {
+      "id": "an_vernacular",
+      "name": "白話改編段",
+      "status": "pass",
+      "comment": "有白話改編段"
+    },
+    {
+      "id": "fmt_emoji",
+      "name": "h2 無 emoji",
+      "status": "pass",
+      "comment": "h2 標題無 emoji"
+    },
+    {
+      "id": "fmt_depth",
+      "name": "分析段深度",
+      "status": "pass",
+      "comment": "分析段 149 行"
+    },
+    {
+      "id": "no_padding",
+      "name": "不為寫而寫",
+      "status": "pass",
+      "comment": "主要內容無明顯灌水"
+    }
   ]
 }

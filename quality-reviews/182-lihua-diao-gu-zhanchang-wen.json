@@ -1,21 +1,80 @@
 {
   "file": "182-lihua-diao-gu-zhanchang-wen",
-  "title": "弔古戰場文",
-  "author": "李華",
+  "title": "182-lihua-diao-gu-zhanchang-wen",
   "overall_grade": "A",
-  "overall_comment": "12項全數過關。背景段深入唐朝邊塞戰爭的殘酷現實與反戰思潮；分析段有文章結構、修辭手法（鋪陳、設問、對比）、佳句賞析、白話改編，無填充內容。",
+  "overall_comment": "11/12 項通過",
   "checks": [
-    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出出處《全唐文》、體裁（弔文/賦體）、時代（唐天寶年間）、核心命題（戰爭的殘酷與和平的珍貴）。"},
-    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "深入分析唐玄宗後期邊境戰爭頻繁的背景、府兵制瓦解後的募兵制問題、李華親歷安史之亂前的邊塞危機。"},
-    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "為李華（以文反戰的知識分子）、邊塞將士、普通百姓設有分析。"},
-    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "核心分析揭示李華借弔古之名行反戰之實——通過描繪古戰場的淒涼表達對戰爭的深刻控訴。"},
-    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "精準抓住李華的核心質問——蒼蒼蒸民誰無父母——戰爭讓多少家庭失去兒子和丈夫。"},
-    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "起（描寫古戰場的荒涼景象）、承（回顧歷史上著名戰役的慘烈）、轉（描寫戰爭對普通人的傷害）、合（呼籲和平與反省），結構完整。"},
-    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "列出鋪陳（古戰場的淒涼場景層層展開）、設問（蒼蒼蒸民誰無父母）、對比（戰爭的殘酷vs和平的美好）、引用（秦漢歷史），手法多樣。"},
-    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "選出三句經典（浩浩乎平沙無垠人不見、蒼蒼蒸民誰無父母、傷心哉秦歟漢歟將近代歟），賞析有深度。"},
-    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "提供完整白話改編，涵蓋賦文核心內容。"},
-    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題為「時代背景與寫作意旨」「文章分析」，無 emoji。"},
-    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段有獨立觀點（以賦體寫反戰主題的創造性），對李華的修辭策略有深入分析。"},
-    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "所有段落皆有獨立貢獻，背景段的唐朝邊塞政策分析、分析段的反戰文學傳統探討各有增量信息。"}
+    {
+      "id": "bg_coord",
+      "name": "座標定位表",
+      "status": "pass",
+      "comment": "有座標定位表"
+    },
+    {
+      "id": "bg_era",
+      "name": "時代背景段",
+      "status": "pass",
+      "comment": "有時代背景分析"
+    },
+    {
+      "id": "bg_people",
+      "name": "關鍵人物段",
+      "status": "pass",
+      "comment": "有關鍵人物分析"
+    },
+    {
+      "id": "bg_intent",
+      "name": "寫作意圖段",
+      "status": "fail",
+      "comment": "無寫作意圖段"
+    },
+    {
+      "id": "bg_summary",
+      "name": "一句話總結",
+      "status": "pass",
+      "comment": "有一句話總結"
+    },
+    {
+      "id": "an_structure",
+      "name": "起承轉合表",
+      "status": "pass",
+      "comment": "有起承轉合表"
+    },
+    {
+      "id": "an_rhetoric",
+      "name": "修辭手法表",
+      "status": "pass",
+      "comment": "有修辭手法分析表"
+    },
+    {
+      "id": "an_quotes",
+      "name": "佳句賞析",
+      "status": "pass",
+      "comment": "有10句佳句賞析"
+    },
+    {
+      "id": "an_vernacular",
+      "name": "白話改編段",
+      "status": "pass",
+      "comment": "有白話改編段"
+    },
+    {
+      "id": "fmt_emoji",
+      "name": "h2 無 emoji",
+      "status": "pass",
+      "comment": "h2 標題無 emoji"
+    },
+    {
+      "id": "fmt_depth",
+      "name": "分析段深度",
+      "status": "pass",
+      "comment": "分析段 208 行"
+    },
+    {
+      "id": "no_padding",
+      "name": "不為寫而寫",
+      "status": "pass",
+      "comment": "主要內容無明顯灌水"
+    }
   ]
 }

@@ -1,21 +1,80 @@
 {
   "file": "185-hanyu-yuan-dao",
-  "title": "原道",
-  "author": "韓愈",
+  "title": "185-hanyu-yuan-dao",
   "overall_grade": "A",
-  "overall_comment": "12項全數過關。背景段深入中唐儒釋道三教並立的時代壓力；分析段有文章結構（三段論證）、修辭手法（定義先行、正反對照）、經典名句賞析、白話改編，無填充內容。",
+  "overall_comment": "12/12 項通過",
   "checks": [
-    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出出處《昌黎先生集》、體裁（論說文/儒家復興宣言）、時代（唐元和年間約801-805年）、核心命題（博愛之謂仁行而宜之之謂義由是而之焉之謂道）。"},
-    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "深入分析中唐時期佛教道教氾濫、儒家道統衰落的三重壓力、韓愈古文運動的歷史使命。"},
-    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "為韓愈（古文運動領袖）、道統序列（堯舜禹湯文武周公孔孟）、佛道代表人物設有分析。"},
-    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "核心分析揭示韓愈的三層目標：定義儒家之道、批判佛道之非、重建道統傳承，是一篇儒家思想的正名宣言。"},
-    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "精準抓住韓愈的核心——博愛之謂仁行而宜之之謂義——用最簡潔的定義重新確立儒家的精神內核。"},
-    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "第一段（定義何為儒道）、第二段（批判佛道之非）、第三段（提出道統論與復興儒家的方案），論證嚴密。"},
-    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "列出定義先行（博愛之謂仁）、正反對照（古之為民者四今之為民者六）、引用經典（《大學》《禮記》）、排比（周道衰孔子沒），手法多樣。"},
-    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "選出三句經典（博愛之謂仁行而宜之之謂義、不塞不流不止不行、堯以是傳之舜舜以是傳之禹），賞析有深度。"},
-    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "提供完整白話改編，涵蓋論說文核心論證。"},
-    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題為「時代背景與寫作意旨」「文章分析」，無 emoji。"},
-    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段有獨立觀點（原道作為儒家思想的百科全書式論證），對韓愈的道統論有深入分析。"},
-    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "所有段落皆有獨立貢獻，背景段的三教之爭分析、分析段的論說文結構拆解各有獨立價值。"}
+    {
+      "id": "bg_coord",
+      "name": "座標定位表",
+      "status": "pass",
+      "comment": "有座標定位表"
+    },
+    {
+      "id": "bg_era",
+      "name": "時代背景段",
+      "status": "pass",
+      "comment": "有時代背景分析"
+    },
+    {
+      "id": "bg_people",
+      "name": "關鍵人物段",
+      "status": "pass",
+      "comment": "有關鍵人物分析"
+    },
+    {
+      "id": "bg_intent",
+      "name": "寫作意圖段",
+      "status": "pass",
+      "comment": "有寫作意圖分析"
+    },
+    {
+      "id": "bg_summary",
+      "name": "一句話總結",
+      "status": "pass",
+      "comment": "有一句話總結"
+    },
+    {
+      "id": "an_structure",
+      "name": "起承轉合表",
+      "status": "pass",
+      "comment": "有起承轉合表"
+    },
+    {
+      "id": "an_rhetoric",
+      "name": "修辭手法表",
+      "status": "pass",
+      "comment": "有修辭手法分析表"
+    },
+    {
+      "id": "an_quotes",
+      "name": "佳句賞析",
+      "status": "pass",
+      "comment": "有5句佳句賞析"
+    },
+    {
+      "id": "an_vernacular",
+      "name": "白話改編段",
+      "status": "pass",
+      "comment": "有白話改編段"
+    },
+    {
+      "id": "fmt_emoji",
+      "name": "h2 無 emoji",
+      "status": "pass",
+      "comment": "h2 標題無 emoji"
+    },
+    {
+      "id": "fmt_depth",
+      "name": "分析段深度",
+      "status": "pass",
+      "comment": "分析段 87 行"
+    },
+    {
+      "id": "no_padding",
+      "name": "不為寫而寫",
+      "status": "pass",
+      "comment": "主要內容無明顯灌水"
+    }
   ]
 }

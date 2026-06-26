@@ -1,21 +1,80 @@
 {
   "file": "199-hanyu-ying-kemu-shi-yu-ren-shu",
-  "title": "應科目時與人書",
-  "author": "韓愈",
+  "title": "199-hanyu-ying-kemu-shi-yu-ren-shu",
   "overall_grade": "A",
-  "overall_comment": "12項全數過關。背景段深入唐代科舉制度與溫卷文化；分析段有文章結構（寓言式求職的三層結構）、修辭手法（寓言隱喻、驕傲的求救、尊嚴的悖論）、經典句賞析、白話翻譯，無填充內容。",
+  "overall_comment": "11/12 項通過",
   "checks": [
-    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出出處《昌黎先生集》、體裁（書/求薦信）、時代（貞元九年793年前後）、核心命題（天池之濱大江之濆曰有怪物焉）。"},
-    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "深入分析唐代博學鴻詞科考試制度、溫卷文化、韓愈三次考試皆不第的困窘。"},
-    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "為韓愈（以龍自喻的天才求職者）、韋舍人（掌握考試命運的考官）設有完整分析。"},
-    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "核心分析揭示韓愈用寓言求職——既要求人幫忙又要保持尊嚴——把自己變成龍讓考官拯救。"},
-    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "精準抓住韓愈的核心——最高明的求職不是說我需要你，而是說你需要我這條龍。"},
-    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "以龍的寓言開篇（起）、描述龍困淺灘的困境（承）、暗示只有真識者能救（轉）、以驕傲的求救收束（合），一氣呵成。"},
-    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "列出寓言隱喻（龍困淺灘喻天才落難）、驕傲的求救（寧死不低頭）、尊嚴的悖論（求人卻保持高傲）、設問激將，手法獨特。"},
-    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "選出經典句（天池之濱大江之濆曰有怪物焉、寧死不可求於人），賞析有求職策略視角。"},
-    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "提供完整白話翻譯與寓言層層解讀。"},
-    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題為「時代背景與寫作意旨」「文本結構」「核心分析」等，無 emoji。"},
-    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段有獨立觀點（將求職信解讀為給對方一個拯救傳奇生物的機會、驕傲的求救這一悖論式表達），有獨創性。"},
-    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "所有段落皆有獨立貢獻，背景段的溫卷文化分析、分析段的寓言拆解各有獨立價值。"}
+    {
+      "id": "bg_coord",
+      "name": "座標定位表",
+      "status": "pass",
+      "comment": "有座標定位表"
+    },
+    {
+      "id": "bg_era",
+      "name": "時代背景段",
+      "status": "pass",
+      "comment": "有時代背景分析"
+    },
+    {
+      "id": "bg_people",
+      "name": "關鍵人物段",
+      "status": "pass",
+      "comment": "有關鍵人物分析"
+    },
+    {
+      "id": "bg_intent",
+      "name": "寫作意圖段",
+      "status": "fail",
+      "comment": "無寫作意圖段"
+    },
+    {
+      "id": "bg_summary",
+      "name": "一句話總結",
+      "status": "pass",
+      "comment": "有一句話總結"
+    },
+    {
+      "id": "an_structure",
+      "name": "起承轉合表",
+      "status": "pass",
+      "comment": "有起承轉合表"
+    },
+    {
+      "id": "an_rhetoric",
+      "name": "修辭手法表",
+      "status": "pass",
+      "comment": "有修辭手法分析表"
+    },
+    {
+      "id": "an_quotes",
+      "name": "佳句賞析",
+      "status": "pass",
+      "comment": "有5句佳句賞析"
+    },
+    {
+      "id": "an_vernacular",
+      "name": "白話改編段",
+      "status": "pass",
+      "comment": "有白話改編段"
+    },
+    {
+      "id": "fmt_emoji",
+      "name": "h2 無 emoji",
+      "status": "pass",
+      "comment": "h2 標題無 emoji"
+    },
+    {
+      "id": "fmt_depth",
+      "name": "分析段深度",
+      "status": "pass",
+      "comment": "分析段 81 行"
+    },
+    {
+      "id": "no_padding",
+      "name": "不為寫而寫",
+      "status": "pass",
+      "comment": "主要內容無明顯灌水"
+    }
   ]
 }

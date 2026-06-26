@@ -1,21 +1,80 @@
 {
   "file": "goujian",
-  "title": "勾踐滅吳",
-  "author": "左丘明",
+  "title": "goujian",
   "overall_grade": "A",
-  "overall_comment": "背景與分析段品質極高，12項檢查全數通過。對吳越爭霸的戰略格局分析全面，勾踐臥薪嘗膽的復仇策略層層拆解。",
+  "overall_comment": "10/12 項通過",
   "checks": [
-    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出出處《國語·越語上》、作者左丘明（一說）、事件跨度（前494年夫椒之戰至前473年越滅吳）、體裁（國別史戰略復仇敘事）。"},
-    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "深入分析春秋晚期吳越爭霸格局——晉扶吳制楚、楚扶越制吳的國際棋局，以及勾踐從戰敗奴僕到復仇稱霸的全過程。"},
-    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "為勾踐、夫差、范蠡、文種、伍子胥建立詳細分析。勾踐的臥薪嘗膽與夫差的驕傲輕敵形成鮮明對比。"},
-    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "深入分析左丘明的寫作意圖——以勾踐滅吳為例展示戰略復仇的典範，同時揭示以弱勝強、以屈求伸的戰略智慧。"},
-    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "精準——勾踐從亡國奴到一代霸主，用二十年的隱忍證明了真正的復仇不是衝動而是耐心。"},
-    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "結構表清晰：起（夫椒之敗勾踐求和）、承（勾踐臥薪嘗膽十年生聚）、轉（吳王驕傲不聽伍子胥之諫）、合（越滅吳成就霸業）。"},
-    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "列出對比（勾踐與夫差、伍子胥與伯嚭）、層層遞進（十年生聚十年教訓）、細節描寫（臥薪嘗膽懸膽於戶）、對話推進（君臣問答）等手法。"},
-    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "選出「越王勾踐反國，乃苦身焦思」「置膽於坐，坐臥即仰膽」「十年生聚，十年教訓」「飛鳥盡良弓藏」等名句，每句有背景說明與深度賞析。"},
-    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "提供完整白話改編，涵蓋夫椒之戰、勾踐求和、臥薪嘗膽、滅吳稱霸等核心情節。"},
-    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題為「時代背景與寫作意旨」「文章分析」，無 emoji。"},
-    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段有獨立觀點（如「勾踐的復仇不是一個人的忍耐，而是一個國家的系統性戰略——從人口政策到外交布局，每一步都在為二十年後的那一擊做準備」），有深度說明。"},
-    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "所有段落皆有獨立貢獻，背景段的吳越世仇地緣分析極有價值，無填充內容。"}
+    {
+      "id": "bg_coord",
+      "name": "座標定位表",
+      "status": "pass",
+      "comment": "有座標定位表"
+    },
+    {
+      "id": "bg_era",
+      "name": "時代背景段",
+      "status": "pass",
+      "comment": "有時代背景分析"
+    },
+    {
+      "id": "bg_people",
+      "name": "關鍵人物段",
+      "status": "fail",
+      "comment": "無關鍵人物段"
+    },
+    {
+      "id": "bg_intent",
+      "name": "寫作意圖段",
+      "status": "pass",
+      "comment": "有寫作意圖分析"
+    },
+    {
+      "id": "bg_summary",
+      "name": "一句話總結",
+      "status": "pass",
+      "comment": "有一句話總結"
+    },
+    {
+      "id": "an_structure",
+      "name": "起承轉合表",
+      "status": "pass",
+      "comment": "有起承轉合表"
+    },
+    {
+      "id": "an_rhetoric",
+      "name": "修辭手法表",
+      "status": "pass",
+      "comment": "有修辭手法分析表"
+    },
+    {
+      "id": "an_quotes",
+      "name": "佳句賞析",
+      "status": "pass",
+      "comment": "有5句佳句賞析"
+    },
+    {
+      "id": "an_vernacular",
+      "name": "白話改編段",
+      "status": "pass",
+      "comment": "有白話改編段"
+    },
+    {
+      "id": "fmt_emoji",
+      "name": "h2 無 emoji",
+      "status": "fail",
+      "comment": "h2 含 emoji"
+    },
+    {
+      "id": "fmt_depth",
+      "name": "分析段深度",
+      "status": "pass",
+      "comment": "分析段 75 行"
+    },
+    {
+      "id": "no_padding",
+      "name": "不為寫而寫",
+      "status": "pass",
+      "comment": "主要內容無明顯灌水"
+    }
   ]
 }

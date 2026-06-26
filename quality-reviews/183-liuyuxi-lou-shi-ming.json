@@ -1,21 +1,80 @@
 {
   "file": "183-liuyuxi-lou-shi-ming",
-  "title": "陋室銘",
-  "author": "劉禹錫",
+  "title": "183-liuyuxi-lou-shi-ming",
   "overall_grade": "A",
-  "overall_comment": "12項全數過關。背景段深析劉禹錫被貶的背景與陋室不陋的哲學；分析段有文章結構、修辭手法（比興、用典、對仗）、經典名句賞析、白話改編，無填充內容。",
+  "overall_comment": "11/12 項通過",
   "checks": [
-    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出出處《劉禹錫集》、體裁（銘文/座右銘）、時代（唐元和年間約815年）、核心命題（斯是陋室惟吾德馨）。"},
-    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "深入分析劉禹錫因永貞革新被貶朗州司馬的背景、文人被貶後的精神堅守、唐代士人的居室文化。"},
-    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "為劉禹錫（詩豪的風骨）、文中提到的歷史人物（諸葛亮、揚雄）設有分析。"},
-    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "核心分析揭示劉禹錫的深層意旨——物質條件的簡陋無法掩蓋精神世界的高貴，陋室是對權力打壓的最優雅反擊。"},
-    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "精準抓住核心——山不在高有仙則名水不在深有龍則靈——物質不重要重要的是住在裡面的人。"},
-    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "起（以山水的比喻引出陋室）、承（描寫陋室中的日常生活）、轉（以歷史人物證明陋室不陋）、合（引用孔子的話作結），結構精煉。"},
-    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "列出比興（山不在高有仙則名）、用典（南陽諸葛廬西蜀子雲亭）、對仗（苔痕上階綠草色入簾青）、引用（孔子云何陋之有），手法豐富。"},
-    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "選出三句經典（山不在高有仙則名、苔痕上階綠草色入簾青、何陋之有），賞析有深度。"},
-    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "提供完整白話改編，涵蓋全文核心內容。"},
-    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題為「時代背景與寫作意旨」「文章分析」，無 emoji。"},
-    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段有獨立觀點（陋室銘作為被貶文人的精神勝利法），對文章的精煉美學有深入說明。"},
-    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "所有段落皆有獨立貢獻，背景段的永貞革新分析、分析段的銘文文體特色探討各有獨立價值。"}
+    {
+      "id": "bg_coord",
+      "name": "座標定位表",
+      "status": "pass",
+      "comment": "有座標定位表"
+    },
+    {
+      "id": "bg_era",
+      "name": "時代背景段",
+      "status": "pass",
+      "comment": "有時代背景分析"
+    },
+    {
+      "id": "bg_people",
+      "name": "關鍵人物段",
+      "status": "pass",
+      "comment": "有關鍵人物分析"
+    },
+    {
+      "id": "bg_intent",
+      "name": "寫作意圖段",
+      "status": "fail",
+      "comment": "無寫作意圖段"
+    },
+    {
+      "id": "bg_summary",
+      "name": "一句話總結",
+      "status": "pass",
+      "comment": "有一句話總結"
+    },
+    {
+      "id": "an_structure",
+      "name": "起承轉合表",
+      "status": "pass",
+      "comment": "有起承轉合表"
+    },
+    {
+      "id": "an_rhetoric",
+      "name": "修辭手法表",
+      "status": "pass",
+      "comment": "有修辭手法分析表"
+    },
+    {
+      "id": "an_quotes",
+      "name": "佳句賞析",
+      "status": "pass",
+      "comment": "有6句佳句賞析"
+    },
+    {
+      "id": "an_vernacular",
+      "name": "白話改編段",
+      "status": "pass",
+      "comment": "有白話改編段"
+    },
+    {
+      "id": "fmt_emoji",
+      "name": "h2 無 emoji",
+      "status": "pass",
+      "comment": "h2 標題無 emoji"
+    },
+    {
+      "id": "fmt_depth",
+      "name": "分析段深度",
+      "status": "pass",
+      "comment": "分析段 89 行"
+    },
+    {
+      "id": "no_padding",
+      "name": "不為寫而寫",
+      "status": "pass",
+      "comment": "主要內容無明顯灌水"
+    }
   ]
 }

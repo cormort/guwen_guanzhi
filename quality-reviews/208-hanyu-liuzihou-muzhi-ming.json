@@ -1,21 +1,80 @@
 {
   "file": "208-hanyu-liuzihou-muzhi-ming",
-  "title": "柳子厚墓誌銘",
-  "author": "韓愈",
+  "title": "208-hanyu-liuzihou-muzhi-ming",
   "overall_grade": "A",
-  "overall_comment": "12項全數過關。背景段深入永貞革新與柳宗元貶謫生涯，分析段有清晰五層結構、豐富修辭分析（落井下石成語典故、對比）、佳句賞析及完整白話改編。",
+  "overall_comment": "11/12 項通過",
   "checks": [
-    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出出處《韓昌黎集》、體裁（墓誌銘）、時代（元和十四年819）、核心命題（士窮乃見節義）。"},
-    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "深入分析永貞革新始末、二王八司馬事件、柳宗元在永州的十年貶謫生活。"},
-    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "韓愈與柳宗元皆有深入分析，點明兩人既是文學戰友又是政治分歧者的複雜關係。"},
-    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "核心分析揭示韓愈為反對過的人寫墓誌銘，既是送別也是為歷史作證。"},
-    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "精準抓住韓愈為最好論敵寫墓誌銘的矛盾情感與超越分歧的尊重。"},
-    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "清楚列出家世早年、政治風暴、以柳易播、文學成就、銘辭五層結構。"},
-    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "列出含蓄筆法、對比（落井下石vs節義）、引用用典等手法，分析到位。"},
-    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "選出『士窮乃見節義』『願以柳易播』『落井下石』等千古名句，賞析有深度。"},
-    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "提供完整白話改編，忠於原文且流暢自然。"},
-    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題為「時代背景與寫作意旨」「文章分析」，無 emoji。"},
-    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段有獨立觀點（政治分歧與人格尊重的分離、墓誌銘傳統的突破），對韓愈的公正胸懷有深入剖析。"},
-    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "所有段落皆有獨立貢獻，軍師按語提供有價值的延伸思考，無填充內容。"}
+    {
+      "id": "bg_coord",
+      "name": "座標定位表",
+      "status": "pass",
+      "comment": "有座標定位表"
+    },
+    {
+      "id": "bg_era",
+      "name": "時代背景段",
+      "status": "pass",
+      "comment": "有時代背景分析"
+    },
+    {
+      "id": "bg_people",
+      "name": "關鍵人物段",
+      "status": "fail",
+      "comment": "無關鍵人物段"
+    },
+    {
+      "id": "bg_intent",
+      "name": "寫作意圖段",
+      "status": "pass",
+      "comment": "有寫作意圖分析"
+    },
+    {
+      "id": "bg_summary",
+      "name": "一句話總結",
+      "status": "pass",
+      "comment": "有一句話總結"
+    },
+    {
+      "id": "an_structure",
+      "name": "起承轉合表",
+      "status": "pass",
+      "comment": "有起承轉合表"
+    },
+    {
+      "id": "an_rhetoric",
+      "name": "修辭手法表",
+      "status": "pass",
+      "comment": "有修辭手法分析表"
+    },
+    {
+      "id": "an_quotes",
+      "name": "佳句賞析",
+      "status": "pass",
+      "comment": "有7句佳句賞析"
+    },
+    {
+      "id": "an_vernacular",
+      "name": "白話改編段",
+      "status": "pass",
+      "comment": "有白話改編段"
+    },
+    {
+      "id": "fmt_emoji",
+      "name": "h2 無 emoji",
+      "status": "pass",
+      "comment": "h2 標題無 emoji"
+    },
+    {
+      "id": "fmt_depth",
+      "name": "分析段深度",
+      "status": "pass",
+      "comment": "分析段 93 行"
+    },
+    {
+      "id": "no_padding",
+      "name": "不為寫而寫",
+      "status": "pass",
+      "comment": "主要內容無明顯灌水"
+    }
   ]
 }

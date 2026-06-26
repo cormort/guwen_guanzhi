@@ -1,21 +1,80 @@
 {
   "file": "211-liuzongyuan-jizi-bei",
-  "title": "箕子碑",
-  "author": "柳宗元",
+  "title": "211-liuzongyuan-jizi-bei",
   "overall_grade": "A",
-  "overall_comment": "12項全數過關。背景段深入殷商末年紂王暴政與箕子佯狂的歷史，分析段有清晰的碑文結構、修辭分析（對比、引用、議論結合）、佳句賞析及完整白話改編。",
+  "overall_comment": "11/12 項通過",
   "checks": [
-    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出出處《柳河東集》、體裁（廟碑）、時代（中唐）、核心命題（為殷商忠臣立碑）。"},
-    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "深入分析殷商末年政治、紂王無道、箕子佯狂為奴與武王訪道的歷史背景。"},
-    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "箕子、紂王、周武王三者皆有分析，對箕子的三種面向（佯狂、囚奴、陳洪範）有深入探討。"},
-    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "核心分析揭示柳宗元以箕子自況，表達被貶後仍堅持理想的決心。"},
-    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "精準抓住柳宗元借箕子碑抒發自身貶謫困境中的堅守。"},
-    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "清楚列出敘家世、述事蹟、致議論、作銘辭的四段碑文結構。"},
-    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "列出對比（紂vs箕子）、引用經典、議論結合敘事等手法，分析到位。"},
-    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "選出關鍵讚頌句子，賞析有深度。"},
-    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "提供完整白話改編，忠於原文且流暢自然。"},
-    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題為「時代背景與寫作意旨」「文章分析」，無 emoji。"},
-    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段有獨立觀點（箕子作為貶謫文人的精神象徵、柳宗元的自我投射），對柳宗元借古諷今的筆法有深入剖析。"},
-    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "所有段落皆有獨立貢獻，軍師按語提供有價值的延伸思考，無填充內容。"}
+    {
+      "id": "bg_coord",
+      "name": "座標定位表",
+      "status": "pass",
+      "comment": "有座標定位表"
+    },
+    {
+      "id": "bg_era",
+      "name": "時代背景段",
+      "status": "pass",
+      "comment": "有時代背景分析"
+    },
+    {
+      "id": "bg_people",
+      "name": "關鍵人物段",
+      "status": "pass",
+      "comment": "有關鍵人物分析"
+    },
+    {
+      "id": "bg_intent",
+      "name": "寫作意圖段",
+      "status": "fail",
+      "comment": "無寫作意圖段"
+    },
+    {
+      "id": "bg_summary",
+      "name": "一句話總結",
+      "status": "pass",
+      "comment": "有一句話總結"
+    },
+    {
+      "id": "an_structure",
+      "name": "起承轉合表",
+      "status": "pass",
+      "comment": "有起承轉合表"
+    },
+    {
+      "id": "an_rhetoric",
+      "name": "修辭手法表",
+      "status": "pass",
+      "comment": "有修辭手法分析表"
+    },
+    {
+      "id": "an_quotes",
+      "name": "佳句賞析",
+      "status": "pass",
+      "comment": "有6句佳句賞析"
+    },
+    {
+      "id": "an_vernacular",
+      "name": "白話改編段",
+      "status": "pass",
+      "comment": "有白話改編段"
+    },
+    {
+      "id": "fmt_emoji",
+      "name": "h2 無 emoji",
+      "status": "pass",
+      "comment": "h2 標題無 emoji"
+    },
+    {
+      "id": "fmt_depth",
+      "name": "分析段深度",
+      "status": "pass",
+      "comment": "分析段 64 行"
+    },
+    {
+      "id": "no_padding",
+      "name": "不為寫而寫",
+      "status": "pass",
+      "comment": "主要內容無明顯灌水"
+    }
   ]
 }

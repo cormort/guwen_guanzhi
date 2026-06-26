@@ -1,21 +1,80 @@
 {
   "file": "02-caogui-lunzhan",
-  "title": "曹劌論戰",
-  "author": "左丘明",
+  "title": "02-caogui-lunzhan",
   "overall_grade": "A",
-  "overall_comment": "品質極高，12項全數過關。背景解析布衣曹劌三問三答的戰略邏輯，分析段結構清晰、佳句賞析有深度，白話改編完整。",
+  "overall_comment": "12/12 項通過",
   "checks": [
-    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出出處《左傳·莊公十年》、作者左丘明、事件年代684BC、戰役（長勺之戰）、文體。"},
-    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "分析齊強魯弱格局，齊桓公即位立威與管仲改革的背景，魯國存亡之戰的壓力，對理解曹劌進諫的必要性有實質幫助。"},
-    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "涵蓋曹劌（布衣奇人）、魯莊公（危機領袖）、齊桓公（背景中的霸主陰影），三人關係完整。"},
-    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "分表層（民本思想—民心即戰力）與深層（冷靜判斷—慎戰精神），雙層結構分析有力。"},
-    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "精準概括布衣曹劌以三問三答點破民心即戰力、冷靜即兵法，助魯以弱勝強的核心。"},
-    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "起（齊師伐我、曹劌請見）、承（論何以戰）、轉（論何以勝—一鼓作氣）、合（下視登望—確認追擊），結構合理。"},
-    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "列出對比手法、層層遞進對話、詳略得當三項特色，均為本文有辨識度的敘事技巧。"},
-    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "選出三句（肉食者鄙、一鼓作氣、視其轍亂望其旗靡），賞析包含背景說明與文本分析，非單純翻譯。"},
-    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "白話改編完整覆蓋全文三段核心對話，語言通俗流暢。"},
-    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題無 emoji。"},
-    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段有獨立觀點（情緒是將領最大敵人、曹劌的勝利是理性的勝利），非僅翻譯原文。"},
-    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "各段分工明確，背景補知識、結構拆邏輯、佳句賞析提供領悟，無冗餘內容。"}
+    {
+      "id": "bg_coord",
+      "name": "座標定位表",
+      "status": "pass",
+      "comment": "有座標定位表"
+    },
+    {
+      "id": "bg_era",
+      "name": "時代背景段",
+      "status": "pass",
+      "comment": "有時代背景分析"
+    },
+    {
+      "id": "bg_people",
+      "name": "關鍵人物段",
+      "status": "pass",
+      "comment": "有關鍵人物分析"
+    },
+    {
+      "id": "bg_intent",
+      "name": "寫作意圖段",
+      "status": "pass",
+      "comment": "有寫作意圖分析"
+    },
+    {
+      "id": "bg_summary",
+      "name": "一句話總結",
+      "status": "pass",
+      "comment": "有一句話總結"
+    },
+    {
+      "id": "an_structure",
+      "name": "起承轉合表",
+      "status": "pass",
+      "comment": "有起承轉合表"
+    },
+    {
+      "id": "an_rhetoric",
+      "name": "修辭手法表",
+      "status": "pass",
+      "comment": "有修辭手法分析表"
+    },
+    {
+      "id": "an_quotes",
+      "name": "佳句賞析",
+      "status": "pass",
+      "comment": "有6句佳句賞析"
+    },
+    {
+      "id": "an_vernacular",
+      "name": "白話改編段",
+      "status": "pass",
+      "comment": "有白話改編段"
+    },
+    {
+      "id": "fmt_emoji",
+      "name": "h2 無 emoji",
+      "status": "pass",
+      "comment": "h2 標題無 emoji"
+    },
+    {
+      "id": "fmt_depth",
+      "name": "分析段深度",
+      "status": "pass",
+      "comment": "分析段 80 行"
+    },
+    {
+      "id": "no_padding",
+      "name": "不為寫而寫",
+      "status": "pass",
+      "comment": "主要內容無明顯灌水"
+    }
   ]
 }

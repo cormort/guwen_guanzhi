@@ -1,21 +1,80 @@
 {
   "file": "190-hanyu-shi-shuo",
-  "title": "師說",
-  "author": "韓愈",
+  "title": "190-hanyu-shi-shuo",
   "overall_grade": "A",
-  "overall_comment": "12項全數過關。背景段深入中唐師道淪喪的社會風氣與韓愈個人教學經歷；分析段有文章結構（四層論證）、修辭手法（定義先行、古今對比、引證權威）、經典名句賞析、白話翻譯，無填充內容。",
+  "overall_comment": "11/12 項通過",
   "checks": [
-    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出出處《昌黎先生集》、體裁（論說文/「說」體）、時代（中唐約802年）、核心命題（師者所以傳道受業解惑也）。"},
-    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "深入分析中唐士大夫恥於從師的社會風氣、科舉制度對教育的扭曲、韓愈任國子監四門博士的個人背景。"},
-    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "為韓愈（為自己教師身分正名的戰鬥者）、李蟠（不顧世俗眼光拜師的十七歲少年）、孔子（聖人無常師的權威例證）設有分析。"},
-    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "核心分析揭示韓愈的三層目標：定義老師的功能、批判恥於從師的社會風氣、為自己的教育理想正名。"},
-    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "精準抓住韓愈的核心——師者所以傳道受業解惑也——老師不是權威而是看得更遠的人。"},
-    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "第一層（開宗明義定義師）、第二層（批判時弊恥學於師）、第三層（引聖人為證孔子無常師）、第四層（贈李蟠作結），結構嚴謹。"},
-    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "列出定義法（師者傳道受業解惑）、古今對比（古之學者/今之眾人）、引證法（孔子師郯子萇弘）、排比論證，手法多樣。"},
-    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "選出經典句（師者所以傳道受業解惑也、道之所存師之所存也、弟子不必不如師師不必賢於弟子），賞析有教育思想史視角。"},
-    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "提供完整白話翻譯與逐句分析，含教育功能金字塔的解讀。"},
-    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題為「時代背景與寫作意旨」「文本結構」「核心分析」等，無 emoji。"},
-    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段有獨立觀點（提出教育功能金字塔三層次、將師說與現代教育理念連結），有獨創性。"},
-    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "所有段落皆有獨立貢獻，背景段的韓愈個人師承分析、分析段的定義力量解讀各有獨立價值。"}
+    {
+      "id": "bg_coord",
+      "name": "座標定位表",
+      "status": "pass",
+      "comment": "有座標定位表"
+    },
+    {
+      "id": "bg_era",
+      "name": "時代背景段",
+      "status": "pass",
+      "comment": "有時代背景分析"
+    },
+    {
+      "id": "bg_people",
+      "name": "關鍵人物段",
+      "status": "pass",
+      "comment": "有關鍵人物分析"
+    },
+    {
+      "id": "bg_intent",
+      "name": "寫作意圖段",
+      "status": "fail",
+      "comment": "無寫作意圖段"
+    },
+    {
+      "id": "bg_summary",
+      "name": "一句話總結",
+      "status": "pass",
+      "comment": "有一句話總結"
+    },
+    {
+      "id": "an_structure",
+      "name": "起承轉合表",
+      "status": "pass",
+      "comment": "有起承轉合表"
+    },
+    {
+      "id": "an_rhetoric",
+      "name": "修辭手法表",
+      "status": "pass",
+      "comment": "有修辭手法分析表"
+    },
+    {
+      "id": "an_quotes",
+      "name": "佳句賞析",
+      "status": "pass",
+      "comment": "有10句佳句賞析"
+    },
+    {
+      "id": "an_vernacular",
+      "name": "白話改編段",
+      "status": "pass",
+      "comment": "有白話改編段"
+    },
+    {
+      "id": "fmt_emoji",
+      "name": "h2 無 emoji",
+      "status": "pass",
+      "comment": "h2 標題無 emoji"
+    },
+    {
+      "id": "fmt_depth",
+      "name": "分析段深度",
+      "status": "pass",
+      "comment": "分析段 133 行"
+    },
+    {
+      "id": "no_padding",
+      "name": "不為寫而寫",
+      "status": "pass",
+      "comment": "主要內容無明顯灌水"
+    }
   ]
 }

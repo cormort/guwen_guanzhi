@@ -1,21 +1,80 @@
 {
   "file": "153-taishigong-zixu",
-  "title": "太史公自序",
-  "author": "司馬遷",
+  "title": "153-taishigong-zixu",
   "overall_grade": "A",
-  "overall_comment": "背景與分析段品質極高，12項檢查全數通過。對司馬遷忍辱完成《史記》的生命歷程分析極具感染力，全文情感飽滿。",
+  "overall_comment": "12/12 項通過",
   "checks": [
-    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出出處《史記·太史公自序》（第一百三十篇，全書總序）、作者司馬遷、時代（西漢武帝時期）、體裁（史傳體自序／自傳）、核心命題（究天人之際，通古今之變，成一家之言）。"},
-    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "深入分析司馬氏的史學傳統（從重黎到司馬談）、司馬談臨終遺命、李陵之禍與宮刑的詳細經過，以及司馬遷選擇活下來完成《史記》的心路歷程。"},
-    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "為司馬遷、司馬談、孔子、李陵建立詳細分析。特別點出司馬談未能參加封禪大典而發憤且卒的遺憾——這是司馬遷後來無論如何也要完成《史記》的情感動力。"},
-    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "深入分析司馬遷寫自序的用意——不僅是《史記》的目錄，更是他的生命宣言。他用自己的尊嚴換來了《史記》的完成，而這份代價讓《史記》有了任何史書都沒有的重量。"},
-    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "精準——〈太史公自序〉不僅是《史記》的目錄，更是司馬遷的生命宣言，他用自己的尊嚴換來了《史記》的完成。"},
-    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "結構表清楚分三大段：家世與父命、受禍與忍辱、百三十篇目錄與提要。三段順序意味著歷史大於個人，作品大於苦難。"},
-    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "指出引用（「究天人之際」三句）、對比（死 vs 活）、平靜敘述中蘊含巨大情感衝擊的手法。三代敘事結構本身就是一篇完美敘事。"},
-    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "選出「究天人之際，通古今之變，成一家之言」「草創未就，會遭此禍，惜其不成，是以就極刑而無慍色」「小子何敢讓焉」等文眼，每句有深度賞析。"},
-    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "提供完整白話改編，涵蓋司馬談臨終遺命、李陵之禍經過、忍辱完成《史記》的心路歷程，語言流暢。"},
-    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題為「時代背景與寫作意旨」「原文結構與核心段落」等，無 emoji。"},
-    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段有獨立觀點（如「就極刑而無慍色是中國知識分子最偉大的一次忍辱負重」），對司馬遷從史官到罪人的命運轉折分析深刻。"},
-    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "所有段落皆有獨立貢獻，背景段對司馬氏史學傳統的梳理對理解《史記》的起源極有幫助，無填充內容。"}
+    {
+      "id": "bg_coord",
+      "name": "座標定位表",
+      "status": "pass",
+      "comment": "有座標定位表"
+    },
+    {
+      "id": "bg_era",
+      "name": "時代背景段",
+      "status": "pass",
+      "comment": "有時代背景分析"
+    },
+    {
+      "id": "bg_people",
+      "name": "關鍵人物段",
+      "status": "pass",
+      "comment": "有關鍵人物分析"
+    },
+    {
+      "id": "bg_intent",
+      "name": "寫作意圖段",
+      "status": "pass",
+      "comment": "有寫作意圖分析"
+    },
+    {
+      "id": "bg_summary",
+      "name": "一句話總結",
+      "status": "pass",
+      "comment": "有一句話總結"
+    },
+    {
+      "id": "an_structure",
+      "name": "起承轉合表",
+      "status": "pass",
+      "comment": "有起承轉合表"
+    },
+    {
+      "id": "an_rhetoric",
+      "name": "修辭手法表",
+      "status": "pass",
+      "comment": "有修辭手法分析表"
+    },
+    {
+      "id": "an_quotes",
+      "name": "佳句賞析",
+      "status": "pass",
+      "comment": "有6句佳句賞析"
+    },
+    {
+      "id": "an_vernacular",
+      "name": "白話改編段",
+      "status": "pass",
+      "comment": "有白話改編段"
+    },
+    {
+      "id": "fmt_emoji",
+      "name": "h2 無 emoji",
+      "status": "pass",
+      "comment": "h2 標題無 emoji"
+    },
+    {
+      "id": "fmt_depth",
+      "name": "分析段深度",
+      "status": "pass",
+      "comment": "分析段 93 行"
+    },
+    {
+      "id": "no_padding",
+      "name": "不為寫而寫",
+      "status": "pass",
+      "comment": "主要內容無明顯灌水"
+    }
   ]
 }

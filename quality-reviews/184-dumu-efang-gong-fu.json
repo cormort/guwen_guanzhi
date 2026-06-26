@@ -1,21 +1,80 @@
 {
   "file": "184-dumu-efang-gong-fu",
-  "title": "阿房宮賦",
-  "author": "杜牧",
+  "title": "184-dumu-efang-gong-fu",
   "overall_grade": "A",
-  "overall_comment": "12項全數過關。背景段深入晚唐政治局勢與杜牧的歷史憂患意識；分析段有文章結構、修辭手法（鋪陳、對比、設問）、經典名句賞析、白話改編，無填充內容。",
+  "overall_comment": "11/12 項通過",
   "checks": [
-    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出出處《樊川文集》、體裁（賦/議論文）、時代（唐敬宗寶曆元年825年）、核心命題（滅六國者六國也非秦也）。"},
-    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "深入分析晚唐政治腐敗、杜牧借古諷今的寫作動機、唐敬宗大興土木的現實背景。"},
-    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "為杜牧（晚唐詩人中的歷史學家）、秦始皇（被批判的對象）、唐敬宗（被諷喻的對象）設有分析。"},
-    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "核心分析揭示杜牧借阿房宮的興廢來警示當朝統治者——奢靡腐化必然導致亡國，秦朝的教訓就是唐朝的鏡子。"},
-    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "精準抓住杜牧的核心論點——滅六國者六國也非秦也——亡國的根源在自身而非外力。"},
-    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "起（描寫阿房宮的宏偉壯麗）、承（揭露秦朝統治者的奢靡生活）、轉（分析秦朝滅亡的原因）、合（警示後世統治者不要重蹈覆轍），結構經典。"},
-    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "列出鋪陳（阿房宮的壯麗層層展開）、對比（秦之奢vs百姓之苦）、設問（誰得而族滅也）、頂真（滅六國者六國也），手法多樣。"},
-    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "選出三句經典（六王畢四海一蜀山兀阿房出、秦人不暇自哀而後人哀之、滅六國者六國也非秦也），賞析有深度。"},
-    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "提供完整白話改編，涵蓋賦文核心內容。"},
-    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題為「時代背景與寫作意旨」「文章分析」，無 emoji。"},
-    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段有獨立觀點（賦體的鋪陳美學與議論文的核心論證完美結合），對杜牧的歷史觀有深入分析。"},
-    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "所有段落皆有獨立貢獻，背景段的晚唐政治危機分析、分析段的賦體議論手法探討各有獨立價值。"}
+    {
+      "id": "bg_coord",
+      "name": "座標定位表",
+      "status": "pass",
+      "comment": "有座標定位表"
+    },
+    {
+      "id": "bg_era",
+      "name": "時代背景段",
+      "status": "pass",
+      "comment": "有時代背景分析"
+    },
+    {
+      "id": "bg_people",
+      "name": "關鍵人物段",
+      "status": "pass",
+      "comment": "有關鍵人物分析"
+    },
+    {
+      "id": "bg_intent",
+      "name": "寫作意圖段",
+      "status": "fail",
+      "comment": "無寫作意圖段"
+    },
+    {
+      "id": "bg_summary",
+      "name": "一句話總結",
+      "status": "pass",
+      "comment": "有一句話總結"
+    },
+    {
+      "id": "an_structure",
+      "name": "起承轉合表",
+      "status": "pass",
+      "comment": "有起承轉合表"
+    },
+    {
+      "id": "an_rhetoric",
+      "name": "修辭手法表",
+      "status": "pass",
+      "comment": "有修辭手法分析表"
+    },
+    {
+      "id": "an_quotes",
+      "name": "佳句賞析",
+      "status": "pass",
+      "comment": "有6句佳句賞析"
+    },
+    {
+      "id": "an_vernacular",
+      "name": "白話改編段",
+      "status": "pass",
+      "comment": "有白話改編段"
+    },
+    {
+      "id": "fmt_emoji",
+      "name": "h2 無 emoji",
+      "status": "pass",
+      "comment": "h2 標題無 emoji"
+    },
+    {
+      "id": "fmt_depth",
+      "name": "分析段深度",
+      "status": "pass",
+      "comment": "分析段 100 行"
+    },
+    {
+      "id": "no_padding",
+      "name": "不為寫而寫",
+      "status": "pass",
+      "comment": "主要內容無明顯灌水"
+    }
   ]
 }

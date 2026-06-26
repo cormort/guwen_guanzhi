@@ -1,21 +1,80 @@
 {
   "file": "17-guiqulai",
-  "title": "歸去來辭",
-  "author": "陶淵明",
+  "title": "17-guiqulai",
   "overall_grade": "A",
-  "overall_comment": "品質極高，12項全數過關。對陶淵明辭官的「不為五斗米折腰」事件分析透徹，七個戰術動作的結構拆解清晰。",
+  "overall_comment": "11/12 項通過",
   "checks": [
-    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出時間（東晉義熙元年405年）、作者陶淵明、事件（任彭澤令八十餘日辭官）、年齡（約41歲）、地理。"},
-    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "分析東晉末年的政治黑暗五重壓力：司馬氏皇權衰微、桓玄之亂、劉裕崛起、門閥壟斷、戰亂頻仍，以及「不為五斗米折腰」的戰術層面引爆點。"},
-    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "涵蓋陶淵明（主角）、敵方陣營（官場門閥體系）、友方陣營（田園）、暗棋（後世讀者），人物陣營劃分創新。"},
-    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "三層分析：戰略層級（對魏晉官場文化的全面否定）、戰術層級（七個戰術動作：喚醒→自省→上路→抵達→安居→交遊→終極感悟）、心理層級（從焦慮到自由的完整路徑）。"},
-    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "「在最黑暗的時代用最輕快的筆調對整個不合理的體制說不」，精準到位。"},
-    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "分析段分三段：歸鄉喜悅、田園自在、對官場告別與人生感悟。起承轉合暗含其中。"},
-    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "列出節奏感（歸去來兮反覆起興）、對比（心為形役vs委心任去留）、賦體筆法三項，為本文有辨識度的特色。"},
-    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "選出三句（悟已往之不諫知來者之可追、舟遙遙以輕颺風飄飄而吹衣、雲無心以出岫鳥倦飛而知還），賞析點出歸途輕快感與自然隱喻。"},
-    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "白話改編涵蓋三層心理階段，語言流暢。"},
-    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題無 emoji。"},
-    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段有獨立觀點（陶淵明不是逃跑是選擇、歸去來辭是寫給自己的保證書），非單純翻譯。"},
-    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "背景段的五斗米三解、分析段的七動作拆解均有獨立增量信息。"}
+    {
+      "id": "bg_coord",
+      "name": "座標定位表",
+      "status": "pass",
+      "comment": "有座標定位表"
+    },
+    {
+      "id": "bg_era",
+      "name": "時代背景段",
+      "status": "pass",
+      "comment": "有時代背景分析"
+    },
+    {
+      "id": "bg_people",
+      "name": "關鍵人物段",
+      "status": "fail",
+      "comment": "無關鍵人物段"
+    },
+    {
+      "id": "bg_intent",
+      "name": "寫作意圖段",
+      "status": "pass",
+      "comment": "有寫作意圖分析"
+    },
+    {
+      "id": "bg_summary",
+      "name": "一句話總結",
+      "status": "pass",
+      "comment": "有一句話總結"
+    },
+    {
+      "id": "an_structure",
+      "name": "起承轉合表",
+      "status": "pass",
+      "comment": "有起承轉合表"
+    },
+    {
+      "id": "an_rhetoric",
+      "name": "修辭手法表",
+      "status": "pass",
+      "comment": "有修辭手法分析表"
+    },
+    {
+      "id": "an_quotes",
+      "name": "佳句賞析",
+      "status": "pass",
+      "comment": "有6句佳句賞析"
+    },
+    {
+      "id": "an_vernacular",
+      "name": "白話改編段",
+      "status": "pass",
+      "comment": "有白話改編段"
+    },
+    {
+      "id": "fmt_emoji",
+      "name": "h2 無 emoji",
+      "status": "pass",
+      "comment": "h2 標題無 emoji"
+    },
+    {
+      "id": "fmt_depth",
+      "name": "分析段深度",
+      "status": "pass",
+      "comment": "分析段 77 行"
+    },
+    {
+      "id": "no_padding",
+      "name": "不為寫而寫",
+      "status": "pass",
+      "comment": "主要內容無明顯灌水"
+    }
   ]
 }

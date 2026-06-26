@@ -1,21 +1,80 @@
 {
   "file": "197-hanyu-yu-yuxiangyang-shu",
-  "title": "與於襄陽書",
-  "author": "韓愈",
+  "title": "197-hanyu-yu-yuxiangyang-shu",
   "overall_grade": "A",
-  "overall_comment": "12項全數過關。背景段深入唐代推薦文化與幕府制度；分析段有文章結構（推薦信的三層策略）、修辭手法（雙贏策略、委婉說服、巧妙包裝）、經典句賞析、白話翻譯，無填充內容。",
+  "overall_comment": "11/12 項通過",
   "checks": [
-    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出出處《昌黎先生集》、體裁（書/推薦信）、時代（中唐元和年間）、核心命題（莫為之前雖美而不彰莫為之後雖盛而不傳）。"},
-    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "深入分析唐代幕府制度、文人士子投靠節度使的管道、於頔其人其事的歷史評價。"},
-    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "為韓愈（從落魄書生到從容推薦者）、於頔（好賢的節度使）、被推薦友人設有完整分析。"},
-    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "核心分析揭示韓愈將推薦包裝為雙贏方案——讓被請求者覺得幫你就是幫自己。"},
-    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "精準抓住韓愈的核心——莫為之前雖美而不彰莫為之後雖盛而不傳——人才與推薦者互相成就。"},
-    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "先論述推薦者與被推薦者互相成就的關係（起）、讚美於頔好賢之名（承）、委婉提出請求（轉）、以雙贏結論收束（合），策略明確。"},
-    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "列出雙贏說服策略、委婉語氣（不敢以交遊言）、巧妙包裝（不是求人而是互相成就）、引用經典，手法高明。"},
-    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "選出經典句（莫為之前雖美而不彰莫為之後雖盛而不傳），賞析有說服藝術視角。"},
-    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "提供完整白話翻譯與說服策略拆解。"},
-    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題為「時代背景與寫作意旨」「文本結構」「核心分析」等，無 emoji。"},
-    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段有獨立觀點（將推薦信解讀為最高級的雙贏方案、讓被請求者覺得這件事是他自己想做的），有獨創性。"},
-    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "所有段落皆有獨立貢獻，背景段的幕府制度分析、分析段說服策略拆解各有獨立價值。"}
+    {
+      "id": "bg_coord",
+      "name": "座標定位表",
+      "status": "pass",
+      "comment": "有座標定位表"
+    },
+    {
+      "id": "bg_era",
+      "name": "時代背景段",
+      "status": "pass",
+      "comment": "有時代背景分析"
+    },
+    {
+      "id": "bg_people",
+      "name": "關鍵人物段",
+      "status": "pass",
+      "comment": "有關鍵人物分析"
+    },
+    {
+      "id": "bg_intent",
+      "name": "寫作意圖段",
+      "status": "fail",
+      "comment": "無寫作意圖段"
+    },
+    {
+      "id": "bg_summary",
+      "name": "一句話總結",
+      "status": "pass",
+      "comment": "有一句話總結"
+    },
+    {
+      "id": "an_structure",
+      "name": "起承轉合表",
+      "status": "pass",
+      "comment": "有起承轉合表"
+    },
+    {
+      "id": "an_rhetoric",
+      "name": "修辭手法表",
+      "status": "pass",
+      "comment": "有修辭手法分析表"
+    },
+    {
+      "id": "an_quotes",
+      "name": "佳句賞析",
+      "status": "pass",
+      "comment": "有5句佳句賞析"
+    },
+    {
+      "id": "an_vernacular",
+      "name": "白話改編段",
+      "status": "pass",
+      "comment": "有白話改編段"
+    },
+    {
+      "id": "fmt_emoji",
+      "name": "h2 無 emoji",
+      "status": "pass",
+      "comment": "h2 標題無 emoji"
+    },
+    {
+      "id": "fmt_depth",
+      "name": "分析段深度",
+      "status": "pass",
+      "comment": "分析段 71 行"
+    },
+    {
+      "id": "no_padding",
+      "name": "不為寫而寫",
+      "status": "pass",
+      "comment": "主要內容無明顯灌水"
+    }
   ]
 }

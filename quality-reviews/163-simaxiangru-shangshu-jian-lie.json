@@ -1,21 +1,80 @@
 {
   "file": "163-simaxiangru-shangshu-jian-lie",
-  "title": "上書諫獵",
-  "author": "司馬相如",
+  "title": "163-simaxiangru-shangshu-jian-lie",
   "overall_grade": "A",
-  "overall_comment": "背景與分析段品質極高，12項檢查全數通過。對司馬相如以賦為諫的勸諫技巧分析極有深度，白龍魚服典故的賞析尤為精彩。",
+  "overall_comment": "11/12 項通過",
   "checks": [
-    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出出處《漢書·司馬相如傳》、作者司馬相如、時代（西漢武帝時期）、體裁（奏疏／諫書）、核心命題（家有千金，坐不垂堂——身居至尊之位不可輕身犯險）。"},
-    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "深入分析漢武帝的狩獵熱情（親自與熊虎野豬搏鬥）、武帝盛世的尚武精神，以及司馬相如選擇以賦為諫的歷史契機——在皇帝聽不進直接批評的情況下用華麗修辭包裹嚴肅勸誡。"},
-    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "為司馬相如、漢武帝建立分析。特別點出司馬相如作為辭賦家的獨特位置——他把辭賦的修辭手法系統性地應用於奏疏文體，開創了以賦為諫的路徑。"},
-    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "深入分析司馬相如寫諫獵書的用意——把一個掃興的勸諫包裝成華麗的辭賦，讓皇帝在被說「不」的時候還覺得自己很了不起。先捧後諫的策略極為高明。"},
-    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "精準——司馬相如把一個掃興的勸諫包裝成華麗的辭賦，讓皇帝在被說「不」的時候，還覺得自己很了不起。"},
-    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "結構表層層遞進——先捧後諫（讚美武帝勇武後指出猛獸也有超常個體）、引用白龍魚服典故（間接勸諫）、帝王身份論證（萬乘之尊不可輕身犯險）、常識歸納（明者遠見於未萌，智者避危於無形）。"},
-    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "指出引用典故（白龍魚服）、比喻（萬乘之重 vs 萬乘之敵）、以小喻大（千金之子坐不垂堂）、類比（打獵猛獸如胡越起於肘腋）等手法。"},
-    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "選出「蓋明者遠見於未萌，而智者避危於無形」「家累千金，坐不垂堂」「陛下以萬乘之重，而輕於萬乘之敵」等名句，每句有深度賞析。"},
-    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "提供完整白話改編，涵蓋先捧後諫的開場、白龍魚服典故、身份論證、常識歸納等核心內容，語言流暢。"},
-    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題為「時代背景與寫作意旨」「原文結構與核心論點」等，無 emoji。"},
-    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段有獨立觀點（如「司馬相如做到了說了真話還讓皇帝開心——大部分勸諫要麼被拒絕要麼被忽略要麼讓勸諫者付出代價」），對勸諫策略的分析極具深度。"},
-    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "所有段落皆有獨立貢獻，背景段對武帝狩獵尚武精神的分析對理解文章背景極有幫助，無填充內容。"}
+    {
+      "id": "bg_coord",
+      "name": "座標定位表",
+      "status": "pass",
+      "comment": "有座標定位表"
+    },
+    {
+      "id": "bg_era",
+      "name": "時代背景段",
+      "status": "pass",
+      "comment": "有時代背景分析"
+    },
+    {
+      "id": "bg_people",
+      "name": "關鍵人物段",
+      "status": "pass",
+      "comment": "有關鍵人物分析"
+    },
+    {
+      "id": "bg_intent",
+      "name": "寫作意圖段",
+      "status": "fail",
+      "comment": "無寫作意圖段"
+    },
+    {
+      "id": "bg_summary",
+      "name": "一句話總結",
+      "status": "pass",
+      "comment": "有一句話總結"
+    },
+    {
+      "id": "an_structure",
+      "name": "起承轉合表",
+      "status": "pass",
+      "comment": "有起承轉合表"
+    },
+    {
+      "id": "an_rhetoric",
+      "name": "修辭手法表",
+      "status": "pass",
+      "comment": "有修辭手法分析表"
+    },
+    {
+      "id": "an_quotes",
+      "name": "佳句賞析",
+      "status": "pass",
+      "comment": "有7句佳句賞析"
+    },
+    {
+      "id": "an_vernacular",
+      "name": "白話改編段",
+      "status": "pass",
+      "comment": "有白話改編段"
+    },
+    {
+      "id": "fmt_emoji",
+      "name": "h2 無 emoji",
+      "status": "pass",
+      "comment": "h2 標題無 emoji"
+    },
+    {
+      "id": "fmt_depth",
+      "name": "分析段深度",
+      "status": "pass",
+      "comment": "分析段 100 行"
+    },
+    {
+      "id": "no_padding",
+      "name": "不為寫而寫",
+      "status": "pass",
+      "comment": "主要內容無明顯灌水"
+    }
   ]
 }

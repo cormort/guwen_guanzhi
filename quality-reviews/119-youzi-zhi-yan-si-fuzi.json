@@ -1,21 +1,80 @@
 {
   "file": "119-youzi-zhi-yan-si-fuzi",
-  "title": "有子之言似夫子",
-  "author": "戴聖 · 《禮記·檀弓上》",
+  "title": "119-youzi-zhi-yan-si-fuzi",
   "overall_grade": "A",
-  "overall_comment": "12項檢查全數通過。背景解讀孔子歿後弟子們的傳承困境。「言各有當」的語境論原則分析精彩（喪欲速貧、死欲速朽的兩則語境還原）。有子、曾子、子游的三層理解層次分析深入。",
+  "overall_comment": "11/12 項通過",
   "checks": [
-    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出出處《禮記·檀弓上》、時代春秋末期約5世紀初、體裁語錄體、核心事件、思想譜系等。"},
-    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "分析孔子去世後儒門的傳承困境、有若的特殊地位（長得像孔子），對理解對話背景有實質幫助。"},
-    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "涵蓋有子（語境覺察者）、曾子（忠實記錄者）、子游（關鍵解鈴人），三人理解層次對比分析深入。"},
-    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "從提出「語境決定意義」原則、示範「以意逆志」解讀方法、警告「語錄式思維」危險三層次分析。"},
-    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "精準總結理解聖人的話不能只看字面——言各有當，曾子記住說什麼，有子記住為何說。"},
-    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "起（有子問曾子）、承（曾子回答聽過）、轉（有子否定找子游驗證）、合（子游解釋語境言各有當），結構合理。"},
-    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "分析設疑、語境還原、三層理解結構等手法，有辨識度。"},
-    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "選出多句（喪欲速貧死欲速朽、是非君子之言也、甚哉有子之言似夫子也），賞析有深度。"},
-    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "完整白話改編，覆蓋從有子問曾子到子游揭示語境的完整過程。"},
-    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題無 emoji。"},
-    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段有獨立觀點（中國最早的語境論、以意逆志的解讀方法），非僅翻譯。"},
-    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "各段皆有獨立貢獻，無重複或空洞內容。"}
+    {
+      "id": "bg_coord",
+      "name": "座標定位表",
+      "status": "pass",
+      "comment": "有座標定位表"
+    },
+    {
+      "id": "bg_era",
+      "name": "時代背景段",
+      "status": "pass",
+      "comment": "有時代背景分析"
+    },
+    {
+      "id": "bg_people",
+      "name": "關鍵人物段",
+      "status": "pass",
+      "comment": "有關鍵人物分析"
+    },
+    {
+      "id": "bg_intent",
+      "name": "寫作意圖段",
+      "status": "fail",
+      "comment": "無寫作意圖段"
+    },
+    {
+      "id": "bg_summary",
+      "name": "一句話總結",
+      "status": "pass",
+      "comment": "有一句話總結"
+    },
+    {
+      "id": "an_structure",
+      "name": "起承轉合表",
+      "status": "pass",
+      "comment": "有起承轉合表"
+    },
+    {
+      "id": "an_rhetoric",
+      "name": "修辭手法表",
+      "status": "pass",
+      "comment": "有修辭手法分析表"
+    },
+    {
+      "id": "an_quotes",
+      "name": "佳句賞析",
+      "status": "pass",
+      "comment": "有4句佳句賞析"
+    },
+    {
+      "id": "an_vernacular",
+      "name": "白話改編段",
+      "status": "pass",
+      "comment": "有白話改編段"
+    },
+    {
+      "id": "fmt_emoji",
+      "name": "h2 無 emoji",
+      "status": "pass",
+      "comment": "h2 標題無 emoji"
+    },
+    {
+      "id": "fmt_depth",
+      "name": "分析段深度",
+      "status": "pass",
+      "comment": "分析段 105 行"
+    },
+    {
+      "id": "no_padding",
+      "name": "不為寫而寫",
+      "status": "pass",
+      "comment": "主要內容無明顯灌水"
+    }
   ]
 }

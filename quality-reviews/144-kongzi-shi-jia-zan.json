@@ -1,21 +1,80 @@
 {
   "file": "144-kongzi-shi-jia-zan",
-  "title": "孔子世家贊",
-  "author": "司馬遷 · 《史記·孔子世家》",
+  "title": "144-kongzi-shi-jia-zan",
   "overall_grade": "A",
-  "overall_comment": "12項檢查全數通過。背景詳述司馬遷眼中的孔子與精神連結。至高無上的讚美——孔子作為至聖的歷史定位分析精彩。天下君王至於賢人眾矣當時則榮沒則已焉的千古感慨深刻。人物分析（司馬遷、孔子）有深度。權力與影響力的比較精闢。",
+  "overall_comment": "11/12 項通過",
   "checks": [
-    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出出處《史記·孔子世家》篇末太史公曰贊語、時代西漢武帝時期約西元前91年、體裁史論體/人物贊論、核心命題等。"},
-    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "詳述司馬遷與孔子的精神連結（司馬遷遠遊至魯瞻仰孔子遺跡）、孔子被列入世家（諸侯體例）的象徵意義。"},
-    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "涵蓋司馬遷（讚美者）、孔子（至聖先師），對司馬遷為何將孔子列入世家的分析深入。"},
-    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "從史記中以諸侯體例為布衣立傳的象徵意義、孔子世家贊是整部史記中最高度的讚美、對後世知識分子的精神影響三層次分析。"},
-    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "精準總結：那些擁有至高權力的君王死後就被遺忘了，而一個沒有權力的布衣卻讓後世所有的皇帝都必須向他學習。"},
-    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "結構清晰：述說到魯瞻仰孔子遺跡（起）→讀其書想見其為人（承）→感嘆天下君王眾多沒則已焉（轉）→至聖的結論（合）。"},
-    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "分析引用詩經高山仰止景行行止以表敬仰、對比（天下君王當時則榮沒則已焉vs孔子布衣傳十餘世學者宗之）、感慨語氣（雖不能至然心鄉往之）等手法。"},
-    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "選出高山仰止景行行止雖不能至然心鄉往之、天下君王至於賢人眾矣當時則榮沒則已焉、可謂至聖矣等句，賞析有深度。"},
-    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "核心贊語白話改編完整，涵蓋司馬遷對孔子的最高讚美。"},
-    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題無 emoji。"},
-    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段有獨立觀點（權力只能統治一時，思想可以統治千年——司馬遷做了整部史記中最驚人的論斷），非僅翻譯。"},
-    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "各段分工明確，內容充實有意義，無灌水痕跡。"}
+    {
+      "id": "bg_coord",
+      "name": "座標定位表",
+      "status": "pass",
+      "comment": "有座標定位表"
+    },
+    {
+      "id": "bg_era",
+      "name": "時代背景段",
+      "status": "pass",
+      "comment": "有時代背景分析"
+    },
+    {
+      "id": "bg_people",
+      "name": "關鍵人物段",
+      "status": "pass",
+      "comment": "有關鍵人物分析"
+    },
+    {
+      "id": "bg_intent",
+      "name": "寫作意圖段",
+      "status": "fail",
+      "comment": "無寫作意圖段"
+    },
+    {
+      "id": "bg_summary",
+      "name": "一句話總結",
+      "status": "pass",
+      "comment": "有一句話總結"
+    },
+    {
+      "id": "an_structure",
+      "name": "起承轉合表",
+      "status": "pass",
+      "comment": "有起承轉合表"
+    },
+    {
+      "id": "an_rhetoric",
+      "name": "修辭手法表",
+      "status": "pass",
+      "comment": "有修辭手法分析表"
+    },
+    {
+      "id": "an_quotes",
+      "name": "佳句賞析",
+      "status": "pass",
+      "comment": "有10句佳句賞析"
+    },
+    {
+      "id": "an_vernacular",
+      "name": "白話改編段",
+      "status": "pass",
+      "comment": "有白話改編段"
+    },
+    {
+      "id": "fmt_emoji",
+      "name": "h2 無 emoji",
+      "status": "pass",
+      "comment": "h2 標題無 emoji"
+    },
+    {
+      "id": "fmt_depth",
+      "name": "分析段深度",
+      "status": "pass",
+      "comment": "分析段 227 行"
+    },
+    {
+      "id": "no_padding",
+      "name": "不為寫而寫",
+      "status": "pass",
+      "comment": "主要內容無明顯灌水"
+    }
   ]
 }

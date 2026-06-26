@@ -1,21 +1,80 @@
 {
   "file": "120-gongzi-zhonger-dui-qinke",
-  "title": "公子重耳對秦客",
-  "author": "戴聖 · 《禮記·檀弓下》",
+  "title": "120-gongzi-zhonger-dui-qinke",
   "overall_grade": "A",
-  "overall_comment": "12項檢查全數通過。背景詳述重耳流亡十九年的經歷與秦穆公的政治盤算。重耳「稽顙而不拜，哭而起，起而不私」的外交辭令分析精闢。子犯的幕後指導角色分析到位。",
+  "overall_comment": "11/12 項通過",
   "checks": [
-    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出出處《禮記·檀弓下》、時代春秋中期約637BC、體裁語錄體/歷史記言、核心事件等。"},
-    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "分析重耳流亡十九年的完整歷程（八國遭遇）、秦穆公扶植親秦領袖的國家利益考量。"},
-    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "涵蓋公子重耳（政治天才）、子犯（幕後戰略家）、秦穆公與秦客（試探者），人物分析有深度。"},
-    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "從《禮記》禮學傳統、喪禮中的政治戲劇性、外交辭令的典範三層次分析。"},
-    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "精準總結這不是一場普通的弔喪，而是一場精心設計的政治試探。"},
-    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "起（秦客致意）、承（重耳辭謝）、轉（重耳表態——父死之謂何）、合（稽顙而不拜的行動），結構合理。"},
-    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "分析核心修辭（稽顙而不拜的政治含義、或敢有他志的雙關），有深度。"},
-    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "選出多句（父死之謂何或敢有他志、稽顙而不拜哭而起起而不私），賞析有深度。"},
-    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "完整白話改編，覆蓋從秦客致意到重耳行動的完整過程。"},
-    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題無 emoji。"},
-    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段有獨立觀點（面子要做足暗示要到位底線要守住），非僅翻譯原文。"},
-    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "各段分工明確，內容充實有意義，無灌水痕跡。"}
+    {
+      "id": "bg_coord",
+      "name": "座標定位表",
+      "status": "pass",
+      "comment": "有座標定位表"
+    },
+    {
+      "id": "bg_era",
+      "name": "時代背景段",
+      "status": "pass",
+      "comment": "有時代背景分析"
+    },
+    {
+      "id": "bg_people",
+      "name": "關鍵人物段",
+      "status": "pass",
+      "comment": "有關鍵人物分析"
+    },
+    {
+      "id": "bg_intent",
+      "name": "寫作意圖段",
+      "status": "fail",
+      "comment": "無寫作意圖段"
+    },
+    {
+      "id": "bg_summary",
+      "name": "一句話總結",
+      "status": "pass",
+      "comment": "有一句話總結"
+    },
+    {
+      "id": "an_structure",
+      "name": "起承轉合表",
+      "status": "pass",
+      "comment": "有起承轉合表"
+    },
+    {
+      "id": "an_rhetoric",
+      "name": "修辭手法表",
+      "status": "pass",
+      "comment": "有修辭手法分析表"
+    },
+    {
+      "id": "an_quotes",
+      "name": "佳句賞析",
+      "status": "pass",
+      "comment": "有6句佳句賞析"
+    },
+    {
+      "id": "an_vernacular",
+      "name": "白話改編段",
+      "status": "pass",
+      "comment": "有白話改編段"
+    },
+    {
+      "id": "fmt_emoji",
+      "name": "h2 無 emoji",
+      "status": "pass",
+      "comment": "h2 標題無 emoji"
+    },
+    {
+      "id": "fmt_depth",
+      "name": "分析段深度",
+      "status": "pass",
+      "comment": "分析段 89 行"
+    },
+    {
+      "id": "no_padding",
+      "name": "不為寫而寫",
+      "status": "pass",
+      "comment": "主要內容無明顯灌水"
+    }
   ]
 }

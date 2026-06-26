@@ -1,21 +1,80 @@
 {
   "file": "261-xinlingjun-jiu-zhao-lun",
-  "title": "信陵君救趙論",
-  "author": "唐順之",
+  "title": "261-xinlingjun-jiu-zhao-lun",
   "overall_grade": "A",
-  "overall_comment": "背景與分析段品質極高，12項檢查全數通過。對唐順之翻轉信陵君竊符救趙美談的翻案史論分析尤為精彩，以君臣之義批判個人英雄主義。",
+  "overall_comment": "12/12 項通過",
   "checks": [
-    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出出處《荊川先生文集》、作者唐順之、時代（明嘉靖年間約1520s-1560s）、體裁（翻案史論）、核心命題（信陵君以私義害公義——個人英雄主義的危險）。"},
-    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "深入分析明嘉靖年間的政治氛圍——皇帝長期不朝、朝綱紊亂，唐順之批判信陵君心中無君，實則有借古諷今之意。"},
-    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "為唐順之、信陵君、魏王、平原君、如姬、侯生建立詳細分析。特別點出唐順之選擇在君臣倫理這個角度翻案——不是否定救趙，而是批判以私義凌駕公義的行為方式。"},
-    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "深入分析唐順之的雙層用意：表面是對信陵君的翻案批判，深層是藉戰國史事警告明代士人——個人義氣不能凌駕國家法度，君臣之義高於一切。"},
-    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "精準——千古傳頌的英雄救美談，在唐順之筆下變成了以婚姻私義挾持國家軍隊的違法亂紀。"},
-    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "結構表清晰：起（世人皆讚信陵君）、承（唐順之指其罪）、轉（罪不在竊符而在心中無君）、合（歸結於君臣之義）。"},
-    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "列出翻案手法（挑戰千年共識）、對比（私義與公義）、層層剝繭（從行為動機到倫理本質）、引用經典（春秋尊王大義）等手法。"},
-    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "選出「信陵君之罪，不在竊符，而在心中無君」「以婚姻之私，挾國家之重」「君子之於君，以義合也」等名句，每句有深度賞析。"},
-    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "提供完整白話改編，涵蓋信陵君救趙敘述、翻案論證、君臣之義的結論等核心內容。"},
-    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題為「時代背景與寫作意旨」「文章分析」，無 emoji。"},
-    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段有獨立觀點（如「唐順之的翻案不是為了標新立異——在嘉靖皇帝長期不朝的政治環境下，強調君臣之義是知識分子最後的底線」），有深度說明。"},
-    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "所有段落皆有獨立貢獻，背景段對嘉靖朝政治的分析有實際幫助，無填充內容。"}
+    {
+      "id": "bg_coord",
+      "name": "座標定位表",
+      "status": "pass",
+      "comment": "有座標定位表"
+    },
+    {
+      "id": "bg_era",
+      "name": "時代背景段",
+      "status": "pass",
+      "comment": "有時代背景分析"
+    },
+    {
+      "id": "bg_people",
+      "name": "關鍵人物段",
+      "status": "pass",
+      "comment": "有關鍵人物分析"
+    },
+    {
+      "id": "bg_intent",
+      "name": "寫作意圖段",
+      "status": "pass",
+      "comment": "有寫作意圖分析"
+    },
+    {
+      "id": "bg_summary",
+      "name": "一句話總結",
+      "status": "pass",
+      "comment": "有一句話總結"
+    },
+    {
+      "id": "an_structure",
+      "name": "起承轉合表",
+      "status": "pass",
+      "comment": "有起承轉合表"
+    },
+    {
+      "id": "an_rhetoric",
+      "name": "修辭手法表",
+      "status": "pass",
+      "comment": "有修辭手法分析表"
+    },
+    {
+      "id": "an_quotes",
+      "name": "佳句賞析",
+      "status": "pass",
+      "comment": "有10句佳句賞析"
+    },
+    {
+      "id": "an_vernacular",
+      "name": "白話改編段",
+      "status": "pass",
+      "comment": "有白話改編段"
+    },
+    {
+      "id": "fmt_emoji",
+      "name": "h2 無 emoji",
+      "status": "pass",
+      "comment": "h2 標題無 emoji"
+    },
+    {
+      "id": "fmt_depth",
+      "name": "分析段深度",
+      "status": "pass",
+      "comment": "分析段 384 行"
+    },
+    {
+      "id": "no_padding",
+      "name": "不為寫而寫",
+      "status": "pass",
+      "comment": "主要內容無明顯灌水"
+    }
   ]
 }

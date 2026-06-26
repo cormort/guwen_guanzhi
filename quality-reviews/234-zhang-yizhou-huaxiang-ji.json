@@ -1,21 +1,80 @@
 {
   "file": "234-zhang-yizhou-huaxiang-ji",
-  "title": "張益州畫像記",
-  "author": "蘇洵",
+  "title": "234-zhang-yizhou-huaxiang-ji",
   "overall_grade": "A",
-  "overall_comment": "12項全數過關。背景段深入蘇洵對張方平的推崇及北宋蜀地治理背景，分析段對此文的記人手法和議論結構有精闢分析。",
+  "overall_comment": "11/12 項通過",
   "checks": [
-    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出出處《嘉祐集》、體裁（畫像記）、時代（北宋）、核心命題（真正的政績在得民心不在畫像）。"},
-    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "深入分析北宋蜀地治理背景、張方平平定益州之亂的功績、蘇洵與張方平的關係。"},
-    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "蘇洵、張方平、蜀地百姓三方面人物分析詳盡。"},
-    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "核心分析揭示蘇洵意圖——以畫像記之名，論證官員當以德服人而非以力服人。"},
-    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "精準：百姓爲張方平畫像不是爲了紀念他的威嚴，而是爲了記住他的仁慈。"},
-    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "清楚列出文章結構（敘事→議論→讚頌），議論段以愛人者人恆愛之爲核心。"},
-    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "詳析記敘議論交織、引用孟子名言、反問設問、對比（亂世之吏vs太平之官）等手法。"},
-    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "賞析未亂易治、既亂易治、愛人者人恆愛之等經典句子。"},
-    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "提供完整白話改編，流暢自然。"},
-    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題為「時代背景與寫作意旨」「文章分析」，無 emoji。"},
-    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段有獨立觀點（畫像記從記物到記人的文體創新、蘇洵對仁政理想的詮釋）。"},
-    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "軍師按語有歷史延伸分析，非填充內容。"}
+    {
+      "id": "bg_coord",
+      "name": "座標定位表",
+      "status": "pass",
+      "comment": "有座標定位表"
+    },
+    {
+      "id": "bg_era",
+      "name": "時代背景段",
+      "status": "pass",
+      "comment": "有時代背景分析"
+    },
+    {
+      "id": "bg_people",
+      "name": "關鍵人物段",
+      "status": "pass",
+      "comment": "有關鍵人物分析"
+    },
+    {
+      "id": "bg_intent",
+      "name": "寫作意圖段",
+      "status": "fail",
+      "comment": "無寫作意圖段"
+    },
+    {
+      "id": "bg_summary",
+      "name": "一句話總結",
+      "status": "pass",
+      "comment": "有一句話總結"
+    },
+    {
+      "id": "an_structure",
+      "name": "起承轉合表",
+      "status": "pass",
+      "comment": "有起承轉合表"
+    },
+    {
+      "id": "an_rhetoric",
+      "name": "修辭手法表",
+      "status": "pass",
+      "comment": "有修辭手法分析表"
+    },
+    {
+      "id": "an_quotes",
+      "name": "佳句賞析",
+      "status": "pass",
+      "comment": "有10句佳句賞析"
+    },
+    {
+      "id": "an_vernacular",
+      "name": "白話改編段",
+      "status": "pass",
+      "comment": "有白話改編段"
+    },
+    {
+      "id": "fmt_emoji",
+      "name": "h2 無 emoji",
+      "status": "pass",
+      "comment": "h2 標題無 emoji"
+    },
+    {
+      "id": "fmt_depth",
+      "name": "分析段深度",
+      "status": "pass",
+      "comment": "分析段 197 行"
+    },
+    {
+      "id": "no_padding",
+      "name": "不為寫而寫",
+      "status": "pass",
+      "comment": "主要內容無明顯灌水"
+    }
   ]
 }

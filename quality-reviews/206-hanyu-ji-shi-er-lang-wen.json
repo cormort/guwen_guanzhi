@@ -1,21 +1,80 @@
 {
   "file": "206-hanyu-ji-shi-er-lang-wen",
-  "title": "祭十二郎文",
-  "author": "韓愈",
+  "title": "206-hanyu-ji-shi-er-lang-wen",
   "overall_grade": "A",
-  "overall_comment": "12項全數過關。背景段深入韓愈家族苦難與中唐孤兒命運，分析段有清晰的情感層次結構、豐富修辭分析（反覆追問、對比、排比）、佳句賞析及完整白話改編。",
+  "overall_comment": "11/12 項通過",
   "checks": [
-    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出出處《韓昌黎集》、體裁（祭文）、時代（貞元十九年803）、核心命題（至情無文）。"},
-    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "深入分析韓愈三歲喪父、兄長早逝、嫂嫂撫養的家族苦難，以及中唐孤兒的時代命運。"},
-    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "韓愈與十二郎（韓老成）皆有深入分析，點明叔侄超越血緣的相依為命關係。"},
-    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "核心分析揭示韓愈在崩潰邊緣的哭喊，指出此文是中國文學史上最真摯的祭文。"},
-    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "精準抓住『至情無文』的核心命題，指出此文是一顆碎成文字的心。"},
-    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "清楚列出從驚聞噩耗、追憶童年、自責後悔到最終接受的情感層次結構。"},
-    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "列出反覆追問、排比、對比、時間跳躍、碎片化句法等手法，分析到位。"},
-    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "選出『汝病吾不知時』『其信然邪』等佳句，賞析深刻且觸動人心。"},
-    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "提供完整白話改編，忠於原文且流暢自然。"},
-    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題為「時代背景與寫作意旨」「文章分析」，無 emoji。"},
-    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段有獨立觀點（至情無文典範、情感層次的心理學解讀），深入剖析韓愈語無倫次中的文學力量。"},
-    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "所有段落皆有獨立貢獻，軍師按語提供有價值的延伸思考，無填充內容。"}
+    {
+      "id": "bg_coord",
+      "name": "座標定位表",
+      "status": "pass",
+      "comment": "有座標定位表"
+    },
+    {
+      "id": "bg_era",
+      "name": "時代背景段",
+      "status": "pass",
+      "comment": "有時代背景分析"
+    },
+    {
+      "id": "bg_people",
+      "name": "關鍵人物段",
+      "status": "fail",
+      "comment": "無關鍵人物段"
+    },
+    {
+      "id": "bg_intent",
+      "name": "寫作意圖段",
+      "status": "pass",
+      "comment": "有寫作意圖分析"
+    },
+    {
+      "id": "bg_summary",
+      "name": "一句話總結",
+      "status": "pass",
+      "comment": "有一句話總結"
+    },
+    {
+      "id": "an_structure",
+      "name": "起承轉合表",
+      "status": "pass",
+      "comment": "有起承轉合表"
+    },
+    {
+      "id": "an_rhetoric",
+      "name": "修辭手法表",
+      "status": "pass",
+      "comment": "有修辭手法分析表"
+    },
+    {
+      "id": "an_quotes",
+      "name": "佳句賞析",
+      "status": "pass",
+      "comment": "有6句佳句賞析"
+    },
+    {
+      "id": "an_vernacular",
+      "name": "白話改編段",
+      "status": "pass",
+      "comment": "有白話改編段"
+    },
+    {
+      "id": "fmt_emoji",
+      "name": "h2 無 emoji",
+      "status": "pass",
+      "comment": "h2 標題無 emoji"
+    },
+    {
+      "id": "fmt_depth",
+      "name": "分析段深度",
+      "status": "pass",
+      "comment": "分析段 89 行"
+    },
+    {
+      "id": "no_padding",
+      "name": "不為寫而寫",
+      "status": "pass",
+      "comment": "主要內容無明顯灌水"
+    }
   ]
 }

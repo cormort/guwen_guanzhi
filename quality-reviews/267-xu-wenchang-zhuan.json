@@ -1,21 +1,80 @@
 {
   "file": "267-xu-wenchang-zhuan",
-  "title": "徐文長傳",
-  "author": "袁宏道",
+  "title": "267-xu-wenchang-zhuan",
   "overall_grade": "A",
-  "overall_comment": "背景與分析段品質極高，12項檢查全數通過。對袁宏道以『奇』字為綱領為徐渭翻案的傳記寫法分析尤為精彩，公安派性靈說的實踐典範。",
+  "overall_comment": "10/12 項通過",
   "checks": [
-    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出出處《袁中郎全集》、作者袁宏道（公安派領袖）、時代（明萬曆年間約1599-1600）、體裁（人物傳記）、核心命題（天才的悲劇——無之而不奇，斯無之而不奇也）。"},
-    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "深入分析萬曆年間公安派的文學主張——反對前後七子復古風，提倡性靈說，以及徐渭作為明代奇才在死後被冷落的現實。"},
-    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "為袁宏道、徐渭（字文長，傳主）、梅客生、胡宗憲、張元汴建立詳細分析。徐渭詩書畫三絕卻一生困頓，袁宏道偶然讀其詩稿後驚為天人，遂作此傳為其翻案。"},
-    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "深入分析袁宏道的雙層用意：表面是為徐渭作傳記，深層是以徐渭為例宣揚公安派性靈說——真正的才華不在於遵循規範，而在於無所不奇、無拘無束的創造力。"},
-    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "精準——袁宏道用一篇不按牌理出牌的傳記為一個不按牌理出牌的天才翻案。無之而不奇，斯無之而不奇也，這十三個字是徐渭一生的寫照。"},
-    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "結構表清晰：起（偶然讀到徐渭詩稿驚為天人）、承（以奇字為綱領寫徐渭詩文書畫之奇）、轉（寫徐渭命運之奇——天才與坎坷並存）、合（歸結於無之而不奇的人生結論）。"},
-    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "列出以奇統全文的結構手法、打破時間線的傳記寫法、排比（詩奇文奇字奇畫奇命運奇）、驚嘆（如魘得鹿如久渴而得瀑）、首尾呼應（無之而不奇）等手法。"},
-    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "選出「無之而不奇，斯無之而不奇也」「如魘得鹿，如久渴而得瀑」「其胸中又有一段不可磨滅之氣」等名句，每句有深度賞析。"},
-    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "提供完整白話改編，涵蓋袁宏道偶然讀詩、徐渭之奇（詩文書畫）、命運之奇等核心內容。"},
-    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題為「時代背景與寫作意旨」「文章分析」，無 emoji。"},
-    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段有獨立觀點（如「袁宏道打破了司馬遷以來的傳記傳統——不按時間順序列生平，而以奇字為綱領，因為徐渭的人生不能用常規的年表來衡量」），有深度說明。"},
-    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "所有段落皆有獨立貢獻，背景段對公安派性靈說的介紹與徐渭傳形成深刻照應，無填充內容。"}
+    {
+      "id": "bg_coord",
+      "name": "座標定位表",
+      "status": "pass",
+      "comment": "有座標定位表"
+    },
+    {
+      "id": "bg_era",
+      "name": "時代背景段",
+      "status": "pass",
+      "comment": "有時代背景分析"
+    },
+    {
+      "id": "bg_people",
+      "name": "關鍵人物段",
+      "status": "pass",
+      "comment": "有關鍵人物分析"
+    },
+    {
+      "id": "bg_intent",
+      "name": "寫作意圖段",
+      "status": "fail",
+      "comment": "無寫作意圖段"
+    },
+    {
+      "id": "bg_summary",
+      "name": "一句話總結",
+      "status": "pass",
+      "comment": "有一句話總結"
+    },
+    {
+      "id": "an_structure",
+      "name": "起承轉合表",
+      "status": "pass",
+      "comment": "有起承轉合表"
+    },
+    {
+      "id": "an_rhetoric",
+      "name": "修辭手法表",
+      "status": "pass",
+      "comment": "有修辭手法分析表"
+    },
+    {
+      "id": "an_quotes",
+      "name": "佳句賞析",
+      "status": "pass",
+      "comment": "有10句佳句賞析"
+    },
+    {
+      "id": "an_vernacular",
+      "name": "白話改編段",
+      "status": "pass",
+      "comment": "有白話改編段"
+    },
+    {
+      "id": "fmt_emoji",
+      "name": "h2 無 emoji",
+      "status": "fail",
+      "comment": "h2 含 emoji"
+    },
+    {
+      "id": "fmt_depth",
+      "name": "分析段深度",
+      "status": "pass",
+      "comment": "分析段 490 行"
+    },
+    {
+      "id": "no_padding",
+      "name": "不為寫而寫",
+      "status": "pass",
+      "comment": "主要內容無明顯灌水"
+    }
   ]
 }

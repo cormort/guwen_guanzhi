@@ -1,21 +1,80 @@
 {
   "file": "150-youxia-liezhuan-xu",
-  "title": "游俠列傳序",
-  "author": "司馬遷",
+  "title": "150-youxia-liezhuan-xu",
   "overall_grade": "A",
-  "overall_comment": "背景與分析段品質極高，12項檢查全數通過。對游俠社會功能的辯護分析極具深度，司馬遷大膽挑戰制度正義的意圖闡發到位。",
+  "overall_comment": "11/12 項通過",
   "checks": [
-    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出出處《史記·游俠列傳》序、作者司馬遷、時代（西漢武帝時期）、體裁（史傳體序文／人物列傳序）、核心命題（當法律失靈時誰來主持正義）。"},
-    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "深入分析西漢武帝朝的酷吏政治與游俠的對立面、司馬遷李陵之禍後的個人動機，以及游俠從戰國到西漢的歷史演變（四階段）。歷史脈絡完整清晰。"},
-    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "為司馬遷、郭解、朱家、劇孟等建立分析。特別點出司馬遷寫游俠的個人動機——他親身經歷了法律被權力扭曲的過程。"},
-    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "深入分析司馬遷為游俠辯護的大膽用心——在漢武帝打壓游俠的時代，為游俠正名等於挑戰皇權。司馬遷不是不重視法律，而是太重視法律的公正性。"},
-    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "精準——司馬遷為游俠辯護是在冒極大風險，他等於在說當制度失靈時，制度外的手段不僅合理而且必要。"},
-    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "結構表清楚——引用韓非子批評、翻轉韓非子判斷、指出游俠的真正價值、總結立場。從批評到翻轉再到確立立場，形成完美的辯論結構。"},
-    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "指出先揚後抑（先引韓非子批評後翻轉）、對比（儒者 vs 游俠）、排比（「其言必信，其行必果，已諾必誠」）等手法。"},
-    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "選出「儒以文亂法，俠以武犯禁」「其行雖不軌於正義」「言必信，行必果」等文眼，每句有背景說明與意義闡發。"},
-    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "提供完整白話改編，涵蓋韓非子的批評、司馬遷的翻轉論證、游俠的社會功能等核心內容，語言流暢。"},
-    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題為「時代背景與寫作意旨」「原文結構與核心段落」等，無 emoji。"},
-    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段有獨立觀點（如「游俠的興衰與中央權力強弱成反比」「理解游俠的關鍵在於理解酷吏政治」），論述深刻。"},
-    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "所有段落皆有獨立貢獻，背景段對游俠歷史演變的四階段梳理極有價值，無填充內容。"}
+    {
+      "id": "bg_coord",
+      "name": "座標定位表",
+      "status": "pass",
+      "comment": "有座標定位表"
+    },
+    {
+      "id": "bg_era",
+      "name": "時代背景段",
+      "status": "pass",
+      "comment": "有時代背景分析"
+    },
+    {
+      "id": "bg_people",
+      "name": "關鍵人物段",
+      "status": "pass",
+      "comment": "有關鍵人物分析"
+    },
+    {
+      "id": "bg_intent",
+      "name": "寫作意圖段",
+      "status": "fail",
+      "comment": "無寫作意圖段"
+    },
+    {
+      "id": "bg_summary",
+      "name": "一句話總結",
+      "status": "pass",
+      "comment": "有一句話總結"
+    },
+    {
+      "id": "an_structure",
+      "name": "起承轉合表",
+      "status": "pass",
+      "comment": "有起承轉合表"
+    },
+    {
+      "id": "an_rhetoric",
+      "name": "修辭手法表",
+      "status": "pass",
+      "comment": "有修辭手法分析表"
+    },
+    {
+      "id": "an_quotes",
+      "name": "佳句賞析",
+      "status": "pass",
+      "comment": "有5句佳句賞析"
+    },
+    {
+      "id": "an_vernacular",
+      "name": "白話改編段",
+      "status": "pass",
+      "comment": "有白話改編段"
+    },
+    {
+      "id": "fmt_emoji",
+      "name": "h2 無 emoji",
+      "status": "pass",
+      "comment": "h2 標題無 emoji"
+    },
+    {
+      "id": "fmt_depth",
+      "name": "分析段深度",
+      "status": "pass",
+      "comment": "分析段 78 行"
+    },
+    {
+      "id": "no_padding",
+      "name": "不為寫而寫",
+      "status": "pass",
+      "comment": "主要內容無明顯灌水"
+    }
   ]
 }

@@ -1,21 +1,80 @@
 {
   "file": "172-wangxizhi-lanting-ji-xu",
-  "title": "蘭亭集序",
-  "author": "王羲之",
+  "title": "172-wangxizhi-lanting-ji-xu",
   "overall_grade": "A",
-  "overall_comment": "12項全數過關。背景段深入東晉士人風度、永和九年雅集盛況；分析段有文章結構拆解、修辭手法分析（駢散結合、對比、設問）、佳句賞析、白話改編，內容充實。",
+  "overall_comment": "11/12 項通過",
   "checks": [
-    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出出處《晉書·王羲之傳》、體裁（序文/宴集序）、時代（東晉永和九年353年）、核心命題（死生亦大矣）、關鍵人物。"},
-    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "深入分析東晉士人的精神世界——偏安江左的時代壓力、玄學清談的風氣、王羲之的家族背景與政治處境。"},
-    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "為王羲之（書聖與政治家）、與會名士（謝安、孫綽等）、蘭亭雅集的歷史意義各設分析。"},
-    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "核心分析揭示王羲之從樂到悲的情感轉折，從及時行樂到感嘆死生的哲學思考，以及對魏晉玄學「齊生死」的反駁。"},
-    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "精準抓住王羲之在歡樂盛宴中突然轉向對生命本質的追問——後之視今亦猶今之視昔。"},
-    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "起（敘述蘭亭盛會）、承（從樂到悲的情感轉折）、轉（死生亦大矣的哲學思考）、合（後之覽者亦將有感於斯文），結構清晰。"},
-    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "列出駢散結合、對比（樂vs悲、生vs死）、設問（豈不痛哉）、引用（齊物論），均有原文與效果說明。"},
-    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "選出三句經典（群賢畢至少長咸集、仰觀宇宙之大俯察品類之盛、後之視今亦猶今之視昔），賞析有深度。"},
-    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "提供完整白話改編，覆蓋蘭亭集會場景與王羲之的哲思。"},
-    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題為「時代背景與寫作意旨」「文章分析」，無 emoji。"},
-    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段有獨立觀點（王羲之對莊子齊物論的超越），佳句賞析有深度說明。"},
-    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "所有段落皆有獨立貢獻，背景段的東晉士風分析、分析段的哲學思考各有獨立價值。"}
+    {
+      "id": "bg_coord",
+      "name": "座標定位表",
+      "status": "pass",
+      "comment": "有座標定位表"
+    },
+    {
+      "id": "bg_era",
+      "name": "時代背景段",
+      "status": "pass",
+      "comment": "有時代背景分析"
+    },
+    {
+      "id": "bg_people",
+      "name": "關鍵人物段",
+      "status": "pass",
+      "comment": "有關鍵人物分析"
+    },
+    {
+      "id": "bg_intent",
+      "name": "寫作意圖段",
+      "status": "fail",
+      "comment": "無寫作意圖段"
+    },
+    {
+      "id": "bg_summary",
+      "name": "一句話總結",
+      "status": "pass",
+      "comment": "有一句話總結"
+    },
+    {
+      "id": "an_structure",
+      "name": "起承轉合表",
+      "status": "pass",
+      "comment": "有起承轉合表"
+    },
+    {
+      "id": "an_rhetoric",
+      "name": "修辭手法表",
+      "status": "pass",
+      "comment": "有修辭手法分析表"
+    },
+    {
+      "id": "an_quotes",
+      "name": "佳句賞析",
+      "status": "pass",
+      "comment": "有10句佳句賞析"
+    },
+    {
+      "id": "an_vernacular",
+      "name": "白話改編段",
+      "status": "pass",
+      "comment": "有白話改編段"
+    },
+    {
+      "id": "fmt_emoji",
+      "name": "h2 無 emoji",
+      "status": "pass",
+      "comment": "h2 標題無 emoji"
+    },
+    {
+      "id": "fmt_depth",
+      "name": "分析段深度",
+      "status": "pass",
+      "comment": "分析段 174 行"
+    },
+    {
+      "id": "no_padding",
+      "name": "不為寫而寫",
+      "status": "pass",
+      "comment": "主要內容無明顯灌水"
+    }
   ]
 }

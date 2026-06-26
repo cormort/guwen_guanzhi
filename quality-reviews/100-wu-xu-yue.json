@@ -1,21 +1,80 @@
 {
   "file": "100-wu-xu-yue",
-  "title": "吳許越成",
-  "author": "左丘明",
+  "title": "100-wu-xu-yue",
   "overall_grade": "A",
-  "overall_comment": "背景與分析段品質極高，12項檢查全數通過。背景涵蓋座標定位、時代壓力（夫差的戰略困境分析）、關鍵人物（伍子胥、夫差、勾踐）、寫作意圖（揭示鐵律、諷喻深意）、一句話總結。分析段有起承轉合表、寫作技巧分析（樹德莫如滋去疾莫如盡核心命題、少康故事歷史週期律預言、多層論證）、修辭手法表、佳句賞析三句、白話改編。",
+  "overall_comment": "12/12 項通過",
   "checks": [
-    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出典籍、古文觀止卷次、時序（魯哀公元年公元前494年）、地緣、勢力天平。"},
-    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "分析夫差戰略困境（滅越 vs 許和兩案）、壓力來源（內部、外部、心理），深入透徹。"},
-    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "為伍子胥（諫臣戰略家預言者）、夫差（志大才疏悲劇霸主）、勾踐（不在場的主角隱忍之王）各設詳細分析。"},
-    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "分析左傳作者揭示的鐵律——國之存亡不在一時勝敗而在能否絕其禍根，以及對當代和後世讀者的諷喻深意。"},
-    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "精準抓住伍子胥以少康中興為喻力諫夫差的核心。"},
-    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "起（夫椒之戰越敗求和）、承（伍子胥以少康故事力諫滅越）、轉（夫差不聽許越和北上爭霸）、合（伍子胥預言二十年後吳國將亡），合理清晰。"},
-    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "列出格言、歷史類比、反問、對比、預言五種手法，有原文與效果說明。"},
-    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "選出三句（樹德莫如滋去疾莫如盡、伍員曰不可臣聞之樹德莫如滋去疾莫如盡、越十年生聚而十年教訓二十年之外吳其為沼乎），每句有深度賞析。"},
-    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "提供完整白話改編，覆蓋全文三段核心情節，語言流暢。"},
-    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題為「時代背景與寫作意旨」「文章分析」，無 emoji。"},
-    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段有獨立觀點（如夫差的戰略錯覺、少康故事作為歷史週期律預言），佳句賞析有深度說明。"},
-    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "所有段落皆有獨立貢獻，背景段補充原文所需知識，分析段提供結構拆解與文本細讀，無重複或空洞內容。"}
+    {
+      "id": "bg_coord",
+      "name": "座標定位表",
+      "status": "pass",
+      "comment": "有座標定位表"
+    },
+    {
+      "id": "bg_era",
+      "name": "時代背景段",
+      "status": "pass",
+      "comment": "有時代背景分析"
+    },
+    {
+      "id": "bg_people",
+      "name": "關鍵人物段",
+      "status": "pass",
+      "comment": "有關鍵人物分析"
+    },
+    {
+      "id": "bg_intent",
+      "name": "寫作意圖段",
+      "status": "pass",
+      "comment": "有寫作意圖分析"
+    },
+    {
+      "id": "bg_summary",
+      "name": "一句話總結",
+      "status": "pass",
+      "comment": "有一句話總結"
+    },
+    {
+      "id": "an_structure",
+      "name": "起承轉合表",
+      "status": "pass",
+      "comment": "有起承轉合表"
+    },
+    {
+      "id": "an_rhetoric",
+      "name": "修辭手法表",
+      "status": "pass",
+      "comment": "有修辭手法分析表"
+    },
+    {
+      "id": "an_quotes",
+      "name": "佳句賞析",
+      "status": "pass",
+      "comment": "有10句佳句賞析"
+    },
+    {
+      "id": "an_vernacular",
+      "name": "白話改編段",
+      "status": "pass",
+      "comment": "有白話改編段"
+    },
+    {
+      "id": "fmt_emoji",
+      "name": "h2 無 emoji",
+      "status": "pass",
+      "comment": "h2 標題無 emoji"
+    },
+    {
+      "id": "fmt_depth",
+      "name": "分析段深度",
+      "status": "pass",
+      "comment": "分析段 110 行"
+    },
+    {
+      "id": "no_padding",
+      "name": "不為寫而寫",
+      "status": "pass",
+      "comment": "主要內容無明顯灌水"
+    }
   ]
 }

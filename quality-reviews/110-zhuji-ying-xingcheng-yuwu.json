@@ -1,21 +1,80 @@
 {
   "file": "110-zhuji-ying-xingcheng-yuwu",
-  "title": "諸稽郢行成於吳",
-  "author": "左丘明 · 《國語·吳語》",
+  "title": "110-zhuji-ying-xingcheng-yuwu",
   "overall_grade": "A",
-  "overall_comment": "12項檢查全數通過。背景詳述夫椒之戰與越國生死存亡關頭，分析諸稽郢的「三重包裝」修辭武器（認錯→感恩→利誘）。人物分析涵蓋勾踐、夫差，狐埋狐搰比喻解析精彩。",
+  "overall_comment": "12/12 項通過",
   "checks": [
-    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出出處《國語·吳語》、時代春秋末期約494BC、體裁外交辭令、核心命題、關鍵人物等。"},
-    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "分析夫椒之戰後越國滅亡邊緣的軍事、外交、心理三層壓力，對理解諸稽郢求和策略有實質幫助。"},
-    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "涵蓋諸稽郢（屈辱的載體）、勾踐（不在場的棋手）、夫差（被恭維俘虜的獵人），人物分析有深度。"},
-    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "從《國語》記言體例、為戰敗國提供外交範本、與〈吳許越成〉雙篇對照三層次分析。"},
-    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "精準總結諸稽郢外交辭令為戰敗國求生術的最高境界——把投降包裝成忠誠。"},
-    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "起（夫椒戰敗）、承（認錯自我貶抑）、轉（感恩+利誘）、合（狐埋狐搰），結構合理。"},
-    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "列出自貶、感恩、諺語、利益引導、名聲綁架等手法，表格完整。"},
-    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "選出三句（起死人而肉白骨、狐埋狐搰、天王既封植越國），賞析有深度。"},
-    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "完整白話改編，從文種獻策到夫差許和，語言流暢。"},
-    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題無 emoji。"},
-    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段有獨立觀點（屈辱包裝成忠誠、夫差的致命失誤是需要被崇拜），非僅翻譯。"},
-    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "各段分工明確，背景補知識、結構拆邏輯、佳句賞析提供領悟，無冗餘內容。"}
+    {
+      "id": "bg_coord",
+      "name": "座標定位表",
+      "status": "pass",
+      "comment": "有座標定位表"
+    },
+    {
+      "id": "bg_era",
+      "name": "時代背景段",
+      "status": "pass",
+      "comment": "有時代背景分析"
+    },
+    {
+      "id": "bg_people",
+      "name": "關鍵人物段",
+      "status": "pass",
+      "comment": "有關鍵人物分析"
+    },
+    {
+      "id": "bg_intent",
+      "name": "寫作意圖段",
+      "status": "pass",
+      "comment": "有寫作意圖分析"
+    },
+    {
+      "id": "bg_summary",
+      "name": "一句話總結",
+      "status": "pass",
+      "comment": "有一句話總結"
+    },
+    {
+      "id": "an_structure",
+      "name": "起承轉合表",
+      "status": "pass",
+      "comment": "有起承轉合表"
+    },
+    {
+      "id": "an_rhetoric",
+      "name": "修辭手法表",
+      "status": "pass",
+      "comment": "有修辭手法分析表"
+    },
+    {
+      "id": "an_quotes",
+      "name": "佳句賞析",
+      "status": "pass",
+      "comment": "有8句佳句賞析"
+    },
+    {
+      "id": "an_vernacular",
+      "name": "白話改編段",
+      "status": "pass",
+      "comment": "有白話改編段"
+    },
+    {
+      "id": "fmt_emoji",
+      "name": "h2 無 emoji",
+      "status": "pass",
+      "comment": "h2 標題無 emoji"
+    },
+    {
+      "id": "fmt_depth",
+      "name": "分析段深度",
+      "status": "pass",
+      "comment": "分析段 118 行"
+    },
+    {
+      "id": "no_padding",
+      "name": "不為寫而寫",
+      "status": "pass",
+      "comment": "主要內容無明顯灌水"
+    }
   ]
 }

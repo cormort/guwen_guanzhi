@@ -1,21 +1,80 @@
 {
   "file": "129-zhaowei-hou-wen-qi-shi",
-  "title": "趙威后問齊使",
-  "author": "劉向 · 《戰國策·齊策四》",
+  "title": "129-zhaowei-hou-wen-qi-shi",
   "overall_grade": "A",
-  "overall_comment": "12項檢查全數通過。背景完整描述戰國中期趙國處境與趙威后攝政背景。趙威后以問代教的民本思想分析深刻——苟無歲何以有民苟無民何以有君的三層論證拆解精彩。人物分析（趙威后、齊使、鍾離子等人）各有深度。",
+  "overall_comment": "11/12 項通過",
   "checks": [
-    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出出處《戰國策·齊策四》、時代戰國中期約西元前265年趙威后攝政時期、體裁對話體論辯、核心命題等。"},
-    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "詳述戰國中期趙國處境（胡服騎射後的四戰之地）、趙威后攝政背景、齊國的困境與齊王建。"},
-    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "涵蓋趙威后（民本實踐者）、齊使（傳統價值代言人）、鍾離子葉陽子北宮嬰兒子（被埋沒賢人）、於陵子仲（社會寄生者）。"},
-    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "從戰國策士修辭風格、中國政治思想最早將民本從道德呼籲提升為執政邏輯的文獻之一、比孟子民貴君輕更具體三層次分析。"},
-    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "精準總結：趙威后是中國歷史上第一個將以民為本從口號變成執政邏輯的政治家。"},
-    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "三回合結構清晰：顛覆禮儀（先問歲與民）→質疑賢政（為何不用賢人）→痛斥無用（為何不懲於陵子仲）。"},
-    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "分析以問代答、層層逼進、正反對比（賞賢懲惡）、以小見大（從問候順序到國家批判）等手法。"},
-    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "選出苟無歲何以有民苟無民何以有君、何以至今不業也等句，賞析有深度。"},
-    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "核心對話白話改編完整，涵蓋從趙威后三問到三層政治質詢的完整過程。"},
-    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題無 emoji。"},
-    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段有獨立觀點（事實陳述比道德主張更難反駁——苟無民何以有君不是價值判斷而是事實陳述），非僅翻譯。"},
-    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "各段分工明確，內容充實有意義，無灌水痕跡。"}
+    {
+      "id": "bg_coord",
+      "name": "座標定位表",
+      "status": "pass",
+      "comment": "有座標定位表"
+    },
+    {
+      "id": "bg_era",
+      "name": "時代背景段",
+      "status": "pass",
+      "comment": "有時代背景分析"
+    },
+    {
+      "id": "bg_people",
+      "name": "關鍵人物段",
+      "status": "pass",
+      "comment": "有關鍵人物分析"
+    },
+    {
+      "id": "bg_intent",
+      "name": "寫作意圖段",
+      "status": "fail",
+      "comment": "無寫作意圖段"
+    },
+    {
+      "id": "bg_summary",
+      "name": "一句話總結",
+      "status": "pass",
+      "comment": "有一句話總結"
+    },
+    {
+      "id": "an_structure",
+      "name": "起承轉合表",
+      "status": "pass",
+      "comment": "有起承轉合表"
+    },
+    {
+      "id": "an_rhetoric",
+      "name": "修辭手法表",
+      "status": "pass",
+      "comment": "有修辭手法分析表"
+    },
+    {
+      "id": "an_quotes",
+      "name": "佳句賞析",
+      "status": "pass",
+      "comment": "有7句佳句賞析"
+    },
+    {
+      "id": "an_vernacular",
+      "name": "白話改編段",
+      "status": "pass",
+      "comment": "有白話改編段"
+    },
+    {
+      "id": "fmt_emoji",
+      "name": "h2 無 emoji",
+      "status": "pass",
+      "comment": "h2 標題無 emoji"
+    },
+    {
+      "id": "fmt_depth",
+      "name": "分析段深度",
+      "status": "pass",
+      "comment": "分析段 101 行"
+    },
+    {
+      "id": "no_padding",
+      "name": "不為寫而寫",
+      "status": "pass",
+      "comment": "主要內容無明顯灌水"
+    }
   ]
 }

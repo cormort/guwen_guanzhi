@@ -1,21 +1,80 @@
 {
   "file": "132-luzhonglian-yi-bu-di-qin",
-  "title": "魯仲連義不帝秦",
-  "author": "劉向 · 《戰國策·趙策三》",
+  "title": "132-luzhonglian-yi-bu-di-qin",
   "overall_grade": "A",
-  "overall_comment": "12項檢查全數通過。背景詳述長平之戰後趙國的崩潰與邯鄲之圍。魯仲連義不帝秦的氣節分析深入——先證不可行（歷史教訓）、再證不可忍（人格尊嚴）、最後證亦可退敵（實際效果）。人物分析（魯仲連、辛垣衍、平原君）各有深度。",
+  "overall_comment": "11/12 項通過",
   "checks": [
-    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出出處《戰國策·趙策三》、時代戰國晚期約西元前258年秦軍圍邯鄲、體裁歷史記言/辯論對話體、核心命題等。"},
-    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "詳述長平之戰的悲劇（45萬趙軍覆沒）、邯鄲被圍的軍事危機、秦國吞併態勢。"},
-    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "涵蓋魯仲連（純粹的知識分子）、辛垣衍（現實主義說客）、平原君（兩難的貴族）。"},
-    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "從戰國策中義理之辯的巔峰之作、以道義氣節壓倒利害算計、魯仲連不受封賞的風骨三層次分析。"},
-    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "精準總結：魯仲連不要官、不要錢、不要名，只因為義之所在就站出來對抗世界上最強大的帝國。"},
-    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "結構清晰：魯仲連主動求見（起）→辛垣衍倡議帝秦（承）→魯仲連反駁三層論證（轉）→辛垣衍服氣秦軍退兵（合）。"},
-    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "分析歷史案例論證（齊威王事周、殷紂烹三公）、層層逼進的辯論策略、義利對比等手法。"},
-    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "選出所貴於天下之士者為人排患釋難解紛亂而無所取、義不帝秦等句，賞析有深度。"},
-    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "核心辯論段落白話改編完整，涵蓋魯仲連與辛垣衍辯論的完整過程。"},
-    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題無 emoji。"},
-    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段有獨立觀點（義不是道德口號而是戰略武器——魯仲連用義來凝聚人心退敵），非僅翻譯。"},
-    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "各段分工明確，內容充實有意義，無灌水痕跡。"}
+    {
+      "id": "bg_coord",
+      "name": "座標定位表",
+      "status": "pass",
+      "comment": "有座標定位表"
+    },
+    {
+      "id": "bg_era",
+      "name": "時代背景段",
+      "status": "pass",
+      "comment": "有時代背景分析"
+    },
+    {
+      "id": "bg_people",
+      "name": "關鍵人物段",
+      "status": "pass",
+      "comment": "有關鍵人物分析"
+    },
+    {
+      "id": "bg_intent",
+      "name": "寫作意圖段",
+      "status": "fail",
+      "comment": "無寫作意圖段"
+    },
+    {
+      "id": "bg_summary",
+      "name": "一句話總結",
+      "status": "pass",
+      "comment": "有一句話總結"
+    },
+    {
+      "id": "an_structure",
+      "name": "起承轉合表",
+      "status": "pass",
+      "comment": "有起承轉合表"
+    },
+    {
+      "id": "an_rhetoric",
+      "name": "修辭手法表",
+      "status": "pass",
+      "comment": "有修辭手法分析表"
+    },
+    {
+      "id": "an_quotes",
+      "name": "佳句賞析",
+      "status": "pass",
+      "comment": "有10句佳句賞析"
+    },
+    {
+      "id": "an_vernacular",
+      "name": "白話改編段",
+      "status": "pass",
+      "comment": "有白話改編段"
+    },
+    {
+      "id": "fmt_emoji",
+      "name": "h2 無 emoji",
+      "status": "pass",
+      "comment": "h2 標題無 emoji"
+    },
+    {
+      "id": "fmt_depth",
+      "name": "分析段深度",
+      "status": "pass",
+      "comment": "分析段 235 行"
+    },
+    {
+      "id": "no_padding",
+      "name": "不為寫而寫",
+      "status": "pass",
+      "comment": "主要內容無明顯灌水"
+    }
   ]
 }

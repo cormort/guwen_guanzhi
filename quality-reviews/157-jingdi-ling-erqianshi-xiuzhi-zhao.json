@@ -1,21 +1,80 @@
 {
   "file": "157-jingdi-ling-erqianshi-xiuzhi-zhao",
-  "title": "帝令二千石修職詔",
-  "author": "劉啟",
+  "title": "157-jingdi-ling-erqianshi-xiuzhi-zhao",
   "overall_grade": "A",
-  "overall_comment": "背景與分析段品質極高，12項檢查全數通過。對官僚系統惰性的分析極有深度，景帝問責式領導風格的賞析到位。",
+  "overall_comment": "11/12 項通過",
   "checks": [
-    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出出處《漢書·景帝紀》、作者漢景帝劉啟、時代（西漢文景時期）、體裁（詔令體）、核心命題（地方官的責任——為什麼百姓貧窮而官吏不知？）。"},
-    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "深入分析文景之治的背景（輕徭薄賦、三十稅一）、盛世時期官僚系統的隱患（只拿薪水不做事）、以及景帝頒布詔書的具體原因（自然災害、糧食問題、官僚訊息壟斷）。"},
-    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "為漢景帝劉啟、二千石（郡守等地方高級官員）建立分析。特別比較文帝與景帝的風格差異——文帝像仁慈的父親，景帝像嚴厲的工頭。"},
-    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "深入分析景帝寫這道詔書的用意——揭露了官僚系統的固有弊病：訊息往上傳遞時總是被層層過濾。景帝選擇「倒逼」式管理——讓高級官員監督低級官員。"},
-    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "精準——這道詔書暴露了一個永恆的治理難題：從中央到地方的訊息傳遞，總是被官僚系統的惰性稀釋。"},
-    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "結構表層層推進：指出問題（百姓不足，其咎安在）、明確要求（各修其職，謹察民所疾苦）、下放權力（二千石有權舉報）、重申決心（布告天下）。四層結構清晰。"},
-    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "指出直接問責（「其咎安在」）、嚴厲命令（「各修其職」）、列舉官職以顯全面性等手法。語氣峻切，不給官員任何推卸空間。"},
-    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "選出「今歲或不登，民食頗寡，其咎安在」「令內史、郡守……各修其職，謹察民所疾苦」「不事官職、耗亂者，丞相以聞，請其罪」等句，每句有深度賞析。"},
-    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "提供完整白話改編，涵蓋指責官員詐偽、要求各修其職、授權二千石舉報等核心內容，語言流暢。"},
-    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題為「時代背景與寫作意旨」「原文結構與核心分析」等，無 emoji。"},
-    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段有獨立觀點（如「盛世時期的官僚系統往往比亂世時期更鬆散」「皇帝的倒逼管理策略在管理學上稱為間接控制」），論述深刻。"},
-    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "所有段落皆有獨立貢獻，背景段對官僚系統訊息壟斷的分析極有價值，無填充內容。"}
+    {
+      "id": "bg_coord",
+      "name": "座標定位表",
+      "status": "pass",
+      "comment": "有座標定位表"
+    },
+    {
+      "id": "bg_era",
+      "name": "時代背景段",
+      "status": "pass",
+      "comment": "有時代背景分析"
+    },
+    {
+      "id": "bg_people",
+      "name": "關鍵人物段",
+      "status": "pass",
+      "comment": "有關鍵人物分析"
+    },
+    {
+      "id": "bg_intent",
+      "name": "寫作意圖段",
+      "status": "fail",
+      "comment": "無寫作意圖段"
+    },
+    {
+      "id": "bg_summary",
+      "name": "一句話總結",
+      "status": "pass",
+      "comment": "有一句話總結"
+    },
+    {
+      "id": "an_structure",
+      "name": "起承轉合表",
+      "status": "pass",
+      "comment": "有起承轉合表"
+    },
+    {
+      "id": "an_rhetoric",
+      "name": "修辭手法表",
+      "status": "pass",
+      "comment": "有修辭手法分析表"
+    },
+    {
+      "id": "an_quotes",
+      "name": "佳句賞析",
+      "status": "pass",
+      "comment": "有10句佳句賞析"
+    },
+    {
+      "id": "an_vernacular",
+      "name": "白話改編段",
+      "status": "pass",
+      "comment": "有白話改編段"
+    },
+    {
+      "id": "fmt_emoji",
+      "name": "h2 無 emoji",
+      "status": "pass",
+      "comment": "h2 標題無 emoji"
+    },
+    {
+      "id": "fmt_depth",
+      "name": "分析段深度",
+      "status": "pass",
+      "comment": "分析段 157 行"
+    },
+    {
+      "id": "no_padding",
+      "name": "不為寫而寫",
+      "status": "pass",
+      "comment": "主要內容無明顯灌水"
+    }
   ]
 }

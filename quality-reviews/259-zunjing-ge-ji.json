@@ -1,21 +1,80 @@
 {
   "file": "259-zunjing-ge-ji",
-  "title": "尊經閣記",
-  "author": "王守仁",
+  "title": "259-zunjing-ge-ji",
   "overall_grade": "A",
-  "overall_comment": "背景與分析段品質極高，12項檢查全數通過。對王陽明將六經重新定義為『吾心之常道』的心學哲學宣言分析極為精彩。",
+  "overall_comment": "11/12 項通過",
   "checks": [
-    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出出處《王文成公全書》、作者王守仁（王陽明）、時代（明正德年間約1510年代）、體裁（閣記／哲學論文）、核心命題（六經是吾心的記錄——良知即經典）。"},
-    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "深入分析王陽明心學的發展背景——龍場悟道後致良知學說的成熟期，以及明代官方理學（朱子學）對知識分子的思想禁錮。"},
-    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "為王守仁（王陽明）建立詳細分析。作為心學集大成者，他以尊經閣記為契機，闡發了心學對儒家經典本質的革命性理解。"},
-    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "深入分析王陽明的雙層用意：表面是為尊經閣作記、闡述尊經之意，深層是將六經重新定義為「吾心之常道」——經典不在書架上，而在每個人心中。這是心學對朱子學的正面挑戰。"},
-    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "精準——王陽明把六經重新定義為吾心之常道，經典不是書架上的書，是每個人心中的良知。"},
-    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "結構表清晰：起（提出尊經之問）、承（論六經即吾心之常道）、轉（批判世人不識本心而求經典）、合（歸結於致良知的實踐）。"},
-    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "列出哲學推論（從現象到本質）、比喻（以經為鏡、以心為經）、對比（心學與朱子學的差異）、層層深入（從經典之名到經典之實）等手法。"},
-    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "選出「六經者，吾心之記籍也」「經，常道也，在於人心」「良知之外，別無所謂聖賢」等名句，每句有深度賞析。"},
-    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "提供完整白話改編，涵蓋尊經之意、六經即吾心、致良知的實踐等核心內容。"},
-    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題為「時代背景與寫作意旨」「文章分析」，無 emoji。"},
-    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段有獨立觀點（如「尊經閣記名為記樓，實為心學宣言——王陽明用一篇文章完成了對整個理學傳統的重新定義」），有深度說明。"},
-    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "所有段落皆有獨立貢獻，背景段對心學與朱子學差異的分析有實際幫助，無填充內容。"}
+    {
+      "id": "bg_coord",
+      "name": "座標定位表",
+      "status": "pass",
+      "comment": "有座標定位表"
+    },
+    {
+      "id": "bg_era",
+      "name": "時代背景段",
+      "status": "pass",
+      "comment": "有時代背景分析"
+    },
+    {
+      "id": "bg_people",
+      "name": "關鍵人物段",
+      "status": "pass",
+      "comment": "有關鍵人物分析"
+    },
+    {
+      "id": "bg_intent",
+      "name": "寫作意圖段",
+      "status": "fail",
+      "comment": "無寫作意圖段"
+    },
+    {
+      "id": "bg_summary",
+      "name": "一句話總結",
+      "status": "pass",
+      "comment": "有一句話總結"
+    },
+    {
+      "id": "an_structure",
+      "name": "起承轉合表",
+      "status": "pass",
+      "comment": "有起承轉合表"
+    },
+    {
+      "id": "an_rhetoric",
+      "name": "修辭手法表",
+      "status": "pass",
+      "comment": "有修辭手法分析表"
+    },
+    {
+      "id": "an_quotes",
+      "name": "佳句賞析",
+      "status": "pass",
+      "comment": "有10句佳句賞析"
+    },
+    {
+      "id": "an_vernacular",
+      "name": "白話改編段",
+      "status": "pass",
+      "comment": "有白話改編段"
+    },
+    {
+      "id": "fmt_emoji",
+      "name": "h2 無 emoji",
+      "status": "pass",
+      "comment": "h2 標題無 emoji"
+    },
+    {
+      "id": "fmt_depth",
+      "name": "分析段深度",
+      "status": "pass",
+      "comment": "分析段 322 行"
+    },
+    {
+      "id": "no_padding",
+      "name": "不為寫而寫",
+      "status": "pass",
+      "comment": "主要內容無明顯灌水"
+    }
   ]
 }

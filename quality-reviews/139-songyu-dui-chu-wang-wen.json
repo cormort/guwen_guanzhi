@@ -1,21 +1,80 @@
 {
   "file": "139-songyu-dui-chu-wang-wen",
-  "title": "宋玉對楚王問",
-  "author": "宋玉 · 《宋玉集》",
+  "title": "139-songyu-dui-chu-wang-wen",
   "overall_grade": "A",
-  "overall_comment": "12項檢查全數通過。背景詳述戰國末期楚國的衰落。宋玉曲高和寡的經典比喻分析精彩——從下里巴人到陽春白雪的層層遞進。鳥中有鳳凰魚中有鯤魚的聖人孤獨論深刻。人物分析（宋玉、楚頃襄王）有深度。自辯文本的創新性突出。",
+  "overall_comment": "11/12 項通過",
   "checks": [
-    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出出處《楚辭》相傳為宋玉所作（一說見於《新序·雜事》）、時代戰國末期約西元前3世紀楚頃襄王時期、體裁對問體/辯護散文、核心命題等。"},
-    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "詳述戰國末期楚國衰落背景（懷王被扣、郢都淪陷）、宋玉作為屈原繼承者的文學地位。"},
-    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "涵蓋宋玉（楚國辭賦家、以辭賦自辯的大師）、楚頃襄王（提問者）。"},
-    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "從中國文學史上最早的自辯文本之一、曲高和寡的經典出處、對後世知識分子回應世俗批評的影響三層次分析。"},
-    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "精準總結：當你的境界越高，能理解你的人就越少，而這不是你的錯，是世界的常態。"},
-    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "結構清晰：楚王問宋玉是否行為不檢（起）→宋玉以唱歌為喻（承）→以鳳凰鯤魚為喻（轉）→結論非我之過乃眾人不足（合）。"},
-    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "分析層層遞進的類比（唱歌→鳥→魚→聖人）、對比（下里巴人vs陽春白雪）、曲高和寡的典故化用等手法，有辨識度。"},
-    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "選出曲高和寡（客有歌於郢中者）、鳳凰鯤魚之喻等句，賞析有深度。"},
-    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "核心辯解段落白話改編完整，涵蓋三段比喻的完整內容。"},
-    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題無 emoji。"},
-    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段有獨立觀點（被誤解是高人一等的證明——宋玉開創了不正面回應批評而以比喻迂迴說明的辯護模式），非僅翻譯。"},
-    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "各段分工明確，內容充實有意義，無灌水痕跡。"}
+    {
+      "id": "bg_coord",
+      "name": "座標定位表",
+      "status": "pass",
+      "comment": "有座標定位表"
+    },
+    {
+      "id": "bg_era",
+      "name": "時代背景段",
+      "status": "pass",
+      "comment": "有時代背景分析"
+    },
+    {
+      "id": "bg_people",
+      "name": "關鍵人物段",
+      "status": "pass",
+      "comment": "有關鍵人物分析"
+    },
+    {
+      "id": "bg_intent",
+      "name": "寫作意圖段",
+      "status": "fail",
+      "comment": "無寫作意圖段"
+    },
+    {
+      "id": "bg_summary",
+      "name": "一句話總結",
+      "status": "pass",
+      "comment": "有一句話總結"
+    },
+    {
+      "id": "an_structure",
+      "name": "起承轉合表",
+      "status": "pass",
+      "comment": "有起承轉合表"
+    },
+    {
+      "id": "an_rhetoric",
+      "name": "修辭手法表",
+      "status": "pass",
+      "comment": "有修辭手法分析表"
+    },
+    {
+      "id": "an_quotes",
+      "name": "佳句賞析",
+      "status": "pass",
+      "comment": "有6句佳句賞析"
+    },
+    {
+      "id": "an_vernacular",
+      "name": "白話改編段",
+      "status": "pass",
+      "comment": "有白話改編段"
+    },
+    {
+      "id": "fmt_emoji",
+      "name": "h2 無 emoji",
+      "status": "pass",
+      "comment": "h2 標題無 emoji"
+    },
+    {
+      "id": "fmt_depth",
+      "name": "分析段深度",
+      "status": "pass",
+      "comment": "分析段 96 行"
+    },
+    {
+      "id": "no_padding",
+      "name": "不為寫而寫",
+      "status": "pass",
+      "comment": "主要內容無明顯灌水"
+    }
   ]
 }

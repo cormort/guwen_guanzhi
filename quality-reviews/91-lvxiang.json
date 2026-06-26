@@ -1,21 +1,80 @@
 {
   "file": "91-lvxiang",
-  "title": "呂相絕秦",
-  "author": "左丘明",
+  "title": "91-lvxiang",
   "overall_grade": "A",
-  "overall_comment": "背景與分析段品質極高，12項檢查全數通過。背景涵蓋座標定位（出處、時間、空間、事件、性質）、時代壓力（晉秦關係惡化時間線、晉厲公時期外部壓力）、關鍵人物（呂相、秦桓公、晉厲公）、寫作意圖（宣傳戰文書分析、三大操作手法）、一句話總結。分析段有起承轉合表、寫作技巧分析（先發制人的戰爭動員文書、三大歪曲手法）、修辭手法表、佳句賞析三句、白話改編。",
+  "overall_comment": "11/12 項通過",
   "checks": [
-    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出出處、時間（魯成公十三年公元前578年）、空間、事件、性質（外交文書×宣傳戰×戰爭動員令）。"},
-    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "有晉秦關係惡化時間線圖，從秦晉之好到令狐之盟再到麻隧之戰，脈絡清晰。"},
-    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "為呂相、秦桓公、晉厲公三人各設詳細分析，涵蓋身份、特長、性格、結局。"},
-    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "深入分析呂相三大操作手法（移花接木、選擇性失憶、倒因為果），點明宣傳戰本質。"},
-    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "精準抓住此篇為先秦第一宣傳戰經典的核心定位。"},
-    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "起（秦國曾受晉恩）、承（三代秦君有負於晉）、轉（晉國正當防衛）、合（諸侯聯軍已在邊境），合理。"},
-    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "列出排比、問責、對比、名單攻勢、收束五種手法，均有原文與效果說明。"},
-    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "選出三句（帥我蟊賊以來蕩搖我邊疆、諸侯備聞此言斯是用痛心疾首、唯君圖之），每句有深度賞析。"},
-    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "提供完整白話改編，覆蓋全文核心內容，語言流暢。"},
-    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題為「時代背景與寫作意旨」「文章分析」，無 emoji。"},
-    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段有獨立觀點（如氣勢壓倒邏輯的修辭效果、速度掩蓋細節情緒壓倒理性），佳句賞析有深度說明。"},
-    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "所有段落皆有獨立貢獻，背景段補充原文所需知識，分析段提供結構拆解與文本細讀，無重複或空洞內容。"}
+    {
+      "id": "bg_coord",
+      "name": "座標定位表",
+      "status": "pass",
+      "comment": "有座標定位表"
+    },
+    {
+      "id": "bg_era",
+      "name": "時代背景段",
+      "status": "pass",
+      "comment": "有時代背景分析"
+    },
+    {
+      "id": "bg_people",
+      "name": "關鍵人物段",
+      "status": "pass",
+      "comment": "有關鍵人物分析"
+    },
+    {
+      "id": "bg_intent",
+      "name": "寫作意圖段",
+      "status": "pass",
+      "comment": "有寫作意圖分析"
+    },
+    {
+      "id": "bg_summary",
+      "name": "一句話總結",
+      "status": "pass",
+      "comment": "有一句話總結"
+    },
+    {
+      "id": "an_structure",
+      "name": "起承轉合表",
+      "status": "pass",
+      "comment": "有起承轉合表"
+    },
+    {
+      "id": "an_rhetoric",
+      "name": "修辭手法表",
+      "status": "pass",
+      "comment": "有修辭手法分析表"
+    },
+    {
+      "id": "an_quotes",
+      "name": "佳句賞析",
+      "status": "pass",
+      "comment": "有9句佳句賞析"
+    },
+    {
+      "id": "an_vernacular",
+      "name": "白話改編段",
+      "status": "pass",
+      "comment": "有白話改編段"
+    },
+    {
+      "id": "fmt_emoji",
+      "name": "h2 無 emoji",
+      "status": "fail",
+      "comment": "h2 含 emoji"
+    },
+    {
+      "id": "fmt_depth",
+      "name": "分析段深度",
+      "status": "pass",
+      "comment": "分析段 114 行"
+    },
+    {
+      "id": "no_padding",
+      "name": "不為寫而寫",
+      "status": "pass",
+      "comment": "主要內容無明顯灌水"
+    }
   ]
 }

@@ -1,21 +1,80 @@
 {
   "file": "98-zige",
-  "title": "子革對靈王",
-  "author": "左丘明",
+  "title": "98-zige",
   "overall_grade": "A",
-  "overall_comment": "背景與分析段品質極高，12項檢查全數通過。背景涵蓋座標定位、時代壓力（春秋末期楚國霸業與暴政循環、楚靈王其人權力慾望化身）、關鍵人物（楚靈王、子革、祭公謀父各設詳細表格）、寫作意圖（春秋筆法以對答寫命運、不諫之諫最高境界、為何寫失敗的勸諫）、一句話總結。分析段有起承轉合表、寫作技巧分析（不諫之諫、從阿諛到諷諫語氣轉換、形民之力而無醉飽之心）、修辭手法表、佳句賞析三句、白話改編。",
+  "overall_comment": "11/12 項通過",
   "checks": [
-    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出史載出處、時間（魯昭公十二年公元前530年）、地理經緯、核心事件、經典文眼、敗亡伏筆。"},
-    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "詳細分析楚國百年崛起、楚靈王弒君篡位、對外戰爭年表、內部恐怖統治、乾谿之難倒計時。"},
-    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "為楚靈王、子革、祭公謀父各設詳細表格分析，涵蓋身份、性格、處境、進諫策略、軍師評語。"},
-    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "從春秋筆法以對答寫命運、不諫之諫最高境界、為何寫失敗的勸諫三個角度深入分析。"},
-    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "精準抓住子革以祈招之詩委婉告誡而靈王聽懂卻不聽的核心。"},
-    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "起（楚靈王狩獵得意非凡）、承（問鼎問城野心膨脹）、轉（子革以祈招之詩比喻）、合（靈王聽懂了但做不到終至滅亡），合理清晰。"},
-    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "列出順從鋪墊、歷史類比、詩經背書、反諷、留白收束五種手法，有原文與效果說明。"},
-    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "選出三句（形民之力而無醉飽之心、王揖而入饋不食寢不寐不能自克以及於難、昔諸侯遠我而畏晉今我大城陳蔡不羹諸侯其畏我乎），每句有深度賞析。"},
-    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "提供完整白話改編，覆蓋全文六段核心對話，語言流暢。"},
-    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題為「時代背景與寫作意旨」「文章分析」，無 emoji。"},
-    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段有獨立觀點（如不諫之諫最高境界、從阿諛到諷諫的悄然轉換），佳句賞析有深度說明。"},
-    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "所有段落皆有獨立貢獻，背景段補充原文所需知識，分析段提供結構拆解與文本細讀，無重複或空洞內容。"}
+    {
+      "id": "bg_coord",
+      "name": "座標定位表",
+      "status": "pass",
+      "comment": "有座標定位表"
+    },
+    {
+      "id": "bg_era",
+      "name": "時代背景段",
+      "status": "pass",
+      "comment": "有時代背景分析"
+    },
+    {
+      "id": "bg_people",
+      "name": "關鍵人物段",
+      "status": "fail",
+      "comment": "無關鍵人物段"
+    },
+    {
+      "id": "bg_intent",
+      "name": "寫作意圖段",
+      "status": "pass",
+      "comment": "有寫作意圖分析"
+    },
+    {
+      "id": "bg_summary",
+      "name": "一句話總結",
+      "status": "pass",
+      "comment": "有一句話總結"
+    },
+    {
+      "id": "an_structure",
+      "name": "起承轉合表",
+      "status": "pass",
+      "comment": "有起承轉合表"
+    },
+    {
+      "id": "an_rhetoric",
+      "name": "修辭手法表",
+      "status": "pass",
+      "comment": "有修辭手法分析表"
+    },
+    {
+      "id": "an_quotes",
+      "name": "佳句賞析",
+      "status": "pass",
+      "comment": "有9句佳句賞析"
+    },
+    {
+      "id": "an_vernacular",
+      "name": "白話改編段",
+      "status": "pass",
+      "comment": "有白話改編段"
+    },
+    {
+      "id": "fmt_emoji",
+      "name": "h2 無 emoji",
+      "status": "pass",
+      "comment": "h2 標題無 emoji"
+    },
+    {
+      "id": "fmt_depth",
+      "name": "分析段深度",
+      "status": "pass",
+      "comment": "分析段 136 行"
+    },
+    {
+      "id": "no_padding",
+      "name": "不為寫而寫",
+      "status": "pass",
+      "comment": "主要內容無明顯灌水"
+    }
   ]
 }

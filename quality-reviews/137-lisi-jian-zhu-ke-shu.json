@@ -1,21 +1,80 @@
 {
   "file": "137-lisi-jian-zhu-ke-shu",
-  "title": "諫逐客書",
-  "author": "李斯 · 《史記·李斯列傳》",
+  "title": "137-lisi-jian-zhu-ke-shu",
   "overall_grade": "A",
-  "overall_comment": "12項檢查全數通過。背景詳述鄭國間諜案與逐客令的由來。李斯的論證分析精彩——以秦國四代君主的成功歷史證明客卿之功，泰山不讓土壤河海不擇細流的類比震撼。排比鋪陳氣勢磅礴。人物分析有深度。",
+  "overall_comment": "11/12 項通過",
   "checks": [
-    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出出處《史記·李斯列傳》、時代戰國末期約西元前237年秦王政十年、體裁奏議/上書體、核心命題等。"},
-    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "詳述鄭國間諜案的始末（韓國疲秦之計）、秦國宗室驅逐客卿的政治風暴、李斯在被逐之列的背景。"},
-    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "涵蓋李斯（楚國客卿）、秦王嬴政（決策者）、鄭國（間諜事件的導火線）。"},
-    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "從先秦政論散文的典範、最早系統論證人才開放與文化包容作為國家戰略的文獻、對後世人才政策的影響三層次分析。"},
-    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "精準總結：李斯的諫逐客書論證的不是個人的價值，而是開放作為一種國家戰略的不可取代性。"},
-    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "結構清晰：歷史論證（秦四代君主用客卿而霸）（起）→現實論證（今秦王享用各國珍寶美女卻驅逐各國人才）（承）→類比論證（泰山河海之不擇）（轉）→利害論證（逐客是藉寇兵而齎盜糧）（合）。"},
-    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "分析排比（昔穆公求士一段四層排比）、對比（用客卿而霸vs逐客卿而危）、比喻（泰山不讓土壤河海不擇細流）、反詰等手法，有辨識度。"},
-    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "選出泰山不讓土壤故能成其大河海不擇細流故能就其深、藉寇兵而齎盜糧等句，賞析有深度。"},
-    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "核心論證白話改編完整，涵蓋從秦穆公到秦昭王的歷史論證與結論。"},
-    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題無 emoji。"},
-    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段有獨立觀點（逐客論的本質是封閉vs開放的路線鬥爭——李斯用消費品類比證明物質可進口人才卻要驅逐的矛盾），非僅翻譯。"},
-    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "各段分工明確，內容充實有意義，無灌水痕跡。"}
+    {
+      "id": "bg_coord",
+      "name": "座標定位表",
+      "status": "pass",
+      "comment": "有座標定位表"
+    },
+    {
+      "id": "bg_era",
+      "name": "時代背景段",
+      "status": "pass",
+      "comment": "有時代背景分析"
+    },
+    {
+      "id": "bg_people",
+      "name": "關鍵人物段",
+      "status": "pass",
+      "comment": "有關鍵人物分析"
+    },
+    {
+      "id": "bg_intent",
+      "name": "寫作意圖段",
+      "status": "fail",
+      "comment": "無寫作意圖段"
+    },
+    {
+      "id": "bg_summary",
+      "name": "一句話總結",
+      "status": "pass",
+      "comment": "有一句話總結"
+    },
+    {
+      "id": "an_structure",
+      "name": "起承轉合表",
+      "status": "pass",
+      "comment": "有起承轉合表"
+    },
+    {
+      "id": "an_rhetoric",
+      "name": "修辭手法表",
+      "status": "pass",
+      "comment": "有修辭手法分析表"
+    },
+    {
+      "id": "an_quotes",
+      "name": "佳句賞析",
+      "status": "pass",
+      "comment": "有5句佳句賞析"
+    },
+    {
+      "id": "an_vernacular",
+      "name": "白話改編段",
+      "status": "pass",
+      "comment": "有白話改編段"
+    },
+    {
+      "id": "fmt_emoji",
+      "name": "h2 無 emoji",
+      "status": "pass",
+      "comment": "h2 標題無 emoji"
+    },
+    {
+      "id": "fmt_depth",
+      "name": "分析段深度",
+      "status": "pass",
+      "comment": "分析段 108 行"
+    },
+    {
+      "id": "no_padding",
+      "name": "不為寫而寫",
+      "status": "pass",
+      "comment": "主要內容無明顯灌水"
+    }
   ]
 }

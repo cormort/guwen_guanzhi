@@ -1,21 +1,80 @@
 {
   "file": "130-zhuangxin-lun-xingchen",
-  "title": "莊辛論幸臣",
-  "author": "劉向 · 《戰國策·楚策四》",
+  "title": "130-zhuangxin-lun-xingchen",
   "overall_grade": "A",
-  "overall_comment": "12項檢查全數通過。背景詳述戰國晚期楚國的衰亡與郢都淪陷。莊辛五層類比的分析極其精彩——從蜻蛉到楚王的層層遞進類比結構拆解無懈可擊。亡羊補牢未為遲也的真義分析深刻。軍師按語獨立有見地。",
+  "overall_comment": "11/12 項通過",
   "checks": [
-    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出出處《戰國策·楚策四》、時代戰國晚期約西元前278年郢都淪陷前夕、體裁歷史記言/諷諫類散文、核心命題等。"},
-    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "詳述楚國由盛轉衰的關鍵階段（懷王之辱、頃襄王昏聵）、郢都淪陷的詳情與影響。"},
-    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "涵蓋莊辛（以類比為劍的戰略預警者）、楚頃襄王（從昏君到悔悟）、幸臣集團（亡國催化劑）。"},
-    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "從戰國策士以層層遞進類比諷諫的典範、五層類比在中國說服史上獨一無二的地位三層次分析。"},
-    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "精準總結：莊辛的類比是戰略預警的典範——他看到的不只是一個錯誤，而是錯誤鏈條上層層放大的災難。"},
-    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "結構清晰：忠言逆耳（序幕）→災難降臨（轉折）→五層類比（核心）→亡羊補牢（結局）。"},
-    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "分析五層類比的核心修辭（從蜻蛉到楚王的層層遞進、其小者也的重複過渡），有極高辨識度。"},
-    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "選出亡羊而補牢未為遲也、蜻蛉六足四翼等五層類比經典段落，賞析有深度。"},
-    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "核心段落白話改編完整，涵蓋從莊辛進諫到五層類比到亡羊補牢的完整過程。"},
-    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題無 emoji。"},
-    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段有獨立觀點（先製造距離再逐步靠近的說服藝術、連鎖危機的戰略預警），非僅翻譯原文。"},
-    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "各段分工明確，內容充實有意義，無灌水痕跡。"}
+    {
+      "id": "bg_coord",
+      "name": "座標定位表",
+      "status": "pass",
+      "comment": "有座標定位表"
+    },
+    {
+      "id": "bg_era",
+      "name": "時代背景段",
+      "status": "pass",
+      "comment": "有時代背景分析"
+    },
+    {
+      "id": "bg_people",
+      "name": "關鍵人物段",
+      "status": "pass",
+      "comment": "有關鍵人物分析"
+    },
+    {
+      "id": "bg_intent",
+      "name": "寫作意圖段",
+      "status": "fail",
+      "comment": "無寫作意圖段"
+    },
+    {
+      "id": "bg_summary",
+      "name": "一句話總結",
+      "status": "pass",
+      "comment": "有一句話總結"
+    },
+    {
+      "id": "an_structure",
+      "name": "起承轉合表",
+      "status": "pass",
+      "comment": "有起承轉合表"
+    },
+    {
+      "id": "an_rhetoric",
+      "name": "修辭手法表",
+      "status": "pass",
+      "comment": "有修辭手法分析表"
+    },
+    {
+      "id": "an_quotes",
+      "name": "佳句賞析",
+      "status": "pass",
+      "comment": "有10句佳句賞析"
+    },
+    {
+      "id": "an_vernacular",
+      "name": "白話改編段",
+      "status": "pass",
+      "comment": "有白話改編段"
+    },
+    {
+      "id": "fmt_emoji",
+      "name": "h2 無 emoji",
+      "status": "pass",
+      "comment": "h2 標題無 emoji"
+    },
+    {
+      "id": "fmt_depth",
+      "name": "分析段深度",
+      "status": "pass",
+      "comment": "分析段 176 行"
+    },
+    {
+      "id": "no_padding",
+      "name": "不為寫而寫",
+      "status": "pass",
+      "comment": "主要內容無明顯灌水"
+    }
   ]
 }

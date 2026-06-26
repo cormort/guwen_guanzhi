@@ -1,21 +1,80 @@
 {
   "file": "186-hanyu-yuan-hui",
-  "title": "原毀",
-  "author": "韓愈",
+  "title": "186-hanyu-yuan-hui",
   "overall_grade": "A",
-  "overall_comment": "12項全數過關。背景段深入中唐士風敗壞與朋黨之爭的時代壓力；分析段有文章結構（古/今君子對比）、修辭手法（正反論證、因果鏈）、經典名句賞析、白話翻譯，無填充內容。",
+  "overall_comment": "11/12 項通過",
   "checks": [
-    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出出處《昌黎先生集》、體裁（論說文/「原」體）、時代（中唐約9世紀初）、核心命題（毀謗根源在怠與忌）。"},
-    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "深入分析中唐安史之亂後朋黨之爭、科舉競爭激烈、士風敗壞的三重背景，並連結韓愈個人屢遭毀謗的經歷。"},
-    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "為韓愈（被毀謗一輩子的思想家）、古之君子（理想人格典範）設有專門分析段落。"},
-    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "核心分析揭示韓愈的三層目標：推究毀謗根源、診斷人性中的怠與忌、提出責己重以周待人輕以約的修身之道。"},
-    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "精準抓住韓愈的核心——毀謗根源在怠與忌——以社交媒體時代的視角重新詮釋，有當代共鳴。"},
-    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "第一層（古之君子榜樣）、第二層（今之君子墮落）、第三層（根源診斷怠與忌），論證嚴密、層層遞進。"},
-    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "列出正反對比（古/今君子）、因果鏈論證（重以周故不怠）、引用經典、排比短句，手法多樣。"},
-    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "選出三句經典（責己重以周待人輕以約、怠者不能修忌者畏人修、事修而謗興德高而毀來），賞析有深度。"},
-    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "提供完整白話翻譯，涵蓋論說文核心論證，語氣接地氣。"},
-    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題為「時代背景與寫作意旨」「文本結構」「核心分析」等，無 emoji。"},
-    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段有獨立觀點（將原毀與社交媒體時代連結、提出韓愈的人性診斷學），對怠與忌的心理機制有深入剖析。"},
-    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "所有段落皆有獨立貢獻，背景段的三層壓力分析、分析段的心理診斷式解讀各有獨立價值。"}
+    {
+      "id": "bg_coord",
+      "name": "座標定位表",
+      "status": "pass",
+      "comment": "有座標定位表"
+    },
+    {
+      "id": "bg_era",
+      "name": "時代背景段",
+      "status": "pass",
+      "comment": "有時代背景分析"
+    },
+    {
+      "id": "bg_people",
+      "name": "關鍵人物段",
+      "status": "pass",
+      "comment": "有關鍵人物分析"
+    },
+    {
+      "id": "bg_intent",
+      "name": "寫作意圖段",
+      "status": "fail",
+      "comment": "無寫作意圖段"
+    },
+    {
+      "id": "bg_summary",
+      "name": "一句話總結",
+      "status": "pass",
+      "comment": "有一句話總結"
+    },
+    {
+      "id": "an_structure",
+      "name": "起承轉合表",
+      "status": "pass",
+      "comment": "有起承轉合表"
+    },
+    {
+      "id": "an_rhetoric",
+      "name": "修辭手法表",
+      "status": "pass",
+      "comment": "有修辭手法分析表"
+    },
+    {
+      "id": "an_quotes",
+      "name": "佳句賞析",
+      "status": "pass",
+      "comment": "有8句佳句賞析"
+    },
+    {
+      "id": "an_vernacular",
+      "name": "白話改編段",
+      "status": "pass",
+      "comment": "有白話改編段"
+    },
+    {
+      "id": "fmt_emoji",
+      "name": "h2 無 emoji",
+      "status": "pass",
+      "comment": "h2 標題無 emoji"
+    },
+    {
+      "id": "fmt_depth",
+      "name": "分析段深度",
+      "status": "pass",
+      "comment": "分析段 112 行"
+    },
+    {
+      "id": "no_padding",
+      "name": "不為寫而寫",
+      "status": "pass",
+      "comment": "主要內容無明顯灌水"
+    }
   ]
 }

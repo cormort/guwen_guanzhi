@@ -1,21 +1,80 @@
 {
   "file": "260-xiang-ci-ji",
-  "title": "象祠記",
-  "author": "王守仁",
+  "title": "260-xiang-ci-ji",
   "overall_grade": "A",
-  "overall_comment": "背景與分析段品質極高，12項檢查全數通過。對王陽明藉苗人祭祀惡人象而論證『天下無不可化之人』的心學教育哲學分析尤為精彩。",
+  "overall_comment": "11/12 項通過",
   "checks": [
-    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出出處《王文成公全書》、作者王守仁、時代（明武宗正德年間約1508，王陽明貶貴州龍場期間）、體裁（祠堂記／哲學寓言）、核心命題（天下無不可化之人）。"},
-    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "深入分析王陽明被貶龍場驛的心路歷程——龍場悟道是心學誕生的關鍵時刻，苗族百姓對舜弟象的祭祀給了他極大的思想啟發。"},
-    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "為王守仁、舜、象（舜弟）、苗族百姓建立詳細分析。象多次謀殺舜卻最終被感化，王陽明以此為心學命題的最佳佐證。"},
-    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "深入分析王陽明的兩層用意：表面是解釋苗人為什麼祭祀一個惡人，深層是論證心學核心命題——天下無不可化之人，人心本善，惡人亦可感化。"},
-    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "精準——一個想殺哥哥三次的惡人，最後被感化得連苗人都為他立祠——王陽明說：這證明了天下沒有不能感化的人。"},
-    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "結構表清晰：起（見苗人祀象之惑）、承（回顧象的生平惡行）、轉（推論舜感化之德）、合（歸結於天下無不可化之人）。"},
-    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "列出設問開篇（何為而祀象？）、翻案（惡人因被感化而值得祀）、層層推理（從現象到本質）、引用經典（舜感化象的故事）等手法。"},
-    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "選出「天下無不可化之人也」「君子之修德，及其至也，雖若象之不仁，而猶可以化之」「象之不仁，蓋其始焉耳」等名句，每句有深度賞析。"},
-    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "提供完整白話改編，涵蓋苗人祀象之惑、舜感化象的故事、天下無不可化之人的結論等核心內容。"},
-    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題為「時代背景與寫作意旨」「文章分析」，無 emoji。"},
-    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段有獨立觀點（如「王陽明在被貶謫的困境中看到苗人祭祀一個惡人，卻從中讀出了心學最溫暖的命題——無論人性多麼墮落，都可以被感化」），有深度說明。"},
-    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "所有段落皆有獨立貢獻，背景段對龍場悟道的分析與象祠記形成深刻照應，無填充內容。"}
+    {
+      "id": "bg_coord",
+      "name": "座標定位表",
+      "status": "pass",
+      "comment": "有座標定位表"
+    },
+    {
+      "id": "bg_era",
+      "name": "時代背景段",
+      "status": "pass",
+      "comment": "有時代背景分析"
+    },
+    {
+      "id": "bg_people",
+      "name": "關鍵人物段",
+      "status": "pass",
+      "comment": "有關鍵人物分析"
+    },
+    {
+      "id": "bg_intent",
+      "name": "寫作意圖段",
+      "status": "fail",
+      "comment": "無寫作意圖段"
+    },
+    {
+      "id": "bg_summary",
+      "name": "一句話總結",
+      "status": "pass",
+      "comment": "有一句話總結"
+    },
+    {
+      "id": "an_structure",
+      "name": "起承轉合表",
+      "status": "pass",
+      "comment": "有起承轉合表"
+    },
+    {
+      "id": "an_rhetoric",
+      "name": "修辭手法表",
+      "status": "pass",
+      "comment": "有修辭手法分析表"
+    },
+    {
+      "id": "an_quotes",
+      "name": "佳句賞析",
+      "status": "pass",
+      "comment": "有10句佳句賞析"
+    },
+    {
+      "id": "an_vernacular",
+      "name": "白話改編段",
+      "status": "pass",
+      "comment": "有白話改編段"
+    },
+    {
+      "id": "fmt_emoji",
+      "name": "h2 無 emoji",
+      "status": "pass",
+      "comment": "h2 標題無 emoji"
+    },
+    {
+      "id": "fmt_depth",
+      "name": "分析段深度",
+      "status": "pass",
+      "comment": "分析段 130 行"
+    },
+    {
+      "id": "no_padding",
+      "name": "不為寫而寫",
+      "status": "pass",
+      "comment": "主要內容無明顯灌水"
+    }
   ]
 }

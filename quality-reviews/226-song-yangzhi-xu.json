@@ -1,21 +1,80 @@
 {
   "file": "226-song-yangzhi-xu",
-  "title": "送楊寘序",
-  "author": "歐陽修",
+  "title": "226-song-yangzhi-xu",
   "overall_grade": "A",
-  "overall_comment": "12項全數過關。背景段深入北宋慶曆新政失敗後的貶謫氛圍與宋代琴學復興，分析段有清楚的三段論證結構、豐富修辭手法（對比、比喻、排比、設問）、佳句賞析及完整白話改編。",
+  "overall_comment": "11/12 項通過",
   "checks": [
-    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出出處《歐陽文忠公全集》、體裁（贈序）、時代（慶曆七年1047）、核心命題（琴聲療疾）。"},
-    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "深入分析慶曆新政失敗後士人心態、北宋贈序傳統的革新、宋代琴學復興三層背景。"},
-    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "歐陽修、楊寘、孫道滋三人皆有獨立分析，對楊寘的失意經歷有詳細考證。"},
-    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "核心分析揭示歐陽修以自身經歷爲藥引，爲遠赴瘴癘之地的友人提供心理治療方案。"},
-    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "精準抓住歐陽修以琴治疾的核心命題，指出此文是中國最早將音樂視為心理治療手段的文本。"},
-    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "清楚列出起（以自身經驗破題）、承（鋪陳琴聲表現力）、轉（轉到楊寘處境）、合（贈琴作結）。"},
-    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "列出對比、比喻、排比、設問、疊加鋪陳、引用用典、首尾呼應七種手法，分析到位。"},
-    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "選出四句經典（幽憂之疾、藥毒vs聲和、崩崖裂石句、喜怒哀樂句），賞析有深度。"},
-    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "提供完整白話改編，忠於原文且流暢自然。"},
-    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題為「時代背景與寫作意旨」「文章分析」，無 emoji。"},
-    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段有獨立觀點（音樂治療先驅文獻、琴聲同構關係），對歐陽修的醫學隱喻有深入剖析。"},
-    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "所有段落皆有獨立貢獻，軍師按語提供有價值的延伸思考，無填充內容。"}
+    {
+      "id": "bg_coord",
+      "name": "座標定位表",
+      "status": "pass",
+      "comment": "有座標定位表"
+    },
+    {
+      "id": "bg_era",
+      "name": "時代背景段",
+      "status": "pass",
+      "comment": "有時代背景分析"
+    },
+    {
+      "id": "bg_people",
+      "name": "關鍵人物段",
+      "status": "pass",
+      "comment": "有關鍵人物分析"
+    },
+    {
+      "id": "bg_intent",
+      "name": "寫作意圖段",
+      "status": "fail",
+      "comment": "無寫作意圖段"
+    },
+    {
+      "id": "bg_summary",
+      "name": "一句話總結",
+      "status": "pass",
+      "comment": "有一句話總結"
+    },
+    {
+      "id": "an_structure",
+      "name": "起承轉合表",
+      "status": "pass",
+      "comment": "有起承轉合表"
+    },
+    {
+      "id": "an_rhetoric",
+      "name": "修辭手法表",
+      "status": "pass",
+      "comment": "有修辭手法分析表"
+    },
+    {
+      "id": "an_quotes",
+      "name": "佳句賞析",
+      "status": "pass",
+      "comment": "有10句佳句賞析"
+    },
+    {
+      "id": "an_vernacular",
+      "name": "白話改編段",
+      "status": "pass",
+      "comment": "有白話改編段"
+    },
+    {
+      "id": "fmt_emoji",
+      "name": "h2 無 emoji",
+      "status": "pass",
+      "comment": "h2 標題無 emoji"
+    },
+    {
+      "id": "fmt_depth",
+      "name": "分析段深度",
+      "status": "pass",
+      "comment": "分析段 135 行"
+    },
+    {
+      "id": "no_padding",
+      "name": "不為寫而寫",
+      "status": "pass",
+      "comment": "主要內容無明顯灌水"
+    }
   ]
 }

@@ -1,21 +1,80 @@
 {
   "file": "89-qiguo-zuo",
-  "title": "齊國佐不辱命",
-  "author": "左丘明",
+  "title": "89-qiguo-zuo",
   "overall_grade": "A",
-  "overall_comment": "背景與分析段品質極高，12項檢查全數通過。背景涵蓋座標定位、時代壓力（齊晉鞍之戰概略、齊頃公處境、晉國郤克立場）、關鍵人物（國佐、郤克、齊頃公）、寫作意圖（三段式談判兵法分析）、一句話總結。分析段有起承轉合表、寫作技巧分析（三段式極限施壓、以禮法為武器）、修辭手法表、佳句賞析三句、白話改編。",
+  "overall_comment": "11/12 項通過",
   "checks": [
-    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出史載出處、時間（魯成公二年公元前589年）、地理經緯、戰局座標、史學定位。"},
-    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "詳細說明齊晉鞍之戰背景，導火線、齊頃公處境（輕敵致敗）、晉國郤克立場（個人恩怨與國家戰略交織）。"},
-    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "為國佐、郤克、齊頃公三人各設段落分析，涵蓋人格特質與角色定位。"},
-    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "深入分析國佐三段式談判兵法——退讓→死守→亮底牌，並與《孫子兵法》連結。"},
-    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "精準抓住國佐在談判席上以三層進退為齊國贏回勝利的核心。"},
-    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "起（鞍之戰齊大敗）、承（晉提二條件）、轉（國佐以禮駁斥）、合（死戰底牌壓陣），合理清晰。"},
-    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "列出謙退策略、道義論證、類比、反問、威脅五種手法，有原文與效果說明。"},
-    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "選出三句（余姑翦滅此而朝食、蕭同叔子非他寡君之母也、若其不許則將悉敝賦以從），每句有深度賞析。"},
-    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "提供完整白話改編，覆蓋全文四段核心情節，語言流暢。"},
-    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題為「時代背景與寫作意旨」「文章分析」，無 emoji。"},
-    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段有獨立觀點（如國佐不跟晉國在軍事層面討價還價、底牌的完美時機），修辭分析有深度解讀。"},
-    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "所有段落皆有獨立貢獻，背景段補充原文所需知識，分析段提供結構拆解與文本細讀，無重複或空洞內容。"}
+    {
+      "id": "bg_coord",
+      "name": "座標定位表",
+      "status": "pass",
+      "comment": "有座標定位表"
+    },
+    {
+      "id": "bg_era",
+      "name": "時代背景段",
+      "status": "pass",
+      "comment": "有時代背景分析"
+    },
+    {
+      "id": "bg_people",
+      "name": "關鍵人物段",
+      "status": "fail",
+      "comment": "無關鍵人物段"
+    },
+    {
+      "id": "bg_intent",
+      "name": "寫作意圖段",
+      "status": "pass",
+      "comment": "有寫作意圖分析"
+    },
+    {
+      "id": "bg_summary",
+      "name": "一句話總結",
+      "status": "pass",
+      "comment": "有一句話總結"
+    },
+    {
+      "id": "an_structure",
+      "name": "起承轉合表",
+      "status": "pass",
+      "comment": "有起承轉合表"
+    },
+    {
+      "id": "an_rhetoric",
+      "name": "修辭手法表",
+      "status": "pass",
+      "comment": "有修辭手法分析表"
+    },
+    {
+      "id": "an_quotes",
+      "name": "佳句賞析",
+      "status": "pass",
+      "comment": "有9句佳句賞析"
+    },
+    {
+      "id": "an_vernacular",
+      "name": "白話改編段",
+      "status": "pass",
+      "comment": "有白話改編段"
+    },
+    {
+      "id": "fmt_emoji",
+      "name": "h2 無 emoji",
+      "status": "pass",
+      "comment": "h2 標題無 emoji"
+    },
+    {
+      "id": "fmt_depth",
+      "name": "分析段深度",
+      "status": "pass",
+      "comment": "分析段 114 行"
+    },
+    {
+      "id": "no_padding",
+      "name": "不為寫而寫",
+      "status": "pass",
+      "comment": "主要內容無明顯灌水"
+    }
   ]
 }

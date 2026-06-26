@@ -1,21 +1,80 @@
 {
   "file": "97-zichan-quechu",
-  "title": "子產卻楚逆女以兵",
-  "author": "左丘明",
+  "title": "97-zichan-quechu",
   "overall_grade": "A",
-  "overall_comment": "背景與分析段品質極高，12項檢查全數通過。背景涵蓋座標定位、時代壓力（楚國圖謀鄭國、子產識破陰謀）、關鍵人物（子產、公子圍、子羽）、寫作意圖（彰顯外交智慧、揭露野心、窺見國際格局、外交拒止戰經典案例）、一句話總結。分析段有起承轉合表、寫作技巧分析（外交拒止戰、包藏禍心最鋒利一刀、禮法雙刃劍）、修辭手法表、佳句賞析三句、白話改編。",
+  "overall_comment": "12/12 項通過",
   "checks": [
-    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出出處（左傳昭公元年公元前541年）、地理、事件、戰術本質。"},
-    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "分析楚國以婚為名襲鄭為實的三點圖謀，以及子產識破陰謀的四點判斷（兵力異常、時機敏感、若拒有理）。"},
-    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "為子產（主帥謀略擔當）、公子圍（敵軍野心擔當）、子羽（執行發言擔當）各設詳細分析。"},
-    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "從四個戰略用意分析：彰顯子產外交智慧、揭露楚靈王野心、以小見大看國際格局、提供外交拒止戰經典案例。"},
-    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "精準抓住子產以禮法為盾辭令為劍不戰而屈人之兵的核心。"},
-    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "起（楚國以婚為名大軍北上）、鄭（鄭人識破派子羽交涉）、轉（子羽直言包藏禍心）、合（楚人讓步城外設婚而返），合理清晰。"},
-    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "列出直言、設限、禮法為盾、威脅四種手法，有原文與效果說明。"},
-    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "選出三句（小國無罪恃實其罪、無乃包藏禍心以圖之、抑豈不可諫誨），每句有深度賞析。"},
-    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "提供完整白話改編，覆蓋全文核心對話，語言流暢。"},
-    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題為「時代背景與寫作意旨」「文章分析」，無 emoji。"},
-    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段有獨立觀點（如包藏禍心四字是春秋外交極重指控、以子之矛攻子之盾），佳句賞析有深度說明。"},
-    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "所有段落皆有獨立貢獻，背景段補充原文所需知識，分析段提供結構拆解與文本細讀，無重複或空洞內容。"}
+    {
+      "id": "bg_coord",
+      "name": "座標定位表",
+      "status": "pass",
+      "comment": "有座標定位表"
+    },
+    {
+      "id": "bg_era",
+      "name": "時代背景段",
+      "status": "pass",
+      "comment": "有時代背景分析"
+    },
+    {
+      "id": "bg_people",
+      "name": "關鍵人物段",
+      "status": "pass",
+      "comment": "有關鍵人物分析"
+    },
+    {
+      "id": "bg_intent",
+      "name": "寫作意圖段",
+      "status": "pass",
+      "comment": "有寫作意圖分析"
+    },
+    {
+      "id": "bg_summary",
+      "name": "一句話總結",
+      "status": "pass",
+      "comment": "有一句話總結"
+    },
+    {
+      "id": "an_structure",
+      "name": "起承轉合表",
+      "status": "pass",
+      "comment": "有起承轉合表"
+    },
+    {
+      "id": "an_rhetoric",
+      "name": "修辭手法表",
+      "status": "pass",
+      "comment": "有修辭手法分析表"
+    },
+    {
+      "id": "an_quotes",
+      "name": "佳句賞析",
+      "status": "pass",
+      "comment": "有9句佳句賞析"
+    },
+    {
+      "id": "an_vernacular",
+      "name": "白話改編段",
+      "status": "pass",
+      "comment": "有白話改編段"
+    },
+    {
+      "id": "fmt_emoji",
+      "name": "h2 無 emoji",
+      "status": "pass",
+      "comment": "h2 標題無 emoji"
+    },
+    {
+      "id": "fmt_depth",
+      "name": "分析段深度",
+      "status": "pass",
+      "comment": "分析段 108 行"
+    },
+    {
+      "id": "no_padding",
+      "name": "不為寫而寫",
+      "status": "pass",
+      "comment": "主要內容無明顯灌水"
+    }
   ]
 }

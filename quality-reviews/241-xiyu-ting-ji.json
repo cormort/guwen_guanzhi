@@ -1,21 +1,80 @@
 {
   "file": "241-xiyu-ting-ji",
-  "title": "喜雨亭記",
-  "author": "蘇軾",
+  "title": "241-xiyu-ting-ji",
   "overall_grade": "A",
-  "overall_comment": "12項全數過關。背景段深入蘇軾鳳翔簽判時期及百姓憂樂關懷，分析段對喜雨亭以雨命名的巧思、三層樂的結構有精闢分析。",
+  "overall_comment": "11/12 項通過",
   "checks": [
-    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出出處《東坡全集》、體裁（亭臺記）、時代（嘉祐七年1062）、核心命題（以雨誌喜、與民同樂）。"},
-    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "深入分析蘇軾鳳翔簽判時期背景、北宋旱災與農業社會的關係、亭以雨名的巧思來源。"},
-    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "蘇軾有詳細分析，文中涉及的相關人物亦有適當說明。"},
-    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "核心分析揭示蘇軾意圖——以一座亭子見證天人之際，將個人之喜與天下蒼生之樂融爲一體。"},
-    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "精準：蘇軾蓋了個亭子，下了場雨，於是寫了一篇文章——但他真正寫的是百姓的飯碗。"},
-    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "清楚列出文章結構（記敘建亭→描寫旱災與喜雨→討論雨的意義→以歌作結）。"},
-    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "詳析問答體式、君子之樂與世俗之樂對比、層層遞進、以歌作結等手法。"},
-    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "賞析亭以雨名誌喜也、五日不雨則無麥、十日不雨則無禾等經典句段。"},
-    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "提供完整白話改編。"},
-    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題為「時代背景與寫作意旨」「文章分析」，無 emoji。"},
-    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段有獨立觀點（喜雨亭作爲蘇軾民本思想的文學體現、君子之樂的哲學定義）。"},
-    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "軍師按語對蘇軾以問答體打破記體文常規的創新有精彩分析。"}
+    {
+      "id": "bg_coord",
+      "name": "座標定位表",
+      "status": "pass",
+      "comment": "有座標定位表"
+    },
+    {
+      "id": "bg_era",
+      "name": "時代背景段",
+      "status": "pass",
+      "comment": "有時代背景分析"
+    },
+    {
+      "id": "bg_people",
+      "name": "關鍵人物段",
+      "status": "pass",
+      "comment": "有關鍵人物分析"
+    },
+    {
+      "id": "bg_intent",
+      "name": "寫作意圖段",
+      "status": "fail",
+      "comment": "無寫作意圖段"
+    },
+    {
+      "id": "bg_summary",
+      "name": "一句話總結",
+      "status": "pass",
+      "comment": "有一句話總結"
+    },
+    {
+      "id": "an_structure",
+      "name": "起承轉合表",
+      "status": "pass",
+      "comment": "有起承轉合表"
+    },
+    {
+      "id": "an_rhetoric",
+      "name": "修辭手法表",
+      "status": "pass",
+      "comment": "有修辭手法分析表"
+    },
+    {
+      "id": "an_quotes",
+      "name": "佳句賞析",
+      "status": "pass",
+      "comment": "有10句佳句賞析"
+    },
+    {
+      "id": "an_vernacular",
+      "name": "白話改編段",
+      "status": "pass",
+      "comment": "有白話改編段"
+    },
+    {
+      "id": "fmt_emoji",
+      "name": "h2 無 emoji",
+      "status": "pass",
+      "comment": "h2 標題無 emoji"
+    },
+    {
+      "id": "fmt_depth",
+      "name": "分析段深度",
+      "status": "pass",
+      "comment": "分析段 136 行"
+    },
+    {
+      "id": "no_padding",
+      "name": "不為寫而寫",
+      "status": "pass",
+      "comment": "主要內容無明顯灌水"
+    }
   ]
 }

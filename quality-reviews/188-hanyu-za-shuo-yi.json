@@ -1,21 +1,80 @@
 {
   "file": "188-hanyu-za-shuo-yi",
-  "title": "雜說一",
-  "author": "韓愈",
+  "title": "188-hanyu-za-shuo-yi",
   "overall_grade": "A",
-  "overall_comment": "12項全數過關。背景段結合中唐政治隱喻與龍的文化象徵；分析段有文章結構（龍生雲→龍需要雲→龍雲一體）、修辭手法（比喻論證、短句排比）、佳句賞析與白話翻譯，無填充內容。",
+  "overall_comment": "11/12 項通過",
   "checks": [
-    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出出處《昌黎先生集·雜說》、體裁（雜說/寓言體論說文）、時代（中唐約9世紀初）、核心命題（龍與雲的領導者與團隊關係）。"},
-    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "深入分析中唐藩鎮割據、君臣遇合困難的時代背景，連結韓愈個人屢遭冷遇的仕途經歷。"},
-    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "為韓愈（龍困淺灘的天才）、龍與雲的文化象徵（從神話到權力隱喻）設有專門分析。"},
-    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "核心分析揭示韓愈以龍雲關係隱喻領導者與團隊、才能與機遇的辯證關係。"},
-    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "精準抓住韓愈的核心——龍與雲的關係是領導者與團隊關係最簡潔的隱喻——沒有雲龍無法顯靈，沒有龍雲只是水蒸氣。"},
-    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "第一層（龍生雲）、第二層（龍需要雲）、第三層（龍雲一體），層層遞進，邏輯縝密。"},
-    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "列出比喻論證（龍雲喻君臣）、排比短句（薄日月伏光景感震電）、轉折遞進（然……）、驚嘆收束（異哉！），手法豐富。"},
-    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "選出經典句（龍噓氣成雲雲固弗靈於龍也、異哉其所憑依乃其所自為也），賞析有職場與管理視角。"},
-    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "提供完整白話翻譯與逐句層次分析，語言通俗。"},
-    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題為「時代背景與寫作意旨」「文本結構」「核心分析」等，無 emoji。"},
-    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段有獨立觀點（將龍雲關係解讀為現代職場的領導者與團隊辯證，並與易經龍喻比較），有獨創性。"},
-    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "所有段落皆有獨立貢獻，背景段的職場解讀與分析段的易經比較各有獨立價值。"}
+    {
+      "id": "bg_coord",
+      "name": "座標定位表",
+      "status": "pass",
+      "comment": "有座標定位表"
+    },
+    {
+      "id": "bg_era",
+      "name": "時代背景段",
+      "status": "pass",
+      "comment": "有時代背景分析"
+    },
+    {
+      "id": "bg_people",
+      "name": "關鍵人物段",
+      "status": "pass",
+      "comment": "有關鍵人物分析"
+    },
+    {
+      "id": "bg_intent",
+      "name": "寫作意圖段",
+      "status": "fail",
+      "comment": "無寫作意圖段"
+    },
+    {
+      "id": "bg_summary",
+      "name": "一句話總結",
+      "status": "pass",
+      "comment": "有一句話總結"
+    },
+    {
+      "id": "an_structure",
+      "name": "起承轉合表",
+      "status": "pass",
+      "comment": "有起承轉合表"
+    },
+    {
+      "id": "an_rhetoric",
+      "name": "修辭手法表",
+      "status": "pass",
+      "comment": "有修辭手法分析表"
+    },
+    {
+      "id": "an_quotes",
+      "name": "佳句賞析",
+      "status": "pass",
+      "comment": "有10句佳句賞析"
+    },
+    {
+      "id": "an_vernacular",
+      "name": "白話改編段",
+      "status": "pass",
+      "comment": "有白話改編段"
+    },
+    {
+      "id": "fmt_emoji",
+      "name": "h2 無 emoji",
+      "status": "pass",
+      "comment": "h2 標題無 emoji"
+    },
+    {
+      "id": "fmt_depth",
+      "name": "分析段深度",
+      "status": "pass",
+      "comment": "分析段 104 行"
+    },
+    {
+      "id": "no_padding",
+      "name": "不為寫而寫",
+      "status": "pass",
+      "comment": "主要內容無明顯灌水"
+    }
   ]
 }

@@ -1,21 +1,80 @@
 {
   "file": "160-jiayi-zhi-an-ce-yi",
-  "title": "治安策一",
-  "author": "賈誼",
+  "title": "160-jiayi-zhi-an-ce-yi",
   "overall_grade": "A",
-  "overall_comment": "背景與分析段品質極高，12項檢查全數通過。對賈誼盛世危言的制度分析極有深度，眾建諸侯而少其力的對策賞析尤為精彩。",
+  "overall_comment": "11/12 項通過",
   "checks": [
-    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出出處《漢書·賈誼傳》引賈誼〈治安策〉、作者賈誼、時代（西漢文帝時期約前174年）、體裁（政論／奏疏體）、核心命題（可為痛哭者一，可為流涕者二，可為長太息者六）。"},
-    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "深入分析文景之治下的暗流——諸侯王勢力過大（齊王七十餘城，中央直轄僅十五郡）、濟北王叛亂的先例、淮南王劉長的跋扈，以及賈誼作為年輕人的孤獨吶喊。"},
-    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "為賈誼、漢文帝、諸侯王（淮南王劉長、濟北王劉興居）、周勃灌嬰建立分析。特別點出賈誼被貶長沙王太傅後仍然心繫國事的政治情操。"},
-    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "深入分析賈誼寫治安策的用意——在所有人都歌頌天下太平的時候，指出制度性危機的種子已經埋下。他是盛世中的憂患意識的代表。"},
-    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "精準——治安策是中國歷史上最著名的盛世危言，當所有人都說天下太平的時候，賈誼以年輕人的敏銳眼光看到了制度性危機的種子。"},
-    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "結構表清晰：開場（天下並非真安全）、第一痛哭（諸侯王勢大）、第二流涕（匈奴問題）、第三長太息（社會風氣）、對策（眾建諸侯而少其力）。五段結構完整。"},
-    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "指出強烈對比（「曰安且治者，非愚則諛」）、比喻（「一脛之大幾如要，一指之大幾如股」）、分類列舉（痛哭一流涕一長太息六）等手法。"},
-    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "選出「可為痛哭者一，可為流涕者二，可為長太息者六」「天下之勢方病大瘇」「眾建諸侯而少其力」等句，每句有深度賞析。"},
-    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "提供完整白話改編，涵蓋對天下不安全的論斷、諸侯王問題的比喻分析、對策建議等核心內容，語言流暢。"},
-    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題為「時代背景與寫作意旨」「原文結構與核心論點」等，無 emoji。"},
-    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段有獨立觀點（如「眾建諸侯而少其力是中國政治史上最經典的制度設計之一」），對賈誼從制度層面分析問題的思維方式賞析到位。"},
-    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "所有段落皆有獨立貢獻，背景段對諸侯王問題的歷史梳理對理解文章背景極有幫助，無填充內容。"}
+    {
+      "id": "bg_coord",
+      "name": "座標定位表",
+      "status": "pass",
+      "comment": "有座標定位表"
+    },
+    {
+      "id": "bg_era",
+      "name": "時代背景段",
+      "status": "pass",
+      "comment": "有時代背景分析"
+    },
+    {
+      "id": "bg_people",
+      "name": "關鍵人物段",
+      "status": "pass",
+      "comment": "有關鍵人物分析"
+    },
+    {
+      "id": "bg_intent",
+      "name": "寫作意圖段",
+      "status": "fail",
+      "comment": "無寫作意圖段"
+    },
+    {
+      "id": "bg_summary",
+      "name": "一句話總結",
+      "status": "pass",
+      "comment": "有一句話總結"
+    },
+    {
+      "id": "an_structure",
+      "name": "起承轉合表",
+      "status": "pass",
+      "comment": "有起承轉合表"
+    },
+    {
+      "id": "an_rhetoric",
+      "name": "修辭手法表",
+      "status": "pass",
+      "comment": "有修辭手法分析表"
+    },
+    {
+      "id": "an_quotes",
+      "name": "佳句賞析",
+      "status": "pass",
+      "comment": "有10句佳句賞析"
+    },
+    {
+      "id": "an_vernacular",
+      "name": "白話改編段",
+      "status": "pass",
+      "comment": "有白話改編段"
+    },
+    {
+      "id": "fmt_emoji",
+      "name": "h2 無 emoji",
+      "status": "pass",
+      "comment": "h2 標題無 emoji"
+    },
+    {
+      "id": "fmt_depth",
+      "name": "分析段深度",
+      "status": "pass",
+      "comment": "分析段 185 行"
+    },
+    {
+      "id": "no_padding",
+      "name": "不為寫而寫",
+      "status": "pass",
+      "comment": "主要內容無明顯灌水"
+    }
   ]
 }

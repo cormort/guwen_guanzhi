@@ -1,21 +1,80 @@
 {
   "file": "200-hanyu-song-mengdongye-xu",
-  "title": "送孟東野序",
-  "author": "韓愈",
+  "title": "200-hanyu-song-mengdongye-xu",
   "overall_grade": "A",
-  "overall_comment": "12項全數過關。背景段深入中唐苦吟詩人的命運與孟郊一生困頓；分析段有文章結構（宇宙法則→歷史例證→歸結個人的宏大結構）、修辭手法（類比推理、排比舉例、以退為進的安慰）、經典句賞析、白話翻譯，無填充內容。",
+  "overall_comment": "11/12 項通過",
   "checks": [
-    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出出處《昌黎先生集》、體裁（贈序）、時代（約803年）、核心命題（大凡物不得其平則鳴）。"},
-    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "深入分析孟郊一生困頓的苦吟詩人命運、52歲才當上九品縣尉的屈辱背景。"},
-    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "為韓愈（殘酷而溫柔的安慰者）、孟郊（不得其平四個字的最佳註腳）設有完整分析。"},
-    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "核心分析揭示韓愈告訴孟郊一個殘酷的真相——你的才華來自於你的不幸。"},
-    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "精準抓住韓愈的核心——大凡物不得其平則鳴——痛苦才是才華的來源。"},
-    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "先提出宇宙法則（物不得其平則鳴/起），展開歷史例證（皋陶禹周公孔子到詩人/承），連結到孟郊個人（轉），以殘酷而溫柔的安慰收束（合），結構宏大。"},
-    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "列出類比推理（草木水金石皆因不平而鳴）、歷史排比（從皋陶到杜甫的連串例證）、以退為進的安慰（你的痛苦是你的財富），手法豐富。"},
-    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "選出經典句（大凡物不得其平則鳴、東野之役於江南也有若不釋然者），賞析有創作心理學視角。"},
-    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "提供完整白話翻譯與宇宙法則的層層解讀。"},
-    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題為「時代背景與寫作意旨」「文本結構」「核心分析」等，無 emoji。"},
-    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段有獨立觀點（將不鳴則鳴解讀為痛苦與創造力之間的哲學命題、將孟郊定位為不得其平的最佳註腳），有獨創性。"},
-    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "所有段落皆有獨立貢獻，背景段的苦吟傳統分析、分析段的宇宙法則解讀各有獨立價值。"}
+    {
+      "id": "bg_coord",
+      "name": "座標定位表",
+      "status": "pass",
+      "comment": "有座標定位表"
+    },
+    {
+      "id": "bg_era",
+      "name": "時代背景段",
+      "status": "pass",
+      "comment": "有時代背景分析"
+    },
+    {
+      "id": "bg_people",
+      "name": "關鍵人物段",
+      "status": "pass",
+      "comment": "有關鍵人物分析"
+    },
+    {
+      "id": "bg_intent",
+      "name": "寫作意圖段",
+      "status": "fail",
+      "comment": "無寫作意圖段"
+    },
+    {
+      "id": "bg_summary",
+      "name": "一句話總結",
+      "status": "pass",
+      "comment": "有一句話總結"
+    },
+    {
+      "id": "an_structure",
+      "name": "起承轉合表",
+      "status": "pass",
+      "comment": "有起承轉合表"
+    },
+    {
+      "id": "an_rhetoric",
+      "name": "修辭手法表",
+      "status": "pass",
+      "comment": "有修辭手法分析表"
+    },
+    {
+      "id": "an_quotes",
+      "name": "佳句賞析",
+      "status": "pass",
+      "comment": "有6句佳句賞析"
+    },
+    {
+      "id": "an_vernacular",
+      "name": "白話改編段",
+      "status": "pass",
+      "comment": "有白話改編段"
+    },
+    {
+      "id": "fmt_emoji",
+      "name": "h2 無 emoji",
+      "status": "pass",
+      "comment": "h2 標題無 emoji"
+    },
+    {
+      "id": "fmt_depth",
+      "name": "分析段深度",
+      "status": "pass",
+      "comment": "分析段 92 行"
+    },
+    {
+      "id": "no_padding",
+      "name": "不為寫而寫",
+      "status": "pass",
+      "comment": "主要內容無明顯灌水"
+    }
   ]
 }

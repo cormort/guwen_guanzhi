@@ -1,21 +1,80 @@
 {
   "file": "111-shenxu-jian-xu-yuecheng",
-  "title": "申胥諫許越成",
-  "author": "左丘明 · 《國語·吳語》",
+  "title": "111-shenxu-jian-xu-yuecheng",
   "overall_grade": "A",
-  "overall_comment": "12項檢查全數通過。背景詳述吳國關鍵抉擇時刻，申胥的「虺蛇之喻」分析極為精彩。人物涵蓋申胥、夫差、伯嚭。三層遞進的論證結構（歷史→心理→利益）清晰。",
+  "overall_comment": "12/12 項通過",
   "checks": [
-    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出出處《國語·吳語》、時代春秋末期494BC、體裁諫議文、核心命題、關鍵人物等。"},
-    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "分析夫椒之戰後吳國的軍事、外交、心理三層壓力，申胥須說服正在享受勝利的國王。"},
-    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "涵蓋申胥（國家的煞車皮）、夫差（自信過頭的敗亡者）、伯嚭（收賄的主和派），人物分析有深度。"},
-    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "從《國語》與《左傳》互補、為戰勝國提供歷史教訓、與〈諸稽郢行成於吳〉雙篇對照三層次分析。"},
-    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "精準總結申胥的諫言是戰略預警的最高典範——看到了眼前的和平與十年後的滅亡。"},
-    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "起（越國求和，吳王將許）、承（申胥諫言：陰謀分析）、轉（虺蛇之喻）、合（夫差拒諫），結構合理。"},
-    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "列出比喻、層遞、雙重否定、類疊、心理透視、對比、反問、預言等手法，表格完整豐富。"},
-    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "選出三句（為虺弗摧為蛇將若何、大夫種勇而善謀、使吾甲兵鈍弊民人離落），賞析有深度。"},
-    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "完整白話改編，覆蓋申胥諫言全文核心論證，語言流暢。"},
-    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題無 emoji。"},
-    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段有獨立觀點（夫差反駁中的自我揭露、勝利者的盲點），非僅翻譯原文。"},
-    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "各段分工明確，內容充實有意義，無灌水痕跡。"}
+    {
+      "id": "bg_coord",
+      "name": "座標定位表",
+      "status": "pass",
+      "comment": "有座標定位表"
+    },
+    {
+      "id": "bg_era",
+      "name": "時代背景段",
+      "status": "pass",
+      "comment": "有時代背景分析"
+    },
+    {
+      "id": "bg_people",
+      "name": "關鍵人物段",
+      "status": "pass",
+      "comment": "有關鍵人物分析"
+    },
+    {
+      "id": "bg_intent",
+      "name": "寫作意圖段",
+      "status": "pass",
+      "comment": "有寫作意圖分析"
+    },
+    {
+      "id": "bg_summary",
+      "name": "一句話總結",
+      "status": "pass",
+      "comment": "有一句話總結"
+    },
+    {
+      "id": "an_structure",
+      "name": "起承轉合表",
+      "status": "pass",
+      "comment": "有起承轉合表"
+    },
+    {
+      "id": "an_rhetoric",
+      "name": "修辭手法表",
+      "status": "pass",
+      "comment": "有修辭手法分析表"
+    },
+    {
+      "id": "an_quotes",
+      "name": "佳句賞析",
+      "status": "pass",
+      "comment": "有9句佳句賞析"
+    },
+    {
+      "id": "an_vernacular",
+      "name": "白話改編段",
+      "status": "pass",
+      "comment": "有白話改編段"
+    },
+    {
+      "id": "fmt_emoji",
+      "name": "h2 無 emoji",
+      "status": "pass",
+      "comment": "h2 標題無 emoji"
+    },
+    {
+      "id": "fmt_depth",
+      "name": "分析段深度",
+      "status": "pass",
+      "comment": "分析段 141 行"
+    },
+    {
+      "id": "no_padding",
+      "name": "不為寫而寫",
+      "status": "pass",
+      "comment": "主要內容無明顯灌水"
+    }
   ]
 }

@@ -1,21 +1,80 @@
 {
   "file": "170-zhuge-liang-hou-chushi-biao",
-  "title": "後出師表",
-  "author": "諸葛亮",
+  "title": "170-zhuge-liang-hou-chushi-biao",
   "overall_grade": "A",
-  "overall_comment": "12項全數過關。背景段詳細分析街亭之敗背景、朝中反對聲浪；分析段以「六不解」為框架深度解構論證策略，對「鞠躬盡瘁死而後已」的剖析極具深度。",
+  "overall_comment": "12/12 項通過",
   "checks": [
-    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出出處裴松之注引《漢晉春秋》、體裁（表文/戰後檢討與再動員辯護書）、時代（蜀漢建興六年228年）、核心命題（鞠躬盡瘁死而後已）、真偽爭議說明。"},
-    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "深入分析第一次北伐從輝煌開局到街亭潰敗的全過程、馬謖失街亭的關鍵教訓、朝中反對北伐的四項理由。"},
-    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "涵蓋諸葛亮（此時狀態為疲憊的老人）、劉禪（需要說服的皇帝）、隱藏的反對派人物分析。"},
-    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "核心分析揭示本文是「知其不可而為之」的政治哲學宣言，從儒家義命分立的角度解讀諸葛亮的選擇。"},
-    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "精準概括：一個深知自己時日無多的老人用最後力氣說服小孩繼續支持戰爭。"},
-    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "以「六不解」為核心論證框架，每一不解回答同一個問題：為什麼輸了一次還要繼續打，逐層推進。"},
-    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "分析涵蓋舉例論證（曹操失敗史）、對比論證（劉邦vs今上）、反問（六不解框架）、引用典故，手法多樣。"},
-    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "選出兩句核心名句（鞠躬盡瘁死而後已、曹操之智計殊絕於人...然困於南陽），賞析有深度。"},
-    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "提供完整白話改編，覆蓋六不解的核心論證內容。"},
-    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題為「時代背景與寫作意旨」「文章分析」，無 emoji。"},
-    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段有獨立觀點（失敗者的誓言比勝利者的凱歌更有力量）、對前後出師表的全面對比，極具深度。"},
-    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "所有段落皆有獨立貢獻，真偽爭議的客觀陳述、朝中反對派的分析均提供增量信息。"}
+    {
+      "id": "bg_coord",
+      "name": "座標定位表",
+      "status": "pass",
+      "comment": "有座標定位表"
+    },
+    {
+      "id": "bg_era",
+      "name": "時代背景段",
+      "status": "pass",
+      "comment": "有時代背景分析"
+    },
+    {
+      "id": "bg_people",
+      "name": "關鍵人物段",
+      "status": "pass",
+      "comment": "有關鍵人物分析"
+    },
+    {
+      "id": "bg_intent",
+      "name": "寫作意圖段",
+      "status": "pass",
+      "comment": "有寫作意圖分析"
+    },
+    {
+      "id": "bg_summary",
+      "name": "一句話總結",
+      "status": "pass",
+      "comment": "有一句話總結"
+    },
+    {
+      "id": "an_structure",
+      "name": "起承轉合表",
+      "status": "pass",
+      "comment": "有起承轉合表"
+    },
+    {
+      "id": "an_rhetoric",
+      "name": "修辭手法表",
+      "status": "pass",
+      "comment": "有修辭手法分析表"
+    },
+    {
+      "id": "an_quotes",
+      "name": "佳句賞析",
+      "status": "pass",
+      "comment": "有7句佳句賞析"
+    },
+    {
+      "id": "an_vernacular",
+      "name": "白話改編段",
+      "status": "pass",
+      "comment": "有白話改編段"
+    },
+    {
+      "id": "fmt_emoji",
+      "name": "h2 無 emoji",
+      "status": "pass",
+      "comment": "h2 標題無 emoji"
+    },
+    {
+      "id": "fmt_depth",
+      "name": "分析段深度",
+      "status": "pass",
+      "comment": "分析段 98 行"
+    },
+    {
+      "id": "no_padding",
+      "name": "不為寫而寫",
+      "status": "pass",
+      "comment": "主要內容無明顯灌水"
+    }
   ]
 }

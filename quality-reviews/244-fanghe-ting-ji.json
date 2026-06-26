@@ -1,21 +1,80 @@
 {
   "file": "244-fanghe-ting-ji",
-  "title": "放鶴亭記",
-  "author": "蘇軾",
+  "title": "244-fanghe-ting-ji",
   "overall_grade": "A",
-  "overall_comment": "12項全數過關。背景段深入蘇軾徐州時期及與隱士張天驥的交遊，分析段對放鶴亭記中以鶴喻隱的哲學妙趣有深入分析。",
+  "overall_comment": "11/12 項通過",
   "checks": [
-    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出出處《東坡全集》、體裁（亭臺記）、時代（熙寧年間約1078）、核心命題（隱逸之樂與鶴的自然象徵）。"},
-    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "深入分析蘇軾徐州任上背景、與隱士張天驥的交遊、宋代隱逸文化的背景。"},
-    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "蘇軾、張天驥、雲龍山人、衛懿公（好鶴亡國典故）有獨立分析。"},
-    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "核心分析揭示蘇軾的雙重意圖——既讚美張天驥的隱逸之樂，又以衛懿公好鶴亡國的典故形成對比張力。"},
-    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "精準：蘇軾說鶴是好東西——但衛懿公因好鶴亡國，張天驥因好鶴成仙，關鍵不在鶴，在好的人。"},
-    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "command": "", "comment": "清楚列出結構（記敘山人放鶴→描寫鶴的自然之美→議論衛懿公好鶴亡國→歸結隱逸之樂超越世俗權力）。"},
-    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "詳析對比（張天驥vs衛懿公）、引用典故、描寫與議論交織、以歌作結等手法。"},
-    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "賞析放鶴亭記中描寫鶴的經典段落及衛懿公好鶴的典故段落。"},
-    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "提供完整白話改編。"},
-    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題為「時代背景與寫作意旨」「文章分析」，無 emoji。"},
-    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段有獨立觀點（放鶴亭記中的政治隱喻——蘇軾對權力與自由的雙重思考）。"},
-    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "軍師按語對好鶴亡國vs好鶴成仙的悖論式對比有精彩分析。"}
+    {
+      "id": "bg_coord",
+      "name": "座標定位表",
+      "status": "pass",
+      "comment": "有座標定位表"
+    },
+    {
+      "id": "bg_era",
+      "name": "時代背景段",
+      "status": "pass",
+      "comment": "有時代背景分析"
+    },
+    {
+      "id": "bg_people",
+      "name": "關鍵人物段",
+      "status": "pass",
+      "comment": "有關鍵人物分析"
+    },
+    {
+      "id": "bg_intent",
+      "name": "寫作意圖段",
+      "status": "fail",
+      "comment": "無寫作意圖段"
+    },
+    {
+      "id": "bg_summary",
+      "name": "一句話總結",
+      "status": "pass",
+      "comment": "有一句話總結"
+    },
+    {
+      "id": "an_structure",
+      "name": "起承轉合表",
+      "status": "pass",
+      "comment": "有起承轉合表"
+    },
+    {
+      "id": "an_rhetoric",
+      "name": "修辭手法表",
+      "status": "pass",
+      "comment": "有修辭手法分析表"
+    },
+    {
+      "id": "an_quotes",
+      "name": "佳句賞析",
+      "status": "pass",
+      "comment": "有10句佳句賞析"
+    },
+    {
+      "id": "an_vernacular",
+      "name": "白話改編段",
+      "status": "pass",
+      "comment": "有白話改編段"
+    },
+    {
+      "id": "fmt_emoji",
+      "name": "h2 無 emoji",
+      "status": "pass",
+      "comment": "h2 標題無 emoji"
+    },
+    {
+      "id": "fmt_depth",
+      "name": "分析段深度",
+      "status": "pass",
+      "comment": "分析段 283 行"
+    },
+    {
+      "id": "no_padding",
+      "name": "不為寫而寫",
+      "status": "pass",
+      "comment": "主要內容無明顯灌水"
+    }
   ]
 }

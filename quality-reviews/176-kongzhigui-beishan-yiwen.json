@@ -1,21 +1,80 @@
 {
   "file": "176-kongzhigui-beishan-yiwen",
-  "title": "北山移文",
-  "author": "孔稚珪",
+  "title": "176-kongzhigui-beishan-yiwen",
   "overall_grade": "A",
-  "overall_comment": "12項全數過關。背景段深入南朝士人仕隱博弈的時代背景；分析段有文章結構（移文體特色）、修辭手法表（擬人、諷刺、對比）、佳句賞析、白話改編，無填充內容。",
+  "overall_comment": "11/12 項通過",
   "checks": [
-    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出出處《文選·北山移文》、體裁（移文/諷刺文）、時代（南朝齊）、核心命題（假隱士與真隱士的對比）、關鍵人物。"},
-    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "深入分析南朝士人仕隱博弈的複雜心態、終南捷徑現象、孔稚珪與周顒的交往背景。"},
-    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "為孔稚珪（諷刺大師）、周顒（假隱士的典型）、北山山靈（擬人化的批評主體）設有分析。"},
-    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "核心分析揭示本文以山靈的口吻聲討假隱士，用幽默諷刺的方式揭露仕隱博弈的虛偽。"},
-    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "精準抓住北山移文的核心——以山林的名義聲討假隱士，用幽默的文字拆穿仕途的虛偽。"},
-    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "起（北山山靈的宣言）、承（回顧真隱士的風範）、轉（揭露假隱士的虛偽）、合（山靈拒絕假隱士再入山林），層次清晰。"},
-    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "列出擬人化（北山山靈為敘事主體）、極端諷刺（對比真隱士與假隱士）、對比（山林的高潔vs官場的庸俗），有原文與效果說明。"},
-    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "選出三句經典（雖假容於江皋乃纓情於好爵、牒訴倥傯裝其懷、何其不能掛冠），賞析有深度。"},
-    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "提供完整白話改編，涵蓋移文核心諷刺內容。"},
-    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題為「時代背景與寫作意旨」「文章分析」，無 emoji。"},
-    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段有獨立觀點（假隱士現象的社會心理學分析），對諷刺手法有深入說明。"},
-    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "所有段落皆有獨立貢獻，背景段的終南捷徑分析、分析段的移文體文學特色探討各有增量信息。"}
+    {
+      "id": "bg_coord",
+      "name": "座標定位表",
+      "status": "pass",
+      "comment": "有座標定位表"
+    },
+    {
+      "id": "bg_era",
+      "name": "時代背景段",
+      "status": "pass",
+      "comment": "有時代背景分析"
+    },
+    {
+      "id": "bg_people",
+      "name": "關鍵人物段",
+      "status": "pass",
+      "comment": "有關鍵人物分析"
+    },
+    {
+      "id": "bg_intent",
+      "name": "寫作意圖段",
+      "status": "fail",
+      "comment": "無寫作意圖段"
+    },
+    {
+      "id": "bg_summary",
+      "name": "一句話總結",
+      "status": "pass",
+      "comment": "有一句話總結"
+    },
+    {
+      "id": "an_structure",
+      "name": "起承轉合表",
+      "status": "pass",
+      "comment": "有起承轉合表"
+    },
+    {
+      "id": "an_rhetoric",
+      "name": "修辭手法表",
+      "status": "pass",
+      "comment": "有修辭手法分析表"
+    },
+    {
+      "id": "an_quotes",
+      "name": "佳句賞析",
+      "status": "pass",
+      "comment": "有8句佳句賞析"
+    },
+    {
+      "id": "an_vernacular",
+      "name": "白話改編段",
+      "status": "pass",
+      "comment": "有白話改編段"
+    },
+    {
+      "id": "fmt_emoji",
+      "name": "h2 無 emoji",
+      "status": "pass",
+      "comment": "h2 標題無 emoji"
+    },
+    {
+      "id": "fmt_depth",
+      "name": "分析段深度",
+      "status": "pass",
+      "comment": "分析段 99 行"
+    },
+    {
+      "id": "no_padding",
+      "name": "不為寫而寫",
+      "status": "pass",
+      "comment": "主要內容無明顯灌水"
+    }
   ]
 }

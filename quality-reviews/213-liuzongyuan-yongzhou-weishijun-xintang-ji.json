@@ -1,21 +1,80 @@
 {
   "file": "213-liuzongyuan-yongzhou-weishijun-xintang-ji",
-  "title": "永州韋使君新堂記",
-  "author": "柳宗元",
+  "title": "213-liuzongyuan-yongzhou-weishijun-xintang-ji",
   "overall_grade": "A",
-  "overall_comment": "12項全數過關。背景段深入永州貶謫時期柳宗元與地方官的交往，分析段有清晰的記文結構、修辭分析（即物明理、對比、鋪陳）、佳句賞析及完整白話改編。",
+  "overall_comment": "10/12 項通過",
   "checks": [
-    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出出處《柳河東集》、體裁（記文）、時代（永州貶謫時期）、核心命題（以新堂喻治理）。"},
-    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "深入分析永州貶謫時期的生活、韋使君（韋彪）身份與唐代官署建築傳統。"},
-    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "柳宗元、韋使君二者皆有分析，對韋使君治永州的政績有介紹。"},
-    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "核心分析揭示柳宗元借新堂落成讚美韋使君治理有方，同時寄託自己對理想政治的嚮往。"},
-    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "精準抓住本文的核心手法：用一座新堂比喻一個好的管理者如何改造環境。"},
-    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "清楚列出述建堂之由、寫新堂之景、讚使君之德、歸結治理之道的四段結構。"},
-    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "列出即物明理、對比（舊景vs新堂）、鋪陳、設問等手法，分析到位。"},
-    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "選出關鍵寫景與議論句子，賞析有深度。"},
-    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "提供完整白話改編，忠於原文且流暢自然。"},
-    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題為「時代背景與寫作意旨」「文章分析」，無 emoji。"},
-    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段有獨立觀點（貶謫文人的政治隱喻、以建築寫治理的獨特視角），對柳宗元的政治思想有深入剖析。"},
-    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "所有段落皆有獨立貢獻，軍師按語提供有價值的延伸思考，無填充內容。"}
+    {
+      "id": "bg_coord",
+      "name": "座標定位表",
+      "status": "pass",
+      "comment": "有座標定位表"
+    },
+    {
+      "id": "bg_era",
+      "name": "時代背景段",
+      "status": "pass",
+      "comment": "有時代背景分析"
+    },
+    {
+      "id": "bg_people",
+      "name": "關鍵人物段",
+      "status": "fail",
+      "comment": "無關鍵人物段"
+    },
+    {
+      "id": "bg_intent",
+      "name": "寫作意圖段",
+      "status": "fail",
+      "comment": "無寫作意圖段"
+    },
+    {
+      "id": "bg_summary",
+      "name": "一句話總結",
+      "status": "pass",
+      "comment": "有一句話總結"
+    },
+    {
+      "id": "an_structure",
+      "name": "起承轉合表",
+      "status": "pass",
+      "comment": "有起承轉合表"
+    },
+    {
+      "id": "an_rhetoric",
+      "name": "修辭手法表",
+      "status": "pass",
+      "comment": "有修辭手法分析表"
+    },
+    {
+      "id": "an_quotes",
+      "name": "佳句賞析",
+      "status": "pass",
+      "comment": "有8句佳句賞析"
+    },
+    {
+      "id": "an_vernacular",
+      "name": "白話改編段",
+      "status": "pass",
+      "comment": "有白話改編段"
+    },
+    {
+      "id": "fmt_emoji",
+      "name": "h2 無 emoji",
+      "status": "pass",
+      "comment": "h2 標題無 emoji"
+    },
+    {
+      "id": "fmt_depth",
+      "name": "分析段深度",
+      "status": "pass",
+      "comment": "分析段 78 行"
+    },
+    {
+      "id": "no_padding",
+      "name": "不為寫而寫",
+      "status": "pass",
+      "comment": "主要內容無明顯灌水"
+    }
   ]
 }

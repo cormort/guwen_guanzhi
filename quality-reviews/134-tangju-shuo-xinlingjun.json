@@ -1,21 +1,80 @@
 {
   "file": "134-tangju-shuo-xinlingjun",
-  "title": "唐雎說信陵君",
-  "author": "劉向 · 《戰國策·魏策四》",
+  "title": "134-tangju-shuo-xinlingjun",
   "overall_grade": "A",
-  "overall_comment": "12項檢查全數通過。背景詳述竊符救趙始末與信陵君的微妙處境。唐雎事有不可知者不可不知者的智慧分析精彩——別人對你的恩情不可忘，你對別人的恩情不可不忘。人物分析（唐雎、信陵君）有深度。全文哲理濃縮。",
+  "overall_comment": "11/12 項通過",
   "checks": [
-    {"id": "bg_coord", "name": "座標定位表", "status": "pass", "comment": "完整列出出處《戰國策·魏策四》、時代戰國晚期約西元前257年信陵君竊符救趙之後、體裁歷史記言/勸誡對話體、核心命題等。"},
-    {"id": "bg_era", "name": "時代背景段", "status": "pass", "comment": "詳述竊符救趙始末（秦圍邯鄲、信陵君奪兵權解圍）、信陵君立下不世之功後的微妙處境。"},
-    {"id": "bg_people", "name": "關鍵人物段", "status": "pass", "comment": "涵蓋唐雎（善於說話的魏國老臣）、信陵君（從英雄到謙遜者的轉變）。"},
-    {"id": "bg_intent", "name": "寫作意圖段", "status": "pass", "comment": "從戰國策中最短但最具哲理深度的篇章之一、功成身退的政治智慧、與老子功遂身退思想和范蠡飛鳥盡良弓藏一脈相承三層次分析。"},
-    {"id": "bg_summary", "name": "一句話總結", "status": "pass", "comment": "精準總結：最危險的不是別人不知道你的功勞，而是你自己太記得你的功勞。"},
-    {"id": "an_structure", "name": "起承轉合表", "status": "pass", "comment": "結構簡潔有力：唐雎設問（起）→解釋不可不知不可不忘（承）→點醒信陵君（轉）→信陵君領悟（合）。"},
-    {"id": "an_rhetoric", "name": "修辭手法表", "status": "pass", "comment": "分析排比設問（事有不可知者有不可不知者）、對比（不可忘vs不可不忘）、警句格言體等手法。"},
-    {"id": "an_quotes", "name": "佳句賞析", "status": "pass", "comment": "選出事有不可知者有不可不知者、人之有德於我不可忘也吾有德於人不可不忘也等句，賞析有深度。"},
-    {"id": "an_vernacular", "name": "白話改編段", "status": "pass", "comment": "核心對話白話改編完整，涵蓋唐雎勸誡信陵君的完整論述。"},
-    {"id": "fmt_emoji", "name": "標題無 emoji", "status": "pass", "comment": "h2 標題無 emoji。"},
-    {"id": "fmt_depth", "name": "分析段深度", "status": "pass", "comment": "分析段有獨立觀點（功成身退不是道德要求而是風險管理——功臣最怕的不是功勞不夠大而是功勞太大），非僅翻譯。"},
-    {"id": "no_padding", "name": "不為寫而寫", "status": "pass", "comment": "各段分工明確，內容充實有意義，無灌水痕跡。"}
+    {
+      "id": "bg_coord",
+      "name": "座標定位表",
+      "status": "pass",
+      "comment": "有座標定位表"
+    },
+    {
+      "id": "bg_era",
+      "name": "時代背景段",
+      "status": "pass",
+      "comment": "有時代背景分析"
+    },
+    {
+      "id": "bg_people",
+      "name": "關鍵人物段",
+      "status": "pass",
+      "comment": "有關鍵人物分析"
+    },
+    {
+      "id": "bg_intent",
+      "name": "寫作意圖段",
+      "status": "fail",
+      "comment": "無寫作意圖段"
+    },
+    {
+      "id": "bg_summary",
+      "name": "一句話總結",
+      "status": "pass",
+      "comment": "有一句話總結"
+    },
+    {
+      "id": "an_structure",
+      "name": "起承轉合表",
+      "status": "pass",
+      "comment": "有起承轉合表"
+    },
+    {
+      "id": "an_rhetoric",
+      "name": "修辭手法表",
+      "status": "pass",
+      "comment": "有修辭手法分析表"
+    },
+    {
+      "id": "an_quotes",
+      "name": "佳句賞析",
+      "status": "pass",
+      "comment": "有10句佳句賞析"
+    },
+    {
+      "id": "an_vernacular",
+      "name": "白話改編段",
+      "status": "pass",
+      "comment": "有白話改編段"
+    },
+    {
+      "id": "fmt_emoji",
+      "name": "h2 無 emoji",
+      "status": "pass",
+      "comment": "h2 標題無 emoji"
+    },
+    {
+      "id": "fmt_depth",
+      "name": "分析段深度",
+      "status": "pass",
+      "comment": "分析段 136 行"
+    },
+    {
+      "id": "no_padding",
+      "name": "不為寫而寫",
+      "status": "pass",
+      "comment": "主要內容無明顯灌水"
+    }
   ]
 }
