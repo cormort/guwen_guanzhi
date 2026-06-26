@@ -11,10 +11,29 @@ build_v2.py — 建立全部文章內頁（水墨宣紙風）
 """
 
 import os, re, markdown
+from author_data import AUTHOR_MAP
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 OUTPUT_DIR = os.path.join(ROOT, "articles")
 PHASES = ["phase1", "phase2", "phase3", "phase4", "supplementary"]
+
+
+def dir_keyword(dirname):
+    return dirname.split("-", 1)[1] if re.match(r'^\d+-', dirname) else dirname
+
+
+def clean_h1(h1):
+    h1 = re.sub(r'^#+\s*', '', h1)
+    h1 = re.sub(r'[\U0001F300-\U0001FAFF☀-➿🏯]', '', h1)
+    h1 = re.sub(r'[〈〉《》「」]', '', h1)
+    h1 = re.sub(r'^[^：:—\-]*(?:軍師|檔案|簡報)[^：:—\-]*[：:—\-]+\s*', '', h1)
+    h1 = re.sub(r'(背景資料|背景分析|軍師背景資料|軍師背景分析|軍師分析|軍師戰情分析|'
+                r'軍師戰情室|軍師視角|軍師策論|軍師點評|軍師檔案|軍師簡報|背景|分析|軍師)', '', h1)
+    h1 = re.sub(r'[（(][^）)]*[）)]', '', h1)
+    h1 = re.sub(r'[—·\-：:]+\s*$', '', h1)
+    h1 = re.sub(r'——.*$', '', h1)
+    h1 = re.sub(r'\s+', '', h1)
+    return h1.strip()
 
 
 def get_title(dirpath):
@@ -22,9 +41,7 @@ def get_title(dirpath):
     if os.path.exists(bg):
         with open(bg, "r", encoding="utf-8") as f:
             first = f.readline().strip()
-        title = first.lstrip("#").strip()
-        title = re.sub(r"[〈〉「」《》]", "", title)
-        title = re.sub(r"[—\-].*", "", title).strip()
+        title = clean_h1(first)
         if title:
             return title
     base = os.path.basename(dirpath)
@@ -32,23 +49,11 @@ def get_title(dirpath):
 
 
 def get_author_era(dirpath):
-    bg = os.path.join(dirpath, "軍師-背景資料.md")
-    if not os.path.exists(bg):
-        return "", ""
-    with open(bg, "r", encoding="utf-8") as f:
-        content = f.read()
-    author, era = "", ""
-    for line in content.split("\n"):
-        line = line.strip()
-        if "作者" in line and "|" in line:
-            parts = [p.strip() for p in line.split("|")]
-            if len(parts) >= 3 and not author:
-                author = re.sub(r"[*《》]", "", parts[2]).split("（")[0].strip()
-        if "出處" in line and "|" in line:
-            parts = [p.strip() for p in line.split("|")]
-            if len(parts) >= 3 and not era:
-                era = re.sub(r"[*]", "", parts[2]).strip()
-    return author, era
+    keyword = dir_keyword(os.path.basename(dirpath))
+    entry = AUTHOR_MAP.get(keyword)
+    if entry:
+        return entry["author"], entry["era"]
+    return "", ""
 
 
 def read_md(dirpath, filename):
