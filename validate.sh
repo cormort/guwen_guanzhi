@@ -17,7 +17,7 @@ ok()   { green "  ✓ $1"; }
 
 # ─── 1. 命名格式檢查 ───
 echo "═══ 1. 命名格式檢查（NNN-keyword 格式）═══"
-for phase in phase1 phase2 phase3; do
+for phase in phase1 phase2 phase3 phase4; do
   for dir in "$ROOT/$phase"/*/; do
     name=$(basename "$dir")
     if ! [[ "$name" =~ ^[0-9]+-[a-z] ]]; then
@@ -30,7 +30,7 @@ ok "命名格式檢查完成"
 # ─── 2. 檔案完整性檢查 ───
 echo ""
 echo "═══ 2. 檔案完整性（每篇須有 軍師-背景資料.md + 主筆-文章分析.md）═══"
-for phase in phase1 phase2 phase3; do
+for phase in phase1 phase2 phase3 phase4; do
   for dir in "$ROOT/$phase"/*/; do
     name=$(basename "$dir")
     [[ -f "$dir/軍師-背景資料.md" ]] || err "$phase/$name 缺少 軍師-背景資料.md"
@@ -43,7 +43,7 @@ ok "檔案完整性檢查完成"
 echo ""
 echo "═══ 3. 章節完整性掃描（軍師-背景資料.md 必要章節）═══"
 REQUIRED_SECTIONS=("座標定位" "時代" "一句話總結")
-for phase in phase1 phase2 phase3; do
+for phase in phase1 phase2 phase3 phase4; do
   for dir in "$ROOT/$phase"/*/; do
     name=$(basename "$dir")
     file="$dir/軍師-背景資料.md"
@@ -62,7 +62,7 @@ echo ""
 echo "═══ 4. 跨階段重複檢查（同一篇名出現在多個 phase）═══"
 # 用目錄名去掉數字前綴，收集所有 keyword，找重複
 ALL_KEYWORDS=""
-for phase in phase1 phase2 phase3; do
+for phase in phase1 phase2 phase3 phase4; do
   for dir in "$ROOT/$phase"/*/; do
     name=$(basename "$dir")
     keyword="${name#*-}"
@@ -80,7 +80,7 @@ ok "跨階段重複檢查完成"
 echo ""
 echo "═══ 5. 篇數統計 ═══"
 TOTAL=0
-for phase in phase1 phase2 phase3; do
+for phase in phase1 phase2 phase3 phase4; do
   count=$(find "$ROOT/$phase" -mindepth 1 -maxdepth 1 -type d | wc -l | tr -d ' ')
   echo "  $phase: $count 篇"
   TOTAL=$((TOTAL + count))
@@ -95,7 +95,7 @@ fi
 # ─── 6. 空檔案檢查 ───
 echo ""
 echo "═══ 6. 空檔案 / 過短檔案檢查 ═══"
-for phase in phase1 phase2 phase3; do
+for phase in phase1 phase2 phase3 phase4; do
   for dir in "$ROOT/$phase"/*/; do
     name=$(basename "$dir")
     for f in "$dir"*.md; do
@@ -113,7 +113,7 @@ ok "空檔案檢查完成"
 echo ""
 echo "═══ 7. 編號連續性檢查 ═══"
 ALL_NUMS=()
-for phase in phase1 phase2 phase3; do
+for phase in phase1 phase2 phase3 phase4; do
   for dir in "$ROOT/$phase"/*/; do
     name=$(basename "$dir")
     num="${name%%-*}"

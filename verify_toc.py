@@ -31,7 +31,7 @@ def extract_title(filepath):
     return h1.strip()
 
 local_titles = {}
-for phase in ["phase1", "phase2", "phase3"]:
+for phase in ["phase1", "phase2", "phase3", "phase4"]:
     phase_dir = os.path.join(ROOT, phase)
     if not os.path.isdir(phase_dir):
         continue
