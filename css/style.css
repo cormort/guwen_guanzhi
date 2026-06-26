@@ -71,19 +71,17 @@ body {
 .masthead .editor { margin: 0 0 10px; font-size: 13px; letter-spacing: .7em; color: var(--seal-dp); font-weight: 500; padding-left: .7em; }
 .masthead h1 { margin: 0; font-family: var(--brush); font-size: 92px; line-height: 1; letter-spacing: .08em; color: var(--ink); padding-left: .08em; }
 .masthead .tagline { margin: 14px 0 0; font-size: 17px; letter-spacing: .45em; color: var(--ink-3); padding-left: .45em; }
+.masthead .blurb-line { margin: 24px auto 0; max-width: 640px; font-size: 13.5px; line-height: 1.9; color: var(--muted); text-align: center; }
+.masthead .blurb-line .hi { color: var(--seal-dp); }
+.masthead .blurb-line strong { color: var(--ink-2); }
 
 /* ===================== INTRO + PROGRESS ===================== */
 .intro {
-  display: grid; grid-template-columns: 1fr 300px; gap: 40px; align-items: stretch;
-  margin-bottom: 54px; padding: 34px 0;
+  display: flex; justify-content: flex-end;
+  margin-bottom: 32px; padding: 24px 0;
   border-top: 1px solid rgba(43, 38, 32, .16);
   border-bottom: 1px solid rgba(43, 38, 32, .16);
 }
-.intro .blurb { line-height: 2.05; font-size: 16px; color: var(--ink-2); }
-.intro .blurb p { margin: 0 0 14px; }
-.intro .blurb p:last-child { margin: 0; font-size: 15px; color: var(--muted); }
-.intro .blurb .hi { color: var(--seal-dp); }
-.intro .blurb strong { color: var(--ink); }
 
 .progress-card {
   border: 1px solid rgba(143, 43, 34, .32);
