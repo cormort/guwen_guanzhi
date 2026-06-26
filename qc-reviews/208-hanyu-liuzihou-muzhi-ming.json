@@ -1,0 +1,81 @@
+{
+  "file": "208-hanyu-liuzihou-muzhi-ming",
+  "title": "柳子厚墓誌銘",
+  "author": "韓愈",
+  "overall_grade": "A",
+  "overall_comment": "12/12 項通過品質檢測",
+  "checks": [
+    {
+      "id": "bg_coord",
+      "name": "座標定位表",
+      "status": "pass",
+      "comment": "包含完整的座標定位表（出處、體裁、時代、核心命題等）"
+    },
+    {
+      "id": "bg_era",
+      "name": "時代背景段",
+      "status": "pass",
+      "comment": "提供精確的時代背景分析，有助於理解文章脈絡"
+    },
+    {
+      "id": "bg_people",
+      "name": "關鍵人物段",
+      "status": "pass",
+      "comment": "有關鍵人物解碼與分析"
+    },
+    {
+      "id": "bg_intent",
+      "name": "寫作意圖段",
+      "status": "pass",
+      "comment": "清楚說明寫作意圖與作者動機"
+    },
+    {
+      "id": "bg_summary",
+      "name": "一句話總結",
+      "status": "pass",
+      "comment": "包含精準的一句話總結核心論點"
+    },
+    {
+      "id": "an_structure",
+      "name": "起承轉合表",
+      "status": "pass",
+      "comment": "有清晰的結構分析與起承轉合表"
+    },
+    {
+      "id": "an_rhetoric",
+      "name": "修辭手法表",
+      "status": "pass",
+      "comment": "有分析本文特有的修辭與寫作技巧"
+    },
+    {
+      "id": "an_quotes",
+      "name": "佳句賞析",
+      "status": "pass",
+      "comment": "包含至少 14 句佳句深度賞析"
+    },
+    {
+      "id": "an_vernacular",
+      "name": "白話改編段",
+      "status": "pass",
+      "comment": "包含白話改編/改寫段落"
+    },
+    {
+      "id": "fmt_emoji",
+      "name": "h2 無 emoji",
+      "status": "pass",
+      "comment": "h2 標題不含 emoji，符合格式標準"
+    },
+    {
+      "id": "fmt_depth",
+      "name": "分析段深度",
+      "status": "pass",
+      "comment": "分析段深度充足（共 110 行 HTML）"
+    },
+    {
+      "id": "no_padding",
+      "name": "不為寫而寫",
+      "status": "pass",
+      "comment": "內容充實，無空洞套話與灌水成分"
+    }
+  ]
+}

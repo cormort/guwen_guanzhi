@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>古文觀止導覽</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@300;400;500;600;700;900&family=Ma+Shan+Zheng&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="container">
+
+    <header class="masthead">
+      <div class="corner-seal"><span>觀止</span></div>
+      <div class="cover">
+        <p class="editor">清 · 吳楚材 吳調侯 選輯</p>
+        <h1>古文觀止</h1>
+        <p class="tagline">結構分析 · 寫作技巧 · 白話改編</p>
+      </div>
+    </header>
+
+    <section class="intro">
+      <div class="blurb">
+        <p>《古文觀止》成書於清康熙年間，由吳楚材、吳調侯叔姪二人編選，上起<span class="hi">東周</span>、下訖<span class="hi">明末</span>，凡 <strong>222</strong> 篇。所選皆歷代散文菁華，三百年來流傳最廣，為讀古文者之圭臬。</p>
+        <p>本導覽逐篇拆解<strong>篇章結構</strong>、<strong>寫作技巧</strong>與<strong>佳句賞析</strong>，並附<strong>白話對照</strong>，循序通讀全帙。</p>
+      </div>
+      <div class="progress-card">
+        <div class="pc-top">
+          <span class="pc-label">研讀進度</span>
+          <span class="pc-total">全書 222 篇</span>
+        </div>
+        <div class="pc-count">
+          <span class="pc-num" id="readCount">0</span>
+          <span class="pc-of">／ <span id="totalCount">0</span> 篇 已讀</span>
+        </div>
+        <div class="pc-bar"><div class="pc-fill" id="progressFill"></div></div>
+        <p class="pc-hint">本導覽現收錄 <span id="corpusCount">0</span> 篇 · 點按篇目右側 <span class="seal">朱印</span> 標記已讀</p>
+      </div>
+    </section>
+
+    <div class="controls">
+      <div class="tabs" id="tabs"></div>
+      <div class="search">
+        <span class="icon">⌕</span>
+        <input id="search" type="text" placeholder="搜尋篇名、作者、出處…" autocomplete="off">
+      </div>
+    </div>
+    <div class="divider"></div>
+    <p class="result-meta" id="resultMeta"></p>
+
+    <div id="list"></div>
+
+    <footer class="site-footer">
+      <span class="sf-left">古文觀止導覽 · 結構 · 技巧 · 白話</span>
+      <span class="sf-right">觀古今於須臾</span>
+    </footer>
+  </div>
+
+  <script>
+  const RAW = [
+    {n:1,id:"01-zhengbo-keduan",title:"鄭伯克段于鄢",author:"左丘明",era:"《左傳·隱公元年》",dynasty:"周文",phase:"phase1"},
+    {n:2,id:"02-caogui-lunzhan",title:"曹劌論戰",author:"左丘明",era:"《左傳·莊公十年》",dynasty:"周文",phase:"phase1"},
+    {n:3,id:"03-gongzhiqi",title:"宮之奇諫假道",author:"左丘明",era:"《左傳·僖公五年》",dynasty:"周文",phase:"phase1"},
+    {n:4,id:"04-zhuwuzhi",title:"燭之武退秦師",author:"左丘明",era:"《左傳·僖公三十年》",dynasty:"周文",phase:"phase1"},
+    {n:5,id:"05-jianshu",title:"蹇叔哭師",author:"左丘明",era:"《左傳·僖公三十三年》",dynasty:"周文",phase:"phase1"},
+    {n:6,id:"06-zhaogong",title:"召公諫厲王止謗",author:"召公",era:"《國語·周語上》",dynasty:"周文",phase:"phase1"},
+    {n:7,id:"07-zouji",title:"鄒忌諷齊王納諫",author:"劉向",era:"《戰國策·齊策一》",dynasty:"秦文",phase:"phase1"},
+    {n:8,id:"08-chuzhe",title:"觸讋說趙太后",author:"劉向",era:"《戰國策·趙策四》",dynasty:"秦文",phase:"phase1"},
+    {n:9,id:"09-fengxuan",title:"馮諼客孟嘗君",author:"劉向",era:"《戰國策·齊策四》",dynasty:"秦文",phase:"phase1"},
+    {n:10,id:"10-jianzhuke",title:"諫逐客書",author:"李斯",era:"《史記·李斯列傳》",dynasty:"秦文",phase:"phase1"},
+    {n:11,id:"11-buju",title:"卜居",author:"屈原",era:"《楚辭·卜居》",dynasty:"秦文",phase:"phase1"},
+    {n:12,id:"14-chushi",title:"出師表",author:"諸葛亮",era:"《三國志·諸葛亮傳》",dynasty:"漢文",phase:"phase1"},
+    {n:13,id:"15-chenqing",title:"陳情表",author:"李密",era:"《晉書·李密傳》",dynasty:"六朝文",phase:"phase1"},
+    {n:14,id:"16-lanting",title:"蘭亭集序",author:"王羲之",era:"《晉書·王羲之傳》",dynasty:"六朝文",phase:"phase1"},
+    {n:15,id:"17-guiqulai",title:"歸去來辭",author:"陶淵明",era:"《陶淵明集》",dynasty:"六朝文",phase:"phase1"},
+    {n:16,id:"18-taohuayuan",title:"桃花源記",author:"陶淵明",era:"《陶淵明集》",dynasty:"六朝文",phase:"phase1"},
+    {n:17,id:"19-wuliu",title:"五柳先生傳",author:"陶淵明",era:"《陶淵明集》",dynasty:"六朝文",phase:"phase1"},
+    {n:18,id:"20-jianzong",title:"諫太宗十思疏",author:"魏徵",era:"《舊唐書·魏徵傳》",dynasty:"唐文",phase:"phase1"},
+    {n:19,id:"21-shiyue",title:"師說",author:"韓愈",era:"《昌黎先生集》",dynasty:"唐文",phase:"phase1"},
+    {n:20,id:"22-jishier",title:"祭十二郎文",author:"韓愈",era:"《昌黎先生集》",dynasty:"唐文",phase:"phase1"},
+    {n:21,id:"23-efang",title:"阿房宮賦",author:"杜牧",era:"《樊川文集》",dynasty:"唐文",phase:"phase1"},
+    {n:22,id:"24-yueyang",title:"岳陽樓記",author:"范仲淹",era:"《范文正公集》",dynasty:"宋文",phase:"phase1"},
+    {n:23,id:"25-zuiong",title:"醉翁亭記",author:"歐陽修",era:"《歐陽文忠公集》",dynasty:"宋文",phase:"phase1"},
+    {n:24,id:"26-qiusheng",title:"秋聲賦",author:"歐陽修",era:"《歐陽文忠公集》",dynasty:"宋文",phase:"phase1"},
+    {n:25,id:"27-chibifu",title:"前赤壁賦",author:"蘇軾",era:"《東坡全集》",dynasty:"宋文",phase:"phase1"},
+    {n:26,id:"28-liuguo",title:"六國論",author:"蘇洵",era:"《嘉祐集》",dynasty:"宋文",phase:"phase1"},
+    {n:27,id:"29-du-mengchang",title:"讀孟嘗君傳",author:"王安石",era:"《臨川先生文集》",dynasty:"宋文",phase:"phase1"},
+    {n:28,id:"30-you-baochanshan",title:"遊褒禪山記",author:"王安石",era:"《臨川先生文集》",dynasty:"宋文",phase:"phase1"},
+    {n:29,id:"31-shique",title:"石碏諫寵州吁",author:"左丘明",era:"《左傳·隱公三年》",dynasty:"周文",phase:"phase2"},
+    {n:30,id:"32-zangxibo",title:"臧僖伯諫觀魚",author:"左丘明",era:"《左傳·隱公五年》",dynasty:"周文",phase:"phase2"},
+    {n:31,id:"33-jiliang",title:"季梁諫追楚師",author:"左丘明",era:"《左傳·桓公六年》",dynasty:"周文",phase:"phase2"},
+    {n:32,id:"34-qihuan-gong",title:"齊桓公伐楚盟屈完",author:"左丘明",era:"《左傳·僖公四年》",dynasty:"周文",phase:"phase2"},
+    {n:33,id:"35-ziyu",title:"子魚論戰",author:"左丘明",era:"《左傳·僖公二十二年》",dynasty:"周文",phase:"phase2"},
+    {n:34,id:"36-jiezhitui",title:"介之推不言祿",author:"左丘明",era:"《左傳·僖公二十四年》",dynasty:"周文",phase:"phase2"},
+    {n:35,id:"37-yanzi",title:"晏子不死君難",author:"左丘明",era:"《左傳·襄公二十五年》",dynasty:"周文",phase:"phase2"},
+    {n:36,id:"39-jingjiang",title:"敬姜論勞逸",author:"左丘明",era:"《國語·魯語下》",dynasty:"周文",phase:"phase2"},
+    {n:37,id:"41-suqin",title:"蘇秦以連橫說秦",author:"劉向",era:"《戰國策·秦策一》",dynasty:"秦文",phase:"phase2"},
+    {n:38,id:"42-simacuo",title:"司馬錯論伐蜀",author:"劉向",era:"《戰國策·秦策一》",dynasty:"秦文",phase:"phase2"},
+    {n:39,id:"43-zhaoweihou",title:"趙威后問齊使",author:"劉向",era:"《戰國策·齊策四》",dynasty:"秦文",phase:"phase2"},
+    {n:40,id:"44-boyi",title:"伯夷列傳",author:"司馬遷",era:"《史記·伯夷列傳》",dynasty:"漢文",phase:"phase2"},
+    {n:41,id:"45-quyuan",title:"屈原列傳",author:"司馬遷",era:"《史記·屈原賈生列傳》",dynasty:"漢文",phase:"phase2"},
+    {n:42,id:"46-huaji",title:"滑稽列傳",author:"司馬遷",era:"《史記·滑稽列傳》",dynasty:"漢文",phase:"phase2"},
+    {n:43,id:"48-da-suwu",title:"答蘇武書",author:"李陵",era:"《文選·答蘇武書》",dynasty:"漢文",phase:"phase2"},
+    {n:44,id:"49-yuzhong",title:"獄中上梁王書",author:"鄒陽",era:"《文選·鄒陽獄中上梁王書》",dynasty:"漢文",phase:"phase2"},
+    {n:45,id:"50-shangde",title:"尚德緩刑書",author:"路溫舒",era:"《漢書·路溫舒傳》",dynasty:"漢文",phase:"phase2"},
+    {n:46,id:"51-beishan",title:"北山移文",author:"孔稚珪",era:"《文選·北山移文》",dynasty:"六朝文",phase:"phase2"},
+    {n:47,id:"52-taowu-ze",title:"為徐敬業討武曌檄",author:"駱賓王",era:"《文苑英華》",dynasty:"唐文",phase:"phase2"},
+    {n:48,id:"53-tengwangge",title:"滕王閣序",author:"王勃",era:"《王子安集》",dynasty:"唐文",phase:"phase2"},
+    {n:49,id:"54-yu-hanjingzhou",title:"與韓荊州書",author:"李白",era:"《李太白全集》",dynasty:"唐文",phase:"phase2"},
+    {n:50,id:"55-yuandao",title:"原道",author:"韓愈",era:"《昌黎先生集》",dynasty:"唐文",phase:"phase2"},
+    {n:51,id:"56-mashuo",title:"馬說",author:"韓愈",era:"《昌黎先生集》",dynasty:"唐文",phase:"phase2"},
+    {n:52,id:"57-song-liyuan",title:"送李愿歸盤谷序",author:"韓愈",era:"《昌黎先生集》",dynasty:"唐文",phase:"phase2"},
+    {n:53,id:"58-bushezhe",title:"捕蛇者說",author:"柳宗元",era:"《柳河東集》",dynasty:"唐文",phase:"phase2"},
+    {n:54,id:"59-zhongshu",title:"種樹郭橐駝傳",author:"柳宗元",era:"《柳河東集》",dynasty:"唐文",phase:"phase2"},
+    {n:55,id:"60-yuxi",title:"愚溪詩序",author:"柳宗元",era:"《柳河東集》",dynasty:"唐文",phase:"phase2"},
+    {n:56,id:"61-changgang",title:"黃岡竹樓記",author:"王禹偁",era:"《小畜集》",dynasty:"唐文",phase:"phase2"},
+    {n:57,id:"62-jinxuejie",title:"進學解",author:"韓愈",era:"《昌黎先生集》",dynasty:"唐文",phase:"phase2"},
+    {n:58,id:"63-zongqin",title:"縱囚論",author:"歐陽修",era:"《歐陽文忠公集》",dynasty:"宋文",phase:"phase2"},
+    {n:59,id:"64-bianjian",title:"辨姦論",author:"蘇洵",era:"《嘉祐集》",dynasty:"宋文",phase:"phase2"},
+    {n:60,id:"65-kuaizaiting",title:"黃州快哉亭記",author:"蘇轍",era:"《欒城集》",dynasty:"宋文",phase:"phase2"},
+    {n:61,id:"66-hou-chibifu",title:"後赤壁賦",author:"蘇軾",era:"《東坡全集》",dynasty:"宋文",phase:"phase2"},
+    {n:62,id:"67-shizhongshan",title:"石鐘山記",author:"蘇軾",era:"《東坡全集》",dynasty:"宋文",phase:"phase2"},
+    {n:63,id:"68-fangshanzi",title:"方山子傳",author:"蘇軾",era:"《東坡全集》",dynasty:"宋文",phase:"phase2"},
+    {n:64,id:"71-longgang",title:"瀧岡阡表",author:"歐陽修",era:"《歐陽文忠公集》",dynasty:"宋文",phase:"phase2"},
+    {n:65,id:"72-bao-sunhuizong",title:"報孫會宗書",author:"楊惲",era:"《漢書·楊惲傳》",dynasty:"漢文",phase:"phase2"},
+    {n:66,id:"74-maigan",title:"賣柑者言",author:"劉基",era:"《誠意伯文集》",dynasty:"明文",phase:"phase2"},
+    {n:67,id:"75-wuren-mubei",title:"五人墓碑記",author:"張溥",era:"《七錄齋集》",dynasty:"明文",phase:"phase2"},
+    {n:68,id:"76-jizha",title:"季札觀周樂",author:"左丘明",era:"《左傳·襄公二十九年》",dynasty:"周文",phase:"phase2"},
+    {n:69,id:"77-zhanxi",title:"展喜犒師",author:"左丘明",era:"《左傳·僖公二十六年》",dynasty:"周文",phase:"phase2"},
+    {n:70,id:"78-yiliwen",title:"瘞旅文",author:"王褒",era:"《全唐文》",dynasty:"唐文",phase:"phase2"},
+    {n:71,id:"100-wu-xu-yue",title:"吳許越成",author:"左丘明",era:"《國語·吳語》",dynasty:"周文",phase:"phase3"},
+    {n:72,id:"101-jigong-jianzhen-quanrong",title:"祭公諫征犬戎",author:"左丘明",era:"《國語·周語上》",dynasty:"周文",phase:"phase3"},
+    {n:73,id:"102-zhaogong-jian-liwang",title:"召公諫厲王止謗",author:"左丘明",era:"《國語·周語上》",dynasty:"周文",phase:"phase3"},
+    {n:74,id:"103-xiangwang-buxu-qingsui",title:"襄王不許請隧",author:"左丘明",era:"《國語·周語中》",dynasty:"周文",phase:"phase3"},
+    {n:75,id:"104-danzi-zhi-chen",title:"單子知陳必亡",author:"左丘明",era:"《國語·周語下》",dynasty:"周文",phase:"phase3"},
+    {n:76,id:"105-zhanqin-lun-si-yuanju",title:"展禽論祀爰居",author:"左丘明",era:"《國語·魯語上》",dynasty:"周文",phase:"phase3"},
+    {n:77,id:"106-lige-duangu-kuangjun",title:"里革斷罟匡君",author:"左丘明",era:"《國語·魯語上》",dynasty:"周文",phase:"phase3"},
+    {n:78,id:"107-jingjiang-lun-lao-yi",title:"敬姜論勞逸",author:"左丘明",era:"《國語·魯語下》",dynasty:"周文",phase:"phase3"},
+    {n:79,id:"108-shuxiang-he-pin",title:"叔向賀貧",author:"左丘明",era:"《國語·晉語八》",dynasty:"周文",phase:"phase3"},
+    {n:80,id:"109-wangsun-yu-lun-chubao",title:"王孫圉論楚寶",author:"左丘明",era:"《國語·楚語下》",dynasty:"周文",phase:"phase3"},
+    {n:81,id:"110-zhuji-ying-xingcheng-yuwu",title:"諸稽郢行成於吳",author:"左丘明",era:"《國語·越語上》",dynasty:"周文",phase:"phase3"},
+    {n:82,id:"111-shenxu-jian-xu-yuecheng",title:"申胥諫許越成",author:"左丘明",era:"《國語·越語下》",dynasty:"周文",phase:"phase3"},
+    {n:83,id:"112-chunwang-zhengyue",title:"春王正月",author:"公羊高",era:"《公羊傳·隱公元年》",dynasty:"周文",phase:"phase3"},
+    {n:84,id:"113-songren-ji-churen-ping",title:"宋人及楚人平",author:"公羊高",era:"《公羊傳·宣公十五年》",dynasty:"周文",phase:"phase3"},
+    {n:85,id:"114-wuzi-shi-zha-lai-pin",title:"吳子使札來聘",author:"穀梁赤",era:"《穀梁傳·襄公二十九年》",dynasty:"周文",phase:"phase3"},
+    {n:86,id:"115-zhengbo-keduan-yuyan",title:"鄭伯克段於鄢",author:"穀梁赤",era:"《穀梁傳·隱公元年》",dynasty:"周文",phase:"phase3"},
+    {n:87,id:"116-yushi-jinshi-mie-xiayang",title:"虞師晉師滅夏陽",author:"穀梁赤",era:"《穀梁傳·僖公二年》",dynasty:"周文",phase:"phase3"},
+    {n:88,id:"117-jinxiangong-sha-shizi",title:"晉獻公殺世子申生",author:"戴聖",era:"《禮記·檀弓下》",dynasty:"周文",phase:"phase3"},
+    {n:89,id:"118-zengzi-yi-ze",title:"曾子易簀",author:"戴聖",era:"《禮記·檀弓上》",dynasty:"周文",phase:"phase3"},
+    {n:90,id:"119-youzi-zhi-yan-si-fuzi",title:"有子之言似夫子",author:"戴聖",era:"《禮記·檀弓上》",dynasty:"周文",phase:"phase3"},
+    {n:91,id:"120-gongzi-zhonger-dui-qinke",title:"公子重耳對秦客",author:"戴聖",era:"《禮記·檀弓下》",dynasty:"周文",phase:"phase3"},
+    {n:92,id:"121-du-kui-yang-zhi",title:"杜蕢揚觶",author:"戴聖",era:"《禮記·檀弓下》",dynasty:"周文",phase:"phase3"},
+    {n:93,id:"122-jinxianwenzi-cheng-shi",title:"晉獻文子成室",author:"戴聖",era:"《禮記·檀弓下》",dynasty:"周文",phase:"phase3"},
+    {n:94,id:"123-sujin-yi-lianheng-shuo-qin",title:"蘇秦以連橫說秦",author:"劉向",era:"《戰國策·秦策一》",dynasty:"秦文",phase:"phase3"},
+    {n:95,id:"124-simacuo-lun-fa-shu",title:"司馬錯論伐蜀",author:"劉向",era:"《戰國策·秦策一》",dynasty:"秦文",phase:"phase3"},
+    {n:96,id:"125-fanju-shuo-qinwang",title:"范雎說秦王",author:"劉向",era:"《戰國策·秦策三》",dynasty:"秦文",phase:"phase3"},
+    {n:97,id:"126-zouji-feng-qi-wang",title:"鄒忌諷齊王納諫",author:"劉向",era:"《戰國策·齊策一》",dynasty:"秦文",phase:"phase3"},
+    {n:98,id:"127-yanchu-shuo-qi-wang",title:"顏斶說齊王",author:"劉向",era:"《戰國策·齊策四》",dynasty:"秦文",phase:"phase3"},
+    {n:99,id:"128-feng-xuan-ke-mengchangjun",title:"馮煖客孟嘗君",author:"劉向",era:"《戰國策·齊策四》",dynasty:"秦文",phase:"phase3"},
+    {n:100,id:"129-zhaowei-hou-wen-qi-shi",title:"趙威后問齊使",author:"劉向",era:"《戰國策·齊策四》",dynasty:"秦文",phase:"phase3"},
+    {n:101,id:"130-zhuangxin-lun-xingchen",title:"莊辛論幸臣",author:"劉向",era:"《戰國策·楚策四》",dynasty:"秦文",phase:"phase3"},
+    {n:102,id:"131-chuzhe-shuo-zhao-taihou",title:"觸讋說趙太后",author:"劉向",era:"《戰國策·趙策四》",dynasty:"秦文",phase:"phase3"},
+    {n:103,id:"132-luzhonglian-yi-bu-di-qin",title:"魯仲連義不帝秦",author:"劉向",era:"《戰國策·趙策三》",dynasty:"秦文",phase:"phase3"},
+    {n:104,id:"133-lugonggong-ze-yan",title:"魯共公擇言",author:"劉向",era:"《戰國策·魏策四》",dynasty:"秦文",phase:"phase3"},
+    {n:105,id:"134-tangju-shuo-xinlingjun",title:"唐雎說信陵君",author:"劉向",era:"《戰國策·魏策四》",dynasty:"秦文",phase:"phase3"},
+    {n:106,id:"135-tangju-bu-ru-shi-ming",title:"唐雎不辱使命",author:"劉向",era:"《戰國策·魏策四》",dynasty:"秦文",phase:"phase3"},
+    {n:107,id:"136-yue-yi-bao-yan-wang-shu",title:"樂毅報燕王書",author:"樂毅",era:"《戰國策·燕策二》",dynasty:"秦文",phase:"phase3"},
+    {n:108,id:"137-lisi-jian-zhu-ke-shu",title:"諫逐客書",author:"李斯",era:"《史記·李斯列傳》",dynasty:"秦文",phase:"phase3"},
+    {n:109,id:"138-chuci-bu-ju",title:"卜居",author:"屈原",era:"《楚辭·卜居》",dynasty:"秦文",phase:"phase3"},
+    {n:110,id:"139-songyu-dui-chu-wang-wen",title:"宋玉對楚王問",author:"宋玉",era:"《宋玉集》",dynasty:"秦文",phase:"phase3"},
+    {n:111,id:"140-wudi-benji-zan",title:"五帝本紀贊",author:"司馬遷",era:"《史記·五帝本紀》",dynasty:"漢文",phase:"phase3"},
+    {n:112,id:"141-xiangyu-benji-zan",title:"項羽本紀贊",author:"司馬遷",era:"《史記·項羽本紀》",dynasty:"漢文",phase:"phase3"},
+    {n:113,id:"142-qinchu-zhi-ji-yue-biao",title:"秦楚之際月表",author:"司馬遷",era:"《史記·秦楚之際月表》",dynasty:"漢文",phase:"phase3"},
+    {n:114,id:"143-gaozu-gongchen-hou-nianbiao",title:"高祖功臣侯年表",author:"司馬遷",era:"《史記·高祖功臣侯年表》",dynasty:"漢文",phase:"phase3"},
+    {n:115,id:"144-kongzi-shi-jia-zan",title:"孔子世家贊",author:"司馬遷",era:"《史記·孔子世家》",dynasty:"漢文",phase:"phase3"},
+    {n:116,id:"145-waiqi-shi-jia-xu",title:"外戚世家序",author:"司馬遷",era:"《史記·外戚世家》",dynasty:"漢文",phase:"phase3"},
+    {n:117,id:"146-boyi-liezhuan",title:"伯夷列傳",author:"司馬遷",era:"《史記·伯夷列傳》",dynasty:"漢文",phase:"phase3"},
+    {n:118,id:"147-guanyan-liezhuan",title:"管晏列傳",author:"司馬遷",era:"《史記·管晏列傳》",dynasty:"漢文",phase:"phase3"},
+    {n:119,id:"148-quyuan-liezhuan",title:"屈原列傳",author:"司馬遷",era:"《史記·屈原賈生列傳》",dynasty:"漢文",phase:"phase3"},
+    {n:120,id:"149-kuli-liezhuan-xu",title:"酷吏列傳序",author:"司馬遷",era:"《史記·酷吏列傳》",dynasty:"漢文",phase:"phase3"},
+    {n:121,id:"150-youxia-liezhuan-xu",title:"游俠列傳序",author:"司馬遷",era:"《史記·游俠列傳》",dynasty:"漢文",phase:"phase3"},
+    {n:122,id:"151-huaji-liezhuan",title:"滑稽列傳",author:"司馬遷",era:"《史記·滑稽列傳》",dynasty:"漢文",phase:"phase3"},
+    {n:123,id:"152-huozhi-liezhuan-xu",title:"貨殖列傳序",author:"司馬遷",era:"《史記·貨殖列傳》",dynasty:"漢文",phase:"phase3"},
+    {n:124,id:"153-taishigong-zixu",title:"太史公自序",author:"司馬遷",era:"《史記·太史公自序》",dynasty:"漢文",phase:"phase3"},
+    {n:125,id:"154-bao-ren-an-shu",title:"報任安書",author:"司馬遷",era:"《漢書·司馬遷傳》",dynasty:"漢文",phase:"phase3"},
+    {n:126,id:"155-gaodi-qiu-xian-zhao",title:"高帝求賢詔",author:"劉邦",era:"《漢書·高帝紀》",dynasty:"漢文",phase:"phase3"},
+    {n:127,id:"156-wendi-yi-zuo-baixing-zhao",title:"文帝議佐百姓詔",author:"劉恆",era:"《漢書·文帝紀》",dynasty:"漢文",phase:"phase3"},
+    {n:128,id:"157-jingdi-ling-erqianshi-xiuzhi-zhao",title:"帝令二千石修職詔",author:"劉啟",era:"《漢書·景帝紀》",dynasty:"漢文",phase:"phase3"},
+    {n:129,id:"158-wudi-qiu-maocai-yideng-zhao",title:"武帝求茂材異等詔",author:"劉徹",era:"《漢書·武帝紀》",dynasty:"漢文",phase:"phase3"},
+    {n:130,id:"159-jiayi-guo-qin-lun-shang",title:"過秦論上",author:"賈誼",era:"《新書·過秦論》",dynasty:"漢文",phase:"phase3"},
+    {n:131,id:"160-jiayi-zhi-an-ce-yi",title:"治安策一",author:"賈誼",era:"《漢書·賈誼傳》",dynasty:"漢文",phase:"phase3"},
+    {n:132,id:"161-chaocuo-lun-guisu-shu",title:"論貴粟疏",author:"晁錯",era:"《漢書·食貨志》",dynasty:"漢文",phase:"phase3"},
+    {n:133,id:"162-zouyang-yuzhong-shang-liangwang-shu",title:"獄中上梁王書",author:"鄒陽",era:"《文選》",dynasty:"漢文",phase:"phase3"},
+    {n:134,id:"163-simaxiangru-shangshu-jian-lie",title:"上書諫獵",author:"司馬相如",era:"《史記·司馬相如列傳》",dynasty:"漢文",phase:"phase3"},
+    {n:135,id:"164-liling-da-suwu-shu",title:"李陵答蘇武書",author:"李陵",era:"《文選·答蘇武書》",dynasty:"漢文",phase:"phase3"},
+    {n:136,id:"165-luwenshu-shangde-huanxing-shu",title:"尚德緩刑書",author:"路溫舒",era:"《漢書·路溫舒傳》",dynasty:"漢文",phase:"phase3"},
+    {n:137,id:"166-yangyun-bao-sun-huizong-shu",title:"報孫會宗書",author:"楊惲",era:"《漢書·楊惲傳》",dynasty:"漢文",phase:"phase3"},
+    {n:138,id:"167-guangwudi-linzi-lao-geng-yan",title:"光武帝臨淄勞耿弇",author:"劉秀",era:"《後漢書·光武帝紀》",dynasty:"漢文",phase:"phase3"},
+    {n:139,id:"168-mayuan-jie-xiongzi-yandun-shu",title:"馬援戒兄子嚴敦書",author:"馬援",era:"《後漢書·馬援傳》",dynasty:"漢文",phase:"phase3"},
+    {n:140,id:"169-zhuge-liang-qian-chushi-biao",title:"前出師表",author:"諸葛亮",era:"《三國志·諸葛亮傳》",dynasty:"漢文",phase:"phase3"},
+    {n:141,id:"170-zhuge-liang-hou-chushi-biao",title:"後出師表",author:"諸葛亮",era:"《三國志·諸葛亮傳》",dynasty:"漢文",phase:"phase3"},
+    {n:142,id:"171-limi-chenqing-biao",title:"陳情表",author:"李密",era:"《晉書·李密傳》",dynasty:"六朝文",phase:"phase3"},
+    {n:143,id:"172-wangxizhi-lanting-ji-xu",title:"蘭亭集序",author:"王羲之",era:"《晉書·王羲之傳》",dynasty:"六朝文",phase:"phase3"},
+    {n:144,id:"173-taoyuanming-guiqu-lai-ci",title:"歸去來辭",author:"陶淵明",era:"《陶淵明集》",dynasty:"六朝文",phase:"phase3"},
+    {n:145,id:"174-taoyuanming-taohua-yuan-ji",title:"桃花源記",author:"陶淵明",era:"《陶淵明集》",dynasty:"六朝文",phase:"phase3"},
+    {n:146,id:"175-taoyuanming-wuliu-xiansheng-zhuan",title:"五柳先生傳",author:"陶淵明",era:"《陶淵明集》",dynasty:"六朝文",phase:"phase3"},
+    {n:147,id:"176-kongzhigui-beishan-yiwen",title:"北山移文",author:"孔稚珪",era:"《文選·北山移文》",dynasty:"六朝文",phase:"phase3"},
+    {n:148,id:"177-weizheng-jian-taizong-shi-si-shu",title:"諫太宗十思疏",author:"魏徵",era:"《舊唐書·魏徵傳》",dynasty:"唐文",phase:"phase3"},
+    {n:149,id:"178-luobinwang-tao-wu-zhao-xi",title:"爲徐敬業討武曌檄",author:"駱賓王",era:"《文苑英華》",dynasty:"唐文",phase:"phase3"},
+    {n:150,id:"179-wangbo-tengwang-ge-xu",title:"滕王閣序",author:"王勃",era:"《王子安集》",dynasty:"唐文",phase:"phase3"},
+    {n:151,id:"180-libai-yu-hanjingzhou-shu",title:"與韓荊州書",author:"李白",era:"《李太白全集》",dynasty:"唐文",phase:"phase3"},
+    {n:152,id:"181-libai-chunye-yan-taoli-yuan-xu",title:"春夜宴桃李園序",author:"李白",era:"《李太白全集》",dynasty:"唐文",phase:"phase3"},
+    {n:153,id:"182-lihua-diao-gu-zhanchang-wen",title:"弔古戰場文",author:"李華",era:"《全唐文》",dynasty:"唐文",phase:"phase3"},
+    {n:154,id:"183-liuyuxi-lou-shi-ming",title:"陋室銘",author:"劉禹錫",era:"《劉禹錫集》",dynasty:"唐文",phase:"phase3"},
+    {n:155,id:"184-dumu-efang-gong-fu",title:"阿房宮賦",author:"杜牧",era:"《樊川文集》",dynasty:"唐文",phase:"phase3"},
+    {n:156,id:"185-hanyu-yuan-dao",title:"原道",author:"韓愈",era:"《昌黎先生集》",dynasty:"唐文",phase:"phase3"},
+    {n:157,id:"186-hanyu-yuan-hui",title:"原毀",author:"韓愈",era:"《昌黎先生集》",dynasty:"唐文",phase:"phase3"},
+    {n:158,id:"187-hanyu-huo-lin-jie",title:"獲麟解",author:"韓愈",era:"《昌黎先生集》",dynasty:"唐文",phase:"phase3"},
+    {n:159,id:"188-hanyu-za-shuo-yi",title:"雜說一",author:"韓愈",era:"《昌黎先生集》",dynasty:"唐文",phase:"phase3"},
+    {n:160,id:"189-hanyu-za-shuo-si",title:"雜說四",author:"韓愈",era:"《昌黎先生集》",dynasty:"唐文",phase:"phase3"},
+    {n:161,id:"190-hanyu-shi-shuo",title:"師說",author:"韓愈",era:"《昌黎先生集》",dynasty:"唐文",phase:"phase3"},
+    {n:162,id:"191-hanyu-jinxue-jie",title:"進學解",author:"韓愈",era:"《昌黎先生集》",dynasty:"唐文",phase:"phase3"},
+    {n:163,id:"192-hanyu-wuzhe-wangchengfu-zhuan",title:"圬者王承福傳",author:"韓愈",era:"《昌黎先生集》",dynasty:"唐文",phase:"phase3"},
+    {n:164,id:"193-hanyu-hui-bian",title:"諱辯",author:"韓愈",era:"《昌黎先生集》",dynasty:"唐文",phase:"phase3"},
+    {n:165,id:"194-hanyu-zhengchen-lun",title:"爭臣論",author:"韓愈",era:"《昌黎先生集》",dynasty:"唐文",phase:"phase3"},
+    {n:166,id:"195-hanyu-hou-shi-jiu-ri-fu-shang-zaixiang-shu",title:"後十九日復上宰相書",author:"韓愈",era:"《昌黎先生集》",dynasty:"唐文",phase:"phase3"},
+    {n:167,id:"196-hanyu-hou-nian-jiu-ri-fu-shang-zaixiang-shu",title:"後廿九日復上宰相書",author:"韓愈",era:"《昌黎先生集》",dynasty:"唐文",phase:"phase3"},
+    {n:168,id:"197-hanyu-yu-yuxiangyang-shu",title:"與於襄陽書",author:"韓愈",era:"《昌黎先生集》",dynasty:"唐文",phase:"phase3"},
+    {n:169,id:"198-hanyu-yu-chen-jishi-shu",title:"與陳給事書",author:"韓愈",era:"《昌黎先生集》",dynasty:"唐文",phase:"phase3"},
+    {n:170,id:"199-hanyu-ying-kemu-shi-yu-ren-shu",title:"應科目時與人書",author:"韓愈",era:"《昌黎先生集》",dynasty:"唐文",phase:"phase3"},
+    {n:171,id:"200-hanyu-song-mengdongye-xu",title:"送孟東野序",author:"韓愈",era:"《昌黎先生集》",dynasty:"唐文",phase:"phase3"},
+    {n:172,id:"201-hanyu-song-liyuan-gui-pangu-xu",title:"送李願歸盤谷序",author:"韓愈",era:"《昌黎先生集》",dynasty:"唐文",phase:"phase3"},
+    {n:173,id:"202-hanyu-song-dongshaonan-xu",title:"送董邵南序",author:"韓愈",era:"《昌黎先生集》",dynasty:"唐文",phase:"phase3"},
+    {n:174,id:"203-hanyu-song-yangshaoyin-xu",title:"送楊少尹序",author:"韓愈",era:"《昌黎先生集》",dynasty:"唐文",phase:"phase3"},
+    {n:175,id:"204-hanyu-song-shi-chushi-xu",title:"送石處士序",author:"韓愈",era:"《昌黎先生集》",dynasty:"唐文",phase:"phase3"},
+    {n:176,id:"205-hanyu-song-wenchushi-fu-heyang-xu",title:"送溫處士赴河陽軍序",author:"韓愈",era:"《昌黎先生集》",dynasty:"唐文",phase:"phase3"},
+    {n:177,id:"206-hanyu-ji-shi-er-lang-wen",title:"祭十二郎文",author:"韓愈",era:"《昌黎先生集》",dynasty:"唐文",phase:"phase3"},
+    {n:178,id:"207-hanyu-ji-e-yu-wen",title:"祭鱷魚文",author:"韓愈",era:"《昌黎先生集》",dynasty:"唐文",phase:"phase3"},
+    {n:179,id:"208-hanyu-liuzihou-muzhi-ming",title:"柳子厚墓誌銘",author:"韓愈",era:"《昌黎先生集》",dynasty:"唐文",phase:"phase3"},
+    {n:180,id:"209-liuzongyuan-bo-fuchou-yi",title:"駁復讎議",author:"柳宗元",era:"《柳河東集》",dynasty:"唐文",phase:"phase3"},
+    {n:181,id:"210-liuzongyuan-tongye-fengdi-bian",title:"桐葉封弟辨",author:"柳宗元",era:"《柳河東集》",dynasty:"唐文",phase:"phase3"},
+    {n:182,id:"211-liuzongyuan-jizi-bei",title:"箕子碑",author:"柳宗元",era:"《柳河東集》",dynasty:"唐文",phase:"phase3"},
+    {n:183,id:"212-liuzongyuan-ziren-zhuan",title:"梓人傳",author:"柳宗元",era:"《柳河東集》",dynasty:"唐文",phase:"phase3"},
+    {n:184,id:"213-liuzongyuan-yongzhou-weishijun-xintang-ji",title:"永州韋使君新堂記",author:"柳宗元",era:"《柳河東集》",dynasty:"唐文",phase:"phase3"},
+    {n:185,id:"214-liuzongyuan-gumu-tanxi-xiaoqiu-ji",title:"鈷鉧潭西小丘記",author:"柳宗元",era:"《柳河東集》",dynasty:"唐文",phase:"phase3"},
+    {n:186,id:"215-liuzongyuan-xiaoshi-chengshan-ji",title:"小石城山記",author:"柳宗元",era:"《柳河東集》",dynasty:"唐文",phase:"phase3"},
+    {n:187,id:"216-liuzongyuan-he-jinshi-wangcanyuan-shihuo-shu",title:"賀進士王參元失火書",author:"柳宗元",era:"《柳河東集》",dynasty:"唐文",phase:"phase3"},
+    {n:188,id:"217-wangyucheng-dai-lou-yuan-ji",title:"待漏院記",author:"王禹偁",era:"《小畜集》",dynasty:"宋文",phase:"phase3"},
+    {n:189,id:"218-ligefei-shu-luoyang-mingyuan-ji-hou",title:"書洛陽名園記後",author:"李格非",era:"《洛陽名園記》",dynasty:"宋文",phase:"phase3"},
+    {n:190,id:"219-simaguang-jian-yuan-ti-ming-ji",title:"諫院題名記",author:"司馬光",era:"《溫國文正司馬公文集》",dynasty:"宋文",phase:"phase3"},
+    {n:191,id:"220-qiangongfu-yi-tian-ji",title:"義田記",author:"范仲淹",era:"《范文正公集》",dynasty:"宋文",phase:"phase3"},
+    {n:192,id:"221-ligou-yuanzhou-zhouxue-ji",title:"袁州州學記",author:"李覯",era:"《直講李先生文集》",dynasty:"宋文",phase:"phase3"},
+    {n:193,id:"222-ouyangxiu-shi-miyan-shiji-xu",title:"釋祕演詩集序",author:"歐陽修",era:"《歐陽文忠公集》",dynasty:"宋文",phase:"phase3"},
+    {n:194,id:"81-zhouzheng-jiaozhi",title:"周鄭交質",author:"左丘明",era:"《左傳·隱公三年》",dynasty:"周文",phase:"phase3"},
+    {n:195,id:"82-zhengzhuanggong",title:"鄭莊公戒飭守臣",author:"左丘明",era:"《左傳·隱公十一年》",dynasty:"周文",phase:"phase3"},
+    {n:196,id:"83-zangaibo",title:"臧哀伯諫納郜鼎",author:"左丘明",era:"《左傳·桓公二年》",dynasty:"周文",phase:"phase3"},
+    {n:197,id:"84-qihuan-xiabai",title:"齊桓下拜受胙",author:"左丘明",era:"《左傳·僖公九年》",dynasty:"周文",phase:"phase3"},
+    {n:198,id:"85-yinyi-sheng",title:"陰飴甥對秦伯",author:"左丘明",era:"《左傳·僖公十五年》",dynasty:"周文",phase:"phase3"},
+    {n:199,id:"86-sirenpi",title:"寺人披見文公",author:"左丘明",era:"《左傳·僖公二十四年》",dynasty:"周文",phase:"phase3"},
+    {n:200,id:"87-zhengzijia",title:"鄭子家告趙宣子",author:"左丘明",era:"《左傳·宣公十二年》",dynasty:"周文",phase:"phase3"},
+    {n:201,id:"88-wangsunman",title:"王孫滿對楚子",author:"左丘明",era:"《左傳·宣公三年》",dynasty:"周文",phase:"phase3"},
+    {n:202,id:"89-qiguo-zuo",title:"齊國佐不辱命",author:"左丘明",era:"《左傳·成公二年》",dynasty:"周文",phase:"phase3"},
+    {n:203,id:"90-chu-gui-jin",title:"楚歸晉知罃",author:"左丘明",era:"《左傳·成公三年》",dynasty:"周文",phase:"phase3"},
+    {n:204,id:"91-lvxiang",title:"呂相絕秦",author:"左丘明",era:"《左傳·成公十三年》",dynasty:"周文",phase:"phase3"},
+    {n:205,id:"92-juzhi",title:"駒支不屈於晉",author:"左丘明",era:"《左傳·襄公十四年》",dynasty:"周文",phase:"phase3"},
+    {n:206,id:"93-qixi",title:"祁奚請免叔向",author:"左丘明",era:"《左傳·襄公二十一年》",dynasty:"周文",phase:"phase3"},
+    {n:207,id:"94-zichan-qingbi",title:"子產告范宣子輕幣",author:"左丘明",era:"《左傳·襄公二十四年》",dynasty:"周文",phase:"phase3"},
+    {n:208,id:"95-zichan-huaiyuan",title:"子產壞晉館垣",author:"左丘明",era:"《左傳·昭公五年》",dynasty:"周文",phase:"phase3"},
+    {n:209,id:"96-zichan-yinhe",title:"子產論尹何爲邑",author:"左丘明",era:"《左傳·昭公十九年》",dynasty:"周文",phase:"phase3"},
+    {n:210,id:"97-zichan-quechu",title:"子產卻楚逆女以兵",author:"左丘明",era:"《左傳·昭公元年》",dynasty:"周文",phase:"phase3"},
+    {n:211,id:"98-zige",title:"子革對靈王",author:"左丘明",era:"《左傳·昭公十二年》",dynasty:"周文",phase:"phase3"},
+    {n:212,id:"99-zichan-kuanmeng",title:"子產論政寬猛",author:"左丘明",era:"《左傳·昭公二十年》",dynasty:"周文",phase:"phase3"},
+    {n:213,id:"223-yanjianxian-ci-tang-ji",title:"嚴先生祠堂記",author:"范仲淹",era:"《范文正公集》",dynasty:"宋文",phase:"phase4"},
+    {n:214,id:"224-pengdang-lun",title:"朋黨論",author:"歐陽修",era:"《歐陽文忠公集》",dynasty:"宋文",phase:"phase4"},
+    {n:215,id:"225-meishengyu-shiji-xu",title:"梅聖俞詩集序",author:"歐陽修",era:"《歐陽文忠公集》",dynasty:"宋文",phase:"phase4"},
+    {n:216,id:"226-song-yangzhi-xu",title:"送楊寘序",author:"歐陽修",era:"《歐陽文忠公集》",dynasty:"宋文",phase:"phase4"},
+    {n:217,id:"227-wudaishi-lingguan-zhuan-xu",title:"五代史伶官傳序",author:"歐陽修",era:"《新五代史》",dynasty:"宋文",phase:"phase4"},
+    {n:218,id:"228-wudaishi-huanzhe-zhuan-lun",title:"五代史宦者傳論",author:"歐陽修",era:"《新五代史》",dynasty:"宋文",phase:"phase4"},
+    {n:219,id:"229-xiangzhou-zhoujin-tang-ji",title:"相州晝錦堂記",author:"歐陽修",era:"《歐陽文忠公集》",dynasty:"宋文",phase:"phase4"},
+    {n:220,id:"230-fengle-ting-ji",title:"豐樂亭記",author:"歐陽修",era:"《歐陽文忠公集》",dynasty:"宋文",phase:"phase4"},
+    {n:221,id:"231-ji-shimanqing-wen",title:"祭石曼卿文",author:"歐陽修",era:"《歐陽文忠公集》",dynasty:"宋文",phase:"phase4"},
+    {n:222,id:"232-guanzhong-lun",title:"管仲論",author:"歐陽修",era:"《歐陽文忠公集》",dynasty:"宋文",phase:"phase4"},
+    {n:223,id:"233-xinshu",title:"心術",author:"蘇洵",era:"《嘉祐集》",dynasty:"宋文",phase:"phase4"},
+    {n:224,id:"234-zhang-yizhou-huaxiang-ji",title:"張益州畫像記",author:"蘇洵",era:"《嘉祐集》",dynasty:"宋文",phase:"phase4"},
+    {n:225,id:"235-xingshang-zhonghou-zhi-lun",title:"刑賞忠厚之至論",author:"蘇軾",era:"《東坡全集》",dynasty:"宋文",phase:"phase4"},
+    {n:226,id:"236-fanzeng-lun",title:"范增論",author:"蘇軾",era:"《東坡全集》",dynasty:"宋文",phase:"phase4"},
+    {n:227,id:"237-liuhou-lun",title:"留侯論",author:"蘇軾",era:"《東坡全集》",dynasty:"宋文",phase:"phase4"},
+    {n:228,id:"238-jiayi-lun",title:"賈誼論—蘇軾",author:"蘇軾",era:"《東坡全集》",dynasty:"宋文",phase:"phase4"},
+    {n:229,id:"239-chaocuo-lun",title:"鼂錯論",author:"蘇軾",era:"《東坡全集》",dynasty:"宋文",phase:"phase4"},
+    {n:230,id:"240-shang-mei-zhijiang-shu",title:"上梅直講書",author:"蘇軾",era:"《東坡全集》",dynasty:"宋文",phase:"phase4"},
+    {n:231,id:"241-xiyu-ting-ji",title:"喜雨亭記",author:"蘇軾",era:"《東坡全集》",dynasty:"宋文",phase:"phase4"},
+    {n:232,id:"242-lingxu-tai-ji",title:"凌虛臺記",author:"蘇軾",era:"《東坡全集》",dynasty:"宋文",phase:"phase4"},
+    {n:233,id:"243-chaoran-tai-ji",title:"超然臺記",author:"蘇軾",era:"《東坡全集》",dynasty:"宋文",phase:"phase4"},
+    {n:234,id:"244-fanghe-ting-ji",title:"放鶴亭記",author:"蘇軾",era:"《東坡全集》",dynasty:"宋文",phase:"phase4"},
+    {n:235,id:"245-chaozhou-han-wengong-miao-bei",title:"潮州韓文公廟碑",author:"蘇軾",era:"《東坡全集》",dynasty:"宋文",phase:"phase4"},
+    {n:236,id:"246-qi-jiaozheng-luzhi-zouyi",title:"乞校正陸贄奏議進御劄子",author:"蘇軾",era:"《東坡全集》",dynasty:"宋文",phase:"phase4"},
+    {n:237,id:"247-sanhuai-tang-ming",title:"三槐堂銘",author:"蘇軾",era:"《東坡全集》",dynasty:"宋文",phase:"phase4"},
+    {n:238,id:"248-shang-shumi-han-taiwei-shu",title:"上樞密韓太尉書",author:"蘇轍",era:"《欒城集》",dynasty:"宋文",phase:"phase4"},
+    {n:239,id:"249-ji-ouyang-sheren-shu",title:"寄歐陽舍人書",author:"曾鞏",era:"《元豐類稿》",dynasty:"宋文",phase:"phase4"},
+    {n:240,id:"250-zeng-lian-ersheng-xu",title:"贈黎安二生序",author:"曾鞏",era:"《元豐類稿》",dynasty:"宋文",phase:"phase4"},
+    {n:241,id:"251-tongxue-yi-shou-bie-zigu",title:"同學一首別子固—王安石",author:"王安石",era:"《臨川先生文集》",dynasty:"宋文",phase:"phase4"},
+    {n:242,id:"252-taizhou-hailing-xuzhu-muzhi",title:"泰州海陵縣主簿許君墓誌銘",author:"曾鞏",era:"《元豐類稿》",dynasty:"宋文",phase:"phase4"},
+    {n:243,id:"253-song-tiantai-chentingxue-xu",title:"送天台陳庭學序",author:"宋濂",era:"《宋文憲公全集》",dynasty:"明文",phase:"phase4"},
+    {n:244,id:"254-yuejiang-lou-ji",title:"閱江樓記",author:"朱元璋",era:"《明太祖文集》",dynasty:"明文",phase:"phase4"},
+    {n:245,id:"255-sima-jizhu-lun-bu",title:"司馬季主論卜",author:"劉基",era:"《誠意伯文集》",dynasty:"明文",phase:"phase4"},
+    {n:246,id:"256-shenlu-lun",title:"深慮論",author:"方孝孺",era:"《遜志齋集》",dynasty:"明文",phase:"phase4"},
+    {n:247,id:"257-yurang-lun",title:"豫讓論",author:"方孝孺",era:"《遜志齋集》",dynasty:"明文",phase:"phase4"},
+    {n:248,id:"258-qinzheng-pian",title:"親政篇",author:"王鏊",era:"《震澤集》",dynasty:"明文",phase:"phase4"},
+    {n:249,id:"259-zunjing-ge-ji",title:"尊經閣記",author:"王守仁",era:"《王文成公全書》",dynasty:"明文",phase:"phase4"},
+    {n:250,id:"260-xiang-ci-ji",title:"象祠記",author:"王守仁",era:"《王文成公全書》",dynasty:"明文",phase:"phase4"},
+    {n:251,id:"261-xinlingjun-jiu-zhao-lun",title:"信陵君救趙論",author:"唐順之",era:"《荊川集》",dynasty:"明文",phase:"phase4"},
+    {n:252,id:"262-bao-liu-yi-zhang-shu",title:"報劉一丈書",author:"宗臣",era:"《宗子相集》",dynasty:"明文",phase:"phase4"},
+    {n:253,id:"263-wushan-tu-ji",title:"吳山圖記—歸有光",author:"歸有光",era:"《震川先生集》",dynasty:"明文",phase:"phase4"},
+    {n:254,id:"264-canglang-ting-ji",title:"滄浪亭記—歸有光",author:"歸有光",era:"《震川先生集》",dynasty:"明文",phase:"phase4"},
+    {n:255,id:"265-qingxia-xiansheng-wenji-xu",title:"青霞先生文集序—茅坤",author:"茅坤",era:"《茅鹿門文集》",dynasty:"明文",phase:"phase4"},
+    {n:256,id:"266-linxiangru-wanbi-guizhao-lun",title:"藺相如完璧歸趙論—王世貞",author:"王世貞",era:"《弇州山人四部稿》",dynasty:"明文",phase:"phase4"},
+    {n:257,id:"267-xu-wenchang-zhuan",title:"徐文長傳—袁宏道",author:"袁宏道",era:"《袁中郎全集》",dynasty:"明文",phase:"phase4"},
+    {n:258,id:"baoren",title:"報任少卿書",author:"司馬遷",era:"《漢書·司馬遷傳》",dynasty:"漢文",phase:"supplementary"},
+    {n:259,id:"da-sima",title:"答司馬諫議書",author:"王安石",era:"《臨川先生文集》",dynasty:"宋文",phase:"supplementary"},
+    {n:260,id:"goujian",title:"勾踐滅吳",author:"左丘明",era:"《國語·越語上》",dynasty:"周文",phase:"supplementary"},
+    {n:261,id:"guoqin-repeat",title:"過秦論",author:"賈誼",era:"《新書·過秦論》",dynasty:"漢文",phase:"supplementary"},
+    {n:262,id:"hongmen",title:"鴻門宴",author:"司馬遷",era:"《史記·項羽本紀》",dynasty:"漢文",phase:"supplementary"},
+    {n:263,id:"lianchi",title:"廉恥",author:"顧炎武",era:"《日知錄》",dynasty:"清文",phase:"supplementary"},
+    {n:264,id:"shang-zhongyong",title:"傷仲永",author:"王安石",era:"《臨川先生文集》",dynasty:"宋文",phase:"supplementary"},
+    {n:265,id:"song-dongyang",title:"送東陽馬生序",author:"宋濂",era:"《宋文憲公全集》",dynasty:"明文",phase:"supplementary"},
+    {n:266,id:"xiangling",title:"項脊軒志",author:"歸有光",era:"《震川先生集》",dynasty:"明文",phase:"supplementary"},
+    {n:267,id:"zichan-buhuixiangxiao",title:"子產不毀鄉校",author:"左丘明",era:"《左傳·襄公三十一年》",dynasty:"周文",phase:"supplementary"},
+  ];
+  const AUTHORS = {
+    "公羊高":{full:"公羊高（戰國時人）",courtesy:"子夏弟子",dynasty:"周",intro:"戰國時齊人，傳《春秋公羊傳》，以義理詮釋《春秋》，為今文經學之宗。"},
+    "劉向":{full:"劉向（前77—前6）",courtesy:"字子政，本名更生",dynasty:"漢",intro:"西漢學者、目錄學家，整理編訂《戰國策》《說苑》《列女傳》等，文辭典雅。"},
+    "劉啟":{full:"劉啟（前188—前141）",courtesy:"漢景帝",dynasty:"漢",intro:"西漢第六位皇帝，繼文帝仁政，輕徭薄賦，重農桑，其詔令簡明扼要。"},
+    "劉基":{full:"劉基（1311—1375）",courtesy:"字伯溫，號犁眉公",dynasty:"明",intro:"明朝開國功臣，文學家，《賣柑者言》寓言諷刺官員外美內腐，《司馬季主論卜》議論精微。"},
+    "劉徹":{full:"劉徹（前156—前87）",courtesy:"漢武帝",dynasty:"漢",intro:"西漢第七位皇帝，在位期間開疆拓土，建立盛世，其求賢詔語氣積極進取。"},
+    "劉恆":{full:"劉恆（前202—前157）",courtesy:"漢文帝",dynasty:"漢",intro:"西漢第三位皇帝，施行仁政，與漢景帝共創「文景之治」，其詔令體現愛民之風。"},
+    "劉禹錫":{full:"劉禹錫（772—842）",courtesy:"字夢得，洛陽人",dynasty:"唐",intro:"唐代文學家，被稱為「詩豪」，《陋室銘》以銘文體抒高潔志趣，膾炙人口。"},
+    "劉秀":{full:"劉秀（前5—57）",courtesy:"光武帝，字文叔",dynasty:"漢",intro:"東漢開國皇帝，中興漢室，《臨淄勞耿弇》短文展現帝王對功臣的體恤之情。"},
+    "劉邦":{full:"劉邦（前256—前195）",courtesy:"字季，漢高祖",dynasty:"漢",intro:"漢朝開國皇帝，由平民起義推翻秦朝，建立漢朝，其求賢詔文辭質樸而氣勢宏大。"},
+    "召公":{full:"召公（西周，生卒年不詳）",courtesy:"姬奭，召伯",dynasty:"周",intro:"西周大臣，輔佐文王、武王、成王，廉潔愛民，諫厲王止謗，為西周政論名篇。"},
+    "司馬光":{full:"司馬光（1019—1086）",courtesy:"字君實，號迂叟",dynasty:"宋",intro:"北宋政治家、史學家，著《資治通鑑》，反對王安石變法，文章平實嚴謹。"},
+    "司馬相如":{full:"司馬相如（約前179—前117）",courtesy:"字長卿，蜀郡成都人",dynasty:"漢",intro:"西漢辭賦大家，代表作《子虛賦》《上林賦》，其上書諫獵體現儒家民本思想。"},
+    "司馬遷":{full:"司馬遷（約前145—約前87）",courtesy:"字子長，世稱太史公",dynasty:"漢",intro:"西漢歷史學家，撰《史記》，開紀傳體先例，魯迅譽為「史家之絕唱，無韻之離騷」。"},
+    "唐順之":{full:"唐順之（1507—1560）",courtesy:"字應德，號荊川",dynasty:"明",intro:"明代文學家，唐宋派代表人物，《信陵君救趙論》論史精辟，見解獨特。"},
+    "孔稚珪":{full:"孔稚珪（447—501）",courtesy:"字德璋，會稽山陰人",dynasty:"南齊",intro:"南朝齊文學家，《北山移文》以山為口假借山神之言諷刺偽隱士，文辭瑰麗奇特。"},
+    "宋濂":{full:"宋濂（1310—1381）",courtesy:"字景濂，號潛溪",dynasty:"明",intro:"明初文學家，被朱元璋稱為「開國文臣之首」，《送東陽馬生序》勸學篇，述艱難求學之樂。"},
+    "宋玉":{full:"宋玉（約前298—約前222）",courtesy:"字子淵",dynasty:"楚",intro:"戰國末楚國辭賦家，屈原之後，善寫豔麗之辭，代表作《九辯》《高唐賦》。"},
+    "宗臣":{full:"宗臣（1525—1560）",courtesy:"字子相，興化人",dynasty:"明",intro:"明代文學家，後七子之一，《報劉一丈書》揭露官場醜態，諷刺辛辣，情感真摯。"},
+    "屈原":{full:"屈原（約前340—前278）",courtesy:"名平，字原，又字靈均",dynasty:"楚",intro:"戰國楚國詩人與政治家，創楚辭體，代表作《離騷》，投汨羅江而死，後世奉為愛國詩人。"},
+    "左丘明":{full:"左丘明（約前502—前422）",courtesy:"魯國史官",dynasty:"周",intro:"春秋末期魯國史官，著《左傳》與《國語》，是中國敘事散文的奠基者，所記史事詳贍，文字生動。"},
+    "張溥":{full:"張溥（1602—1641）",courtesy:"字天如，號西銘",dynasty:"明",intro:"明末文學家，復社創始人，《五人墓碑記》為明末市民反抗閹黨的歷史留下珍貴記錄。"},
+    "戴聖":{full:"戴聖（西漢，生卒年不詳）",courtesy:"字次君",dynasty:"漢",intro:"西漢禮學家，編訂《禮記》（小戴禮記），保存了大量先秦儒家典禮及思想資料。"},
+    "方孝孺":{full:"方孝孺（1357—1402）",courtesy:"字希直，一字希古",dynasty:"明",intro:"明初文學家，忠於建文帝，燕王靖難後拒不起草詔書而被誅十族，氣節凜然。"},
+    "晁錯":{full:"晁錯（前200—前154）",courtesy:"字不詳，潁川人",dynasty:"漢",intro:"西漢政治家，力主削藩，後被殺，《論貴粟疏》重農抑商思想影響深遠。"},
+    "曾鞏":{full:"曾鞏（1019—1083）",courtesy:"字子固，南豐人",dynasty:"宋",intro:"北宋文學家，唐宋八大家之一，文章謹嚴典雅，《寄歐陽舍人書》體現其文學主張。"},
+    "朱元璋":{full:"朱元璋（1328—1398）",courtesy:"明太祖，字國瑞",dynasty:"明",intro:"明朝開國皇帝，出身貧苦，推翻元朝，《閱江樓記》記建樓之義，氣象宏偉。"},
+    "李密":{full:"李密（224—287）",courtesy:"字令伯，犍為武陽人",dynasty:"晉",intro:"西晉文學家，《陳情表》婉辭拒絕仕晉，以孝事祖母感人至深，列為孝文典範。"},
+    "李斯":{full:"李斯（約前280—前208）",courtesy:"楚上蔡人，秦丞相",dynasty:"秦",intro:"秦朝丞相，輔助秦始皇統一六國，書法精美，《諫逐客書》為先秦說理散文名篇。"},
+    "李格非":{full:"李格非（約1045—約1105）",courtesy:"字文叔，章丘人",dynasty:"宋",intro:"北宋文學家，李清照之父，《洛陽名園記》記園廢而感興亡，寓論深刻。"},
+    "李白":{full:"李白（701—762）",courtesy:"字太白，號青蓮居士",dynasty:"唐",intro:"唐代浪漫主義詩人，「詩仙」，文章亦豪放不羈，《與韓荊州書》自薦之作氣魄非凡。"},
+    "李華":{full:"李華（約715—約766）",courtesy:"字遐叔，趙州贊皇人",dynasty:"唐",intro:"唐代文學家，古文運動先驅，《弔古戰場文》哀悼陣亡將士，文辭悲壯雄健。"},
+    "李覯":{full:"李覯（1009—1059）",courtesy:"字泰伯，南城人",dynasty:"宋",intro:"北宋思想家，學術著作豐富，《袁州州學記》記重修州學之事，論說學校教化之重要。"},
+    "李陵":{full:"李陵（？—前74）",courtesy:"字少卿，隴西成紀人",dynasty:"漢",intro:"西漢名將，投降匈奴後作《答蘇武書》，敘亡命之苦，情真意切，為漢代書牘名篇。"},
+    "杜牧":{full:"杜牧（803—852）",courtesy:"字牧之，號樊川居士",dynasty:"唐",intro:"晚唐詩人，與李商隱並稱「小李杜」，《阿房宮賦》借古諷今，警示統治者勿驕奢。"},
+    "柳宗元":{full:"柳宗元（773—819）",courtesy:"字子厚，世稱柳河東",dynasty:"唐",intro:"唐代文學家，古文運動主將，唐宋八大家之一，山水遊記獨樹一幟，寓意深刻。"},
+    "楊惲":{full:"楊惲（？—前54）",courtesy:"字子幼，楊敞之子",dynasty:"漢",intro:"西漢大臣，因書信言辭激烈獲罪被殺，《報孫會宗書》抒憤懣之情，真情流露。"},
+    "樂毅":{full:"樂毅（戰國，生卒年不詳）",courtesy:"燕國名將",dynasty:"周",intro:"戰國燕國名將，率五國聯軍伐齊，幾滅齊國，後受讒奔趙，所作《報燕惠王書》情理兼勝。"},
+    "歐陽修":{full:"歐陽修（1007—1072）",courtesy:"字永叔，號醉翁，又號六一居士",dynasty:"宋",intro:"北宋文學家，唐宋八大家之一，倡宋代古文革新，《醉翁亭記》《秋聲賦》傳誦千古。"},
+    "歸有光":{full:"歸有光（1507—1571）",courtesy:"字熙甫，號震川",dynasty:"明",intro:"明代散文家，唐宋派代表，以清淡平易著稱，《項脊軒志》追憶家事，感人至深。"},
+    "王世貞":{full:"王世貞（1526—1590）",courtesy:"字元美，號鳳洲",dynasty:"明",intro:"明代文學家，後七子領袖，《藺相如完璧歸趙論》翻案立論，見解獨到新穎。"},
+    "王勃":{full:"王勃（649—676）",courtesy:"字子安，絳州龍門人",dynasty:"唐",intro:"初唐詩人，「初唐四傑」之首，《滕王閣序》詞采飛揚，是唐代駢文的巔峰之作。"},
+    "王守仁":{full:"王守仁（1472—1529）",courtesy:"字伯安，號陽明",dynasty:"明",intro:"明代哲學家、軍事家，心學集大成者，《象祠記》《尊經閣記》寓哲學思想於記文之中。"},
+    "王安石":{full:"王安石（1021—1086）",courtesy:"字介甫，號半山",dynasty:"宋",intro:"北宋政治家、文學家，唐宋八大家之一，主持「熙寧變法」，《讀孟嘗君傳》議論精闢。"},
+    "王禹偁":{full:"王禹偁（954—1001）",courtesy:"字元之，鉅野人",dynasty:"宋",intro:"北宋文學家，學習韓柳古文，倡平易文風，《黃岡竹樓記》清淡自適，開宋文一代風氣。"},
+    "王羲之":{full:"王羲之（303—361）",courtesy:"字逸少，琅琊臨沂人",dynasty:"晉",intro:"東晉書法家，被譽為「書聖」，《蘭亭集序》為天下第一行書，文章亦清俊雋永。"},
+    "王褒":{full:"王褒（約513—576）",courtesy:"字子淵，琅琊臨沂人",dynasty:"北周",intro:"北周文學家，南北朝文士，《瘞旅文》文辭凄婉，為哀祭文名篇。"},
+    "王鏊":{full:"王鏊（1450—1524）",courtesy:"字濟之，號守溪",dynasty:"明",intro:"明代文學家，官至大學士，文章古雅醇厚，《親政篇》論君主親政之道，條理分明。"},
+    "穀梁赤":{full:"穀梁赤（戰國時人）",courtesy:"子夏弟子",dynasty:"周",intro:"戰國時魯人，傳《春秋穀梁傳》，解經簡練，重名分義理，為今文三傳之一。"},
+    "范仲淹":{full:"范仲淹（989—1052）",courtesy:"字希文，吳縣人",dynasty:"宋",intro:"北宋政治家、文學家，《岳陽樓記》「先天下之憂而憂，後天下之樂而樂」為千古名句。"},
+    "茅坤":{full:"茅坤（1512—1601）",courtesy:"字順甫，號鹿門",dynasty:"明",intro:"明代文學家，編選《唐宋八大家文鈔》，對唐宋古文的流傳有重要貢獻。"},
+    "蘇洵":{full:"蘇洵（1009—1066）",courtesy:"字明允，號老泉",dynasty:"宋",intro:"北宋文學家，「三蘇」之父，唐宋八大家之一，《六國論》縱橫捭闔，論辯有力。"},
+    "蘇軾":{full:"蘇軾（1037—1101）",courtesy:"字子瞻，號東坡居士",dynasty:"宋",intro:"北宋文學家、書畫家，唐宋八大家之一，《前赤壁賦》《石鐘山記》文情並茂，曠達超然。"},
+    "蘇轍":{full:"蘇轍（1039—1112）",courtesy:"字子由，號潁濱遺老",dynasty:"宋",intro:"北宋文學家，唐宋八大家之一，「三蘇」之一，文風沉鬱，《黃州快哉亭記》記景寓志。"},
+    "袁宏道":{full:"袁宏道（1568—1610）",courtesy:"字中郎，號石公",dynasty:"明",intro:"明代文學家，公安派領袖，主「獨抒性靈，不拘格套」，《徐文長傳》為傳記文名篇。"},
+    "諸葛亮":{full:"諸葛亮（181—234）",courtesy:"字孔明，號臥龍",dynasty:"三國",intro:"蜀漢丞相，輔佐劉備與劉禪，《出師表》情辭懇切，千古傳誦，忠君報國之典範。"},
+    "賈誼":{full:"賈誼（前200—前168）",courtesy:"字太傅，洛陽人",dynasty:"漢",intro:"西漢政論家與文學家，少有才名，著《過秦論》《治安策》，分析時政深刻犀利。"},
+    "路溫舒":{full:"路溫舒（西漢，生卒年不詳）",courtesy:"字長君，鉅鹿人",dynasty:"漢",intro:"西漢法律家，上書宣帝請求寬刑，《尚德緩刑書》為漢代刑法改革重要文獻。"},
+    "鄒陽":{full:"鄒陽（西漢，生卒年不詳）",courtesy:"齊人",dynasty:"漢",intro:"西漢文學家，善辯，因遭讒入獄，上書梁王自明，文辭引典豐富，邏輯嚴密。"},
+    "陶淵明":{full:"陶淵明（365—427）",courtesy:"字元亮，號五柳先生",dynasty:"晉",intro:"東晉詩人，田園詩派之祖，辭官歸隱，《歸去來辭》《桃花源記》為歸隱文學典範。"},
+    "韓愈":{full:"韓愈（768—824）",courtesy:"字退之，世稱韓昌黎",dynasty:"唐",intro:"唐代文學家，古文運動領袖，唐宋八大家之首，倡文以載道，《師說》《原道》影響深遠。"},
+    "顧炎武":{full:"顧炎武（1613—1682）",courtesy:"字寧人，號亭林",dynasty:"清",intro:"明末清初思想家、學者，反對空談心性，主實學，《廉恥》論士大夫節操之重要。"},
+    "馬援":{full:"馬援（前14—49）",courtesy:"字文淵，扶風茂陵人",dynasty:"漢",intro:"東漢名將，《誡兄子嚴敦書》教以處世謙遜之道，文字懇切，為家書典範。"},
+    "駱賓王":{full:"駱賓王（約640—約684）",courtesy:"字觀光，婺州義烏人",dynasty:"唐",intro:"初唐詩人，「初唐四傑」之一，《為徐敬業討武曌檄》氣勢磅礴，為檄文典範。"},
+    "魏徵":{full:"魏徵（580—643）",courtesy:"字玄成，鉅鹿曲城人",dynasty:"唐",intro:"唐初政治家，太宗重臣，以直諫著稱，《諫太宗十思疏》為唐代政論文名篇。"},
+  };
+
+  function genreOf(t){
+    const last=t[t.length-1];
+    if(last==="記") return "記";
+    if(last==="序") return "序";
+    if(last==="表") return "表";
+    if(last==="賦") return "賦";
+    if(last==="書") return "書";
+    if(last==="說"||last==="説") return "說";
+    if(last==="傳") return "傳";
+    if(last==="論") return "論";
+    if(last==="辭") return "辭";
+    if(/檄|討武/.test(t)) return "檄";
+    if(/原道|廉恥|進學解|十思疏/.test(t)) return "論";
+    if(/卜居/.test(t)) return "辭";
+    return "史傳";
+  }
+  const ESSAYS = RAW.map(e=>({...e, genre:genreOf(e.title), isSupp:e.phase==="supplementary"}));
+
+  const READ_KEY = "guwen:read";
+  let read = (()=>{ try { return new Set(JSON.parse(localStorage.getItem(READ_KEY)||"[]")); } catch(e){ return new Set(); } })();
+  let dim = "卷次";
+  let query = "";
+
+  const DIM_SUBS = { 周文:"左傳・國語・戰國策・楚辭", 秦文:"李斯", 漢文:"史記・兩漢", 六朝文:"晉宋齊", 唐文:"韓柳諸家", 宋文:"歐蘇王曾", 明文:"宋濂・歸有光", 清文:"顧炎武" };
+  const JUAN = { 周文:"卷一 ─ 四", 秦文:"卷四", 漢文:"卷五 ─ 六", 六朝文:"卷七", 唐文:"卷七 ─ 九", 宋文:"卷九 ─ 十一", 明文:"卷十二", 清文:"補遺" };
+  const DYN_ORDER = ["周文","秦文","漢文","六朝文","唐文","宋文","明文","清文","其他"];
+  const GENRE_ORDER = ["史傳","論","記","序","表","賦","書","說","傳","辭","檄"];
+  const DYN_AUTHOR_ORDER = ["周","秦","漢","六朝","唐","宋","明","清"];
+
+  function el(tag, cls, html){ const n=document.createElement(tag); if(cls) n.className=cls; if(html!=null) n.innerHTML=html; return n; }
+
+  function buildGroups(){
+    const q = query.trim();
+    const filtered = ESSAYS.filter(e => !q || e.title.includes(q) || e.author.includes(q) || e.era.includes(q));
+    if(dim==="全部"){
+      return [{label:"全部選文", sub:"依吳氏選本卷次", items:filtered.slice().sort((a,b)=>a.n-b.n)}];
+    }
+    if(dim==="作者") return buildAuthorGroups(filtered);
+    const key = dim==="卷次" ? "dynasty" : "genre";
+    let order = dim==="卷次" ? DYN_ORDER : GENRE_ORDER;
+    const map = {};
+    filtered.forEach(e=>{ const k=e[key]||"其他"; (map[k]=map[k]||[]).push(e); });
+    const seen = order.filter(k=>map[k]);
+    Object.keys(map).forEach(k=>{ if(seen.indexOf(k)<0) seen.push(k); });
+    return seen.map(k=>({
+      label:k, sub: dim==="卷次" ? (DIM_SUBS[k]||"") : "", juan: dim==="卷次" ? (JUAN[k]||"") : "",
+      items: map[k].sort((a,b)=>a.n-b.n)
+    }));
+  }
+
+  function buildAuthorGroups(filtered){
+    const byAuthor = {};
+    filtered.forEach(e=>{ const a=e.author||"佚名"; (byAuthor[a]=byAuthor[a]||[]).push(e); });
+    const byDynasty = {};
+    Object.keys(byAuthor).forEach(a=>{
+      const info = AUTHORS[a];
+      const dyn = info ? info.dynasty : "其他";
+      (byDynasty[dyn] = byDynasty[dyn] || []).push(a);
+    });
+    const groups = [];
+    DYN_AUTHOR_ORDER.concat(["其他"]).forEach(dyn=>{
+      const authors = byDynasty[dyn];
+      if(!authors) return;
+      authors.sort((a,b)=>byAuthor[a][0].n - byAuthor[b][0].n);
+      groups.push({ dynasty: dyn, authors: authors.map(a=>({
+        name: a, info: AUTHORS[a] || null,
+        items: byAuthor[a].sort((x,y)=>x.n-y.n)
+      }))});
+    });
+    return groups;
+  }
+
+  function renderTabs(){
+    const wrap = document.getElementById("tabs");
+    wrap.innerHTML = "";
+    ["卷次","作者","文體","全部"].forEach(name=>{
+      const label = name==="全部" ? "全部" : "依"+name;
+      const b = el("button", "tab"+(name===dim?" active":""), "<span>"+label+"</span>");
+      b.onclick = ()=>{ dim=name; renderTabs(); renderList(); };
+      wrap.appendChild(b);
+    });
+  }
+
+  function esc(s){ return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;"); }
+
+  function renderRow(e){
+    const isRead = read.has(e.id);
+    const row = el("div","row"+(e.isSupp?" supp":""));
+    row.innerHTML =
+      '<span class="num">'+String(e.n).padStart(2,"0")+'</span>'+
+      '<a class="link" href="articles/'+e.id+'.html">'+
+        '<span class="title">'+esc(e.title)+'</span>'+
+        (e.isSupp?'<span class="supp-badge">補</span>':'')+
+        '<span class="author">'+esc(e.author)+'</span>'+
+        '<span class="era">'+esc(e.era)+'</span>'+
+      '</a>'+
+      '<span class="genre">'+esc(e.genre)+'</span>'+
+      '<span class="mark" title="標記已讀">'+
+        (isRead ? '<span class="seal">讀</span>' : '<span class="dot"></span>')+
+      '</span>';
+    row.querySelector(".mark").onclick = (ev)=>{ ev.preventDefault(); toggleRead(e.id); };
+    return row;
+  }
+
+  function renderList(){
+    const q = query.trim();
+    const count = ESSAYS.filter(e=>!q||e.title.includes(q)||e.author.includes(q)||e.era.includes(q)).length;
+    document.getElementById("resultMeta").textContent = "共 "+count+" 篇 · 依"+dim+"排列";
+
+    const list = document.getElementById("list");
+    list.innerHTML = "";
+
+    if(dim==="作者"){
+      renderAuthorView(list);
+      return;
+    }
+
+    const groups = buildGroups();
+    groups.forEach(g=>{
+      const sec = el("section","group");
+      const head = el("div","group-head");
+      head.innerHTML =
+        '<div class="gh-left"><span class="diamond"></span><h2>'+esc(g.label)+'</h2></div>'+
+        (g.juan ? '<span class="juan-tag">'+esc(g.juan)+'</span>' : '')+
+        '<span class="gh-sub">'+esc(g.sub||"")+'</span>'+
+        '<span class="gh-count">'+g.items.length+' 篇</span>';
+      sec.appendChild(head);
+      const gl = el("div","group-list");
+      g.items.forEach(e=> gl.appendChild(renderRow(e)));
+      sec.appendChild(gl);
+      list.appendChild(sec);
+    });
+  }
+
+  function renderAuthorView(list){
+    const q = query.trim();
+    const filtered = ESSAYS.filter(e => !q || e.title.includes(q) || e.author.includes(q) || e.era.includes(q));
+    const groups = buildAuthorGroups(filtered);
+    groups.forEach(g=>{
+      const dynSec = el("section","group");
+      const dynHead = el("div","group-head");
+      dynHead.innerHTML = '<div class="gh-left"><span class="diamond"></span><h2>'+esc(g.dynasty)+'</h2></div>'+
+        '<span class="gh-count">'+g.authors.reduce((s,a)=>s+a.items.length,0)+' 篇</span>';
+      dynSec.appendChild(dynHead);
+
+      g.authors.forEach(a=>{
+        const card = el("div","author-card");
+        const info = a.info;
+        let bioHtml = '<h3 class="author-name">'+esc(a.name)+'</h3>';
+        if(info){
+          bioHtml += '<p class="author-meta">'+esc(info.full||info.full_name||"")+(info.courtesy?' · '+esc(info.courtesy):'')+'</p>';
+          bioHtml += '<p class="author-intro">'+esc(info.intro)+'</p>';
+        }
+        card.innerHTML = bioHtml;
+
+        const gl = el("div","group-list author-articles");
+        a.items.forEach(e=> gl.appendChild(renderRow(e)));
+        card.appendChild(gl);
+        dynSec.appendChild(card);
+      });
+
+      list.appendChild(dynSec);
+    });
+  }
+
+  function renderProgress(){
+    const total = ESSAYS.length;
+    const rc = ESSAYS.filter(e=>read.has(e.id)).length;
+    document.getElementById("readCount").textContent = rc;
+    document.getElementById("totalCount").textContent = total;
+    document.getElementById("corpusCount").textContent = total;
+    document.getElementById("progressFill").style.width = (total? Math.round(rc/total*100):0)+"%";
+  }
+
+  function toggleRead(id){
+    read.has(id) ? read.delete(id) : read.add(id);
+    try { localStorage.setItem(READ_KEY, JSON.stringify([...read])); } catch(e){}
+    renderList(); renderProgress();
+  }
+
+  document.getElementById("search").addEventListener("input", (e)=>{ query=e.target.value; renderList(); });
+
+  renderTabs();
+  renderList();
+  renderProgress();
+  </script>
+</body>
+</html>
