@@ -54,7 +54,7 @@ body {
   animation: sealIn .9s ease both;
 }
 .masthead .corner-seal span {
-  font-family: var(--brush); font-size: 30px; line-height: 1;
+  font-family: "Noto Serif TC", serif; font-weight: 900; font-size: 30px; line-height: 1;
   color: var(--seal); writing-mode: vertical-rl; letter-spacing: 2px;
 }
 @keyframes sealIn {
