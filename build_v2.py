@@ -17,6 +17,17 @@ ROOT = os.path.dirname(os.path.abspath(__file__))
 OUTPUT_DIR = os.path.join(ROOT, "articles")
 PHASES = ["phase1", "phase2", "phase3", "phase4", "supplementary"]
 
+# GA4（原本只注入 final/，重建 articles/ 會遺失；移入模板以維持單一真實來源）
+GA4 = """<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-GHGBM401HN"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-GHGBM401HN');
+</script>"""
+
 
 def dir_keyword(dirname):
     return dirname.split("-", 1)[1] if re.match(r'^\d+-', dirname) else dirname
@@ -113,17 +124,33 @@ for i, (phase, d, title, author, era) in enumerate(entries):
     has_bg = "✅" if bg_md else "❌"
     has_analysis = "✅" if analysis_md else "❌"
 
+    meta_author = author or "佚名"
+    desc = f"《古文觀止》〈{title}〉（{meta_author}）導覽：時代背景與寫作意旨、篇章結構分析、原文校勘與白話對照。"
+    canonical = f"https://cormort.github.io/guwen_guanzhi/articles/{d}.html"
+
     html = f"""<!DOCTYPE html>
 <html lang="zh-TW">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{title} — 古文觀止導覽</title>
+    <meta name="description" content="{desc}">
+    <meta name="theme-color" content="#e8dfca">
+    <link rel="canonical" href="{canonical}">
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="古文觀止導覽">
+    <meta property="og:locale" content="zh_TW">
+    <meta property="og:title" content="{title} — 古文觀止導覽">
+    <meta property="og:description" content="{desc}">
+    <meta property="og:url" content="{canonical}">
+    <meta name="twitter:card" content="summary">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@300;400;500;600;700;900&family=Ma+Shan+Zheng&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;500;600;700;900&family=Ma+Shan+Zheng&display=swap" media="print" onload="this.media='all'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;500;600;700;900&family=Ma+Shan+Zheng&display=swap"></noscript>
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/article.css">
+{GA4}
 </head>
 <body class="article-page">
     <nav class="article-nav">

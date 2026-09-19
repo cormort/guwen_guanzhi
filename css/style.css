@@ -123,7 +123,8 @@ body {
 .row:hover .title { color: var(--seal-dp); }
 .row .genre { flex-shrink: 0; font-size: 12px; color: var(--seal-dp); border: 1px solid rgba(143, 43, 34, .4); padding: 2px 9px; letter-spacing: .12em; background: rgba(168, 51, 42, .04); }
 
-.row .mark { flex-shrink: 0; width: 30px; height: 30px; display: flex; align-items: center; justify-content: center; cursor: pointer; }
+.row .mark { flex-shrink: 0; width: 30px; height: 30px; display: flex; align-items: center; justify-content: center; cursor: pointer; padding: 0; border: 0; background: none; font: inherit; -webkit-appearance: none; appearance: none; }
+.row .mark:focus-visible { outline: 2px solid var(--seal); outline-offset: 2px; }
 .row .mark .seal {
   width: 26px; height: 26px; display: flex; align-items: center; justify-content: center;
   background: var(--seal); color: #f4ead7; font-size: 14px; font-family: var(--brush);

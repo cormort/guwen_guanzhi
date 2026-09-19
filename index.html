@@ -4,9 +4,20 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>古文觀止導覽</title>
+  <meta name="description" content="《古文觀止》導覽：逐篇拆解篇章結構、寫作技巧與佳句賞析，附原文校勘與白話對照。清康熙年間吳楚材、吳調侯編選，上起東周、下訖明末，凡 222 篇。">
+  <meta name="theme-color" content="#e8dfca">
+  <link rel="canonical" href="https://cormort.github.io/guwen_guanzhi/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="古文觀止導覽">
+  <meta property="og:locale" content="zh_TW">
+  <meta property="og:title" content="古文觀止導覽">
+  <meta property="og:description" content="《古文觀止》導覽：逐篇拆解篇章結構、寫作技巧與佳句賞析，附原文校勘與白話對照。">
+  <meta property="og:url" content="https://cormort.github.io/guwen_guanzhi/">
+  <meta name="twitter:card" content="summary">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@300;400;500;600;700;900&family=Ma+Shan+Zheng&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;500;600;700;900&family=Ma+Shan+Zheng&display=swap" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;500;600;700;900&family=Ma+Shan+Zheng&display=swap"></noscript>
   <link rel="stylesheet" href="css/style.css">
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-GHGBM401HN"></script>
@@ -41,7 +52,7 @@
         </div>
         <div class="search">
           <span class="icon">⌕</span>
-          <input id="search" type="text" placeholder="搜尋篇名、作者、出處…" autocomplete="off">
+          <input id="search" type="text" placeholder="搜尋篇名、作者、出處…" autocomplete="off" aria-label="搜尋篇名、作者、出處">
         </div>
       </div>
     </div>
@@ -448,15 +459,15 @@
     const row = el("div","row"+(e.isSupp?" supp":""));
     row.innerHTML =
       '<span class="num">'+String(e.n).padStart(2,"0")+'</span>'+
-      '<a class="link" href="final/'+e.id+'.html">'+
+      '<a class="link" href="articles/'+e.id+'.html">'+
         '<span class="title">'+esc(e.title)+(e.isSupp?' <span class="supp-badge">補</span>':'')+'</span>'+
         '<span class="author">'+esc(e.author)+'</span>'+
         '<span class="era">'+esc(e.era)+'</span>'+
       '</a>'+
       '<span class="genre">'+esc(e.genre)+'</span>'+
-      '<span class="mark" title="標記已讀">'+
+      '<button type="button" class="mark" title="標記已讀" aria-pressed="'+(isRead?"true":"false")+'" aria-label="標記『'+esc(e.title)+'』為已讀">'+
         (isRead ? '<span class="seal">讀</span>' : '<span class="dot"></span>')+
-      '</span>';
+      '</button>';
     row.querySelector(".mark").onclick = (ev)=>{ ev.preventDefault(); toggleRead(e.id); };
     return row;
   }
