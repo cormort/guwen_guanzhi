@@ -59,8 +59,8 @@ AUTHOR_MAP = {
     "jingjiang-lun-lao-yi":  {"author": "左丘明", "era": "《國語·魯語下》",     "dynasty": "周文"},
     "shuxiang-he-pin":       {"author": "左丘明", "era": "《國語·晉語八》",     "dynasty": "周文"},
     "wangsun-yu-lun-chubao": {"author": "左丘明", "era": "《國語·楚語下》",     "dynasty": "周文"},
-    "zhuji-ying-xingcheng-yuwu":{"author": "左丘明","era": "《國語·越語上》",   "dynasty": "周文"},
-    "shenxu-jian-xu-yuecheng":{"author": "左丘明", "era": "《國語·越語下》",    "dynasty": "周文"},
+    "zhuji-ying-xingcheng-yuwu":{"author": "左丘明","era": "《國語·吳語》",     "dynasty": "周文"},
+    "shenxu-jian-xu-yuecheng":{"author": "左丘明", "era": "《國語·吳語》",      "dynasty": "周文"},
     "jingjiang":             {"author": "左丘明", "era": "《國語·魯語下》",     "dynasty": "周文"},
 
     # ── 公羊傳（周文） ────────────────────────────────────────────────────────
