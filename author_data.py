@@ -271,7 +271,7 @@ AUTHOR_MAP = {
     "shizhongshan":          {"author": "蘇軾",   "era": "《東坡全集》",        "dynasty": "宋文"},
     "fangshanzi":            {"author": "蘇軾",   "era": "《東坡全集》",        "dynasty": "宋文"},
     "kuaizaiting":           {"author": "蘇轍",   "era": "《欒城集》",          "dynasty": "宋文"},
-    "yiliwen":               {"author": "王褒",   "era": "《全唐文》",          "dynasty": "唐文"},
+    "yiliwen":               {"author": "王守仁", "era": "《王文成公全書》",    "dynasty": "明文"},
     "ligefei-shu-luoyang-mingyuan-ji-hou":{"author": "李格非","era": "《洛陽名園記》","dynasty": "宋文"},
     "simaguang-jian-yuan-ti-ming-ji":{"author": "司馬光","era": "《溫國文正司馬公文集》","dynasty": "宋文"},
     "qiangongfu-yi-tian-ji": {"author": "范仲淹", "era": "《范文正公集》",      "dynasty": "宋文"},
