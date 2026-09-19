@@ -2,14 +2,13 @@
 """quality-audit.py — 掃描 phase1-4 + supplementary 目錄的 主筆+軍師 MD"""
 import os, re, json
 
+# 以本檔所在目錄為根，避免硬編碼他機路徑（原為 /Users/hermes/guwen_guanzhi/）
+ROOT = os.path.dirname(os.path.abspath(__file__))
 PHASES = {
-    'phase1': '/Users/hermes/guwen_guanzhi/phase1/',
-    'phase2': '/Users/hermes/guwen_guanzhi/phase2/',
-    'phase3': '/Users/hermes/guwen_guanzhi/phase3/',
-    'phase4': '/Users/hermes/guwen_guanzhi/phase4/',
-    'supplementary': '/Users/hermes/guwen_guanzhi/supplementary/',
+    p: os.path.join(ROOT, p) + os.sep
+    for p in ('phase1', 'phase2', 'phase3', 'phase4', 'supplementary')
 }
-OUT = '/Users/hermes/guwen_guanzhi/quality-reviews/'
+OUT = os.path.join(ROOT, 'quality-reviews') + os.sep
 
 CHECKS = [
     ("bg_coord", "座標定位表"),

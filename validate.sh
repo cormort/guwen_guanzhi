@@ -50,7 +50,7 @@ for phase in phase1 phase2 phase3 phase4; do
     [[ -f "$file" ]] || continue
     for section in "${REQUIRED_SECTIONS[@]}"; do
       if ! grep -q "$section" "$file"; then
-        err "$phase/$name/軍師-背景資料.md 缺少「$section」"
+        err "$phase/$name/軍師-背景資料.md 缺少「${section}」"
       fi
     done
   done

@@ -10,7 +10,7 @@ build_index.py — 產生新版目錄頁 index.html（水墨宣紙風，涵蓋�
 （請先用 build_v2.py 產生 articles/*.html，目錄頁才有對應連結。）
 """
 
-import os, re, json
+import os, re, json, sys
 from author_data import AUTHOR_MAP, AUTHOR_INFO
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
@@ -103,13 +103,25 @@ def author_info_js():
 
 
 def main():
+    out = os.path.join(ROOT, "index.html")
+    # ⚠ 本腳本產生的版面已過時（舊版進度卡／無 GA4／無 tabs 搜尋）。
+    # 現行 index.html 由較新的流程產生，直接覆蓋會讓線上目錄退回舊版。
+    # 故預設拒絕覆蓋；確要覆蓋請加 --force（會先備份為 index.html.bak）。
+    if os.path.exists(out) and "--force" not in sys.argv:
+        print("✗ 拒絕覆蓋 index.html：本腳本版面已過時，會使目錄退回舊版。")
+        print("  現行 index.html 請勿用本腳本重建；如確要覆蓋，加 --force。")
+        return 1
+    if os.path.exists(out):
+        import shutil
+        shutil.copy2(out, out + ".bak")
+        print("已備份 index.html → index.html.bak")
     entries = collect()
     html = TEMPLATE.replace("__RAW_ENTRIES__", raw_lines(entries))
     html = html.replace("__AUTHOR_INFO__", author_info_js())
-    out = os.path.join(ROOT, "index.html")
     with open(out, "w", encoding="utf-8") as f:
         f.write(html)
     print("✅ 已產生 index.html，共 %d 篇" % len(entries))
+    return 0
 
 
 TEMPLATE = r"""<!DOCTYPE html>
@@ -372,4 +384,4 @@ __AUTHOR_INFO__
 
 
 if __name__ == "__main__":
-    main()
+    sys.exit(main())

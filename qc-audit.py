@@ -3,8 +3,10 @@ import os
 import re
 import json
 
-HTML_DIR = "/Users/hsiehminchieh/guwen-guanzhi/articles"
-QC_DIR = "/Users/hsiehminchieh/guwen-guanzhi/qc-reviews"
+# 以本檔所在目錄為根，避免硬編碼他機路徑（原為 /Users/hsiehminchieh/guwen-guanzhi/）
+ROOT = os.path.dirname(os.path.abspath(__file__))
+HTML_DIR = os.path.join(ROOT, "articles")
+QC_DIR = os.path.join(ROOT, "qc-reviews")
 
 CHECKS = [
     ("bg_coord", "座標定位表"),

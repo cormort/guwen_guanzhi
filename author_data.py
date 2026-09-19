@@ -134,7 +134,6 @@ AUTHOR_MAP = {
     "huozhi-liezhuan-xu":    {"author": "司馬遷", "era": "《史記·貨殖列傳》",   "dynasty": "漢文"},
     "taishigong-zixu":       {"author": "司馬遷", "era": "《史記·太史公自序》", "dynasty": "漢文"},
     "bao-ren-an-shu":        {"author": "司馬遷", "era": "《漢書·司馬遷傳》",   "dynasty": "漢文"},
-    "baoren":                {"author": "司馬遷", "era": "《漢書·司馬遷傳》",   "dynasty": "漢文"},
 
     # ── 漢代詔令（漢文） ──────────────────────────────────────────────────────
     "gaodi-qiu-xian-zhao":   {"author": "劉邦",   "era": "《漢書·高帝紀》",    "dynasty": "漢文"},
@@ -145,7 +144,6 @@ AUTHOR_MAP = {
     # ── 賈誼（漢文） ──────────────────────────────────────────────────────────
     "jiayi-guo-qin-lun-shang":{"author": "賈誼",  "era": "《新書·過秦論》",    "dynasty": "漢文"},
     "jiayi-zhi-an-ce-yi":    {"author": "賈誼",   "era": "《漢書·賈誼傳》",    "dynasty": "漢文"},
-    "guoqin-repeat":         {"author": "賈誼",   "era": "《新書·過秦論》",    "dynasty": "漢文"},
 
     # ── 晁錯（漢文） ──────────────────────────────────────────────────────────
     "chaocuo-lun-guisu-shu":  {"author": "晁錯",  "era": "《漢書·食貨志》",    "dynasty": "漢文"},
@@ -211,7 +209,6 @@ AUTHOR_MAP = {
     "dumu-efang-gong-fu":    {"author": "杜牧",   "era": "《樊川文集》",        "dynasty": "唐文"},
     "efang":                 {"author": "杜牧",   "era": "《樊川文集》",        "dynasty": "唐文"},
     "yuandao":               {"author": "韓愈",   "era": "《昌黎先生集》",      "dynasty": "唐文"},
-    "mashuo":                {"author": "韓愈",   "era": "《昌黎先生集》",      "dynasty": "唐文"},
     "song-liyuan":           {"author": "韓愈",   "era": "《昌黎先生集》",      "dynasty": "唐文"},
     "jinxuejie":             {"author": "韓愈",   "era": "《昌黎先生集》",      "dynasty": "唐文"},
     "jishier":               {"author": "韓愈",   "era": "《昌黎先生集》",      "dynasty": "唐文"},
